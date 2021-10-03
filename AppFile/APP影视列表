@@ -188,12 +188,6 @@
             "url":"http://vipmv.tv/xgapp.php/v1/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/追剧达人.png",
             "murl":"q:APP影视"
-            },
-            {
-            "title":"猪猪影院",
-            "url":"https://www.zzyingyuan.com/api.php/app/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/猪猪影院.png",
-            "murl":"q:APP影视"
             }
         ]
         },
