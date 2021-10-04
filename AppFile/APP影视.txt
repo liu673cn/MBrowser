@@ -50,7 +50,7 @@ while(CODE.indexOf("http")==-1){
             var url=前缀+"/detail?vod_id="+e2Rex(轮播[i],".json(vod_id)");
             var img=e2Rex(轮播[i],".json(vod_pic_slide)");
             var title=e2Rex(轮播[i],".json(vod_name)");
-            items.push({url:+url,img:img,title:title})
+            items.push({url:url,img:img,title:title})
         }
         JSON.stringify(items);
     }
