@@ -56,7 +56,7 @@ while(CODE.indexOf("http")==-1){
     }
 }
 ######首页APP列表
-getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/"+filename+".txt"}));
+getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视列表.txt"}));
 ######分类地址
 var URL=getVar("url");
 分类+电影=movie+连续剧=tvplay+综艺=tvshow+动漫=comic+4K=movie_4k+体育=tiyu
