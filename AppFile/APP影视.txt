@@ -16,7 +16,7 @@
 ######首页轮播图
 var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视列表.txt"})).replace(/\s/g,"");
 var 分类=e2Arr(原,".z(\\{[^{]+?\\})");
-var newArr=分类.filter(item=>item.indexOf("api.php/app")!=-1||item.search(/api.php\/.*?\.vod/)!=-1);
+var newArr=分类.filter(item=>item.indexOf("api.php/app")!=-1||item.indexOf("xgapp.php/v1")!=-1||item.search(/api.php\/.*?\.vod/)!=-1);
 var 随机=newArr[Math.floor(Math.random()*newArr.length)];
 var 随机网址=e2Rex(随机,".json(url)");
 if(随机网址.search(/api\.php\/app/)!=-1||随机网址.search(/xgapp\.php\/v1/)!=-1){
