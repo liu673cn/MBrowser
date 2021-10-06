@@ -40,6 +40,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"爱影吧",
+            "url":"http://www.ayinb.com/api.php/app/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/爱影吧.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"播放呀",
             "url":"https://www.bofangya.com/xgapp.php/v1/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/播放呀.png",
@@ -384,6 +390,12 @@
             "title":"久久追剧",
             "url":"http://bc.bhtv.org.cn/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/久久追剧.png",
+            "murl":"q:APP影视"
+            },
+            {
+            "title":"橘子影视",
+            "url":"http://jz.juzidy.vip/mogai_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/橘子影视.png",
             "murl":"q:APP影视"
             },
             {
