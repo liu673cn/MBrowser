@@ -411,12 +411,6 @@
             "murl":"q:APP影视"
             },
             {
-            "title":"懒猫电影",
-            "url":"http://007.lanmaody.com/api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/懒猫电影.png",
-            "murl":"q:APP影视"
-            },
-            {
             "title":"蓝鲸视界",
             "url":"https://apps.vd5.cc/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/蓝鲸视界.png",
@@ -432,6 +426,18 @@
             "title":"乐看视频",
             "url":"http://www.lkan.vip/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/乐看视频.png",
+            "murl":"q:APP影视"
+            },
+            {
+            "title":"懒猫电影",
+            "url":"http://007.lanmaody.com/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/懒猫电影.png",
+            "murl":"q:APP影视"
+            },
+            {
+            "title":"蓝猫影视",
+            "url":"http://tv.daidaitv.top:43800/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/蓝猫影视.png",
             "murl":"q:APP影视"
             },
             {
