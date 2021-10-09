@@ -5,9 +5,9 @@
     "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/江湖影视.png",
     "murl":"q:APP影视搜索",
     "list":"
-    007影视=https://www.007ts.cc/api.php/app/零零七影视
-    555电影=http://w7tv.com/api.php/app/555电影
-    5060影院=https://app.linzhiyuan.xyz/xgapp.php/v1/5060影院
+    007影视=https://www.007ts.cc/api.php/app/
+    555电影=http://w7tv.com/api.php/app/
+    5060影院=https://app.linzhiyuan.xyz/xgapp.php/v1/
     913E影视=http://www.913e.net/api.php/app/
     BD电影=https://www.bddysf.org/api.php/app/
     COKEMV=https://cokemv.me/xgapp.php/v1/
