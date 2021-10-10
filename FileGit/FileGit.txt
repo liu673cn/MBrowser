@@ -128,7 +128,7 @@
         "list":[
         {
         "name":"蓝资小站",
-        "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/蓝二/蓝资小站924.mqz"
+        "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/蓝二/蓝资小站103.mqz"
         },
         {
         "name":"论坛轻站采集",
@@ -874,7 +874,7 @@
         "list":[
         {
         "name":"文墨",
-        "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/文墨/文墨.mqz"
+        "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/文墨/文墨新版.mqz"
         }
         ]
         },
