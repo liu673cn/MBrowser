@@ -78,6 +78,7 @@
     久久追剧=http://bc.bhtv.org.cn/mogai_api.php/v1.vod
     橘子影视=http://jz.juzidy.vip/mogai_api.php/v1.vod
     快播吧=http://www.hd8.pw/api.php/v1.vod
+    看剧吧=http://app.ishen520.com/api.php/v1.vod
     林谷影视=http://xg.lgzy8.cn:86/mogai_api.php/v1.vod
     蓝鲸视界=https://apps.vd5.cc/api.php/v1.vod
     绿箭影视=http://www.69ty.cc/mogai_api.php/v1.vod
