@@ -12,6 +12,7 @@
     BD电影=https://www.bddysf.org/api.php/app/
     COKEMV=https://cokemv.me/xgapp.php/v1/
     爱影吧=http://www.ayinb.com/api.php/app/
+    哎呀影视=https://www.aisvod.tv/xgapp.php/v1/
     播放呀=https://www.bofangya.com/xgapp.php/v1/
     畅视影视=http://app.reboju.net/api.php/app/
     迪迪影院=http://dd88.icu:6080/api.php/app/
