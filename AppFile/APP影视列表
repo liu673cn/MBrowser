@@ -871,6 +871,12 @@
             "murl":"q:TV影视"
             },
             {
+            "title":"乐酷TV",
+            "url":"http://lk.pxun.top/api.php/chenziystv/vod/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/乐酷TV.png",
+            "murl":"q:TV影视"
+            },
+            {
             "title":"小极TV",
             "url":"http://api.8d8q.com/mmv/api.php/Chengcheng/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/小极TV.png",
