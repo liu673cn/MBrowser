@@ -136,6 +136,7 @@
     一只鱼=http://www.bd-4k.ml/api.php/v1.vod
     追番猫=http://dm.496dy.cn:88/api.php/v1.vod
     追剧吧=http://zhuijuba.vip/api.php/v1.vod
+    追剧影院=https://www.4kvv.cn/api.php/v1.vod
     宅男影院=http://www.sexyy.top/api.php/v1.vod
     宅男影院=https://www.znyy666.top/api.php/v1.vod
     侦探影视=http://ys.huangguay.com/mogai_api.php/v1.vod
