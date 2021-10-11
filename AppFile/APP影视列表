@@ -40,15 +40,15 @@
             "murl":"q:APP影视"
             },
             {
-            "title":"爱影吧",
-            "url":"http://www.ayinb.com/api.php/app/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/爱影吧.png",
+            "title":"爱尚影视",
+            "url":"https://www.aisvod.tv/xgapp.php/v1/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/爱尚影视.png",
             "murl":"q:APP影视"
             },
             {
-            "title":"哎呀影视",
-            "url":"https://www.aisvod.tv/xgapp.php/v1/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/哎呀影视.png",
+            "title":"爱影吧",
+            "url":"http://www.ayinb.com/api.php/app/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/爱影吧.png",
             "murl":"q:APP影视"
             },
             {
