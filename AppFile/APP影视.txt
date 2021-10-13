@@ -14,7 +14,7 @@
 ]
 }
 ######首页轮播图
-var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视列表.txt"})).replace(/\s/g,"");
+var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视列表"})).replace(/\s/g,"");
 var 分类=e2Arr(原,".z(\\{[^{]+?\\})");
 var newArr=分类.filter(item=>item.indexOf("api.php/app")!=-1||item.indexOf("xgapp.php/v1")!=-1||item.search(/api.php\/.*?\.vod/)!=-1);
 var 随机=newArr[Math.floor(Math.random()*newArr.length)];
@@ -56,7 +56,7 @@ while(CODE.indexOf("http")==-1){
     }
 }
 ######首页APP列表
-getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视列表.txt"}));
+getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视列表"}));
 ######搜索APP列表
 var filename=e2Rex("QVBQ5b2x6KeG5pCc57Si5YiX6KGoLnR4dA==",".t().dn64()");
 var appSign="d566171c6a64659aad784524c76ab569";
