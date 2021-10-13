@@ -242,6 +242,15 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
 }else{
     URL+"/vodPhbAll";
 }
+######播放器前缀地址
+var URL=getVar("Url");
+if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
+    URL+"video_detail?id=";
+}else if(URL.indexOf(".vod")!=-1){
+    URL+"/detail?vod_id=";
+}else{
+    "";
+}
 ######选集
 var URL=getVar("url");
 function 选集列表(){
