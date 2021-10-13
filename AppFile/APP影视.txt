@@ -82,7 +82,7 @@ var filename=e2Rex("QVBQ5b2x6KeG5pCc57Si5YiX6KGoLnR4dA==",".t().dn64()");
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
 if(sign==appSign){
-    var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/" + filename})).replace(/\s/g,"");
+    var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/"+filename+".txt"})).replace(/\s/g,"");
     var 分类=e2Arr(原,".json(data)");
     var res=[];
     for(var j=0;j<分类.length;j++){
