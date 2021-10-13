@@ -2,7 +2,7 @@
 {
 "data":[
     {
-    "title":"更新界面",
+    "title":"更新！！！",
     "list":[
         {
         "title":"安装新版",
@@ -14,50 +14,70 @@
 ]
 }
 ######首页轮播图
-var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视列表"})).replace(/\s/g,"");
-var 分类=e2Arr(原,".z(\\{[^{]+?\\})");
-var newArr=分类.filter(item=>item.indexOf("api.php/app")!=-1||item.indexOf("xgapp.php/v1")!=-1||item.search(/api.php\/.*?\.vod/)!=-1);
-var 随机=newArr[Math.floor(Math.random()*newArr.length)];
-var 随机网址=e2Rex(随机,".json(url)");
-if(随机网址.search(/api\.php\/app/)!=-1||随机网址.search(/xgapp\.php\/v1/)!=-1){
-    var 前缀=随机网址;
-    var CODE=getHttp(JSON.stringify({url:前缀+"advert?token=&position=2"}));
-    var 轮播=e2Arr(CODE,".json(data)");
-    var items=[];
-    for(var i=0;i<轮播.length;i++){
-        var url=前缀+"video_detail?id="+e2Rex(轮播[i],".json(req_content)");
-        var img=e2Rex(轮播[i],".json(content)");
-        var title=e2Rex(轮播[i],".json(name)");
-        items.push({url:url,img:img,title:title})
-    }
-    JSON.stringify(items);
-}else{
-    var 前缀=随机网址;
-    var CODE=getHttp(JSON.stringify({url:前缀+"?level=9"}));
-    var 轮播=e2Arr(CODE,".json(data).json(list)");
-    var items=[];
-    for(var i=0;i<轮播.length;i++){
-        var url=前缀+"/detail?vod_id="+e2Rex(轮播[i],".json(vod_id)");
-        var img=e2Rex(轮播[i],".json(vod_pic_slide)");
-        var title=e2Rex(轮播[i],".json(vod_name)");
-        items.push({url:url,img:img,title:title})
-    }
-    JSON.stringify(items);
-}
-while(CODE.indexOf("http")==-1){
-    随机=newArr[Math.floor(Math.random()*newArr.length)];
-    随机网址=e2Rex(随机,".json(url)");
+var update=getVar("版本更新");
+var NewVersion="20211014";
+var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
+var appSign="d566171c6a64659aad784524c76ab569";
+var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
+var filename=e2Rex("QVBQ5b2x6KeG5YiX6KGo",".t().dn64()");
+if(version==NewVersion&&sign==appSign){
+    var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/"+filename+".txt"})).replace(/\s/g,"");
+    var 分类=e2Arr(原,".z(\\{[^{]+?\\})");
+    var newArr=分类.filter(item=>item.indexOf("api.php/app")!=-1||item.indexOf("xgapp.php/v1")!=-1||item.search(/api.php\/.*?\.vod/)!=-1);
+    var 随机=newArr[Math.floor(Math.random()*newArr.length)];
+    var 随机网址=e2Rex(随机,".json(url)");
     if(随机网址.search(/api\.php\/app/)!=-1||随机网址.search(/xgapp\.php\/v1/)!=-1){
-        前缀=随机网址;
-        CODE=getHttp(JSON.stringify({url:前缀+"advert?token=&position=2"}));
+        var 前缀=随机网址;
+        var CODE=getHttp(JSON.stringify({url:前缀+"advert?token=&position=2"}));
+        var 轮播=e2Arr(CODE,".json(data)");
+        var items=[];
+        for(var i=0;i<轮播.length;i++){
+            var url=前缀+"video_detail?id="+e2Rex(轮播[i],".json(req_content)");
+            var img=e2Rex(轮播[i],".json(content)");
+            var title=e2Rex(轮播[i],".json(name)");
+            items.push({url:url,img:img,title:title})
+        }
+        JSON.stringify(items);
     }else{
-        前缀=随机网址;
-        CODE=getHttp(JSON.stringify({url:前缀+"?level=9"}));
+        var 前缀=随机网址;
+        var CODE=getHttp(JSON.stringify({url:前缀+"?level=9"}));
+        var 轮播=e2Arr(CODE,".json(data).json(list)");
+        var items=[];
+        for(var i=0;i<轮播.length;i++){
+            var url=前缀+"/detail?vod_id="+e2Rex(轮播[i],".json(vod_id)");
+            var img=e2Rex(轮播[i],".json(vod_pic_slide)");
+            var title=e2Rex(轮播[i],".json(vod_name)");
+            items.push({url:url,img:img,title:title})
+        }
+        JSON.stringify(items);
     }
+    while(CODE.indexOf("http")==-1){
+        随机=newArr[Math.floor(Math.random()*newArr.length)];
+        随机网址=e2Rex(随机,".json(url)");
+        if(随机网址.search(/api\.php\/app/)!=-1||随机网址.search(/xgapp\.php\/v1/)!=-1){
+            前缀=随机网址;
+            CODE=getHttp(JSON.stringify({url:前缀+"advert?token=&position=2"}));
+        }else{
+            前缀=随机网址;
+            CODE=getHttp(JSON.stringify({url:前缀+"?level=9"}));
+        }
+    }
+}else{
+    update;
 }
 ######首页APP列表
-getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视列表"}));
-######搜索APP列表
+var update=getVar("版本更新");
+var filename=e2Rex("QVBQ5b2x6KeG5YiX6KGo",".t().dn64()");
+var NewVersion="20211014";
+var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
+var appSign="d566171c6a64659aad784524c76ab569";
+var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
+if(version==NewVersion&&sign==appSign){
+    getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/"+filename+".txt}));
+}else{
+    update;
+}
+######重组搜索
 var filename=e2Rex("QVBQ5b2x6KeG5pCc57Si5YiX6KGoLnR4dA==",".t().dn64()");
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
@@ -83,25 +103,6 @@ if(sign==appSign){
 }else{
     "";
 }
-######重组搜索
-var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视列表"})).replace(/\s/g,"");
-var 分类=e2Arr(原,".json(data)");
-var res=[];
-for(var j=0;j<分类.length;j++){
-    var list={};
-    var 列表=e2Arr(分类[j],".json(list)");
-    var items=[];
-    for(var i=0;i<列表.length;i++){
-        var 标题=e2Rex(列表[i],".json(title)");
-        var 地址=e2Rex(列表[i],".json(url)");
-        items.push(标题+"="+列表[i]);
-    }
-    var 合并=items.join("\n");
-    var 分类标题=e2Rex(分类[j],".json(title)");
-    list.url=合并;list.title=分类标题;
-    res.push(list);
-}
-JSON.stringify(res);
 ######搜索影视列表
 var KEY=getVar("KEY");
 var baseURL=e2Rex(getVar("CODE"),".json(url)");
@@ -240,7 +241,7 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
 }else if(URL.indexOf(".vod")!=-1){
     "&class=类型&area=地区&lang=语种&year=年份&by=排序&limit=9&#page=#PN#";
 }else{
-    "?ac=list&class=分类&page=#PN#&area=地区&type=类型&start=年份";
+    "";
 }
 ######筛选内容
 var code=getVar("CODE");
