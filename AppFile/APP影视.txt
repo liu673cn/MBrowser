@@ -124,7 +124,11 @@ function 搜索列表(){
     return JSON.stringify(res);
 }
 if(baseURL.search(/api\.php\/.+?\.vod/)!=-1){
-    var URL=baseURL+"?page=1&limit=10&wd="+KEY;
+    if(baseURL.indexOf("iopenyun.com")!=-1){
+        var URL=baseURL+"/list?page=1&limit=10&wd="+KEY;
+    }else{
+        var URL=baseURL+"?page=1&limit=10&wd="+KEY;
+    }
     var 源码=getHttp(JSON.stringify({url:URL}));
     var 列表=e2Arr(源码,".json(data).json(list)");
     var 标题规则=".json(vod_name)";
