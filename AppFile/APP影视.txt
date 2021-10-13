@@ -118,27 +118,39 @@ function 搜索列表(){
 }
 if(baseURL.search(/api\.php\/.+?\.vod/)!=-1){
     var URL=baseURL+"?page=1&limit=10&wd="+KEY;
-    var 源码=getHttp(JSON.stringify({url:URL,head:{"user-agent":"okhttp/4.1.0"}}));
+    var 源码=getHttp(JSON.stringify({url:URL}));
     var 列表=e2Arr(源码,".json(data).json(list)");
-    var 标题规则=".json(vod_name)";var 地址规则=".c(/detail?vod_id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_actor).c().json(vod_blurb)";搜索列表();
+    var 标题规则=".json(vod_name)";
+    var 地址规则=".c(/detail?vod_id=).json(vod_id)";
+    var 图片规则=".json(vod_pic)";
+    var 简介规则=".json(vod_remarks).c().json(vod_actor).c().json(vod_blurb)";
+    搜索列表();
 }else if(baseURL.indexOf("api.php/app")!=-1){
     var URL=baseURL+"search?pg=1&text="+KEY;
-    var 源码=getHttp(JSON.stringify({url:URL,head:{"user-agent":"Dart/2.13 (dart:io)"}}));
+    var 源码=getHttp(JSON.stringify({url:URL}));
     if(源码.indexOf("跳转中")!=-1){
         var URL=baseURL+e2Rex(源码,".z(/api\\.php/app[^\"]*).ty(api.php/app/)");
         var 源码=getHttp(JSON.stringify({url:URL}));
     }
     var 列表=e2Arr(源码,".json(list)");
-    var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";搜索列表();
+    var 标题规则=".json(vod_name)";
+    var 地址规则=".c(video_detail?id=).json(vod_id)";
+    var 图片规则=".json(vod_pic)";
+    var 简介规则=".json(vod_remarks).c().json(vod_time_add)";
+    搜索列表();
 }else if(baseURL.indexOf("xgapp.php/v1")!=-1){
     var URL=baseURL+"search?pg=1&text="+KEY;
-    var 源码=getHttp(JSON.stringify({url:URL,head:{"user-agent":"Dart/2.13 (dart:io)"}}));
+    var 源码=getHttp(JSON.stringify({url:URL}));
     if(源码.indexOf("跳转中")!=-1){
         var URL=baseURL+e2Rex(源码,".z(/xgapp\\.php/v1[^\"]*).ty(xgapp.php/v1/)");
         var 源码=getHttp(JSON.stringify({url:URL}));
     }
     var 列表=e2Arr(源码,".json(data)");
-    var 标题规则=".json(vod_name)";var 地址规则=".c(video_detail?id=).json(vod_id)";var 图片规则=".json(vod_pic)";var 简介规则=".json(vod_remarks).c().json(vod_time_add)";搜索列表();
+    var 标题规则=".json(vod_name)";
+    var 地址规则=".c(video_detail?id=).json(vod_id)";
+    var 图片规则=".json(vod_pic)";
+    var 简介规则=".json(vod_remarks).c().json(vod_time_add)";
+    搜索列表();
 }else if(baseURL.search(/api\.php\/.*?\/vod/)!=-1){
     if(URL.indexOf("521x5")!=-1||URL.indexOf("lxyyy")!=-1||URL.indexOf("0818tv")!=-1||URL.indexOf("diyoui")!=-1||URL.indexOf("diliktv")!=-1||URL.indexOf("ppzhu")!=-1||URL.indexOf("aitesucai")!=-1||URL.indexOf("zz.ci")!=-1||URL.indexOf("chxjon")!=-1||URL.indexOf("watchmi")!=-1||URL.indexOf("vipbp")!=-1||URL.indexOf("wsba")!=-1||URL.indexOf("xfykl")!=-1){
         var word="wd";
@@ -146,9 +158,13 @@ if(baseURL.search(/api\.php\/.+?\.vod/)!=-1){
         var word="zm";
     }
     var URL=baseURL+"?ac=list&page=1&"+word+"="+KEY;
-    var 源码=getHttp(JSON.stringify({url:URL,head:{"user-agent":"Dalvik/2.1.0"}}));
+    var 源码=getHttp(JSON.stringify({url:URL}));
     var 列表=e2Arr(源码,".json(data)");
-    var 标题规则=".json(title)";var 地址规则=".json(nextlink)";var 图片规则=".json(pic)";var 简介规则=".json(state).c().json(type)";搜索列表();
+    var 标题规则=".json(title)";
+    var 地址规则=".json(nextlink)";
+    var 图片规则=".json(pic)";
+    var 简介规则=".json(state).c().json(type)";
+    搜索列表();
 }
 ######UA
 var code=getVar("CODE");
@@ -224,21 +240,11 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
-    "类型+全部=+喜剧+爱情+恐怖+动作+科幻+剧情+战争+警匪+犯罪+动画+奇幻+武侠+冒险+枪战+恐怖+悬疑+惊悚+经典+青春+文艺+微电影+古装+历史+运动+农村+惊悚+伦理+情色+福利+惊悚+儿童+网络电影
-    地区+全部=+中国大陆+香港+台湾+美国+英国+法国+日本+韩国+德国+泰国+印度+西班牙+加拿大+其他
-    语种+全部=+国语+英语+粤语+闽南语+韩语+日语+法语+德语+其他
-    年份+全部=+2021+2020+2019+2018+2017+2016+2015+2014+2013+2012+2011+2010+2009+2008+2007+2006+2005+2004+2003+2002+2001+2000";
+    "类型+全部=+喜剧+爱情+恐怖+动作+科幻+剧情+战争+警匪+犯罪+动画+奇幻+武侠+冒险+枪战+恐怖+悬疑+惊悚+经典+青春+文艺+微电影+古装+历史+运动+农村+惊悚+伦理+情色+福利+惊悚+儿童+网络电影\n地区+全部=+中国大陆+香港+台湾+美国+英国+法国+日本+韩国+德国+泰国+印度+西班牙+加拿大+其他\n语种+全部=+国语+英语+粤语+闽南语+韩语+日语+法语+德语+其他\n年份+全部=+2021+2020+2019+2018+2017+2016+2015+2014+2013+2012+2011+2010+2009+2008+2007+2006+2005+2004+2003+2002+2001+2000";
 }else if(URL.indexOf(".vod")!=-1){
-    "类型+全部=+喜剧+爱情+恐怖+动作+科幻+剧情+战争+警匪+犯罪+动画+奇幻+武侠+冒险+枪战+恐怖+悬疑+惊悚+经典+青春+文艺+微电影+古装+历史+运动+农村+惊悚+伦理+情色+福利+惊悚+儿童+网络电影
-    地区+全部=+中国大陆+香港+台湾+美国+英国+法国+日本+韩国+德国+泰国+印度+西班牙+加拿大+其他
-    语种+全部=+国语+英语+粤语+闽南语+韩语+日语+法语+德语+其他
-    年份+全部=+2021+2020+2019+2018+2017+2016+2015+2014+2013+2012+2011+2010+2009+2008+2007+2006+2005+2004+2003+2002+2001+2000
-    排序+全部=+最新=time+最热=hits+评分=score";
+    "类型+全部=+喜剧+爱情+恐怖+动作+科幻+剧情+战争+警匪+犯罪+动画+奇幻+武侠+冒险+枪战+恐怖+悬疑+惊悚+经典+青春+文艺+微电影+古装+历史+运动+农村+惊悚+伦理+情色+福利+惊悚+儿童+网络电影\n地区+全部=+中国大陆+香港+台湾+美国+英国+法国+日本+韩国+德国+泰国+印度+西班牙+加拿大+其他\n语种+全部=+国语+英语+粤语+闽南语+韩语+日语+法语+德语+其他\n年份+全部=+2021+2020+2019+2018+2017+2016+2015+2014+2013+2012+2011+2010+2009+2008+2007+2006+2005+2004+2003+2002+2001+2000\n排序+全部=+最新=time+最热=hits+评分=score";
 }else{
-    "分类+电影=movie+连续剧=tvplay+综艺=tvshow+动漫=comic+4K=movie_4k+体育=tiyu
-    类型+全部=+喜剧+爱情+恐怖+动作+科幻+剧情+战争+警匪+犯罪+动画+奇幻+武侠+冒险+枪战+恐怖+悬疑+惊悚+经典+青春+文艺+微电影+古装+历史+运动+农村+惊悚+惊悚+伦理+情色+福利+儿童+网络电影
-    地区+全部=+大陆+香港+台湾+美国+英国+法国+日本+韩国+德国+泰国+印度+西班牙+加拿大+其他
-    年份+全部=+2021+2020+2019+2018+2017+2016+2015+2014+2013+2012+2011+2010+2009+2008+2007+2006+2005+2004+2003+2002+2001+2000";
+    "分类+电影=movie+连续剧=tvplay+综艺=tvshow+动漫=comic+4K=movie_4k+体育=tiyu\n类型+全部=+喜剧+爱情+恐怖+动作+科幻+剧情+战争+警匪+犯罪+动画+奇幻+武侠+冒险+枪战+恐怖+悬疑+惊悚+经典+青春+文艺+微电影+古装+历史+运动+农村+惊悚+惊悚+伦理+情色+福利+儿童+网络电影\n地区+全部=+大陆+香港+台湾+美国+英国+法国+日本+韩国+德国+泰国+印度+西班牙+加拿大+其他\n年份+全部=+2021+2020+2019+2018+2017+2016+2015+2014+2013+2012+2011+2010+2009+2008+2007+2006+2005+2004+2003+2002+2001+2000";
 }
 ######推荐地址
 var code=getVar("CODE");
