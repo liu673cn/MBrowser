@@ -28,7 +28,7 @@ if(version==NewVersion&&sign==appSign){
     var 随机网址=e2Rex(随机,".json(url)");
     if(随机网址.search(/api\.php\/app/)!=-1||随机网址.search(/xgapp\.php\/v1/)!=-1){
         var 前缀=随机网址;
-        var CODE=getHttp(JSON.stringify({url:前缀+"advert?token=&position=2"}));
+        var CODE=getHttp(JSON.stringify({url:前缀+"advert?token=&position=2",head:{"user-agent":"Dart/2.13 (dart:io)"}}));
         var 轮播=e2Arr(CODE,".json(data)");
         var items=[];
         for(var i=0;i<轮播.length;i++){
@@ -40,7 +40,7 @@ if(version==NewVersion&&sign==appSign){
         JSON.stringify(items);
     }else{
         var 前缀=随机网址;
-        var CODE=getHttp(JSON.stringify({url:前缀+"?level=9"}));
+        var CODE=getHttp(JSON.stringify({url:前缀+"?level=9",head:{"user-agent":"okhttp/4.1.0"}}));
         var 轮播=e2Arr(CODE,".json(data).json(list)");
         var items=[];
         for(var i=0;i<轮播.length;i++){
@@ -56,10 +56,10 @@ if(version==NewVersion&&sign==appSign){
         随机网址=e2Rex(随机,".json(url)");
         if(随机网址.search(/api\.php\/app/)!=-1||随机网址.search(/xgapp\.php\/v1/)!=-1){
             前缀=随机网址;
-            CODE=getHttp(JSON.stringify({url:前缀+"advert?token=&position=2"}));
+            CODE=getHttp(JSON.stringify({url:前缀+"advert?token=&position=2",head:{"user-agent":"Dart/2.13 (dart:io)"}}));
         }else{
             前缀=随机网址;
-            CODE=getHttp(JSON.stringify({url:前缀+"?level=9"}));
+            CODE=getHttp(JSON.stringify({url:前缀+"?level=9",head:{"user-agent":"okhttp/4.1.0"}}));
         }
     }
 }else{
