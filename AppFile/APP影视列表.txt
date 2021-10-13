@@ -95,7 +95,7 @@
             },
             {
             "title":"海胆影视",
-            "url":"http://xf123.cc/xgapp.php/v1/",
+            "url":"http://xf123.cc/api.php/app/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/海胆影视.png",
             "murl":"q:APP影视"
             },
