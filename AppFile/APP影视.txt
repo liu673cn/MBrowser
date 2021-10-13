@@ -105,6 +105,7 @@ JSON.stringify(res);
 ######搜索影视列表
 var KEY=getVar("KEY");
 var baseURL=e2Rex(getVar("CODE"),".json(url)");
+var LIMIT=列表.length;
 function 搜索列表(){
     var res={};var items=[];var LIST=[];
     for(var j=0;j<LIMIT;j++){
