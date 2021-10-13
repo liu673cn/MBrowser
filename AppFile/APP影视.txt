@@ -158,7 +158,7 @@ if(baseURL.search(/api\.php\/.+?\.vod/)!=-1){
     var 简介规则=".json(vod_remarks).c().json(vod_time_add)";
     搜索列表();
 }else if(baseURL.search(/api\.php\/.*?\/vod/)!=-1){
-    if(baseURL.indexOf("hgyx")!=-1||baseURL.indexOf("521x5")!=-1||baseURL.indexOf("lxyyy")!=-1||baseURL.indexOf("0818tv")!=-1||baseURL.indexOf("diyoui")!=-1||baseURL.indexOf("diliktv")!=-1||baseURL.indexOf("ppzhu")!=-1||baseURL.indexOf("aitesucai")!=-1||baseURL.indexOf("zz.ci")!=-1||baseURL.indexOf("chxjon")!=-1||baseURL.indexOf("watchmi")!=-1||baseURL.indexOf("vipbp")!=-1||baseURL.indexOf("wsba")!=-1||baseURL.indexOf("xfykl")!=-1){
+    if(baseURL.indexOf("lk.pxun")!=-1||baseURL.indexOf("hgyx")!=-1||baseURL.indexOf("521x5")!=-1||baseURL.indexOf("lxyyy")!=-1||baseURL.indexOf("0818tv")!=-1||baseURL.indexOf("diyoui")!=-1||baseURL.indexOf("diliktv")!=-1||baseURL.indexOf("ppzhu")!=-1||baseURL.indexOf("aitesucai")!=-1||baseURL.indexOf("zz.ci")!=-1||baseURL.indexOf("chxjon")!=-1||baseURL.indexOf("watchmi")!=-1||baseURL.indexOf("vipbp")!=-1||baseURL.indexOf("wsba")!=-1||baseURL.indexOf("xfykl")!=-1){
         var word="wd";
     }else{
         var word="zm";
