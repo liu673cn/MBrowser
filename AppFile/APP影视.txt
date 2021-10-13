@@ -150,9 +150,6 @@ if(baseURL.search(/api\.php\/.+?\.vod/)!=-1){
     var 列表=e2Arr(源码,".json(data)");
     var 标题规则=".json(title)";var 地址规则=".json(nextlink)";var 图片规则=".json(pic)";var 简介规则=".json(state).c().json(type)";搜索列表();
 }
-######取源码内地址
-var code=getVar("CODE");
-e2Rex(code,".json(url)");
 ######UA
 var URL=getVar("Url");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
@@ -190,7 +187,8 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
     "";
 }
 ######获取分类地址
-var URL=getVar("Url");
+var code=getVar("CODE");
+var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
     URL+"nav?token=";
 }else if(URL.indexOf(".vod")!=-1){
@@ -199,7 +197,8 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
     "";
 }
 ######大分类地址
-var URL=getVar("Url");
+var code=getVar("CODE");
+var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
     URL+"video?tid=";
 }else if(URL.indexOf(".vod")!=-1){
@@ -238,7 +237,8 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
     年份+全部=+2021+2020+2019+2018+2017+2016+2015+2014+2013+2012+2011+2010+2009+2008+2007+2006+2005+2004+2003+2002+2001+2000";
 }
 ######推荐地址
-var URL=getVar("Url");
+var code=getVar("CODE");
+var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
     URL+"index_video?token=";
 }else if(URL.indexOf(".vod")!=-1){
@@ -247,7 +247,8 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
     "";
 }
 ######播放器前缀地址
-var URL=getVar("Url");
+var code=getVar("CODE");
+var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
     URL+"video_detail?id=";
 }else if(URL.indexOf(".vod")!=-1){
