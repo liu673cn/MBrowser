@@ -327,6 +327,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"疯狂看",
+            "url":"http://app.fkkdy.vip/mogai_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/疯狂看电影.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"公主影视",
             "url":"http://mm.tcsdchina.com:6096/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/公主影视.png",
@@ -838,6 +844,12 @@
             "title":"大师兄",
             "url":"http://dsxtv.tv.ci/api.php/dsx/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/大师兄影视.png",
+            "murl":"q:TV影视"
+            },
+            {
+            "title":"疯狂看TV",
+            "url":"http://tv.fkkdy.vip/api.php/iptv/vod/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/疯狂看TV.png",
             "murl":"q:TV影视"
             },
             {
