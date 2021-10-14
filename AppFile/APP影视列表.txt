@@ -155,7 +155,7 @@
             },
             {
             "title":"迷你库",
-            "url":"http://www.miniku.cc/xgapp.php/v1/",
+            "url":"http://www.miniku.cc/api.php/app/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/迷你库.png",
             "murl":"q:APP影视"
             },
