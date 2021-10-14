@@ -106,8 +106,7 @@ var PN=getVar("PN");
 var baseURL=e2Rex(getVar("CODE"),".json(url)");
 function 搜索列表(){
     var res={};var items=[];var LIST=[];
-    var LIMIT=列表.length;
-    for(var j=0;j<LIMIT;j++){
+    for(var j=0;j<列表.length;j++){
         var CODE=列表[j];
         var 地址=e2Rex(CODE,地址规则).indexOf("http")!=-1?e2Rex(CODE,地址规则):baseURL+e2Rex(CODE,地址规则);
         var 标题=e2Rex(CODE,标题规则);
