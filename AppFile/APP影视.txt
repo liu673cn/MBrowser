@@ -120,7 +120,7 @@ function 搜索列表(){
     res.data=items;
     return JSON.stringify(res);
 }
-if(baseURL.search(/api\.php\/.+?\.vod/)!=-1){
+if(baseURL.indexOf(.vod)!=-1){
     if(baseURL.indexOf("iopenyun.com")!=-1){
         var URL=baseURL+"/list?page="+PN+"&limit=10&wd="+KEY;
     }else{
