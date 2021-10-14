@@ -1,7 +1,7 @@
 {
     "data":[
         {
-        "title":"APP影视 36",
+        "title":"APP影视",
         "list":[
             {
             "title":"007影视",
@@ -222,7 +222,7 @@
         ]
         },
         {
-        "title":"APP影视(v1) 100",
+        "title":"APP影视(v1)",
         "list":[
             {
             "title":"555TV",
@@ -826,7 +826,7 @@
         ]
         },
         {
-        "title":"TV影视 18",
+        "title":"TV影视",
         "list":[
             {
             "title":"2号币",
