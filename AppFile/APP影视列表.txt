@@ -154,6 +154,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"迷你库",
+            "url":"http://www.miniku.cc/xgapp.php/v1/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/迷你库.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"氢视频",
             "url":"http://h1080p.com/api.php/app/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/氢视频.png",
@@ -270,6 +276,12 @@
             "title":"爱影视",
             "url":"https://www.hzlff.cn/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/爱影视.png",
+            "murl":"q:APP影视"
+            },
+            {
+            "title":"艾特影视",
+            "url":"https://www.aitee.cc/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/艾特影视.png",
             "murl":"q:APP影视"
             },
             {
@@ -615,13 +627,13 @@
             },
             {
             "title":"我爱电影",
-            "url":"http://ys.5imv.cc/api.php/v1.vod",
+            "url":"http://ys.5imv.cc/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/我爱电影.png",
             "murl":"q:APP影视"
             },
             {
             "title":"我爱跟剧",
-            "url":"http://www.52gen.com/api.php/v1.vod",
+            "url":"https://www.genmov.com/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/我爱跟剧.png",
             "murl":"q:APP影视"
             },
@@ -633,7 +645,7 @@
             },
             {
             "title":"蜗牛看鸭",
-            "url":"http://movie.wokewu.cn/api.php/v1.vod",
+            "url":"http://movie.96keji.cn/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/蜗牛看鸭.png",
             "murl":"q:APP影视"
             },
