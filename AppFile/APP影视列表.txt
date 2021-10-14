@@ -417,6 +417,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"剧迷视频",
+            "url":"http://pan.hzafw.com/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/剧迷视频.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"橘子影视",
             "url":"http://jz.juzidy.vip/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/橘子影视.png",
@@ -635,6 +641,12 @@
             "title":"忘忧果TV",
             "url":"https://ax.jx.cn/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/忘忧果TV.png",
+            "murl":"q:APP影视"
+            },
+            {
+            "title":"渔渔影视",
+            "url":"http://luobo.yugenye.site/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/渔渔影视.png",
             "murl":"q:APP影视"
             },
             {
