@@ -22,6 +22,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"913e影视",
+            "url":"http://www.913e.net/xgapp.php/v1/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/913e影视.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"BD电影",
             "url":"https://www.bddysf.org/api.php/app/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/BD电影.png",
