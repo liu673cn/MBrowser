@@ -15,7 +15,7 @@
 }
 ######首页轮播图
 var update=getVar("版本更新");
-var NewVersion="20211014";
+var NewVersion="20211016";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
@@ -67,7 +67,7 @@ if(version==NewVersion&&sign==appSign){
 }
 ######首页APP列表
 var update=getVar("版本更新");
-var NewVersion="20211014";
+var NewVersion="20211016";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
@@ -80,7 +80,7 @@ if(version==NewVersion&&sign==appSign){
 ######重组搜索
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
-var NewVersion="20211014";
+var NewVersion="20211016";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var filename=e2Rex("QVBQ5b2x6KeG5YiX6KGoLnR4dA==",".t().dn64()");
 var KEY=getVar("KEY");
