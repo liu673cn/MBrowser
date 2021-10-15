@@ -1,5 +1,11 @@
 
             {
+            "title":"CJT影院",
+            "url":"https://www.cjt521.com/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/CJT影院.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"段友影视",
             "url":"https://ishangwo.top/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/段友影视1.png",

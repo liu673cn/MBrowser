@@ -1,7 +1,7 @@
 {
     "data":[
         {
-        "title":"APP影视",
+        "title":"APP影视(xiaogui)",
         "list":[
             {
             "title":"007影视",
@@ -240,12 +240,6 @@
             "title":"80K影视",
             "url":"https://1080p.tv/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/80K影视.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"CJT影院",
-            "url":"https://www.cjt521.com/api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/CJT影院.png",
             "murl":"q:APP影视"
             },
             {
@@ -796,7 +790,7 @@
         ]
         },
         {
-        "title":"APP影视(TV)",
+        "title":"APP影视(gctv)",
         "list":[
             {
             "title":"555TV",
@@ -813,7 +807,7 @@
         ]
         },
         {
-        "title":"TV影视",
+        "title":"TV影视(iptv)",
         "list":[
             {
             "title":"2号币",
