@@ -79,8 +79,8 @@ var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
     getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/"+filename}));
 }else{
-    update;
     alert("更新内容：\n1.修复搜索卡顿问题\n2.其它细节修修补补")
+    update;
 }
 ######重组搜索
 var appSign="d566171c6a64659aad784524c76ab569";
