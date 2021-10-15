@@ -19,8 +19,9 @@ var NewVersion="20211014";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
+var filename=e2Rex("QVBQ5b2x6KeG5YiX6KGoLnR4dA==",".t().dn64()");
 if(version==NewVersion&&sign==appSign){
-    var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视列表.txt"})).replace(/\s/g,"");
+    var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/"+filename})).replace(/\s/g,"");
     var 分类=e2Arr(原,".z(\\{[^{]+?\\})");
     var newArr=分类.filter(item=>item.indexOf("api.php/app")!=-1||item.indexOf("xgapp.php/v1")!=-1||item.indexOf(".vod")!=-1);
     var 随机=newArr[Math.floor(Math.random()*newArr.length)];
@@ -70,15 +71,20 @@ var NewVersion="20211014";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
+var filename=e2Rex("QVBQ5b2x6KeG5YiX6KGoLnR4dA==",".t().dn64()");
 if(version==NewVersion&&sign==appSign){
-    getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视列表.txt"}));
+    getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/"+filename}));
 }else{
     update;
 }
 ######重组搜索
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
-    var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视列表.txt"})).replace(/\s/g,"");
+var NewVersion="20211014";
+var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
+var filename=e2Rex("QVBQ5b2x6KeG5YiX6KGoLnR4dA==",".t().dn64()");
+if(version==NewVersion&&sign==appSign){
+    var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/"+filename})).replace(/\s/g,"");
     var 分类=e2Arr(原,".json(data)");
     var res=[];
     for(var j=0;j<分类.length;j++){
@@ -96,6 +102,9 @@ var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
         res.push(list);
     }
     JSON.stringify(res);
+}else{
+    "";
+}
 ######搜索影视列表
 var KEY=getVar("KEY");
 var PN=getVar("PN");
