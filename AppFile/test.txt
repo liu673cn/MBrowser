@@ -84,7 +84,6 @@ var NewVersion="20211014";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var filename=e2Rex("QVBQ5b2x6KeG5YiX6KGoLnR4dA==",".t().dn64()");
 var KEY=getVar("KEY");
-var PN=getVar("PN");
 if(version==NewVersion&&sign==appSign){
     var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/"+filename})).replace(/\s/g,"");
     var 分类=e2Arr(原,".json(data)");
@@ -98,19 +97,19 @@ if(version==NewVersion&&sign==appSign){
             var 地址=e2Rex(列表[i],".json(url)");
             if(地址.indexOf(".vod")!=-1){
                 if(地址.indexOf("iopenyun.com")!=-1){
-                    var 地址=地址+"/list?page="+PN+"&limit=10&wd="+KEY;
+                    var 地址=地址+"/list?wd="+KEY+"&page=";
                 }else{
-                    var 地址=地址+"?page="+PN+"&limit=10&wd="+KEY;
+                    var 地址=地址+"?wd="+KEY+"&page=";
                 }
             }else if(地址.indexOf("api.php/app")!=-1||地址.indexOf("xgapp.php/v1")!=-1){
-                var 地址=地址+"search?pg="+PN+"&text="+KEY;
+                var 地址=地址+"search?text="+KEY+"&pg=";
             }else if(地址.search(/api\.php\/.*?\/vod/)!=-1){
                 if(地址.indexOf("8d8q")!=-1||地址.indexOf("lk.pxun")!=-1||地址.indexOf("hgyx")!=-1||地址.indexOf("521x5")!=-1||地址.indexOf("lxyyy")!=-1||地址.indexOf("0818tv")!=-1||地址.indexOf("diyoui")!=-1||地址.indexOf("diliktv")!=-1||地址.indexOf("ppzhu")!=-1||地址.indexOf("aitesucai")!=-1||地址.indexOf("zz.ci")!=-1||地址.indexOf("chxjon")!=-1||地址.indexOf("watchmi")!=-1||地址.indexOf("vipbp")!=-1||地址.indexOf("wsba")!=-1||地址.indexOf("xfykl")!=-1){
                     var word="wd";
                 }else{
                     var word="zm";
                 }
-                var 地址=地址+"?ac=list&page="+PN+"&"+word+"="+KEY;
+                var 地址=地址+"?ac=list&"+word+"="+KEY+"&page=";
             }
             items.push(标题+"="+地址);
         }
