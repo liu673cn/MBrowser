@@ -327,6 +327,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"二狗电影",
+            "url":"http://app.hetaoys.vip/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/二狗电影.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"饭后电影",
             "url":"http://ljr666.com/ruifenglb_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/饭后电影.png",
@@ -372,12 +378,6 @@
             "title":"汇聚库TV",
             "url":"https://www.zzclove666.com/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/汇聚库TV.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"核桃影视",
-            "url":"http://app.hetaoys.vip/api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/核桃影视.png",
             "murl":"q:APP影视"
             },
             {
@@ -497,6 +497,12 @@
             "title":"南府追剧",
             "url":"http://app.xkvideo.design/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/南府追剧.png",
+            "murl":"q:APP影视"
+            },
+            {
+            "title":"南府影视",
+            "url":"https://nfuxsapp.xkvideo.club/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/南府影视.png",
             "murl":"q:APP影视"
             },
             {
