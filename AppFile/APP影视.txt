@@ -79,7 +79,7 @@ var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
     getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/"+filename}));
 }else{
-    alert("————更新内容————\n    1.修复搜索卡顿问题\n    2.其它细节修修补补\n\n——————声明——————\n    1.本轻站免费安装且仅供学习，切勿贩卖。\n    2.更新修复视情况而定，使用中如有问题请进M浏览器群反馈。\n    3.请在安装本轻站后24小时之内删除。\n    4.如有接口侵权请联系删除。\n\n————by:InMemory————")
+    alert("————更新内容————\n    1.修复搜索卡顿问题\n    2.其它细节修修补补\n\n—————声明—————\n    1.本轻站免费安装且仅供学习，切勿贩卖。\n    2.更新修复视情况而定，使用中如有问题请进M浏览器群反馈。\n    3.请在安装本轻站后24小时之内删除。\n    4.如有接口侵权请联系删除。\n\n———by:InMemory————")
     update;
 }
 ######重组搜索
