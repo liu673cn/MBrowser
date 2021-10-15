@@ -88,6 +88,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"段友影视",
+            "url":"http://js.66app.me/api.php/app/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/段友影视2.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"瓜皮TV",
             "url":"http://www.dijiaxia.com/xgapp.php/v1/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/瓜皮TV.png",
@@ -844,6 +850,12 @@
             "title":"核桃影视",
             "url":"http://tv.hetaoys.vip/api.php/iptv/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/核桃影视.png",
+            "murl":"q:TV影视"
+            },
+            {
+            "title":"聚多影视",
+            "url":"http://jdmv.chxjon.cn/api.php/iptv/vod/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/聚多影视.png",
             "murl":"q:TV影视"
             },
             {
