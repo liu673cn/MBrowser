@@ -94,7 +94,7 @@ if(version==NewVersion&&sign==appSign){
         for(var i=0;i<列表.length;i++){
             var 标题=e2Rex(列表[i],".json(title)");
             var 地址=e2Rex(列表[i],".json(url)");
-            items.push(标题+"="+列表[i]);
+            items.push(标题+"="+地址);
         }
         var 合并=items.join("\n");
         var 分类标题=e2Rex(分类[j],".json(title)");
