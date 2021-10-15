@@ -226,7 +226,7 @@ if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp.php/v1")!=-1){
     var URL=URLS.split("search?")[0];
     URL+"video_detail?id=";
 }else if(URLS.indexOf(".vod")!=-1){
-    if(URLS.indexOf("iopenyun")!=-1)
+    if(URLS.indexOf("iopenyun")!=-1){
         var URL=URLS.split("/list?")[0];
         URL+"/detailID?vod_id=";
     }else{
