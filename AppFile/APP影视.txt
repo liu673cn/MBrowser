@@ -301,6 +301,8 @@ function 选集列表(){
                 接口="http://www.1080kan.cc/jiexi/rr.php?url=";
             }else if(标题.indexOf("番茄")!=-1){
                 接口="http://www.1080kan.cc/jiexi/fq.php?url=";
+            }else if(接口.indexOf("cokemv")!=-1){
+                接口="https://player.90mm.me/play.php?url=";
             }else{
                 接口="https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=bgjnopvDHPUY035689&url=";
             }
