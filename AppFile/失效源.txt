@@ -1,10 +1,5 @@
 
-            {
-            "title":"CJT影院",
-            "url":"https://www.cjt521.com/api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/CJT影院.png",
-            "murl":"q:APP影视"
-            },
+            
             {
             "title":"段友影视",
             "url":"https://ishangwo.top/api.php/v1.vod",
@@ -46,10 +41,4 @@
             "url":"https://app.xmyun.xyz/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/优全影视.png",
             "murl":"q:APP影视"
-            },
-            {
-            "title":"聚多影视",
-            "url":"http://jdyy.chxjon.cn/api.php/iptv/vod/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/聚多影视.png",
-            "murl":"q:TV影视"
             },
