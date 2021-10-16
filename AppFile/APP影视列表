@@ -840,6 +840,12 @@
             "murl":"q:TV影视"
             },
             {
+            "title":"动力影视",
+            "url":"http://www.love9989.com/api.php/iptv/vod/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/动力影视.png",
+            "murl":"q:TV影视"
+            },
+            {
             "title":"尘梓TV",
             "url":"http://139.155.177.213/api.php/iptv/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/尘梓TV.png",
