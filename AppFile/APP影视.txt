@@ -286,13 +286,13 @@ function 选集列表(){
             }else{
                 var 接口="http://egwang186.gitee.io/?url=";
             }
+        }else if(URL.indexOf("cokemv")!=-1){
+            var 接口="https://player.90mm.me/play.php?url=";
         }else if(URL.indexOf("api.php/app/")!=-1||URL.indexOf("xgapp.php/v1/")!=-1){
             var 接口=e2Rex(分类CODE,".json(parse_api)");
             if(接口.indexOf("jpg.hou.lu/jm/za/index.php")!=-1){
                 var 接口="http://vip.mengx.vip/home/api?type=ys&uid=3249696&key=aefqrtuwxyEFHKNOQY&url=";
             }
-        }else if(URL.indexOf("cokemv")!=-1){
-            var 接口="https://player.90mm.me/play.php?url=";
         }else{
             var 接口=URL;
         }
