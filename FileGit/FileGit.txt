@@ -119,6 +119,10 @@
         {
         "name":"报刊杂志",
         "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/木白先生/报刊杂志.mqz"
+        },
+        {
+        "name":"百漫谷吧",
+        "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/木白先生/百漫谷吧.mqz"
         }
         ]
         },
@@ -237,6 +241,10 @@
         {
         "name":"速搜TV.K",
         "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/Killer Jack/速搜TV.K.mqz"
+        },
+        {
+        "name":"动漫聚合.K",
+        "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/Killer Jack/动漫聚合.K.mqz"
         },
         {
         "name":"网易公开课.K",
@@ -418,6 +426,10 @@
         "title":"lgh00",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/icon/lgh00.png",
         "list":[
+        {
+        "name":"筛选测试",
+        "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/lgh00/筛选测试.mqz"
+        },
         {
         "name":"Pixivel",
         "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/lgh00/Pixivel.mqz"
@@ -885,6 +897,10 @@
         {
         "name":"图站.w",
         "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/唯一/图站.w.mqz"
+        },
+        {
+        "name":"热点跟踪-后续.w",
+        "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/唯一/热点跟踪-后续.w.mqz"
         }
         ]
         },
