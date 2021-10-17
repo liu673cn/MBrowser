@@ -746,6 +746,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"优全影视",
+            "url":"https://app.xmyun.xyz/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/优全影视.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"优优影院",
             "url":"http://xs.78tv.cc/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/优优影院.png",
