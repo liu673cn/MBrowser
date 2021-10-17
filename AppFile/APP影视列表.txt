@@ -840,9 +840,9 @@
             "murl":"q:TV影视"
             },
             {
-            "title":"傲视影视",
+            "title":"傲视影院",
             "url":"http://j.zjj.life:88/mv/api.php/Chengcheng/vod/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/傲视影视.png",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/傲视影院.png",
             "murl":"q:TV影视"
             },
             {
