@@ -309,6 +309,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"沧海影视",
+            "url":"https://k2l.cn/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/沧海影视.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"畅优视界",
             "url":"http://app.518imo.cn/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/畅优视界.png",
