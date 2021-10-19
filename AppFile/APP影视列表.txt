@@ -345,6 +345,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"段友影视",
+            "url":"http://js.66app.me/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/段友影视2.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"蝶众影院",
             "url":"http://app.diezz.net/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/蝶众影院.png",
