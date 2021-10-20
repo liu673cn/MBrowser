@@ -315,6 +315,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"菜鸟动漫",
+            "url":"http://taikong.huangguay.com/mogai_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/菜鸟动漫.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"畅优视界",
             "url":"http://app.518imo.cn/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/畅优视界.png",
@@ -885,6 +891,12 @@
             "title":"疯狂看TV",
             "url":"http://tv.fkkdy.vip/api.php/iptv/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/疯狂看TV.png",
+            "murl":"q:TV影视"
+            },
+            {
+            "title":"火箭影视",
+            "url":"http://293.0759.fit:8/c/api.php/WAiLaowang/vod/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/火箭影视.png",
             "murl":"q:TV影视"
             },
             {
