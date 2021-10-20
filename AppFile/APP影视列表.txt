@@ -578,6 +578,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"人人动漫",
+            "url":"http://man.jjsvip.cc/mogai_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/人人动漫.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"神马影视",
             "url":"http://xin.jjsvip.cc/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/神马影视.png",
