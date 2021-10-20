@@ -262,14 +262,8 @@
             },
             {
             "title":"CJT影院",
-            "url":"https://www.cjt521.com/mogai_api.php/v1.vod",
+            "url":"https://cjt521.com/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/CJT影院.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"FUFU",
-            "url":"https://fufu.ixhduta.cn/api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/FUFU影视.png",
             "murl":"q:APP影视"
             },
             {
@@ -315,6 +309,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"菜鸟动漫",
+            "url":"http://taikong.huangguay.com/mogai_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/菜鸟动漫.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"畅优视界",
             "url":"http://app.518imo.cn/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/畅优视界.png",
@@ -342,6 +342,12 @@
             "title":"大熊追剧",
             "url":"http://www.dxzj88.com/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/大熊追剧.png",
+            "murl":"q:APP影视"
+            },
+            {
+            "title":"段友影视",
+            "url":"http://js.66app.me/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/段友影视2.png",
             "murl":"q:APP影视"
             },
             {
@@ -396,12 +402,6 @@
             "title":"哈尼视频",
             "url":"http://www.videovips.top/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/哈尼视频.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"汇聚库TV",
-            "url":"https://www.zzclove666.com/api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/汇聚库TV.png",
             "murl":"q:APP影视"
             },
             {
@@ -572,6 +572,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"人人动漫",
+            "url":"http://man.jjsvip.cc/mogai_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/人人动漫.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"神马影视",
             "url":"http://xin.jjsvip.cc/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/神马影视.png",
@@ -587,12 +593,6 @@
             "title":"手指影视",
             "url":"http://szys3355.com/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/手指影视.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"淘剧社",
-            "url":"http://app.shuhai99.com/api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/淘剧社.png",
             "murl":"q:APP影视"
             },
             {
@@ -746,12 +746,6 @@
             "murl":"q:APP影视"
             },
             {
-            "title":"优炫影视",
-            "url":"http://yuntv.iyxtv.cn/mogai_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/优炫影视.png",
-            "murl":"q:APP影视"
-            },
-            {
             "title":"影阅阁",
             "url":"http://221.236.18.12:665/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/影阅阁.png",
@@ -897,6 +891,12 @@
             "title":"疯狂看TV",
             "url":"http://tv.fkkdy.vip/api.php/iptv/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/疯狂看TV.png",
+            "murl":"q:TV影视"
+            },
+            {
+            "title":"火箭影视",
+            "url":"http://293.0759.fit:8/c/api.php/WAiLaowang/vod/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/火箭影视.png",
             "murl":"q:TV影视"
             },
             {

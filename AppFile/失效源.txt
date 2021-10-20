@@ -54,3 +54,9 @@
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/优炫影视.png",
             "murl":"q:APP影视"
             },
+            {
+            "title":"FUFU",
+            "url":"https://fufu.ixhduta.cn/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/FUFU影视.png",
+            "murl":"q:APP影视"
+            },
