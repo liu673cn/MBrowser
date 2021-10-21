@@ -906,6 +906,12 @@
             "murl":"q:TV影视"
             },
             {
+            "title":"海棠视频",
+            "url":"https://www.haitangsp.net/xgapp.php/v1/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/海棠视频.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"核桃影视",
             "url":"http://tv.hetaoys.vip/api.php/iptv/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/核桃影视.png",
