@@ -309,12 +309,6 @@
             "murl":"q:APP影视"
             },
             {
-            "title":"沧海影视",
-            "url":"https://k2l.cn/api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/沧海影视.png",
-            "murl":"q:APP影视"
-            },
-            {
             "title":"菜鸟动漫",
             "url":"http://taikong.huangguay.com/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/菜鸟动漫.png",
