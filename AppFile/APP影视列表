@@ -333,6 +333,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"东南影院",
+            "url":"https://ys.dabih.cn/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/东南影院.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"大熊追剧",
             "url":"http://www.dxzj88.com/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/大熊追剧.png",
