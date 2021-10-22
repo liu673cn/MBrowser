@@ -267,6 +267,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"U5影视",
+            "url":"https://appx.uy07.com/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/U5影视.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"VIP影视",
             "url":"http://www.sp.ooo/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/VIP影视.png",
