@@ -1,7 +1,31 @@
-,
+{
+    "data":[
         {
-        "title":"失效源(all)",
+        "title":"APP影视(xiaogui)",
         "list":[
+            {
+            "title":"氢视频",
+            "url":"http://h1080p.c/api.php/app/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/氢视频.png",
+            "murl":"q:APP影视"
+            },
+            {
+            "title":"江湖影视",
+            "url":"http://app.jhdyw.vip:1234/api.php/app/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/江湖影视.png",
+            "murl":"q:APP影视"
+            }
+        ]
+        },
+        {
+        "title":"APP影视(v1)",
+        "list":[
+            {
+            "title":"FUFU",
+            "url":"https://fufu.ixhduta.cn/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/FUFU影视.png",
+            "murl":"q:APP影视"
+            },
             {
             "title":"段友影视",
             "url":"https://ishangwo.top/api.php/v1.vod",
@@ -43,24 +67,30 @@
             "url":"http://yuntv.iyxtv.cn/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/优炫影视.png",
             "murl":"q:APP影视"
-            },
+            }
+        ]
+        },
+        {
+        "title":"APP影视(gctv)",
+        "list":[
             {
-            "title":"FUFU",
-            "url":"https://fufu.ixhduta.cn/api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/FUFU影视.png",
-            "murl":"q:APP影视"
-            },
+            "title":"",
+            "url":"",
+            "img":"",
+            "murl":""
+            }
+        ]
+        },
+        {
+        "title":"TV影视(iptv)",
+        "list":[
             {
-            "title":"氢视频",
-            "url":"http://h1080p.c/api.php/app/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/氢视频.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"江湖影视",
-            "url":"http://app.jhdyw.vip:1234/api.php/app/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/江湖影视.png",
-            "murl":"q:APP影视"
+            "title":"",
+            "url":"",
+            "img":"",
+            "murl":""
             }
         ]
         }
+    ]
+}
