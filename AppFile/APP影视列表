@@ -208,6 +208,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"小龟视频",
+            "url":"http://kyyt.xyz:88/api.php/app/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/小龟视频.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"星空影视",
             "url":"https://xkys.tv/xgapp.php/v1/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/星空影视xg.png",
