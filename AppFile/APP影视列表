@@ -741,12 +741,6 @@
             "murl":"q:APP影视"
             },
             {
-            "title":"玺娜影视",
-            "url":"https://pp.wxina.cn/api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/玺娜影视.png",
-            "murl":"q:APP影视"
-            },
-            {
             "title":"小极影视",
             "url":"http://api.xiaoysw.com/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/小极影视.png",
@@ -756,6 +750,12 @@
             "title":"星空影视",
             "url":"http://xiongkongwx.cn/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/星空影视.png",
+            "murl":"q:APP影视"
+            },
+            {
+            "title":"玺娜影视",
+            "url":"https://pp.wxina.cn/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/玺娜影视.png",
             "murl":"q:APP影视"
             },
             {
