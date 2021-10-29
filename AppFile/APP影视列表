@@ -46,6 +46,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"one影视",
+            "url":"http://www.onedianshi.com/api.php/app/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/one影视.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"爱影吧",
             "url":"http://www.ayinb.com/api.php/app/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/爱影吧.png",
@@ -318,6 +324,12 @@
             "title":"白菜追剧",
             "url":"http://lbapp.huimaojia.com:30119/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/白菜追剧.png",
+            "murl":"q:APP影视"
+            },
+            {
+            "title":"比邻影视",
+            "url":"http://0hzy.cn:9990/mogai_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/比邻影视.png",
             "murl":"q:APP影视"
             },
             {
@@ -726,6 +738,12 @@
             "title":"先锋视频",
             "url":"https://58xtv.net/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/先锋视频.png",
+            "murl":"q:APP影视"
+            },
+            {
+            "title":"玺娜影视",
+            "url":"https://pp.wxina.cn/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/玺娜影视.png",
             "murl":"q:APP影视"
             },
             {
