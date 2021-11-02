@@ -31,13 +31,32 @@ if(version==NewVersion&&sign==appSign&&name==appName){
     if(随机网址.search(/api\.php\/app/)!=-1||随机网址.search(/xgapp\.php\/v1/)!=-1){
         var 前缀=随机网址;
         var CODE=getHttp(JSON.stringify({url:前缀+"advert?token=&position=2",head:{"user-agent":"Dart/2.13 (dart:io)"}}));
+    }else{
+        var 前缀=随机网址;
+        var CODE=getHttp(JSON.stringify({url:前缀+"?level=9",head:{"user-agent":"okhttp/4.1.0"}}));
+    }
+    while(CODE.indexOf("http")==-1){
+        随机=newArr[Math.floor(Math.random()*newArr.length)];
+        随机网址=e2Rex(随机,".json(url)");
+        if(随机网址.search(/api\.php\/app/)!=-1||随机网址.search(/xgapp\.php\/v1/)!=-1){
+            前缀=随机网址;
+            CODE=getHttp(JSON.stringify({url:前缀+"advert?token=&position=2",head:{"user-agent":"Dart/2.13 (dart:io)"}}));
+        }else{
+            前缀=随机网址;
+            CODE=getHttp(JSON.stringify({url:前缀+"?level=9",head:{"user-agent":"okhttp/4.1.0"}}));
+        }
+    }
+    var 随机网址=e2Rex(随机,".json(url)");
+    if(随机网址.search(/api\.php\/app/)!=-1||随机网址.search(/xgapp\.php\/v1/)!=-1){
+        var 前缀=随机网址;
+        var CODE=getHttp(JSON.stringify({url:前缀+"advert?token=&position=2",head:{"user-agent":"Dart/2.13 (dart:io)"}}));
         var 轮播=e2Arr(CODE,".json(data)");
         var items=[];
         for(var i=0;i<轮播.length;i++){
             var url=前缀+"video_detail?id="+e2Rex(轮播[i],".json(req_content)");
             var img=e2Rex(轮播[i],".json(content)");
             var title=e2Rex(轮播[i],".json(name)");
-            items.push({url:"q:播放器?url="+url,img:img,title:title})
+            items.push({url:url,img:img,title:title})
         }
         JSON.stringify(items);
     }else{
@@ -47,40 +66,11 @@ if(version==NewVersion&&sign==appSign&&name==appName){
         var items=[];
         for(var i=0;i<轮播.length;i++){
             var url=前缀+"/detail?vod_id="+e2Rex(轮播[i],".json(vod_id)");
-            var img=e2Rex(轮播[i],".json(vod_pic_slide)");
+            var img=e2Rex(轮播[i],".json(vod_pic)");
             var title=e2Rex(轮播[i],".json(vod_name)");
-            items.push({url:"q:播放器?url="+url,img:img,title:title})
+            items.push({url:url,img:img,title:title})
         }
         JSON.stringify(items);
-    }
-    while(CODE.indexOf("http")==-1){
-        随机=newArr[Math.floor(Math.random()*newArr.length)];
-        随机网址=e2Rex(随机,".json(url)");
-        if(随机网址.search(/api\.php\/app/)!=-1||随机网址.search(/xgapp\.php\/v1/)!=-1){
-            前缀=随机网址;
-            CODE=getHttp(JSON.stringify({url:前缀+"advert?token=&position=2",head:{"user-agent":"Dart/2.13 (dart:io)"}}));
-            轮播=e2Arr(CODE,".json(data)");
-            items=[];
-            for(var i=0;i<轮播.length;i++){
-                var url=前缀+"video_detail?id="+e2Rex(轮播[i],".json(req_content)");
-                var img=e2Rex(轮播[i],".json(content)");
-                var title=e2Rex(轮播[i],".json(name)");
-                items.push({url:"q:播放器?url="+url,img:img,title:title})
-            }
-            JSON.stringify(items);
-        }else{
-            前缀=随机网址;
-            CODE=getHttp(JSON.stringify({url:前缀+"?level=9",head:{"user-agent":"okhttp/4.1.0"}}));
-            轮播=e2Arr(CODE,".json(data).json(list)");
-            items=[];
-            for(var i=0;i<轮播.length;i++){
-                var url=前缀+"/detail?vod_id="+e2Rex(轮播[i],".json(vod_id)");
-                var img=e2Rex(轮播[i],".json(vod_pic_slide)");
-                var title=e2Rex(轮播[i],".json(vod_name)");
-                items.push({url:"q:播放器?url="+url,img:img,title:title})
-            }
-            JSON.stringify(items);
-        }
     }
 }else{
     update;
