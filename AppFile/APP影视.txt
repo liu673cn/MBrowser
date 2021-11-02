@@ -1,8 +1,10 @@
 ######APP影视安装地址
 {
+    {
     "title":"点击安装新版APP影视",
     "url":"mapi:qm/https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/InMemory/APP影视.mqz",
     "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/update.png"
+    }
 }
 ######首页轮播图
 var update=getVar("版本更新");
