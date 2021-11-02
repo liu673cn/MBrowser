@@ -40,6 +40,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"F7影视",
+            "url":"http://v.zq1080.cc/api.php/app/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/F7影视.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"one影视",
             "url":"http://www.onedianshi.com/api.php/app/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/ONE影视.png",
@@ -934,6 +940,12 @@
             "title":"2号币",
             "url":"http://phoebe.cf/api.php/iptv/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/2号币影院.png",
+            "murl":"q:TV影视"
+            },
+            {
+            "title":"F7影院",
+            "url":"http://mtv.haokanju1.cc/api.php/Chengcheng/vod/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/F7影院.png",
             "murl":"q:TV影视"
             },
             {
