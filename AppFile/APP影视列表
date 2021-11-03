@@ -101,7 +101,7 @@
             },
             {
             "title":"大熊影视",
-            "url":"https://www.dxys88.com/api.php/app/",
+            "url":"https://www.dxys88.com/xgapp.php/v1/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/大熊追剧.png",
             "murl":"q:APP影视"
             },
@@ -838,7 +838,7 @@
             },
             {
             "title":"影视大全",
-            "url":"http://xc.xixi2yy.xyz/api.php/v1.vod",
+            "url":"https://xc.xixi2yy.xyz/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/影视大全HD.png",
             "murl":"q:APP影视"
             },
