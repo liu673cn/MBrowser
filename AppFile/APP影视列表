@@ -567,12 +567,6 @@
             "murl":"q:APP影视"
             },
             {
-            "title":"麻腾TV",
-            "url":"https://www.matengtv.top/api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/麻腾TV.png",
-            "murl":"q:APP影视"
-            },
-            {
             "title":"喵乐影视",
             "url":"http://miaoleys.com/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/喵乐影视.png",
@@ -598,7 +592,7 @@
             },
             {
             "title":"麻子追剧",
-            "url":"http://app.2maz.cn/api.php/v1.vod",
+            "url":"https://app.2maz.cn/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/麻子追剧.png",
             "murl":"q:APP影视"
             },

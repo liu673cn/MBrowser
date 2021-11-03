@@ -63,6 +63,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"麻腾TV",
+            "url":"https://www.matengtv.top/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/麻腾TV.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"汇聚库TV",
             "url":"https://www.zzclove666.com/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/汇聚库TV.png",
