@@ -967,6 +967,12 @@
             "murl":"q:TV影视"
             },
             {
+            "title":"尘梓TV",
+            "url":"http://cztv.vip:83/api.php/chenziystv/vod/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/尘梓TV.png",
+            "murl":"q:TV影视"
+            },
+            {
             "title":"稻草人TV",
             "url":"http://www.zhaikanys.xyz/api.php/iptv1/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/稻草人TV.png",
@@ -1028,7 +1034,7 @@
             },
             {
             "title":"久久影院",
-            "url":"http://lm.0818tv.com/mv/api.php/Chengcheng/vod/",
+            "url":"http://lm.0818tv.com/mv/api.php/jiujiuystv/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/久久影院.png",
             "murl":"q:TV影视"
             },
