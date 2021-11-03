@@ -27,6 +27,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"沧海影视",
+            "url":"http://k2l.cn/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/沧海影视.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"段友影视",
             "url":"https://ishangwo.top/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/段友影视1.png",
@@ -66,6 +72,12 @@
             "title":"优炫影视",
             "url":"http://yuntv.iyxtv.cn/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/优炫影视.png",
+            "murl":"q:APP影视"
+            },
+            {
+            "title":"追剧吧",
+            "url":"http://zhuijuba.vip/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/追剧吧影视.png",
             "murl":"q:APP影视"
             }
         ]

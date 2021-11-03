@@ -891,12 +891,6 @@
             "murl":"q:APP影视"
             },
             {
-            "title":"追剧吧",
-            "url":"http://zhuijuba.vip/api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/追剧吧影视.png",
-            "murl":"q:APP影视"
-            },
-            {
             "title":"追剧影院",
             "url":"https://www.4kvv.cn/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/追剧影院1.png",
