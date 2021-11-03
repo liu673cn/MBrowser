@@ -1039,6 +1039,12 @@
             "murl":"q:TV影视"
             },
             {
+            "title":"乐酷TV",
+            "url":"http://lktv.top:55/api.php/chenziystv/vod/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/乐酷TV.png",
+            "murl":"q:TV影视"
+            },
+            {
             "title":"流星雨",
             "url":"http://syy.lxyyy.xyz/mv/api.php/Chengcheng/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/流星雨影院.png",
@@ -1060,12 +1066,6 @@
             "title":"云播影视",
             "url":"http://yunbo.bxin.tv/api.php/iptv/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/云播影视.png",
-            "murl":"q:TV影视"
-            },
-            {
-            "title":"乐酷TV",
-            "url":"http://lktv.top:55/api.php/chenziystv/vod/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/乐酷TV.png",
             "murl":"q:TV影视"
             },
             {
