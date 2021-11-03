@@ -592,7 +592,7 @@
             },
             {
             "title":"麻子追剧",
-            "url":"https://app.2maz.cn/api.php/v1.vod",
+            "url":"http://app.2maz.cn/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/麻子追剧.png",
             "murl":"q:APP影视"
             },
