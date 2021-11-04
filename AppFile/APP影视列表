@@ -412,7 +412,7 @@
             },
             {
             "title":"蝶众影院",
-            "url":"http://app.diezz.net/api.php/v1.vod",
+            "url":"https://app.diezz.net/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/蝶众影院.png",
             "murl":"q:APP影视"
             },
@@ -442,13 +442,13 @@
             },
             {
             "title":"古德tv",
-            "url":"http://app131.153333.xyz/mogai_api.php/v1.vod",
+            "url":"https://app131.153333.xyz/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/古德tv.png",
             "murl":"q:APP影视"
             },
             {
             "title":"公主影视",
-            "url":"http://mm.tcsdchina.com:6096/mogai_api.php/v1.vod",
+            "url":"https://mm.tcsdchina.com:6096/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/公主影视.png",
             "murl":"q:APP影视"
             },
@@ -466,7 +466,7 @@
             },
             {
             "title":"哈尼视频",
-            "url":"http://www.videovips.top/api.php/v1.vod",
+            "url":"https://www.videovips.top/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/哈尼视频.png",
             "murl":"q:APP影视"
             },
@@ -550,7 +550,7 @@
             },
             {
             "title":"蓝猫影视",
-            "url":"http://tv.daidaitv.top:43800/api.php/v1.vod",
+            "url":"https://tv.daidaitv.top:43800/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/蓝猫影视.png",
             "murl":"q:APP影视"
             },
