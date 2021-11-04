@@ -676,7 +676,7 @@
             },
             {
             "title":"淘剧社",
-            "url":"http://app.shuhai99.com/api.php/v1.vod",
+            "url":"https://app.shuhai99.com/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/淘剧社.png",
             "murl":"q:APP影视"
             },
