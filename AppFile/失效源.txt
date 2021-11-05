@@ -117,12 +117,6 @@
             "murl":"q:APP影视"
             },
             {
-            "title":"公主影视",
-            "url":"https://mm.tcsdchina.com:6096/mogai_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/公主影视.png",
-            "murl":"q:APP影视"
-            },
-            {
             "title":"蝶众影院",
             "url":"https://app.diezz.net/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/蝶众影院.png",
