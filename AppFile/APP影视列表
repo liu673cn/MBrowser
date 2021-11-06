@@ -381,6 +381,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"锤子追剧",
+            "url":"http://www.jjsvip.cc/mogai_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/锤子追剧.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"多多影视",
             "url":"https://sp.9aeng.com/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/多多影视.png",
@@ -456,6 +462,12 @@
             "title":"黄河影视",
             "url":"http://i.ledu8.cn/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/黄河影视.png",
+            "murl":"q:APP影视"
+            },
+            {
+            "title":"黑马动漫",
+            "url":"http://lkan.vip/mogai_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/黑马动漫.png",
             "murl":"q:APP影视"
             },
             {
