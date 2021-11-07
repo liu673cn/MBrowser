@@ -417,6 +417,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"蝶众影院",
+            "url":"https://app.diezz.net/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/蝶众影院.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"二狗电影",
             "url":"http://app.hetaoys.vip/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/二狗电影.png",
@@ -558,6 +564,12 @@
             "title":"喵乐影视",
             "url":"http://miaoleys.com/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/喵乐影视.png",
+            "murl":"q:APP影视"
+            },
+            {
+            "title":"麻腾TV",
+            "url":"https://www.matengtv.top/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/麻腾TV.png",
             "murl":"q:APP影视"
             },
             {
@@ -732,6 +744,12 @@
             "title":"小蜻蜓",
             "url":"http://3ketv.com/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/小蜻蜓视频.png",
+            "murl":"q:APP影视"
+            },
+            {
+            "title":"休闲影视",
+            "url":"http://tv.78tv.cc/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/休闲影视.png",
             "murl":"q:APP影视"
             },
             {
