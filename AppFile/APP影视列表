@@ -1015,6 +1015,12 @@
             "murl":"q:TV影视"
             },
             {
+            "title":"水星TV",
+            "url":"http://tv.fkkdy.vip/api.php/iptv/vod/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/水星TV.png",
+            "murl":"q:TV影视"
+            },
+            {
             "title":"双子星",
             "url":"http://tv.diyoui.cc/api.php/iptv/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/双子星.png",
