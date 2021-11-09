@@ -333,6 +333,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"爱看美剧",
+            "url":"https://www.uumjw.com/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/爱看美剧.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"艾特影视",
             "url":"https://www.aitee.cc/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/艾特影视.png",
@@ -1012,12 +1018,6 @@
             "title":"冷月TV",
             "url":"https://tv.521x5.com/api.php/iptv/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/冷月TV.png",
-            "murl":"q:TV影视"
-            },
-            {
-            "title":"水星TV",
-            "url":"http://tv.fkkdy.vip/api.php/iptv/vod/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/水星TV.png",
             "murl":"q:TV影视"
             },
             {
