@@ -120,7 +120,7 @@ if(version==NewVersion&&sign==appSign&&name==appName){
         JSON.stringify(items);
     }
 }else{
-    e2Rex(index,".json(data).i(2)");
+    e2Rex(update,".json(data).i(2)");
 }
 ######APP影视首页图标判断
 var index=getVar("首页图标");
