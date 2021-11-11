@@ -4,31 +4,31 @@
     {
     "list":[
         {
-        "url":"q:APP?url=https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/",
+        "url":"q:APP?url=https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视列表",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/APP顶部.png"
         },
         {
-        "url":"q:豆瓣?url=",
+        "url":"q:豆瓣片库",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/豆瓣.png"
         },
         {
-        "url":"q:APP?url=https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/",
+        "url":"q:APP?url=https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视列表",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/APP中部.png"
         },
         {
-        "url":"q:片单?url=",
+        "url":"q:豆瓣片单",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/片单.png"
         },
         {
-        "url":"q:APP?url=https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/",
+        "url":"q:APP?url=https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视列表",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/APP底部.png"
         },
         {
-        "url":"q:榜单?url=",
+        "url":"q:豆瓣榜单",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/榜单.png"
         },
         {
-        "url":"q:搜狗?url=",
+        "url":"q:搜狗片库",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/搜狗.png"
         },
         {
@@ -46,6 +46,15 @@
         {
         "url":"mqqwpa://im/chat?chat_type=wpa&uin=272775028",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/反馈.png"
+        }
+    ]
+    },
+    {
+    "list":[
+        {
+        "title":"点击安装新版APP影视",
+        "url":"mapi:qm/https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/InMemory/APP影视.mqz",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/update.png"
         }
     ]
     }
@@ -111,7 +120,7 @@ if(version==NewVersion&&sign==appSign&&name==appName){
         JSON.stringify(items);
     }
 }else{
-    e2Rex(update,".json(data).json(list).i(1)");
+    e2Rex(index,".json(data).i(2)");
 }
 ######APP影视首页图标判断
 var index=getVar("首页图标");
