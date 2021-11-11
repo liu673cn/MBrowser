@@ -12,16 +12,16 @@
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/豆瓣.png"
         },
         {
-        "url":"mqqwpa://im/chat?chat_type=wpa&uin=272775028",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/反馈.png"
+        "url":"q:搜狗?url=",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/搜狗.png"
         },
         {
         "url":"q:片单?url=",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/片单.png"
         },
         {
-        "url":"q:搜狗?url=",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/搜狗.png"
+        "url":"mqqwpa://im/chat?chat_type=wpa&uin=272775028",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/反馈.png"
         },
         {
         "url":"q:榜单?url=",
