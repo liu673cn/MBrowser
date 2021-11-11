@@ -32,7 +32,7 @@
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/反馈.png"
         },
         {
-        "url":"https://waptv.sogou.com/napi/video/classlist?abtest=0&iploc=CN3502&spver=&listTab=分类&filter=&len=20&emcee=&fr=filter&style=类型&zone=地区&year=年份&fee=&order=排序&start=",
+        "url":"q:搜狗片库?url=https://waptv.sogou.com/napi/video/classlist?abtest=0&iploc=CN3502&spver=&listTab=分类&filter=&len=20&emcee=&fr=filter&style=类型&zone=地区&year=年份&fee=&order=排序&start=",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/搜狗.png"
         }
     ]
