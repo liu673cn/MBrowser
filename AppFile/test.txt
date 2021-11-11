@@ -110,7 +110,7 @@ if(version==NewVersion&&sign==appSign&&name==appName){
     update;
 }
 ######APP影视首页图标判断
-var index=getVar("版本更新");
+var index=getVar("首页图标");
 var NewVersion="20211016";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var appSign="d566171c6a64659aad784524c76ab569";
