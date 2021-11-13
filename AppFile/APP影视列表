@@ -423,6 +423,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"段友影视",
+            "url":"https://shangjihuoke.com/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/段友影视3.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"二狗电影",
             "url":"http://app.hetaoys.vip/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/二狗电影.png",
@@ -450,6 +456,12 @@
             "title":"疯狂看",
             "url":"http://app.fkkdy.vip/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/疯狂看电影.png",
+            "murl":"q:APP影视"
+            },
+            {
+            "title":"粉象动漫",
+            "url":"http://domanapi.baicai.buzz:20000/mogai_api.php/v1.vod/vodPhbAll",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/粉象动漫.png",
             "murl":"q:APP影视"
             },
             {
@@ -744,6 +756,12 @@
             "title":"星空影视",
             "url":"http://xiongkongwx.cn/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/星空影视.png",
+            "murl":"q:APP影视"
+            },
+            {
+            "title":"熊猫动漫",
+            "url":"http://dongman.k8aa.com/mogai_api.php/v1.vod/type",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/熊猫动漫.png",
             "murl":"q:APP影视"
             },
             {
