@@ -8,7 +8,7 @@
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/APP顶部.png"
         },
         {
-        "url":"q:豆瓣片库?url=https://frodo.douban.com/api/v2/movie/tag?apikey=0dad551ec0f84ed02907ff5c42e8ec70",
+        "url":"q:豆瓣片库",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/豆瓣.png"
         },
         {
@@ -16,7 +16,7 @@
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/APP中部.png"
         },
         {
-        "url":"q:豆瓣片单?url=https://frodo.douban.com/api/v2/skynet/new_playlists?apikey=0dad551ec0f84ed02907ff5c42e8ec70",
+        "url":"q:豆瓣片单",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/片单.png"
         },
         {
@@ -24,7 +24,7 @@
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/APP底部.png"
         },
         {
-        "url":"q:豆瓣榜单?url=https://frodo.douban.com/api/v2/subject_collection/分类/items?apikey=0dad551ec0f84ed02907ff5c42e8ec70",
+        "url":"q:豆瓣榜单",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/榜单.png"
         },
         {
@@ -562,13 +562,20 @@ var name=e2Rex("QVBQ5b2x6KeG5YiX6KGo",".t().dn64()");
 if(u.indexOf("搜狗")!=-1){
     "https://waptv.sogou.com/napi/video/classlist?abtest=0";
 }else if(u.indexOf("豆瓣片库")!=-1){
-    "&q=分类,地区,类型,年份,特色&sort=排序&score_range=0,10&start=";
+    "https://frodo.douban.com/api/v2/movie/tag?apikey=0dad551ec0f84ed02907ff5c42e8ec70";
 }else if(u.indexOf("豆瓣片单")!=-1){
-    "&category=分类&subject_type=类型&count=20&start=";
+    "https://frodo.douban.com/api/v2/skynet/new_playlists?apikey=0dad551ec0f84ed02907ff5c42e8ec70";
 }else if(u.indexOf("豆瓣榜单")!=-1){
-    "&count=20&start=";
+    "https://frodo.douban.com/api/v2/subject_collection/分类/items?apikey=0dad551ec0f84ed02907ff5c42e8ec70";
 }else{
     "https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/"+name;
 }
 ######other
+搜狗片库
 &iploc=CN3502&spver=&listTab=分类&filter=&len=20&emcee=&fr=filter&style=类型&zone=地区&year=年份&fee=&order=排序&start=
+豆瓣片库
+&q=分类,地区,类型,年份,特色&sort=排序&score_range=0,10&start=
+豆瓣片单
+&category=分类&subject_type=类型&count=20&start=
+豆瓣榜单
+&count=20&start=
