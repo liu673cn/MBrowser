@@ -459,12 +459,6 @@
             "murl":"q:APP影视"
             },
             {
-            "title":"粉象动漫",
-            "url":"http://domanapi.baicai.buzz:20000/mogai_api.php/v1.vod/vodPhbAll",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/粉象动漫.png",
-            "murl":"q:APP影视"
-            },
-            {
             "title":"公主影视",
             "url":"http://mm.tcsdchina.com:6096/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/公主影视.png",
