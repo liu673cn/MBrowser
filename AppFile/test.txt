@@ -566,7 +566,7 @@ if(u.indexOf("搜狗")!=-1){
 }else if(u.indexOf("豆瓣片单")!=-1){
     "https://frodo.douban.com/api/v2/skynet/new_playlists?apikey=0dad551ec0f84ed02907ff5c42e8ec70";
 }else if(u.indexOf("豆瓣榜单")!=-1){
-    "https://frodo.douban.com/api/v2/subject_collection/分类/items?apikey=0dad551ec0f84ed02907ff5c42e8ec70";
+    "https://frodo.douban.com/api/v2/subject_collection/items/";
 }else{
     "https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/"+name;
 }
