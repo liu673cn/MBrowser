@@ -1,12 +1,59 @@
-######APP影视安装地址
+######APP影视首页图标
 {
 "data":[
     {
-    "title":"更新界面",
     "list":[
         {
-        "title":"安装新版",
-        "murl":"mapi:qm/https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/InMemory/APP影视.mqz",
+        "url":"q:APP",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/APP顶部.png"
+        },
+        {
+        "url":"q:豆瓣片库",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/豆瓣.png"
+        },
+        {
+        "url":"q:APP",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/APP中部.png"
+        },
+        {
+        "url":"q:豆瓣片单",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/片单.png"
+        },
+        {
+        "url":"q:APP",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/APP底部.png"
+        },
+        {
+        "url":"q:豆瓣榜单",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/榜单.png"
+        },
+        {
+        "url":"https://7cc7cc.com/thread-902.htm",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/反馈.png"
+        },
+        {
+        "url":"q:搜狗片库",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/搜狗.png"
+        }
+    ]
+    },
+    {
+    "list":[
+        {
+        "url":"mapi:qm/https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/InMemory/APP影视.mqz",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/更新.png"
+        },
+        {
+        "url":"https://7cc7cc.com/thread-902.htm",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/反馈.png"
+        }
+    ]
+    },
+    {
+    "list":[
+        {
+        "title":"点击安装新版APP影视",
+        "url":"mapi:qm/https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/InMemory/APP影视.mqz",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/update.png"
         }
     ]
@@ -15,7 +62,7 @@
 }
 ######首页轮播图
 var update=getVar("版本更新");
-var NewVersion="20211016";
+var NewVersion="20211113";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
@@ -73,11 +120,11 @@ if(version==NewVersion&&sign==appSign&&name==appName){
         JSON.stringify(items);
     }
 }else{
-    update;
+    e2Rex(update,".json(data).i(2)");
 }
-######首页APP列表
-var update=getVar("版本更新");
-var NewVersion="20211016";
+######APP影视首页图标判断
+var index=getVar("首页图标");
+var NewVersion="20211113";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
@@ -85,15 +132,29 @@ var filename=e2Rex("QVBQ5b2x6KeG5YiX6KGo",".t().dn64()");
 var appName="APP影视";
 var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
-    getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/"+filename}));
+    e2Rex(index,".json(data).i(0)");
 }else{
-    alert("————更新内容————\n    ·修复搜索卡顿问题\n    ·其它细节修修补补\n\n—————声明—————\n    ·本轻站仅限学习交流使用，请于导入后24小时内删除，任何组织或个人不得以任何方式方法传播此规则的整体或部分。\n    ·数据来源于网络，如喜欢，请支持官方APP；APP接口本身无收费，切勿用于任何有关于交易的行为。\n    ·请勿相信任何广告，涉及人身财产安全问题请理智对待。\n    ·如接口侵权请联系删除。\n    ·因技术有限，更新修复视情况而定，使用中如有问题请通过M浏览器官方群反馈。\n    ·特别感谢广大侠的代码支持。\n\n———by:InMemory———")
-    "";
+    alert("————更新内容————\n    ·首页更新(木白大佬提供的图标)\n\n—————声明—————\n    ·本轻站仅限学习交流使用，请于导入后24小时内删除，任何组织或个人不得以任何方式方法传播此规则的整体或部分。\n    ·数据来源于网络，如喜欢，请支持官方APP；APP接口本身无收费，切勿用于任何有关于交易的行为。\n    ·请勿相信任何广告，涉及人身财产安全问题请理智对待。\n    ·如接口侵权请联系删除。\n    ·因技术有限，更新修复视情况而定，使用中如有问题请通过M浏览器官方群或轻创社区反馈。\n    ·特别感谢广大侠的代码支持以及木白的首页图标。")
+    e2Rex(index,".json(data).i(1)");
+}
+######搜狗/豆瓣系列
+var u=getVar("url");
+var name=e2Rex("QVBQ5b2x6KeG5YiX6KGo",".t().dn64()");
+if(u.indexOf("搜狗")!=-1){
+    "https://waptv.sogou.com/napi/video/classlist?abtest=0";
+}else if(u.indexOf("豆瓣片库")!=-1){
+    "https://frodo.douban.com/api/v2/movie/tag?apikey=0dad551ec0f84ed02907ff5c42e8ec70";
+}else if(u.indexOf("豆瓣片单")!=-1){
+    "https://frodo.douban.com/api/v2/skynet/new_playlists?apikey=0dad551ec0f84ed02907ff5c42e8ec70";
+}else if(u.indexOf("豆瓣榜单")!=-1){
+    "https://frodo.douban.com/api/v2/subject_collection/";
+}else{
+    "https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/"+name;
 }
 ######重组搜索
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
-var NewVersion="20211016";
+var NewVersion="20211113";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var filename=e2Rex("QVBQ5b2x6KeG5YiX6KGo",".t().dn64()");
 var KEY=getVar("KEY");
@@ -144,6 +205,9 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
     "Dart/2.13 (dart:io)";
 }else if(URL.indexOf(".vod")!=-1){
     "okhttp/4.1.0";
+}else if(URL.indexOf("豆瓣")!=-1){
+    "Rexxar-Core/0.1.3 api-client/1 com.douban.frodo/6.36.0(186) Android/23 product/cancro vendor/HUAWEI model/Mate 10 rom/android network/wifi platform/mobile com.douban.frodo/6.36.0(186) Rexxar/1.2.151 platform/mobile 1.2.151";
+}else if(URL.indexOf("sougou.com")!=-1){
 }else{
     "Dalvik/2.1.0";
 }
@@ -154,6 +218,8 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
     "";
 }else if(URL.indexOf(".vod")!=-1){
     "";
+}else if(URL.indexOf("豆瓣")!=-1){
+    "host=frodo.douban.com&accept=*/*";
 }else{
     "";
 }
@@ -164,6 +230,8 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
     "";
 }else if(URL.indexOf(".vod")!=-1){
     "";
+}else if(URL.indexOf("搜狗")!=-1){
+    "ABTEST=3|1615358299|v1; IPLOC=CN4403; SUV=00F0551665E97E5C6048695B5B6E5290; VIDEO_DEBUG=off";
 }else{
     "";
 }
@@ -193,6 +261,8 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
     }else{
         URL+"?type=";
     }
+}else if(URL.indexOf("豆瓣片单")!=-1){
+    "https://frodo.douban.com/api/v2/subject_collection/";
 }else{
     URL;
 }
@@ -203,6 +273,8 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
     "&class=类型&area=地区&lang=语种&year=年份&limit=10&pg=#PN#";
 }else if(URL.indexOf(".vod")!=-1){
     "&class=类型&area=地区&lang=语种&year=年份&by=排序&limit=9&page=#PN#";
+}else if(URL.indexOf("豆瓣片单")!=-1){
+    "/items?apikey=0dad551ec0f84ed02907ff5c42e8ec70&start=#PN#&count=20&items_only=0";
 }else{
     "";
 }
@@ -213,6 +285,14 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
     "类型+全部=+喜剧+爱情+恐怖+动作+科幻+剧情+战争+警匪+犯罪+动画+奇幻+武侠+冒险+枪战+恐怖+悬疑+惊悚+经典+青春+文艺+微电影+古装+历史+运动+农村+惊悚+伦理+情色+福利+惊悚+儿童+网络电影\n地区+全部=+内地+香港+台湾+美国+英国+法国+日本+韩国+德国+泰国+印度+西班牙+加拿大+其他\n语种+全部=+国语+英语+粤语+闽南语+韩语+日语+法语+德语+其他\n年份+全部=+2021+2020+2019+2018+2017+2016+2015+2014+2013+2012+2011+2010+2009+2008+2007+2006+2005+2004+2003+2002+2001+2000";
 }else if(URL.indexOf(".vod")!=-1){
     "类型+全部=+喜剧+爱情+恐怖+动作+科幻+剧情+战争+警匪+犯罪+动画+奇幻+武侠+冒险+枪战+恐怖+悬疑+惊悚+经典+青春+文艺+微电影+古装+历史+运动+农村+惊悚+伦理+情色+福利+惊悚+儿童+网络电影\n地区+全部=+内地+香港+台湾+美国+英国+法国+日本+韩国+德国+泰国+印度+西班牙+加拿大+其他\n语种+全部=+国语+英语+粤语+闽南语+韩语+日语+法语+德语+其他\n年份+全部=+2021+2020+2019+2018+2017+2016+2015+2014+2013+2012+2011+2010+2009+2008+2007+2006+2005+2004+2003+2002+2001+2000\n排序+全部=+最新=time+最热=hits+评分=score";
+}else if(URL.indexOf("搜狗片库")!=-1){
+    "分类+全部=+电影=film+连续剧=teleplay+综艺=tvshow+动漫=cartoon+纪录片=documentary\n类型+全部=+古装=古装+剧情=剧情+喜剧=喜剧+爱情=爱情+动作=动作+恐怖=恐怖+科幻=科幻+警匪=警匪+惊悚=惊悚+犯罪=犯罪+奇幻=奇幻+战争=战争+悬疑=悬疑+动画=动画+文艺=文艺+传记=传记+歌舞=歌舞+其它=其它\n地区+全部=+内地=内地+香港=香港+台湾=台湾+韩国=韩国+泰国=泰国+日本=日本+美国=美国+英国=英国+新加坡=新加坡+其他=其他\n年份+全部=+2021=2021+2020=2020+2019=2019+2018=2018+2017=2017+2016=2016+2015=2015+2014=2014+2013=2013+2012=2012+2011=2011+2010=2010+2009=2009+2008=2008+2007=2007+2006=2006+2005=2005+2004=2004+更早=更早\n排序+最新=time+热门=hits+评分=score";
+}else if(URL.indexOf("豆瓣片库")!=-1){
+    "分类+全部=+电影+电视剧+综艺+动漫+纪录片+短片+冷门\n类型+全部=+剧情+喜剧+动作+爱情+科幻+动画+悬疑+惊悚+恐怖+犯罪+同性+音乐+歌舞+传记+历史+战争+西部+奇幻+冒险+灾难+武侠+情色\n地区+全部=+中国大陆+欧美+美国+中国香港+中国台湾+日本+韩国+英国+法国+德国+意大利+西班牙+印度+泰国+俄罗斯+伊朗+加拿大+澳大利亚+爱尔兰+瑞典+巴西+丹麦\n年份+全部=+2021+2020+2019+2018+2017+2016+2015+2014+2013+2012+2011+2010年代+2000年代+90年代+80年代+70年代+60年代+更早\n特色+全部=+经典+青春+文艺+搞笑+励志+魔幻+感人+女性+黑帮+黑客+治愈+美食+宗教+小说改编+超级英雄\n排序+默认=U+热度=T+评分=S+最新=R";
+}else if(URL.indexOf("豆瓣片单")!=-1){
+    "分类+全部=all+片单=official+获奖=prize+高分=high_score+榜单=movie_list+冷门佳片=dark_horse+主题=topic+导演=director+演员=actor+系列=series+华语=chinese+欧美=western+日本=japanese\n类型+全部=+电影=movie+连续剧=tv";
+}else if(URL.indexOf("豆瓣榜单")!=-1){
+    "分类+电影=movie_real_time_hotest+电视剧=tv_real_time_hotest+口碑=movie_weekly_best+top250=movie_top250";
 }else{
     "分类+电影=movie+连续剧=tvplay+综艺=tvshow+动漫=comic+4K=movie_4k+体育=tiyu\n类型+全部=+喜剧+爱情+恐怖+动作+科幻+剧情+战争+警匪+犯罪+动画+奇幻+武侠+冒险+枪战+恐怖+悬疑+惊悚+经典+青春+文艺+微电影+古装+历史+运动+农村+惊悚+惊悚+伦理+情色+福利+儿童+网络电影\n地区+全部=+大陆+香港+台湾+美国+英国+法国+日本+韩国+德国+泰国+印度+西班牙+加拿大+其他\n年份+全部=+2021+2020+2019+2018+2017+2016+2015+2014+2013+2012+2011+2010+2009+2008+2007+2006+2005+2004+2003+2002+2001+2000";
 }
