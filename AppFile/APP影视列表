@@ -208,6 +208,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"神马影院",
+        "url":"https://www.6080kan.cc/xgapp.php/v1/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/神马影院.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"双十电影",
         "url":"http://www.shoujikandianying.com/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/双十电影.png",
