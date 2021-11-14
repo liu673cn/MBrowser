@@ -52,7 +52,7 @@
     {
     "list":[
         {
-        "title":"点击安装新版APP影视",
+        "title":"请安装新版APP影视",
         "url":"mapi:qm/https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/InMemory/APP影视.mqz",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/update.png"
         }
@@ -206,7 +206,6 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
     "okhttp/4.1.0";
 }else if(URL.indexOf("豆瓣")!=-1){
     "Rexxar-Core/0.1.3 api-client/1 com.douban.frodo/6.36.0(186) Android/23 product/cancro vendor/HUAWEI model/Mate 10 rom/android network/wifi platform/mobile com.douban.frodo/6.36.0(186) Rexxar/1.2.151 platform/mobile 1.2.151";
-}else if(URL.indexOf("sougou.com")!=-1){
 }else{
     "Dalvik/2.1.0";
 }
