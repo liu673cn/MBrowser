@@ -4,12 +4,6 @@
         "title":"APP影视(xiaogui)",
         "list":[
             {
-            "title":"氢视频",
-            "url":"http://h1080p.c/api.php/app/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/氢视频.png",
-            "murl":"q:APP影视"
-            },
-            {
             "title":"江湖影视",
             "url":"http://app.jhdyw.vip:1234/api.php/app/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/江湖影视.png",
