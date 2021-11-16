@@ -501,6 +501,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"黑马影视",
+        "url":"http://www.lkan.vip/mogai_api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/黑马影视.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"盒子影院",
         "url":"http://i.nihaohezi.com/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/盒子影院.png",
