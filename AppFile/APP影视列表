@@ -927,7 +927,7 @@
     "list":[
         {
         "title":"555TV",
-        "url":"http://gxhshyy.com/api.php/gctvapi.vod",
+        "url":"http://tv.gxhshyy.com/api.php/gctvapi.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/555TV.png",
         "murl":"q:APP影视"
         },
