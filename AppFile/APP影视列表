@@ -101,7 +101,7 @@
         },
         {
         "title":"瓜皮TV",
-        "url":"http://www.dijiaxia.com/xgapp.php/v1/",
+        "url":"http://www.dijiaxia.com/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/瓜皮TV.png",
         "murl":"q:APP影视"
         },
