@@ -310,7 +310,7 @@
         },
         {
         "title":"CJT影院",
-        "url":"https://www.cjt521.com/api.php/v1.vod",
+        "url":"http://cjt521.com/ruifenglb_api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/CJT影院.png",
         "murl":"q:APP影视"
         },
