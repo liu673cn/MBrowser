@@ -28,12 +28,6 @@
         "murl":"q:APP影视"
         },
         {
-        "title":"BD电影",
-        "url":"https://www.bddysf.org/api.php/app/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/BD电影.png",
-        "murl":"q:APP影视"
-        },
-        {
         "title":"COKEMV",
         "url":"https://cokemv.me/xgapp.php/v1/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/COKEMV.png",
@@ -91,12 +85,6 @@
         "title":"大师兄",
         "url":"https://hou.lu/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/大师兄影视.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"大熊影视",
-        "url":"https://www.dxys88.com/xgapp.php/v1/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/大熊追剧.png",
         "murl":"q:APP影视"
         },
         {
@@ -241,12 +229,6 @@
         "title":"污妖动漫",
         "url":"https://www.wyydm.com/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/污妖动漫.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"小龟视频",
-        "url":"http://kyyt.xyz:88/api.php/app/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/小龟视频.png",
         "murl":"q:APP影视"
         },
         {
