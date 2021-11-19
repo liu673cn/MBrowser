@@ -613,3 +613,4 @@ if(地址.indexOf(".vod")!=-1){
     }
     "?ac=list&"+word+"="+KEY+"&page=";
 }
+alert(地址)
