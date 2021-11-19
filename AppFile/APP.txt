@@ -324,7 +324,6 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
     "";
 }
 ######搜索播放器前缀地址
-var URLS=getVar("urls");
 var URLS=getVar("url");
 if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp.php/v1")!=-1){
     if(URLS.indexOf("fantuan.tv")!=-1){
