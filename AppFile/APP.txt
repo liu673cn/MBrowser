@@ -139,6 +139,7 @@ if(version==NewVersion&&sign==appSign&&name==appName){
 }
 ######搜狗/豆瓣系列
 var u=getVar("url");
+var filename=e2Rex("QVBQ5b2x6KeG5YiX6KGo",".t().dn64()");
 if(u.indexOf("搜狗")!=-1){
     "https://waptv.sogou.com/napi/video/classlist?abtest=0";
 }else if(u.indexOf("豆瓣片库")!=-1){
@@ -148,7 +149,7 @@ if(u.indexOf("搜狗")!=-1){
 }else if(u.indexOf("豆瓣榜单")!=-1){
     "https://frodo.douban.com/api/v2/subject_collection/";
 }else{
-    "https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视列表";
+    getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/"+filename}));
 }
 ######批量搜索
 var appSign="d566171c6a64659aad784524c76ab569";
