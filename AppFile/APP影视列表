@@ -669,6 +669,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"土豆TV",
+        "url":"http://xiuxian.qd234.cn/mogai_api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/土豆TV.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"淘剧社",
         "url":"https://app.shuhai99.com/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/淘剧社.png",
@@ -768,6 +774,12 @@
         "title":"小蜻蜓",
         "url":"http://3ketv.com/mogai_api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/小蜻蜓视频.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"雪人资源",
+        "url":"https://zy.qd234.cn/mogai_api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/雪人资源站.png",
         "murl":"q:APP影视"
         },
         {
