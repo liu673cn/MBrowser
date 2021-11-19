@@ -594,7 +594,7 @@ if(version==NewVersion&&sign==appSign&&name==appName){
 }else{
     e2Rex(update,".json(data).i(1)");;
 }
-######单一搜索-搜索地址
+######单一搜索搜索地址
 var code=getVar("CODE");
 var 地址=e2Rex(code,".json(url)");
 if(地址.indexOf(".vod")!=-1){
@@ -613,4 +613,3 @@ if(地址.indexOf(".vod")!=-1){
     }
     "?ac=list&"+word+"="+KEY+"&page=";
 }
-alert(地址)
