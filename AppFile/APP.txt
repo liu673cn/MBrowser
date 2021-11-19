@@ -613,3 +613,25 @@ if(地址.indexOf(".vod")!=-1){
     }
     "?ac=list&"+word+"="+KEY+"&page=";
 }
+######单一搜索播放器前缀地址
+var URLS=getVar("url");
+if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp.php/v1")!=-1){
+    if(URLS.indexOf("fantuan.tv")!=-1){
+        var URL=URLS.split("search?")[0];
+        var URL="https://fantuan.wkfile.com/api.php/app/";
+        URL+"video_detail?id=";
+    }else{
+        var URL=URLS.split("search?")[0];
+        URL+"video_detail?id="; 
+    }
+}else if(URLS.indexOf(".vod")!=-1){
+    if(URLS.indexOf("iopenyun")!=-1){
+        var URL=URLS.split("/list?")[0];
+        URL+"/detailID?vod_id=";
+    }else{
+        var URL=URLS.split("?wd=")[0];
+        URL+"/detail?vod_id=";
+    }
+}else{
+    "";
+}
