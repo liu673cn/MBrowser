@@ -151,7 +151,6 @@ if(u.indexOf("搜狗")!=-1){
     "https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视列表";
 }
 ######批量搜索
-var update=getVar("版本更新");
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
 var NewVersion="20211113";
@@ -196,7 +195,7 @@ if(version==NewVersion&&sign==appSign&&name==appName){
     }
     JSON.stringify(res);
 }else{
-    e2Rex(update,".json(data).i(1)");
+    "";
 }
 ######UA
 var code=getVar("CODE");
@@ -591,7 +590,7 @@ var KEY=getVar("KEY");
 var appName="APP影视";
 var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
-    var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/"+filename}));
+    getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/"+filename}));
 }else{
     e2Rex(update,".json(data).i(1)");;
 }
