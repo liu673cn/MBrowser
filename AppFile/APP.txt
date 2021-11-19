@@ -151,6 +151,7 @@ if(u.indexOf("搜狗")!=-1){
     "https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视列表";
 }
 ######重组搜索
+var update=getVar("版本更新");
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
 var NewVersion="20211113";
@@ -170,6 +171,7 @@ if(version==NewVersion&&sign==appSign&&name==appName){
         for(var i=0;i<列表.length;i++){
             var 标题=e2Rex(列表[i],".json(title)");
             var 地址=e2Rex(列表[i],".json(url)");
+            var 图片=e2Rex(列表[i],".json(img)");
             if(地址.indexOf(".vod")!=-1){
                 if(地址.indexOf("iopenyun.com")!=-1){
                     var 地址=地址+"/list?wd="+KEY+"&page=";
@@ -195,7 +197,7 @@ if(version==NewVersion&&sign==appSign&&name==appName){
     }
     JSON.stringify(res);
 }else{
-    "";
+    update;
 }
 ######UA
 var code=getVar("CODE");
