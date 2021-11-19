@@ -593,7 +593,7 @@ var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
     getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/"+filename}));
 }else{
-    e2Rex(update,".all().i(1)");;
+    e2Rex(update,".all().i(1)");
 }
 ######单一搜索搜索地址
 var 地址=getVar("url");
