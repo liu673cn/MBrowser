@@ -405,6 +405,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"大熊影视",
+        "url":"https://dxys3355.com/mogai_api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/大熊影视v1.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"段友影视",
         "url":"http://js.66app.me/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/段友影视2.png",
