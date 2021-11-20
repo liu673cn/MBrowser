@@ -45,6 +45,12 @@
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/COKEMV.png",
         "murl":"q:APP影视"
         },
+        {
+        "title":"大熊影视",
+        "url":"https://dxys3355.com/api.php/app/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/大熊影视.png",
+        "murl":"q:APP影视"
+        },
         ]
         },
         {
