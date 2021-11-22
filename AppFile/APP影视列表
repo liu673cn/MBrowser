@@ -184,6 +184,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"皮皮影视",
+        "url":"http://pp.ig4.cn/xgapp.php/v1/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/皮皮影视.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"氢视频",
         "url":"http://h1080p.com/xgapp.php/v1/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/氢视频.png",
