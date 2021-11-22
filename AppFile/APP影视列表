@@ -40,6 +40,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"vip影院",
+        "url":"http://360yy.cn/xgapp.php/v1/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/VIP影院xg.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"爱尚影视",
         "url":"https://www.aisvod.tv/xgapp.php/v1/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/爱尚影视.png",
@@ -211,12 +217,6 @@
         "title":"双十电影",
         "url":"http://www.shoujikandianying.com/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/双十电影.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"天方影视",
-        "url":"http://360yy.cn/api.php/app/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/天方影视.png",
         "murl":"q:APP影视"
         },
         {
