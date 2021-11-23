@@ -279,6 +279,12 @@
     "title":"APP影视(v1)",
     "list":[
         {
+        "title":"720看片",
+        "url":"https://tvd.720kp.cn/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/720看片.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"80影视",
         "url":"http://www.ccc8.net/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/80影视.png",
@@ -947,6 +953,12 @@
         "title":"555TV",
         "url":"http://tv.gxhshyy.com/api.php/gctvapi.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/555TV.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"720看片",
+        "url":"https://tvd.720kp.cn/api.php/tv.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/720看片TV.png",
         "murl":"q:APP影视"
         },
         {
