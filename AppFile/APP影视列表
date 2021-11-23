@@ -950,9 +950,21 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"段友影视",
+        "url":"https://shangjihuoke.com/api.php/tv.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/段友影视TV.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"红牛影视",
         "url":"http://cmm.218rcw.cn/api.php/gctvapi.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/红牛影视.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"可米影视",
+        "url":"http://www.kmysw.vip/api.php/tv.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/可米影视.png",
         "murl":"q:APP影视"
         }
     ]
