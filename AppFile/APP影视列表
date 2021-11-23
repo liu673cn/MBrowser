@@ -960,6 +960,12 @@
         "url":"http://www.kmysw.vip/api.php/tv.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/可米影视.png",
         "murl":"q:APP影视"
+        },
+        {
+        "title":"奈非迷TV",
+        "url":"https://app.netflixmi.com/api.php/tv.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/奈非迷TV.png",
+        "murl":"q:APP影视"
         }
     ]
     },
