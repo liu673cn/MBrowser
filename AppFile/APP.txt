@@ -402,7 +402,7 @@ function 选集列表(){
         for(var j=0;j<列表.length;j++){
             var 选集=e2Rex(列表[j],选集规则);
             var 选集地址=e2Rex(列表[j],选集地址规则);
-            if(URL.indexOf("xgapp.php/v1/")!=-1||URL.indexOf("api.php/app/")!=-1||URL.search(/api\.php\/.+?\.vod/)!=-1){
+            if(URL.indexOf("xgapp.php/v1/")!=-1||URL.indexOf("api.php/app/")!=-1||URL.indexOf(".vod")!=-1){
                 if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15||选集地址.indexOf("/obj/tos")!=-1){
                     var 选集地址="https://www.baidu.com/s?wd="+选集地址;
                 }else{
@@ -429,7 +429,10 @@ function 选集列表(){
                         var 选集地址="https://www.baidu.com/s?wd=https://vip123kan.vip/m3u8.php?url="+切割地址;
                     }
                 }else{
-                    if(选集地址.indexOf("www.bilibili.com")!=-1){
+                    if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15||选集地址.indexOf("/obj/tos")!=-1){
+                        var 切割地址=选集地址.split("url=")[1];
+                        var 选集地址="https://www.baidu.com/s?wd="+切割地址;
+                    }else if(选集地址.indexOf("www.bilibili.com")!=-1){
                         var 切割地址=选集地址.split("url=")[1];
                         var 选集地址="https://www.baidu.com/s?wd=https://jx.parwix.com:4433/player/?url="+切割地址;
                     }else{
