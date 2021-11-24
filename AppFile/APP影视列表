@@ -298,7 +298,7 @@
         },
         {
         "title":"CJT影院",
-        "url":"https://www.cjt521.com/api.php/v1.vod",
+        "url":"http://cjt521.com/ruifenglb_api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/CJT影院.png",
         "murl":"q:APP影视"
         },
@@ -717,9 +717,9 @@
         "murl":"q:APP影视"
         },
         {
-        "title":"天天影视",
-        "url":"https://www.tiantianys8.com/api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/天天影视1.png",
+        "title":"天天视频",
+        "url":"http://app.qianju.cc/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/天天视频.png",
         "murl":"q:APP影视"
         },
         {
@@ -912,12 +912,6 @@
         "title":"追番猫",
         "url":"http://dm.496dy.cn:88/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/追番猫.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"追剧影院",
-        "url":"https://www.4kvv.cn/api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/追剧影院1.png",
         "murl":"q:APP影视"
         },
         {
