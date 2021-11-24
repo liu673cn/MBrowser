@@ -327,9 +327,9 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
 ######搜索播放器前缀地址
 var URLS=getVar("urls");
 if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp.php/v1")!=-1){
-    if(URLS.indexOf("fantuan.tv")!=-1){
+    if(URLS.indexOf("dijiaxia")!=-1){
         var URL=URLS.split("search?")[0];
-        var URL="https://fantuan.wkfile.com/api.php/app/";
+        var URL="http://www.dijiaxia.com/api.php/app/";
         URL+"video_detail?id=";
     }else{
         var URL=URLS.split("search?")[0];
@@ -626,9 +626,9 @@ if(地址.indexOf(".vod")!=-1){
 ######单一搜索播放器前缀地址
 var URLS=getVar("url");
 if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp.php/v1")!=-1){
-    if(URLS.indexOf("fantuan.tv")!=-1){
+    if(URLS.indexOf("dijiaxia")!=-1){
         var URL=URLS.split("search?")[0];
-        var URL="https://fantuan.wkfile.com/api.php/app/";
+        var URL="http://www.dijiaxia.com/api.php/app/";
         URL+"video_detail?id=";
     }else{
         var URL=URLS.split("search?")[0];
