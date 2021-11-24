@@ -248,8 +248,8 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
-    if(URL.indexOf("fantuan.tv")!=-1){
-        var URL="https://fantuan.wkfile.com/api.php/app/";
+    if(URL.indexOf("dijiaxia")!=-1){
+        var URL="http://www.dijiaxia.com/api.php/app/";
         URL+"video?tid=";
     }else{
         URL+"video?tid=";
@@ -309,8 +309,8 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
-    if(URL.indexOf("fantuan.tv")!=-1){
-        var URL="https://fantuan.wkfile.com/api.php/app/";
+    if(URL.indexOf("dijiaxia")!=-1){
+        var URL="http://www.dijiaxia.com/api.php/app/";
         URL+"video_detail?id=";
     }else{
         URL+"video_detail?id=";
