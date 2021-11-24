@@ -369,6 +369,10 @@
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/icon/唐牛才是食神.png",
         "list":[
         {
+        "name":"拷贝漫画",
+        "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/唐牛才是食神/拷贝漫画.mqz"
+        },
+        {
         "name":"百漫谷吧",
         "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/唐牛才是食神/百漫谷吧.mqz"
         },
