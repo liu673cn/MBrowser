@@ -197,7 +197,7 @@
         },
         {
         "title":"氢视频",
-        "url":"http://h1080p.com/xgapp.php/v1/",
+        "url":"http://h1080p.com/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/氢视频.png",
         "murl":"q:APP影视"
         },
