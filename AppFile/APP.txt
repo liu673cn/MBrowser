@@ -379,6 +379,8 @@ function 选集列表(){
                 var 接口="http://vip.mengx.vip/home/api?type=ys&uid=3249696&key=aefqrtuwxyEFHKNOQY&url=";
             }else if(接口.indexOf("cokemv")!=-1){
                 var 接口="https://player.90mm.me/play.php?url=";
+            }else if(接口.indexOf("vip.byteamone.cn")!=-1){
+                var 接口="https://vip.xfyun.cc/home/api?type=ys&uid=207276&key=cgmqruvwCGPQRTUVW5&url=";
             }else{
                 var 接口=接口;
             }
