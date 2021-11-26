@@ -148,12 +148,6 @@
         "murl":"q:APP影视"
         },
         {
-        "title":"蓝果影视",
-        "url":"http://www.languotv.com/xgapp.php/v1/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/蓝果影视.png",
-        "murl":"q:APP影视"
-        },
-        {
         "title":"灵狐影视",
         "url":"http://x.dmntv.com/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/灵狐影视.png",
@@ -217,12 +211,6 @@
         "title":"双十电影",
         "url":"http://www.shoujikandianying.com/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/双十电影.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"天空影视",
-        "url":"https://www.tkys.tv/api.php/app/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/天空影视.png",
         "murl":"q:APP影视"
         },
         {

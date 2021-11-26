@@ -50,7 +50,19 @@
         "url":"https://dxys3355.com/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/大熊影视.png",
         "murl":"q:APP影视"
-        }
+        },
+        {
+        "title":"天空影视",
+        "url":"https://www.tkys.tv/api.php/app/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/天空影视.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"蓝果影视",
+        "url":"http://www.languotv.com/xgapp.php/v1/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/蓝果影视.png",
+        "murl":"q:APP影视"
+        },
     ]
     },
     {
