@@ -241,7 +241,13 @@
         "url":"https://www.4kvv.cn/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/追剧影院1.png",
         "murl":"q:APP影视"
-        }
+        },
+        {
+        "title":"饭后电影",
+        "url":"http://ljr666.com/ruifenglb_api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/饭后电影.png",
+        "murl":"q:APP影视"
+        },
     ]
     },
     {
