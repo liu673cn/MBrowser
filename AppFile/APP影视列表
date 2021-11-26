@@ -549,6 +549,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"快云影音",
+        "url":"https://k.ptygx.com/mogai_api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/快云影音.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"蓝光视频",
         "url":"http://vip.91iqiyi.com/mogai_api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/蓝光视频.png",
