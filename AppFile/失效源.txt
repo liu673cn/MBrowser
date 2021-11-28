@@ -213,12 +213,6 @@
         "murl":"q:APP影视"
         },
         {
-        "title":"宅男影院",
-        "url":"https://www.znyy666.top/api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/宅男影院.png",
-        "murl":"q:APP影视"
-        },
-        {
         "title":"命运影视",
         "url":"https://www.52gmsy.top/mogai_api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/命运影视.png",
