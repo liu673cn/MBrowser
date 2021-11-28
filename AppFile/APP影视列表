@@ -346,7 +346,7 @@
         },
         {
         "title":"阿姨追剧",
-        "url":"http://www.ayzhuiju.com/ruifenglb_api.php/v1.vod",
+        "url":"https://www.ayzhuiju.com/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/阿姨追剧2.png",
         "murl":"q:APP影视"
         },
