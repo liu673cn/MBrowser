@@ -166,6 +166,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"看365",
+        "url":"https://www.kan365.xyz/api.php/app/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/Air视频.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"灵狐影视",
         "url":"http://x.dmntv.com/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/灵狐影视.png",
@@ -558,12 +564,6 @@
         "title":"橘子影视",
         "url":"http://jz.juzidy.vip/mogai_api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/橘子影视.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"看365",
-        "url":"https://www.kan365.xyz/api.php/app/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/Air视频.png",
         "murl":"q:APP影视"
         },
         {
