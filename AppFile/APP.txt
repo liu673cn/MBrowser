@@ -238,7 +238,11 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
-    URL+"nav?token=";
+    if(URL.indexOf("")!=-1){
+        URL+"nav?token&=csrf=Nm+DAUZbZ7XzVF/9n18rm0LjMWZL5xISjtkox55/4fD1GwEeUulTmlRqkCyyybp3MsUPChnQO9KbXaipI1lrR9r9b8uLrlqE/wV+qYriBjTVaqobn0xGIlGkW0xE1sAsrzLo06vmGCzkRAcajWaxV2Fje9oyLZVvJ0fPKTHAedw=";
+    }else{
+        URL+"nav?token=";
+    }
 }else if(URL.indexOf(".vod")!=-1){
     URL+"/types";
 }else{
