@@ -633,6 +633,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"麻瓜视频",
+        "url":"http://aliyun.k8aa.com/mogai_api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/麻瓜视频1.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"木白影视",
         "url":"http://vapp.23at.cn/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/木白影视.png",
