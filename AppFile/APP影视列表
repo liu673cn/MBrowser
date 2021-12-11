@@ -88,6 +88,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"嘀哩嘀哩",
+        "url":"http://dilidili.la/api.php/app/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/嘀哩嘀哩xg.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"大师兄",
         "url":"https://hou.lu/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/大师兄影视.png",
