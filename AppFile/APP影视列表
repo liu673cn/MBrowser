@@ -208,6 +208,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"漫岛",
+        "url":"http://a.mdaotv.cn/api.php/app/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/漫岛.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"萌蛋蛋",
         "url":"http://app.mengdandan.com/xgapp.php/v1/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/萌蛋蛋.png",
