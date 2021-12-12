@@ -639,6 +639,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"免费看",
+        "url":"https://freekan.vip/mogai_api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/免费看影视.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"麻瓜视频",
         "url":"http://aliyun.k8aa.com/mogai_api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/麻瓜视频1.png",
@@ -1240,6 +1246,12 @@
         "title":"冷月TV",
         "url":"https://tv.521x5.com/api.php/iptv/vod/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/冷月TV.png",
+        "murl":"q:TV影视"
+        },
+        {
+        "title":"免费看TV",
+        "url":"http://www.freekan.vip/api.php/iptv/vod/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/免费看TV.png",
         "murl":"q:TV影视"
         },
         {
