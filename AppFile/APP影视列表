@@ -639,6 +639,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"名影视",
+        "url":"http://app.qqccv.com/mogai_api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/名影视.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"免费看",
         "url":"https://freekan.vip/mogai_api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/免费看影视.png",
