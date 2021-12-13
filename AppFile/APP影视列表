@@ -645,9 +645,9 @@
         "murl":"q:APP影视"
         },
         {
-        "title":"名视影",
-        "url":"http://app.qqccv.com/mogai_api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/名视影.png",
+        "title":"木白影视",
+        "url":"http://vapp.23at.cn/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/木白影视.png",
         "murl":"q:APP影视"
         },
         {
@@ -663,12 +663,6 @@
         "murl":"q:APP影视"
         },
         {
-        "title":"木白影视",
-        "url":"http://vapp.23at.cn/api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/木白影视.png",
-        "murl":"q:APP影视"
-        },
-        {
         "title":"美剧虫",
         "url":"https://meijuchong.com/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/美剧虫.png",
@@ -678,6 +672,18 @@
         "title":"喵乐影视",
         "url":"http://miaoleys.com/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/喵乐影视.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"名视影",
+        "url":"http://app.qqccv.com/mogai_api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/名视影.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"美剧范",
+        "url":"http://ttzmz.net/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/美剧范.png",
         "murl":"q:APP影视"
         },
         {
