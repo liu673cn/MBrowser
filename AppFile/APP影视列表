@@ -142,6 +142,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"环球影视",
+        "url":"https://hqystv.com/api.php/app/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/环球影视.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"海棠视频",
         "url":"https://www.haitangsp.net/xgapp.php/v1/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/海棠视频.png",
