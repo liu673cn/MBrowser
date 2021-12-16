@@ -483,6 +483,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"豆渣影视",
+        "url":"http://douzhayss.cc/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/豆渣影视.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"二狗电影",
         "url":"http://app.hetaoys.vip/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/二狗电影.png",
