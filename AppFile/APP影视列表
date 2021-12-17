@@ -579,6 +579,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"极光影院",
+        "url":"http://app.winxz.cc/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/极光影院.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"极简影视",
         "url":"https://tv.areone.top/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/极简影视.png",
