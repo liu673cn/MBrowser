@@ -75,6 +75,12 @@
     "title":"APP影视(v1)",
     "list":[
         {
+        "title":"宅男影院",
+        "url":"https://www.znyy666.top/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/宅男影院.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"蜗牛看鸭",
         "url":"http://movie.96keji.cn/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/蜗牛看鸭.png",
