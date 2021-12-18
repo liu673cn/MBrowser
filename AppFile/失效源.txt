@@ -69,6 +69,36 @@
     "title":"APP影视(v1)",
     "list":[
         {
+        "title":"蜗牛看鸭",
+        "url":"http://movie.96keji.cn/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/蜗牛看鸭.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"木白影视",
+        "url":"http://vapp.23at.cn/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/木白影视.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"骑士影院",
+        "url":"https://app.qishi.xyz/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/骑士影院.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"天神影视",
+        "url":"https://lntis.top/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/天神影视.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"元芳影视",
+        "url":"http://yfys1122.com/mogai_api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/元芳影视.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"FUFU",
         "url":"https://fufu.ixhduta.cn/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/FUFU影视.png",
