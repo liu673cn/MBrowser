@@ -393,6 +393,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"爱追剧",
+        "url":"http://81.71.18.95:520/lvdou_api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/爱追剧.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"爱看美剧",
         "url":"https://www.uumjw.com/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/爱看美剧.png",
