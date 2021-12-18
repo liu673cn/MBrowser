@@ -250,6 +250,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"瑞丰资源",
+        "url":"https://vip.ruifenglb.com:4433/api.php/app/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/瑞丰资源.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"思古影视",
         "url":"https://app.siguyy.com/xgapp.php/v1/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/思古影视.png",
@@ -792,6 +798,12 @@
         "title":"骑士影院",
         "url":"https://app.qishi.xyz/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/骑士影院.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"瑞丰资源",
+        "url":"https://ts.yjhan.com:4433/ruifenglb_api.php/v1.vod/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/瑞丰资源.png",
         "murl":"q:APP影视"
         },
         {
