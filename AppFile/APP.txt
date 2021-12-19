@@ -482,7 +482,7 @@ if(URL.indexOf("api.php/app/")!=-1){
 }
 ######视频地址
 var playurl=getVar("url");
-var resp=JZ(JSON.stringify({url:uu}));
+var resp=JZ(JSON.stringify({url:playurl}));
 if(playurl.indexOf("duoduozy.com")!=-1){
     var uuu="https://player.duoduozy.com/ddplay/?url="+playurl;
     var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.com/"}}));
