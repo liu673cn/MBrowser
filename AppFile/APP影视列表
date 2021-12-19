@@ -748,7 +748,7 @@
         },
         {
         "title":"奈非迷",
-        "url":"https://app.netflixmi.com/ruifenglb_api.php/v1.vod",
+        "url":"https://app.netflixmi.com/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/奈非迷影视.png",
         "murl":"q:APP影视"
         },
