@@ -64,6 +64,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"安逸影视",
+        "url":"http://aytv.wchulian.com.cn:6633/api.php/app/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/安逸影视.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"播放呀",
         "url":"https://www.bofangya.com/xgapp.php/v1/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/播放呀.png",
