@@ -1244,6 +1244,12 @@
         "murl":"q:TV影视"
         },
         {
+        "title":"二货影视",
+        "url":"http://d.zjj.life:88/mv/api.php/Chengcheng/vod/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/二货影视.png",
+        "murl":"q:TV影视"
+        },
+        {
         "title":"风车影视",
         "url":"http://www.feifan123.xyz/api.php/iptv/vod/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/风车影视.png",
