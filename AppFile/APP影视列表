@@ -70,9 +70,21 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"爱追剧",
+        "url":"https://4k.lqiyi.cn/api.php/app/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/爱追剧xg.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"播放呀",
         "url":"https://www.bofangya.com/xgapp.php/v1/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/播放呀.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"畅看影视",
+        "url":"http://www.sxbrd.com/api.php/app/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/畅看影视.png",
         "murl":"q:APP影视"
         },
         {
@@ -381,6 +393,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"DC影视",
+        "url":"http://chaorenbb.com/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/DC影视.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"HG影视",
         "url":"http://app.hgyx.vip/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/HG影视.png",
@@ -480,6 +498,12 @@
         "title":"锤子追剧",
         "url":"http://www.jjsvip.cc/mogai_api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/锤子追剧.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"独播社",
+        "url":"http://35ys.cc/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/独播社.png",
         "murl":"q:APP影视"
         },
         {
@@ -1039,6 +1063,12 @@
         "title":"月色影视",
         "url":"http://69ty.cc/mogai_api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/月色影视.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"优视影视",
+        "url":"http://cc.ysys.asia/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/优视影视.png",
         "murl":"q:APP影视"
         },
         {
