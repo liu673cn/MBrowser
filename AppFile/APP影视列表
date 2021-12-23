@@ -724,7 +724,7 @@
         },
         {
         "title":"漫岛影视",
-        "url":"http://app.mdaotv.cn/mubai_api.php/v1.vod",
+        "url":"http://app.mdaotv.cn/mubai_api.php/m2.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/漫岛影视.png",
         "murl":"q:APP影视"
         },
