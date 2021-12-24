@@ -1388,6 +1388,12 @@
         "murl":"q:TV影视"
         },
         {
+        "title":"虾皮视频",
+        "url":"http://tv.cmt8.xyz/api.php/iptv/vod/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/虾皮视频.png",
+        "murl":"q:TV影视"
+        },
+        {
         "title":"小极TV",
         "url":"http://api.8d8q.com/mmv/api.php/Chengcheng/vod/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/小极TV.png",
