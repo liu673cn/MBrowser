@@ -1329,7 +1329,7 @@
         },
         {
         "title":"乐酷TV",
-        "url":"http://lktv.top:55/api.php/chenziystv/vod/",
+        "url":"http://150.138.78.177:2021/api.php/Chengcheng/vod/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/乐酷TV.png",
         "murl":"q:TV影视"
         },
