@@ -891,6 +891,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"三日影院",
+        "url":"https://www.3ri.net/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/三日影院.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"视听星球",
         "url":"http://zjyapijzys.shynwlkj.com/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/视听星球.png",
