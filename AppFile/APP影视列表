@@ -585,6 +585,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"二九影视",
+        "url":"https://www.38dyy.com/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/二九影视.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"风车影视",
         "url":"http://www.feifan123.xyz/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/风车影视.png",
