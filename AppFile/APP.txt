@@ -481,7 +481,7 @@ if(URL.indexOf("api.php/app/")!=-1){
     var 选集地址规则=".json(url)";选集列表();
 }
 ######视频地址
-var playurl=getVar("url");
+var uu=getVar("url");
 var resp=JZ(JSON.stringify({url:uu,redirect:false,head:{"User-Agent":Mozilla/5.0 Android}}));
 if(uu.indexOf("baidu.com")!=-1){
 var playurl=uu.split("wd=")[1];
