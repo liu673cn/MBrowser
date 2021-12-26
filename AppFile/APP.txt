@@ -406,38 +406,38 @@ function 选集列表(){
                 if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15||选集地址.indexOf("/obj/tos")!=-1){
                     if(选集地址.indexOf("url=")!=-1){
                         var 切割地址=选集地址.split("url=")[1];
-                        var 选集地址=切割地址;
+                        var 选集地址="https://www.baidu.com/s?wd="+切割地址;
                     }else if(接口.indexOf("vip.byteamone.cn")!=-1&&选集地址.indexOf("xfy")!=-1){
-                        var 选集地址="https://vip.xfyun.cc/home/api?type=ys&uid=207276&key=cgmqruvwCGPQRTUVW5&url="+选集地址.split("url=")[1];
+                        var 选集地址="https://www.baidu.com/s?wd=https://vip.xfyun.cc/home/api?type=ys&uid=207276&key=cgmqruvwCGPQRTUVW5&url="+选集地址.split("url=")[1];
                     }else if(接口.indexOf("http")==-1&&选集地址.indexOf("xfy")!=-1){
-                        var 选集地址="https://vip.xfyun.cc/home/api?type=ys&uid=207276&key=cgmqruvwCGPQRTUVW5&url="+选集地址
+                        var 选集地址="https://www.baidu.com/s?wd=https://vip.xfyun.cc/home/api?type=ys&uid=207276&key=cgmqruvwCGPQRTUVW5&url="+选集地址
                     }else{
-                        var 选集地址=选集地址;
+                        var 选集地址="https://www.baidu.com/s?wd="+选集地址;
                     }
                 }else{
-                    var 选集地址=接口+选集地址;
+                    var 选集地址="https://www.baidu.com/s?wd="+接口+选集地址;
                 }
             }else if(URL.search(/api\.php\/.*?\/vod/)!=-1){
                 if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15||选集地址.indexOf("/obj/tos")!=-1){
                     if(选集地址.indexOf("url=")!=-1){
                         var 切割地址=选集地址.split("url=")[1];
-                        var 选集地址=切割地址;
+                        var 选集地址="https://www.baidu.com/s?wd="+切割地址;
                     }else{
-                        var 选集地址=选集地址;
+                        var 选集地址="https://www.baidu.com/s?wd="+选集地址;
                     }
                 }else if(选集地址.indexOf("www.bilibili.com")!=-1){
                     var 切割地址=选集地址.split("url=")[1];
-                    var 选集地址="https://vip.parwix.com:4433/player/?url="+切割地址;
+                    var 选集地址="https://www.baidu.com/s?wd=https://vip.parwix.com:4433/player/?url="+切割地址;
                 }else if(URL.indexOf("fit:8")!=-1||URL.indexOf("diliktv.xyz")!=-1||URL.indexOf("ppzhu.vip")!=-1||URL.indexOf("api.8d8q.com")!=-1||URL.indexOf("haokanju1.cc")!=-1||URL.indexOf("cztv")!=-1){
-                    var 选集地址=选集地址+"&app=10000&account=272775028&password=qq272775028";
+                    var 选集地址="https://www.baidu.com/s?wd="+选集地址+"&app=10000&account=272775028&password=qq272775028";
                 }else if(URL.indexOf("j.zjj.life")!=-1||URL.indexOf("lktv")!=-1||URL.indexOf("0818tv")!=-1||URL.indexOf("ruoxinew")!=-1){
                     var 切割地址=选集地址.split("url=")[1];
-                    var 选集地址="https://vip.parwix.com:4433/player/?url="+切割地址;
+                    var 选集地址="https://www.baidu.com/s?wd=https://vip.parwix.com:4433/player/?url="+切割地址;
                 }else{
-                    var 选集地址=选集地址;
+                    var 选集地址="https://www.baidu.com/s?wd="+选集地址;
                 }
             }else{
-                var 选集地址=选集地址;
+                var 选集地址="https://www.baidu.com/s?wd="+选集地址;
             }
             LIST.push({title:选集,url:选集地址});
         }
@@ -482,49 +482,44 @@ if(URL.indexOf("api.php/app/")!=-1){
 }
 ######视频地址
 var playurl=getVar("url");
-var resp=JZ(JSON.stringify({url:playurl}));
+var resp=JZ(JSON.stringify({url:uu,redirect:false,head:{"User-Agent":Mozilla/5.0 Android}}));
+if(uu.indexOf("baidu.com")!=-1){
+var playurl=uu.split("wd=")[1];
 if(playurl.indexOf("duoduozy.com")!=-1){
-    var uuu="https://player.duoduozy.com/ddplay/?url="+playurl;
-    var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.com/"}}));
-    var uuuu=resp.match(/var urls.+?"(.+?)"/)[1];
-    JSON.stringify({url:uuuu});
+var uuu="https://player.duoduozy.com/ddplay/?url="+playurl;
+var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.com/"}}));
+var uuuu=resp.match(/var urls.+?"(.+?)"/)[1];
+JSON.stringify({url:uuuu});
 }else if(playurl.indexOf("api.iopenyun.com:88")!=-1){
     if(playurl.indexOf("html")!=-1){
-        var uuu="https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=dgilouvFKNRSWX2467&url="+playurl.split("=")[1];
-        var resp=JZ(JSON.stringify({url:playurl}));
+        var uu="https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=dgilouvFKNRSWX2467&url="+playurl.split("=")[1];
+        var resp=JZ(JSON.stringify({url:uu}));
         JSON.stringify({url:JSON.parse(resp.code).url});
     }else{
-        "web="+playurl+'@{"Referer":"https://user.iopenyun.com:520/user/video","User-Agent":"Mozilla/5.0 Windows10"}';
+    "web="+playurl+'@{"Referer":"https://user.iopenyun.com:520/user/video","User-Agent":"Mozilla/5.0 Windows10"}';
     }
 }else if(playurl.indexOf("cat.wkfile.com")!=-1){
-    JSON.stringify({url:playurl,head:{"User-Agent":"Mozilla/5.0","Referer":"https://qian.wkfile.com/"}});
+JSON.stringify({url:playurl,head:{"User-Agent":"Lavf/58.12.100","Referer":"wkfile.com"}});
 }else if(playurl.indexOf("=")==-1&&playurl.indexOf(".m3u8")>15||playurl.indexOf(".mp4")>15||playurl.indexOf("/obj/tos")!=-1){
-    if(playurl.indexOf("hsl.ysgc.xyz")!=-1){
-        var cccc=JZ(JSON.stringify({url:"https://play.dushe520.com/m3u8.php?url="+playurl}));
-        JSON.stringify({url:JSON.parse(cccc.code).url,head:{"Referer":"https://ysgc.cc"}});
-    }else{
-        JSON.stringify({url:playurl.match(/.*(http.*)/)[1]});
-    }
-}else if(playurl.indexOf("=")==-1&&playurl.indexOf(".m3u8")>15||playurl.indexOf(".mp4")>15||playurl.indexOf("/obj/tos")!=-1){
-    if(playurl.indexOf("hsl.ysgc.xyz")!=-1){
-        var cccc=JZ(JSON.stringify({url:"https://play.dushe520.com/m3u8.php?url="+playurl}));
-        JSON.stringify({url:JSON.parse(cccc.code).url,head:{"Referer":"https://ysgc.cc"}});
-    }else{
-        JSON.stringify({url:playurl.match(/.*(http.*)/)[1]});
-    }
+if(playurl.indexOf("hsl.ysgc.xyz")!=-1){
+var cccc=JZ(JSON.stringify({url:"https://play.dushe520.com/m3u8.php?url="+playurl}));
+JSON.stringify({url:JSON.parse(cccc.code).url,head:{"Referer":"https://ysgc.cc"}});
+}else{
+JSON.stringify({url:playurl.match(/.*(http.*)/)[1]});
+}
 }else if(playurl.indexOf("=")!=-1){
-    var resp=JZ(JSON.stringify({url:playurl,redirect:false,head:{"User-Agent":"Mozilla/5.0"}}));
+    var resp=JZ(JSON.stringify({url:playurl,redirect:false,head:{"User-Agent":Mozilla/5.0 Android}}));
     if(resp.head.location||resp.head.Location){
-        var a=resp;
-        while(a.head.location||a.head.Location){
+           var a=resp;
+           while(a.head.location||a.head.Location){
             var finalurl=a.head.location||a.head.Location;
             if(finalurl.indexOf(".mp4")>30){
                 var a={"head":{"cookie":"ccccc"}};
             }else{
                 var a=JZ(JSON.stringify({url:finalurl,redirect:false,head:{"User-Agent":"Mozilla/5.0 Android"}}));
             }
-        }
-        var realurl=finalurl;
+           }
+           var realurl=finalurl;
         if(realurl.indexOf("=http")!=-1||realurl.indexOf("url=")!=-1){
             if(a.code.indexOf("<html")!=-1){
                 "web="+realurl;
@@ -540,29 +535,29 @@ if(playurl.indexOf("duoduozy.com")!=-1){
             }
         }else{
             if(playurl.indexOf("www.mgtv.com")!=-1){
-                JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Referer":""}}); 
+            JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Referer":""}}); 
             }else{
-                JSON.stringify({url:realurl});
+            JSON.stringify({url:realurl});
             }
         }
     }else{
         if(resp.code.indexOf("<html")!=-1){
             if(resp.code.search(/player=new/)!=-1||resp.code.search(/<div id="video"/)!=-1||resp.code.search(/<div id="[^"]*?player"/)!=-1||resp.code.search(/\/\/视频链接/)!=-1||resp.code.search(/<iframe[\s\S]*?src="[^"]+?"/)!=-1||resp.code.search(/<video[\s\S]*?src="[^"]+?"/)!=-1){
-                "web="+playurl;
+               "web="+playurl;
             }else{
-                if(playurl.split("url=")[1].indexOf("http")!=-1){
-                    "web=http://egwang186.gitee.io/?url="+playurl.split("url=")[1];
+               if(playurl.split("url=")[1].indexOf("http")!=-1){
+                "web=http://egwang186.gitee.io/?url="+playurl.split("url=")[1];
                 }else if(playurl.split("url=")[1].indexOf("renrenmi")!=-1){
                     var 接口="http://www.1080kan.cc/jiexi/rrmi.php?url=";
                     "web="+接口+playurl.split("url=")[1]+'@{"Referer":"http://www.1080kan.cc/"}';
                 }else{
-                    var id=playurl.split("url=")[1];
-                    var uuu="https://vip.gaotian.love/api/?key=sRy0QAq8hqXRlrEtrq&url="+id;
-                    var resp=JZ(JSON.stringify({url:uuu}));
-                    var realurl=JSON.parse(resp.code).url||JSON.parse(resp.code).msg;
-                    JSON.stringify({url:realurl});
+                 var id=playurl.split("url=")[1];
+                 var uuu="https://vip.gaotian.love/api/?key=sRy0QAq8hqXRlrEtrq&url="+id;
+                 var resp=JZ(JSON.stringify({url:uuu}));
+                 var realurl=JSON.parse(resp.code).url||JSON.parse(resp.code).msg;
+                 JSON.stringify({url:realurl});
                 }
-                }
+            }
         }else{
             if(e2Rex(resp.code,".json(url)").length>1){
                 var realurl=JSON.parse(resp.code).url;
@@ -576,8 +571,8 @@ if(playurl.indexOf("duoduozy.com")!=-1){
             }else if(playurl.split("url=")[1].indexOf("http")!=-1){
                 "web=http://egwang186.gitee.io/?url="+playurl.split("url=")[1];
             }else if(playurl.split("url=")[1].indexOf("renrenmi")!=-1){
-                var 接口="http://www.1080kan.cc/jiexi/rrmi.php?url=";
-                "web="+接口+playurl.split("url=")[1]+'@{"Referer":"http://www.1080kan.cc/"}';
+                    var 接口="http://www.1080kan.cc/jiexi/rrmi.php?url=";
+                    "web="+接口+playurl.split("url=")[1]+'@{"Referer":"http://www.1080kan.cc/"}';
             }else{
                 var id=playurl.split("url=")[1];
                 var uuu="https://vip.gaotian.love/api/?key=sRy0QAq8hqXRlrEtrq&url="+id;
@@ -587,10 +582,13 @@ if(playurl.indexOf("duoduozy.com")!=-1){
             }
         }
     }
-}else{
-    JSON.stringify({url:playurl});
-}
 
+}else{
+JSON.stringify({url:playurl});
+}
+}else{
+"web="+uu;
+}
 ######单一搜索
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
