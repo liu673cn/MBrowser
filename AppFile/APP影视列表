@@ -1066,6 +1066,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"新享影视",
+        "url":"https://www.jiagan.cx/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/新享影视.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"星影相随",
         "url":"http://app.rootthree.top/mogai_api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/星影相随.png",
