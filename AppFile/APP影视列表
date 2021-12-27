@@ -1310,33 +1310,15 @@
         "murl":"q:TV影视"
         },
         {
-        "title":"风车影视",
-        "url":"http://www.feifan123.xyz/api.php/iptv/vod/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/风车影视.png",
-        "murl":"q:TV影视"
-        },
-        {
         "title":"疯狂看TV",
         "url":"http://tv.fkkdy.vip/api.php/iptv/vod/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/疯狂看TV.png",
         "murl":"q:TV影视"
         },
         {
-        "title":"火箭影视",
-        "url":"http://huojian.wchulian.com.cn/api.php/iptv/top/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/火箭影视.png",
-        "murl":"q:TV影视"
-        },
-        {
         "title":"黑龙影视",
         "url":"http://vip.ji-ding-he.site/api.php/iptv/vod/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/黑龙影视.png",
-        "murl":"q:TV影视"
-        },
-        {
-        "title":"红牛TV",
-        "url":"http://bbb.056158.com/api.php/iptv/vod/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/红牛TV.png",
         "murl":"q:TV影视"
         },
         {
@@ -1361,12 +1343,6 @@
         "title":"流星雨",
         "url":"http://syy.lxyyy.xyz/mv/api.php/Chengcheng/vod/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/流星雨影院.png",
-        "murl":"q:TV影视"
-        },
-        {
-        "title":"凌雪影视",
-        "url":"http://lxue.top/api.php/iptv/vod/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/凌雪影视.png",
         "murl":"q:TV影视"
         },
         {
