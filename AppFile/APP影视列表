@@ -1428,12 +1428,6 @@
         "url":"http://tv2.hetaoys.vip/api.php/iptv/vod/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/小熊猫TV.png",
         "murl":"q:TV影视"
-        },
-        {
-        "title":"云播影视",
-        "url":"http://yunbo.bxin.tv/api.php/iptv/vod/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/云播影视.png",
-        "murl":"q:TV影视"
         }
     ]
     }
