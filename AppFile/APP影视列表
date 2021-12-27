@@ -1194,35 +1194,6 @@
     ]
     },
     {
-    "title":"APP影视(tv)",
-    "list":[
-        {
-        "title":"555TV",
-        "url":"http://tv.gxhshyy.com/api.php/gctvapi.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/555TV.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"720看片",
-        "url":"https://tvd.720kp.cn/api.php/tv.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/720看片TV.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"段友影视",
-        "url":"https://shangjihuoke.com/api.php/tv.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/段友影视TV.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"氢视频",
-        "url":"http://h1080p.com/api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/氢视频.png",
-        "murl":"q:APP影视"
-        }
-    ]
-    },
-    {
     "title":"TV影视",
     "list":[
         {
