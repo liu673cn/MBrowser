@@ -58,12 +58,6 @@
         "murl":"q:APP影视"
         },
         {
-        "title":"爱影吧",
-        "url":"http://www.ayinb.com/api.php/app/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/爱影吧.png",
-        "murl":"q:APP影视"
-        },
-        {
         "title":"安逸影视",
         "url":"http://aytv.wchulian.com.cn:6633/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/安逸影视.png",
@@ -142,12 +136,6 @@
         "murl":"q:APP影视"
         },
         {
-        "title":"飞英视频",
-        "url":"http://v.phoves.com.cn/xgapp.php/v1/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/飞英视频.png",
-        "murl":"q:APP影视"
-        },
-        {
         "title":"瓜皮TV",
         "url":"http://www.dijiaxia.com/xgapp.php/v1/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/瓜皮TV.png",
@@ -163,12 +151,6 @@
         "title":"火箭影视",
         "url":"http://huojian.wchulian.com.cn/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/火箭影视.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"海绵影视",
-        "url":"http://app1.yuzhouys.com/api.php/app/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/海绵影视.png",
         "murl":"q:APP影视"
         },
         {
@@ -199,12 +181,6 @@
         "title":"久九影视",
         "url":"https://api.58qxk.cn/xgapp.php/v1/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/久九影视.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"极乐阁",
-        "url":"https://vip.wuqcms.com/api.php/app/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/极乐阁.png",
         "murl":"q:APP影视"
         },
         {
@@ -263,7 +239,7 @@
         },
         {
         "title":"麻花视频",
-        "url":"https://www.mahuashipin.com/xgapp.php/v1/",
+        "url":"https://www.mahuashipin.com/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/麻花视频.png",
         "murl":"q:APP影视"
         },
@@ -275,7 +251,7 @@
         },
         {
         "title":"皮皮影视",
-        "url":"http://pp.ig4.cn/xgapp.php/v1/",
+        "url":"http://pp.ig4.cn/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/皮皮影视.png",
         "murl":"q:APP影视"
         },
