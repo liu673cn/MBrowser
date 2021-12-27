@@ -1215,12 +1215,6 @@
         "murl":"q:APP影视"
         },
         {
-        "title":"奈非迷TV",
-        "url":"https://app.netflixmi.com/api.php/tv.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/奈非迷TV.png",
-        "murl":"q:APP影视"
-        },
-        {
         "title":"氢视频",
         "url":"http://h1080p.com/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/氢视频.png",
