@@ -849,6 +849,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"耐看视频",
+        "url":"http://aliyun.k8aa.com/mogai_api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/耐看视频.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"柠柚影视",
         "url":"http://nu.e4tv.cn/lvdou_api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/柠柚影视.png",
