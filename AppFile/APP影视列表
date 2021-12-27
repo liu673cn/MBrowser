@@ -705,6 +705,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"看看剧",
+        "url":"https://www.kankanju.cn/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/看看剧.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"可米影视",
         "url":"http://www.kmysw.vip/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/可米影视.png",
