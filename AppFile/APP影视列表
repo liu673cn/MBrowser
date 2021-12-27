@@ -1352,12 +1352,6 @@
         "murl":"q:TV影视"
         },
         {
-        "title":"小熊猫TV",
-        "url":"http://tv2.hetaoys.vip/api.php/iptv/vod/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/小熊猫TV.png",
-        "murl":"q:TV影视"
-        },
-        {
         "title":"聚多影视",
         "url":"http://jdyy.weetai.cn/api.php/iptv/vod/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/聚多影视.png",
@@ -1439,6 +1433,12 @@
         "title":"小极TV",
         "url":"http://api.8d8q.com/mmv/api.php/Chengcheng/vod/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/小极TV.png",
+        "murl":"q:TV影视"
+        },
+        {
+        "title":"小熊猫TV",
+        "url":"http://tv2.hetaoys.vip/api.php/iptv/vod/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/小熊猫TV.png",
         "murl":"q:TV影视"
         },
         {
