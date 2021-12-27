@@ -487,11 +487,11 @@
     "title":"TV影视(iptv)",
     "list":[
         {
-        "title":"",
-        "url":"",
-        "img":"",
-        "murl":""
-        }
+        "title":"稻草人TV",
+        "url":"http://www.zhaikanys.xyz/api.php/iptv1/vod/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/稻草人TV.png",
+        "murl":"q:TV影视"
+        },
     ]
     }
 ]

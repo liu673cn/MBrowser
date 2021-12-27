@@ -1022,12 +1022,6 @@
         "murl":"q:TV影视"
         },
         {
-        "title":"稻草人TV",
-        "url":"http://www.zhaikanys.xyz/api.php/iptv1/vod/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/稻草人TV.png",
-        "murl":"q:TV影视"
-        },
-        {
         "title":"嘀哩嘀哩",
         "url":"https://api.diliktv.xyz/api.php/Chengcheng/vod/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/嘀哩嘀哩TV.png",
