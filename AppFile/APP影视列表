@@ -1268,12 +1268,6 @@
         "murl":"q:TV影视"
         },
         {
-        "title":"安逸影院",
-        "url":"http://aytv.wchulian.com.cn:6633/api.php/iptv/top/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/安逸影院.png",
-        "murl":"q:TV影视"
-        },
-        {
         "title":"刺桐影视",
         "url":"http://tv.cttv.vip/api.php/iptv/vod/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/刺桐影视.png",
