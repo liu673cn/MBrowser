@@ -202,11 +202,7 @@ if(version==NewVersion&&sign==appSign&&name==appName){
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp.php/v1")!=-1){
-    if(URL.indexOf("96ym")!=-1){
-        "";
-    }else{
-        "Dart/2.13 (dart:io)";
-    }
+    "Dart/2.13 (dart:io)";
 }else if(URL.indexOf(".vod")!=-1){
     "okhttp/4.1.0";
 }else if(URL.indexOf("豆瓣")!=-1){
