@@ -492,6 +492,12 @@
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/稻草人TV.png",
         "murl":"q:TV影视"
         },
+        {
+        "title":"疯狂看TV",
+        "url":"http://tv.fkkdy.vip/api.php/iptv/vod/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/疯狂看TV.png",
+        "murl":"q:TV影视"
+        },
     ]
     }
 ]
