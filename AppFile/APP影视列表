@@ -476,6 +476,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"饭后电影",
+        "url":"http://summ.vip/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/饭后电影.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"飞捷影视",
         "url":"https://www.fj6080.com/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/飞捷影视.png",
@@ -712,12 +718,6 @@
         "title":"二九影视",
         "url":"https://www.38dyy.com/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/二九影视.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"饭后电影",
-        "url":"http://summ.vip/api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/饭后电影.png",
         "murl":"q:APP影视"
         },
         {
