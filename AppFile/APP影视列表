@@ -612,6 +612,12 @@
         "url":"http://221.236.18.12:665/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/影阅阁.png",
         "murl":"q:APP影视"
+        },
+        {
+        "title":"追剧吧",
+        "url":"http://zhuiju8.vip/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/追剧吧影视.png",
+        "murl":"q:APP影视"
         }
     ]
     },
@@ -976,12 +982,6 @@
         "title":"柚子视频",
         "url":"http://yz.26ys.cn/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/柚子视频.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"追剧吧",
-        "url":"http://zhuiju8.vip/api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/追剧吧影视.png",
         "murl":"q:APP影视"
         },
         {
