@@ -1,7 +1,7 @@
 {
 "data":[
     {
-    "title":"APP影视",
+    "title":"APP影视(高清)",
     "list":[
         {
         "title":"007影视",
@@ -407,20 +407,8 @@
     ]
     },
     {
-    "title":"APP影视(v1)",
+    "title":"APP影视(优质)",
     "list":[
-        {
-        "title":"4K影院",
-        "url":"http://4kdytv.com/api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/4K影院.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"80影视",
-        "url":"http://www.ccc8.net/api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/80影视.png",
-        "murl":"q:APP影视"
-        },
         {
         "title":"80K影视",
         "url":"https://1080p.tv/api.php/v1.vod",
@@ -443,6 +431,107 @@
         "title":"HG影视",
         "url":"http://hgyx.vip/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/HG影视.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"爱西西",
+        "url":"http://app.aixixi.vip/mogai_api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/爱西西影视.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"阿姨追剧",
+        "url":"https://www.ayzhuiju.com/ruifenglb_api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/阿姨追剧2.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"初心影视",
+        "url":"https://www.18mv.club/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/初心影视.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"独播社",
+        "url":"http://35ys.cc/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/独播社.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"飞捷影视",
+        "url":"https://www.fj6080.com/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/飞捷影视.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"疯狂看",
+        "url":"http://app.fkkdy.vip/mogai_api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/疯狂看电影.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"麻瓜视频",
+        "url":"http://aliyun.k8aa.com/mogai_api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/麻瓜视频1.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"奈非迷",
+        "url":"https://app.netflixmi.com/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/奈非迷影视.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"南府影视",
+        "url":"http://nfapi.nfuxs.com/mogai_api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/南府影视.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"瑞丰",
+        "url":"https://ts.yjhan.com:4433/ruifenglb_api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/瑞丰.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"小极影视",
+        "url":"http://app.8d8q.com/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/小极影视.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"雪人资源",
+        "url":"https://zy.qd234.cn/mogai_api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/雪人资源站.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"益达影院",
+        "url":"http://luobu.yss6080.com/mogai_api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/益达影院.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"影阅阁",
+        "url":"http://221.236.18.12:665/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/影阅阁.png",
+        "murl":"q:APP影视"
+        }
+    ]
+    },
+    {
+    "title":"APP影视(普通)",
+    "list":[
+        {
+        "title":"4K影院",
+        "url":"http://4kdytv.com/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/4K影院.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"80影视",
+        "url":"http://www.ccc8.net/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/80影视.png",
         "murl":"q:APP影视"
         },
         {
@@ -488,18 +577,6 @@
         "murl":"q:APP影视"
         },
         {
-        "title":"爱西西",
-        "url":"http://app.aixixi.vip/mogai_api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/爱西西影视.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"阿姨追剧",
-        "url":"https://www.ayzhuiju.com/ruifenglb_api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/阿姨追剧2.png",
-        "murl":"q:APP影视"
-        },
-        {
         "title":"白菜追剧",
         "url":"http://lbapp.huimaojia.com:30119/mogai_api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/白菜追剧.png",
@@ -521,18 +598,6 @@
         "title":"菜鸟动漫",
         "url":"http://taikong.huangguay.com/mogai_api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/菜鸟动漫.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"初心影视",
-        "url":"https://www.18mv.club/api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/初心影视.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"独播社",
-        "url":"http://35ys.cc/api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/独播社.png",
         "murl":"q:APP影视"
         },
         {
@@ -563,18 +628,6 @@
         "title":"饭后电影",
         "url":"http://summ.vip/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/饭后电影.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"飞捷影视",
-        "url":"https://www.fj6080.com/api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/飞捷影视.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"疯狂看",
-        "url":"http://app.fkkdy.vip/mogai_api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/疯狂看电影.png",
         "murl":"q:APP影视"
         },
         {
@@ -680,12 +733,6 @@
         "murl":"q:APP影视"
         },
         {
-        "title":"麻瓜视频",
-        "url":"http://aliyun.k8aa.com/mogai_api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/麻瓜视频1.png",
-        "murl":"q:APP影视"
-        },
-        {
         "title":"美剧虫",
         "url":"https://meijuchong.com/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/美剧虫.png",
@@ -722,18 +769,6 @@
         "murl":"q:APP影视"
         },
         {
-        "title":"奈非迷",
-        "url":"https://app.netflixmi.com/api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/奈非迷影视.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"南府影视",
-        "url":"http://nfapi.nfuxs.com/mogai_api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/南府影视.png",
-        "murl":"q:APP影视"
-        },
-        {
         "title":"暖光影视",
         "url":"https://app.bl210.com/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/暖光影视.png",
@@ -755,12 +790,6 @@
         "title":"奇趣影视",
         "url":"https://app.qiqu.me/mogai_api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/奇趣影视.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"瑞丰",
-        "url":"https://ts.yjhan.com:4433/ruifenglb_api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/瑞丰.png",
         "murl":"q:APP影视"
         },
         {
@@ -848,12 +877,6 @@
         "murl":"q:APP影视"
         },
         {
-        "title":"小极影视",
-        "url":"http://app.8d8q.com/api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/小极影视.png",
-        "murl":"q:APP影视"
-        },
-        {
         "title":"熊猫动漫",
         "url":"http://dongman.k8aa.com/mogai_api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/熊猫动漫.png",
@@ -878,12 +901,6 @@
         "murl":"q:APP影视"
         },
         {
-        "title":"雪人资源",
-        "url":"https://zy.qd234.cn/mogai_api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/雪人资源站.png",
-        "murl":"q:APP影视"
-        },
-        {
         "title":"玺心影视",
         "url":"https://tv.arbd.cn/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/玺心影视.png",
@@ -905,12 +922,6 @@
         "title":"小易影视",
         "url":"http://xy.irop.cn/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/小易影视.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"益达影院",
-        "url":"http://luobu.yss6080.com/mogai_api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/益达影院.png",
         "murl":"q:APP影视"
         },
         {
@@ -953,12 +964,6 @@
         "title":"优视影视",
         "url":"http://cc.ysys.asia/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/优视影视.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"影阅阁",
-        "url":"http://221.236.18.12:665/api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/影阅阁.png",
         "murl":"q:APP影视"
         },
         {
