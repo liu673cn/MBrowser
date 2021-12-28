@@ -709,6 +709,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"风车动漫",
+        "url":"http://i7d6.adabuda.com/mogai_api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/风车动漫.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"饭后电影",
         "url":"http://summ.vip/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/饭后电影.png",
