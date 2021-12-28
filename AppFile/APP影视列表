@@ -131,7 +131,7 @@
         },
         {
         "title":"非凡TV",
-        "url":"https://app.feifan.live/xgapp.php/v1/",
+        "url":"https://app.feifan.live:2087/xgapp.php/v1/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/非凡TV.png",
         "murl":"q:APP影视"
         },
