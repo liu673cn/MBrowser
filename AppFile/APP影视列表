@@ -130,6 +130,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"非凡TV",
+        "url":"https://app.feifan.live/xgapp.php/v1/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/非凡TV.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"饭团影院",
         "url":"http://television.wkfile.com/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/饭团影院.png",
@@ -954,6 +960,12 @@
         "title":"渔渔影视",
         "url":"http://luobo.yugenye.site/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/渔渔影视.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"柚子视频",
+        "url":"http://yz.26ys.cn/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/柚子视频.png",
         "murl":"q:APP影视"
         },
         {
