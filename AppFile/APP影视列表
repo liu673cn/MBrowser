@@ -196,6 +196,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"快云影音",
+        "url":"https://www.kuaiyunyy.com/api.php/app/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/快云影音.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"灵狐影视",
         "url":"http://x.dmntv.com/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/灵狐影视.png",
@@ -337,6 +343,12 @@
         "title":"小易影视",
         "url":"https://xy.irop.cn/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/小易影视.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"映迷",
+        "url":"https://www.inmi.app/xgapp.php/v1/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/映迷.png",
         "murl":"q:APP影视"
         },
         {
