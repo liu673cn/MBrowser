@@ -292,6 +292,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"天神影视",
+        "url":"https://deity.fun/api.php/app/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/天神影视.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"我爱电影",
         "url":"http://xg.5imv.net/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/我爱电影xg.png",
