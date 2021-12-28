@@ -52,6 +52,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"爱迪影视",
+        "url":"https://aidi.fun/xgapp.php/v1/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/爱迪影视.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"哎呀影视",
         "url":"https://www.aisvod.tv/xgapp.php/v1/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/爱尚影视.png",
