@@ -4,6 +4,12 @@
     "title":"APP影视(xiaogui)",
     "list":[
         {
+        "title":"九合视频",
+        "url":"https://ptygx.com/api.php/app/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/九合视频.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"江湖影视",
         "url":"http://app.jhdyw.vip:1234/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/江湖影视.png",
@@ -92,6 +98,12 @@
     {
     "title":"APP影视(v1)",
     "list":[
+        {
+        "title":"快云影音",
+        "url":"https://k.ptygx.com/mogai_api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/快云影音.png",
+        "murl":"q:APP影视"
+        },
         {
         "title":"宅男影院",
         "url":"https://www.znyy666.top/api.php/v1.vod",
