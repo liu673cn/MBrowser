@@ -413,7 +413,7 @@ function 选集列表(){
                         var 选集地址="https://www.baidu.com/s?wd="+选集地址;
                     }
                 }else if(选集地址.indexOf("http")==-1&&选集地址.indexOf("xfy")!=-1){
-                        var 选集地址="https://www.baidu.com/s?wd=https://vip.xfyun.cc/home/api?type=ys&uid=207276&key=cgmqruvwCGPQRTUVW5&url="+选集地址;
+                        var 选集地址="https://www.baidu.com/s?wd=https://json.hfyrw.com/mao.go?url="+选集地址;
                 }else{
                     var 选集地址="https://www.baidu.com/s?wd="+接口+选集地址;
                 }
