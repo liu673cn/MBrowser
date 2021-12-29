@@ -630,7 +630,7 @@ if(地址.indexOf(".vod")!=-1){
         "?wd="+KEY+"&page=";
     }
 }else if(地址.indexOf("api.php/app")!=-1||地址.indexOf("xgapp.php/v1")!=-1){
-    if(前缀.indexOf("dijiaxia")!=-1){
+    if(地址.indexOf("dijiaxia")!=-1){
         var URL=地址.replace("xgapp.php","api.php").replace("v1","app");
         URL+"search?text="+KEY+"&pg=";
     }else{
