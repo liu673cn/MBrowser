@@ -416,6 +416,12 @@
     "title":"APP影视(优质)",
     "list":[
         {
+        "title":"1080p",
+        "url":"https://1080p.one/mogai_api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/1080p.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"4K影院",
         "url":"http://4kdytv.com/api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/4K影院.png",
