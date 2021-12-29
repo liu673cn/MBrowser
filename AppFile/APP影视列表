@@ -399,6 +399,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"雪梨视频",
+        "url":"https://zsb2233.com/mogai_api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/雪梨视频.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"杨桃影视",
         "url":"https://ytys3456.com/mogai_api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/杨桃影视.png",
