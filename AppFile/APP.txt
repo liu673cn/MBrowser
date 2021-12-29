@@ -430,6 +430,13 @@ function 选集列表(){
                     }else{
                         var 选集地址="https://www.baidu.com/s?wd="+选集地址;
                     }
+                }else if(选集地址.indexOf("xfy")!=-1){
+                    if(选集地址.indexOf("url=")!=-1){
+                        var 切割地址=选集地址.split("url=")[1];
+                        var 选集地址="https://www.baidu.com/s?wd=https://json.hfyrw.com/mao.go?url="+切割地址;
+                    }else{
+                        var 选集地址="https://www.baidu.com/s?wd=https://json.hfyrw.com/mao.go?url="+选集地址;
+                    }
                 }else if(选集地址.indexOf("www.bilibili.com")!=-1){
                     var 切割地址=选集地址.split("url=")[1];
                     var 选集地址="https://www.baidu.com/s?wd=https://vip.parwix.com:4433/player/?url="+切割地址;
