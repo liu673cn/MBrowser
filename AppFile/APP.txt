@@ -100,7 +100,7 @@ if(version==NewVersion&&sign==appSign&&name==appName){
         var 轮播=e2Arr(CODE,".json(data)");
         var items=[];
         for(var i=0;i<轮播.length;i++){
-            if(url.indexOf("dijiaxia")!=-1||url.indexOf("360yy")!=-1||url.indexOf("haitangsp")!=-1){
+            if(前缀.indexOf("dijiaxia")!=-1||前缀.indexOf("360yy")!=-1||前缀.indexOf("haitangsp")!=-1){
                 var 替换=前缀.replace("xgapp.php","api.php").replace("v1","app");
                 var url=替换+"video_detail?id="+e2Rex(轮播[i],".json(req_content)");
             }else{
