@@ -250,12 +250,6 @@
         "murl":"q:APP影视"
         },
         {
-        "title":"迷你库",
-        "url":"https://miniku.cc/xgapp.php/v1/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/迷你库.png",
-        "murl":"q:APP影视"
-        },
-        {
         "title":"皮皮影视",
         "url":"http://pp.ig4.cn/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/皮皮影视.png",
@@ -274,12 +268,6 @@
         "murl":"q:APP影视"
         },
         {
-        "title":"双十电影",
-        "url":"http://www.shoujikandianying.com/api.php/app/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/双十电影.png",
-        "murl":"q:APP影视"
-        },
-        {
         "title":"天空影视",
         "url":"https://www.tkys.tv/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/天空影视.png",
@@ -289,12 +277,6 @@
         "title":"躺平影视",
         "url":"http://www.lltpys.com/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/躺平影视.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"天神影视",
-        "url":"https://deity.fun/api.php/app/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/天神影视.png",
         "murl":"q:APP影视"
         },
         {
