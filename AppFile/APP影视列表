@@ -250,6 +250,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"蜜果TV",
+        "url":"https://www.miguotv.net/api.php/app/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/蜜果TV.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"麻花视频",
         "url":"https://www.mahuashipin.com/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/麻花视频.png",
@@ -1125,6 +1131,12 @@
         "title":"免费看TV",
         "url":"http://www.freekan.vip/api.php/iptv/vod/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/免费看TV.png",
+        "murl":"q:TV影视"
+        },
+        {
+        "title":"蜜果TV",
+        "url":"http://vv.miguotv.net/m/api.php/Chengcheng/vod/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/蜜果TV.png",
         "murl":"q:TV影视"
         },
         {
