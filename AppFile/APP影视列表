@@ -262,6 +262,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"莫扎兔",
+        "url":"http://www.mozhatu.xyz/api.php/app/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/莫扎兔.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"皮皮影视",
         "url":"http://pp.ig4.cn/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/皮皮影视.png",
