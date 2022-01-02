@@ -585,7 +585,7 @@
         },
         {
         "title":"南府影视",
-        "url":"http://app.nfuxs.club/nfuxsapp.php/v1.vod",
+        "url":"http://nfapi.nfuxs.com/nfuxsapp.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/南府影视.png",
         "murl":"q:APP影视"
         },
