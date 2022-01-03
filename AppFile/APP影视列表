@@ -360,7 +360,7 @@
         {
         "title":"雪人影视",
         "url":"http://qqtvapp.com/xgapp.php/v1/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/雪人影视.png",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/雪人影视xg.png",
         "murl":"q:APP影视"
         },
         {
@@ -1173,6 +1173,12 @@
         "title":"米来影视",
         "url":"http://42.51.37.161:2346/api.php/iptv/vod/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/米来影视.png",
+        "murl":"q:TV影视"
+        },
+        {
+        "title":"世界TV",
+        "url":"http://www.s6ep3.top/api.php/iptv/vod/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/七彩TV.png",
         "murl":"q:TV影视"
         },
         {
