@@ -10,6 +10,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"3080影视",
+        "url":"http://sv.3080l.me/api.php/app/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/3080影视.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"555电影",
         "url":"http://w7tv.com/xgapp.php/v1/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/555电影.png",
@@ -37,6 +43,12 @@
         "title":"LIBVIO",
         "url":"https://www.mkys.me/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/LIBVIO.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"lovetv",
+        "url":"https://app.lovetv.online/api.php/app/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/V影视.png",
         "murl":"q:APP影视"
         },
         {
@@ -289,12 +301,6 @@
         "title":"思古影视",
         "url":"https://app.siguyy.com/xgapp.php/v1/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/思古影视.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"lovetv",
-        "url":"https://app.lovetv.online/api.php/app/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/V影视.png",
         "murl":"q:APP影视"
         },
         {
