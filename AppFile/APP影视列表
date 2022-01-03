@@ -286,6 +286,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"奈飞中文",
+        "url":"https://www.naifei.org/api.php/app/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/奈飞中文.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"皮皮影视",
         "url":"http://pp.ig4.cn/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/皮皮影视.png",
