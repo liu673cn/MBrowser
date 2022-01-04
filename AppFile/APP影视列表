@@ -4,12 +4,6 @@
     "title":"APP影视(小龟)",
     "list":[
         {
-        "title":"007影视",
-        "url":"https://www.007ts.cc/xgapp.php/v1/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/零零七影视.png",
-        "murl":"q:APP影视"
-        },
-        {
         "title":"3080影视",
         "url":"http://sv.3080l.me/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/3080影视.png",
@@ -31,12 +25,6 @@
         "title":"913e影视",
         "url":"http://www.913e.net/xgapp.php/v1/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/913E影视.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"F7影视",
-        "url":"https://zq1080.xyz/xgapp.php/v1/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/F7影视.png",
         "murl":"q:APP影视"
         },
         {
