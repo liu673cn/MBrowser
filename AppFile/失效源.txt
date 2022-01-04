@@ -4,6 +4,12 @@
     "title":"APP影视(xiaogui)",
     "list":[
         {
+        "title":"1",
+        "url":"http://www.webiyeys99.com/xgapp.php/v1/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/极光影院.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"九合视频",
         "url":"https://ptygx.com/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/九合视频.png",
