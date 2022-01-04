@@ -34,12 +34,6 @@
         "murl":"q:APP影视"
         },
         {
-        "title":"世界电影",
-        "url":"https://app.lovetv.online/api.php/app/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/世界电影.png",
-        "murl":"q:APP影视"
-        },
-        {
         "title":"vip影院",
         "url":"http://360yy.cn/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/VIP影院xg.png",
@@ -295,6 +289,12 @@
         "title":"思古影视",
         "url":"https://app.siguyy.com/xgapp.php/v1/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/思古影视.png",
+        "murl":"q:APP影视"
+        },
+        {
+        "title":"世界电影",
+        "url":"https://app.lovetv.online/api.php/app/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/世界电影.png",
         "murl":"q:APP影视"
         },
         {
