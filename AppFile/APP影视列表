@@ -1242,15 +1242,15 @@
     "list":[
         {
         "title":"M浏览器",
-        "url":"",
+        "url":"https://www.coolapk.com/apk/cn.nr19.mbrowser        ",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/M浏览器2.png",
-        "murl":""
+        "murl":"q:#浏览框?url=https://www.coolapk.com/apk/cn.nr19.mbrowser        "
         },
         {
         "title":"海阔视界",
-        "url":"",
+        "url":"https://haikuo.lanzoui.com/u/GoldRiver",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/海阔视界.png",
-        "murl":""
+        "murl":"q:#浏览框?url=https://haikuo.lanzoui.com/u/GoldRiver"
         },
         {
         "title":"视频聚合(PC)",
