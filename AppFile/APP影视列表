@@ -1248,6 +1248,21 @@
         "murl":"q:TV影视"
         }
     ]
-    }
+    },
+    {
+    "title":"接口均为m浏览器辛苦收集,未经询问引用,请自己抓",
+    "list":[
+        {
+        "title":"M浏览器",
+        "url":"",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/M浏览器2.png",
+        "murl":""
+        },
+        {
+        "title":"海阔视界",
+        "url":"",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/海阔视界.png",
+        "murl":""
+        }
 ]
 }
