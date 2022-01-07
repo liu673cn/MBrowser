@@ -112,12 +112,6 @@
         "murl":"q:APP影视"
         },
         {
-        "title":"苍蓝资源",
-        "url":"https://vip.ruifenglb.com:4433/api.php/app/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/苍蓝资源.png",
-        "murl":"q:APP影视"
-        },
-        {
         "title":"毒舌电影",
         "url":"https://cms.96ym.cn/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/毒舌电影.png",
@@ -373,12 +367,6 @@
         "title":"小易影视",
         "url":"https://xy.irop.cn/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/小易影视.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"映迷",
-        "url":"https://www.inmi.app/xgapp.php/v1/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/映迷.png",
         "murl":"q:APP影视"
         },
         {
