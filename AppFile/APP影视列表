@@ -220,6 +220,12 @@
         "murl":"q:APP影视"
         },
         {
+        "title":"荔枝影视",
+        "url":"https://zjys.vip/api.php/app/",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/荔枝影视.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"抹茶猪",
         "url":"https://www.mczdyw.com/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/抹茶猪电影.png",
