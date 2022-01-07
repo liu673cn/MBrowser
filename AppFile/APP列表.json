@@ -912,12 +912,12 @@
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/麻子追剧.png",
             "murl":"q:APP影视"
             },
-        {
-        "title":"奈飞中文",
-        "url":"https://www.naifei.org/api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/奈飞中文.png",
-        "murl":"q:APP影视"
-        },
+            {
+            "title":"奈飞中文",
+            "url":"https://www.naifei.org/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/奈飞中文.png",
+            "murl":"q:APP影视"
+            },
             {
             "title":"皮皮动漫",
             "url":"http://dm.muying.me/mogai_api.php/v1.vod",
@@ -958,6 +958,12 @@
             "title":"淘剧社",
             "url":"https://app.shuhai99.com/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/淘剧社.png",
+            "murl":"q:APP影视"
+            },
+            {
+            "title":"天空影视",
+            "url":"https://tv.51aizn.com/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/天空影视.png",
             "murl":"q:APP影视"
             },
             {
