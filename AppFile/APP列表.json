@@ -352,12 +352,6 @@
             "murl":"q:APP影视"
             },
             {
-            "title":"袜子影视",
-            "url":"http://www.wazitv.com/xgapp.php/v1/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/袜子影视.png",
-            "murl":"q:APP影视"
-            },
-            {
             "title":"小白视频",
             "url":"https://ccoyytv.com/api.php/app/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/小白视频.png",
@@ -427,6 +421,12 @@
             "title":"追剧达人",
             "url":"http://vipmv.tv/xgapp.php/v1/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/追剧达人.png",
+            "murl":"q:APP影视"
+            },
+            {
+            "title":"追剧影院",
+            "url":"https://www.zhuijuw.cn/api.php/app/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/追剧影院.png",
             "murl":"q:APP影视"
             }
         ]
