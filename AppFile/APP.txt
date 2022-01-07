@@ -503,7 +503,7 @@ var resp=JZ(JSON.stringify({url:uu,redirect:false,head:{"User-Agent":"Mozilla/5.
 if(uu.indexOf("baidu.com")!=-1){
     var playurl=uu.split("wd=")[1];
     if(playurl.indexOf("duoduozy.com")!=-1){
-        var uuu="https://player.duoduozy.com/ddplay/api.php?url="+playurl;
+        var uuu="http://json.yyyy.fun/xd.php?url="+playurl;
         var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.com/"}}));
         var uuuu=resp.match(/var urls.+?"(.+?)"/)[1];
         JSON.stringify({url:uuuu});
