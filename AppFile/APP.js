@@ -67,7 +67,7 @@ var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
 var filename=e2Rex("QVBQ5b2x6KeG5YiX6KGo",".t().dn64()");
-var appName="APP影视";
+var appName="APP影视.js";
 var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
     var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP列表.json"})).replace(/\s/g,"");
@@ -134,7 +134,7 @@ var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
 var filename=e2Rex("QVBQ5b2x6KeG5YiX6KGo",".t().dn64()");
-var appName="APP影视";
+var appName="APP影视.js";
 var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
     e2Rex(index,".json(data).i(0)");
@@ -163,7 +163,7 @@ var NewVersion="20211120";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var filename=e2Rex("QVBQ5b2x6KeG5YiX6KGo",".t().dn64()");
 var KEY=getVar("KEY");
-var appName="APP影视";
+var appName="APP影视.js";
 var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
     var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP列表.json"})).replace(/\s/g,"");
@@ -612,7 +612,7 @@ var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
 var NewVersion="20211120";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var filename=e2Rex("QVBQ5b2x6KeG5YiX6KGo",".t().dn64()");
-var appName="APP影视";
+var appName="APP影视.js";
 var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
     getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP列表.json"}));
