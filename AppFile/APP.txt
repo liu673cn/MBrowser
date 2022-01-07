@@ -503,10 +503,10 @@ var resp=JZ(JSON.stringify({url:uu,redirect:false,head:{"User-Agent":"Mozilla/5.
 if(uu.indexOf("baidu.com")!=-1){
     var playurl=uu.split("wd=")[1];
     if(playurl.indexOf("duoduozy.com")!=-1){
-        var uuu="https://player.duoduozy.com/ddplay/api.php?url="+playurl;
-        var resp=getHttp(JSON.stringify({url:uuu,head:{"referer":"https://www.duoduozy.com/"}}));
-        var uuuu=resp.match(/var urls.+?"(.+?)"/)[1];
-        JSON.stringify({url:uuuu});
+        var uuu="http://json.yyyy.fun/xd.php?url="+playurl;
+        var resp=getHttp(JSON.stringify({url:uuu}));
+        var uuuu=e2Rex(resp,".josn(url)");
+        JSON.stringify({url:uuuu,head:{"referer":"https://www.duoduozy.com/"}});
     }else if(playurl.indexOf("api.iopenyun.com:88")!=-1){
         if(playurl.indexOf("html")!=-1){
             var uu="https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=dgilouvFKNRSWX2467&url="+playurl.split("=")[1];
