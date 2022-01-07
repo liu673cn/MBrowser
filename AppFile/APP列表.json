@@ -406,21 +406,27 @@
             "murl":"q:APP影视"
             },
             {
-            "title":"鸭奈菲",
+            "title":"鸭奈飞",
             "url":"https://netflix.mom/api.php/app/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/极光影院.png",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/鸭奈飞电影.png",
+            "murl":"q:APP影视"
+            },
+            {
+            "title":"北川影视",
+            "url":"https://www.bcwzg.com/api.php/app/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/北川影视.png",
             "murl":"q:APP影视"
             },
             {
             "title":"心鸾影视",
             "url":"http://xinluan.520say.cn/xgapp.php/v1/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/极光影院.png",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/心鸾影视.png",
             "murl":"q:APP影视"
             },
             {
             "title":"双鹿影视",
             "url":"https://mv.slidc.top/api.php/app/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/极光影院.png",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/双鹿影视.png",
             "murl":"q:APP影视"
             }
         ]
