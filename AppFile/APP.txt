@@ -505,7 +505,7 @@ if(uu.indexOf("baidu.com")!=-1){
     if(playurl.indexOf("duoduozy.com")!=-1){
         var uuu="http://json.yyyy.fun/xd.php?url="+playurl;
         var resp=getHttp(JSON.stringify({url:uuu}));
-        var uuuu=e2Rex(resp,".josn(url)");
+        var uuuu=e2Rex(uuu,".josn(url)");
         JSON.stringify({url:uuuu,head:{"referer":"https://www.duoduozy.com/"}});
     }else if(playurl.indexOf("api.iopenyun.com:88")!=-1){
         if(playurl.indexOf("html")!=-1){
