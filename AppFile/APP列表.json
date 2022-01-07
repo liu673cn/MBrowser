@@ -352,6 +352,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"袜子影视",
+            "url":"http://www.wazitv.com/api.php/app/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/袜子影视.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"小白视频",
             "url":"https://ccoyytv.com/api.php/app/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/小白视频.png",
