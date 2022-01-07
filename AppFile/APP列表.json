@@ -76,6 +76,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"北川影视",
+            "url":"https://www.bcwzg.com/api.php/app/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/北川影视.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"播放呀",
             "url":"https://www.bofangya.com/xgapp.php/v1/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/播放呀.png",
@@ -127,6 +133,12 @@
             "title":"段友影视",
             "url":"http://js.66app.me/api.php/app/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/段友影视©.png",
+            "murl":"q:APP影视"
+            },
+            {
+            "title":"抖音影视",
+            "url":"http://www.webiyeys99.com/xgapp.php/v1/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/极光影院.png",
             "murl":"q:APP影视"
             },
             {
@@ -262,6 +274,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"觅影影视",
+            "url":"http://ccxg.xazhutu.com/xgapp.php/v1/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/极光影院.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"莫扎兔",
             "url":"http://www.mozhatu.xyz/api.php/app/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/莫扎兔.png",
@@ -295,6 +313,12 @@
             "title":"世界电影",
             "url":"https://app.lovetv.online/api.php/app/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/世界电影.png",
+            "murl":"q:APP影视"
+            },
+            {
+            "title":"双鹿影视",
+            "url":"https://mv.slidc.top/api.php/app/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/双鹿影视.png",
             "murl":"q:APP影视"
             },
             {
@@ -346,6 +370,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"心鸾影视",
+            "url":"http://xinluan.520say.cn/xgapp.php/v1/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/心鸾影视.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"小强TV",
             "url":"http://xqapp.hailanfj.com/xgapp.php/v1/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/小强TV.png",
@@ -382,6 +412,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"鸭奈飞",
+            "url":"https://netflix.mom/api.php/app/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/鸭奈飞电影.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"影视工场",
             "url":"https://www.ysgc.cc/xgapp.php/v1/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/影视工场.png",
@@ -391,42 +427,6 @@
             "title":"追剧达人",
             "url":"http://vipmv.tv/xgapp.php/v1/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/追剧达人.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"(觅影)",
-            "url":"http://ccxg.xazhutu.com/xgapp.php/v1/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/极光影院.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"(抖音)",
-            "url":"http://www.webiyeys99.com/xgapp.php/v1/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/极光影院.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"鸭奈飞",
-            "url":"https://netflix.mom/api.php/app/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/鸭奈飞电影.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"北川影视",
-            "url":"https://www.bcwzg.com/api.php/app/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/北川影视.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"心鸾影视",
-            "url":"http://xinluan.520say.cn/xgapp.php/v1/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/心鸾影视.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"双鹿影视",
-            "url":"https://mv.slidc.top/api.php/app/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/双鹿影视.png",
             "murl":"q:APP影视"
             }
         ]
