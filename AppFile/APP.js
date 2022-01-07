@@ -64,7 +64,7 @@
 var update=getVar("版本更新");
 var NewVersion="20211120";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
-var appSign="d566171c6a64659aad784524c76ab569";
+var appSign="8c1a742e9f9c4ee5b9ec18fa642b32c5";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
 var filename=e2Rex("QVBQ5b2x6KeG5YiX6KGo",".t().dn64()");
 var appName="APP影视.js";
@@ -131,7 +131,7 @@ if(version==NewVersion&&sign==appSign&&name==appName){
 var index=getVar("首页图标");
 var NewVersion="20211120";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
-var appSign="d566171c6a64659aad784524c76ab569";
+var appSign="8c1a742e9f9c4ee5b9ec18fa642b32c5";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
 var filename=e2Rex("QVBQ5b2x6KeG5YiX6KGo",".t().dn64()");
 var appName="APP影视.js";
@@ -157,7 +157,7 @@ if(u.indexOf("搜狗")!=-1){
     getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP列表.json"}));
 }
 ######批量搜索
-var appSign="d566171c6a64659aad784524c76ab569";
+var appSign="8c1a742e9f9c4ee5b9ec18fa642b32c5";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
 var NewVersion="20211120";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
@@ -607,7 +607,7 @@ if(uu.indexOf("baidu.com")!=-1){
     "web="+uu;
 }
 ######单一搜索
-var appSign="d566171c6a64659aad784524c76ab569";
+var appSign="8c1a742e9f9c4ee5b9ec18fa642b32c5";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
 var NewVersion="20211120";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
