@@ -147,6 +147,12 @@
     "title":"APP影视(v1)",
     "list":[
         {
+        "title":"段友影视",
+        "url":"https://shangjihuoke.com/api.php/v1.vod",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/段友影视.png",
+        "murl":"q:APP影视"
+        },
+        {
         "title":"遗忘影视",
         "url":"http://www.bywdtk.vip/mogai_api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/遗忘影视.png",
