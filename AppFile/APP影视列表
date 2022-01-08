@@ -124,12 +124,6 @@
         "murl":"q:APP影视"
         },
         {
-        "title":"非凡TV",
-        "url":"https://app.feifan.live:2087/xgapp.php/v1/",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/非凡TV.png",
-        "murl":"q:APP影视"
-        },
-        {
         "title":"饭团影院",
         "url":"http://television.wkfile.com/api.php/app/",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/饭团影院.png",
