@@ -476,12 +476,6 @@
         "murl":"q:APP影视"
         },
         {
-        "title":"爱西西",
-        "url":"http://app.aixixi.vip/mogai_api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/爱西西影视.png",
-        "murl":"q:APP影视"
-        },
-        {
         "title":"阿姨追剧",
         "url":"https://www.ayzhuiju.com/ruifenglb_api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/阿姨追剧2.png",
@@ -533,12 +527,6 @@
         "title":"虎猫视频",
         "url":"https://humaosp.com/mogai_api.php/v1.vod",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/虎猫视频.png",
-        "murl":"q:APP影视"
-        },
-        {
-        "title":"可米影视",
-        "url":"http://www.kmysw.vip/api.php/v1.vod",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/可米影视.png",
         "murl":"q:APP影视"
         },
         {
