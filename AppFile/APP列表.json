@@ -530,6 +530,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"爱酷影视",
+            "url":"https://www.zhanlangbu.com/ruifenglb_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/爱酷影视.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"爱西西",
             "url":"http://app.aixixi.vip/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/爱西西影视.png",
