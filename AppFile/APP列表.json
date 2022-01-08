@@ -274,6 +274,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"蚂蚁视频",
+            "url":"https://apps.2kanju.com/xgapp.php/v1/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/蚂蚁视频.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"觅影影视",
             "url":"http://ccxg.xazhutu.com/xgapp.php/v1/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/极光影院.png",
@@ -665,6 +671,12 @@
             "title":"瑞丰资源",
             "url":"https://ts.yjhan.com:4433/ruifenglb_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/瑞丰.png",
+            "murl":"q:APP影视"
+            },
+            {
+            "title":"思乐影视",
+            "url":"https://www.huandian.top/ruifenglb_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/思乐影视.png",
             "murl":"q:APP影视"
             },
             {
