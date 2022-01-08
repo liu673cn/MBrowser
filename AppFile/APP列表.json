@@ -406,6 +406,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"星月追剧",
+            "url":"http://xingyuezhuiju.com/api.php/app/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/星月追剧.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"映迷",
             "url":"https://www.inmi.app/xgapp.php/v1/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/映迷.png",
