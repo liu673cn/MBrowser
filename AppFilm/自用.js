@@ -5,35 +5,35 @@
     "list":[
         {
         "url":"q:APP",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/APP顶部.png"
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/Icon/APP顶部.png"
         },
         {
         "url":"q:豆瓣片库",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/豆瓣.png"
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/Icon/豆瓣.png"
         },
         {
         "url":"q:APP",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/APP中部.png"
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/Icon/APP中部.png"
         },
         {
         "url":"q:豆瓣片单",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/片单.png"
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/Icon/片单.png"
         },
         {
         "url":"q:APP",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/APP底部.png"
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/Icon/APP底部.png"
         },
         {
         "url":"q:豆瓣榜单",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/榜单.png"
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/Icon/榜单.png"
         },
         {
         "url":"https://7cc7cc.com/thread-902.htm",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/反馈.png"
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/Icon/反馈.png"
         },
         {
         "url":"q:搜狗片库",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/搜狗.png"
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/Icon/搜狗.png"
         }
     ]
     },
@@ -41,11 +41,11 @@
     "list":[
         {
         "url":"mapi:qm/https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/InMemory/APP影视.mqz",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/更新.png"
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/Icon/更新.png"
         },
         {
         "url":"https://7cc7cc.com/thread-902.htm",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/反馈.png"
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/Icon/反馈.png"
         }
     ]
     },
@@ -54,7 +54,7 @@
         {
         "title":"请安装新版APP影视",
         "url":"mapi:qm/https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/InMemory/APP影视.mqz",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/update.png"
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/AppIcon/update.png"
         }
     ]
     }
@@ -70,7 +70,7 @@ var filename=e2Rex("6Ieq55SoLmpzb24=",".t().dn64()");
 var appName="APP影视.js";
 var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
-    var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/"+filename})).replace(/\s/g,"");
+    var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/"+filename})).replace(/\s/g,"");
     var 分类=e2Arr(原,".z(\\{[^{]+?\\})");
     var newArr=分类.filter(item=>item.indexOf("api.php/app")!=-1||item.indexOf("xgapp.php/v1")!=-1||item.indexOf(".vod")!=-1);
     var 随机=newArr[Math.floor(Math.random()*newArr.length)];
@@ -154,7 +154,7 @@ if(u.indexOf("搜狗")!=-1){
 }else if(u.indexOf("豆瓣榜单")!=-1){
     "https://frodo.douban.com/api/v2/subject_collection/";
 }else{
-    getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/"+filename}));
+    getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/"+filename}));
 }
 ######批量搜索
 var appSign="8c1a742e9f9c4ee5b9ec18fa642b32c5";
@@ -166,7 +166,7 @@ var KEY=getVar("KEY");
 var appName="APP影视.js";
 var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
-    var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/"+filename})).replace(/\s/g,"");
+    var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/"+filename})).replace(/\s/g,"");
     var 分类=e2Arr(原,".json(data)");
     var res=[];
     for(var j=0;j<分类.length;j++){
@@ -615,7 +615,7 @@ var filename=e2Rex("6Ieq55SoLmpzb24=",".t().dn64()");
 var appName="APP影视.js";
 var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
-    getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/+filename"}));
+    getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/+filename"}));
 }else{
     "";
 }
