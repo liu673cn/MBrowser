@@ -70,7 +70,7 @@ var filename=e2Rex("6Ieq55SoLmpzb24=",".t().dn64()");
 var appName="APP影视.js";
 var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
-    var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP列表.json"})).replace(/\s/g,"");
+    var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/"+filename})).replace(/\s/g,"");
     var 分类=e2Arr(原,".z(\\{[^{]+?\\})");
     var newArr=分类.filter(item=>item.indexOf("api.php/app")!=-1||item.indexOf("xgapp.php/v1")!=-1||item.indexOf(".vod")!=-1);
     var 随机=newArr[Math.floor(Math.random()*newArr.length)];
@@ -154,7 +154,7 @@ if(u.indexOf("搜狗")!=-1){
 }else if(u.indexOf("豆瓣榜单")!=-1){
     "https://frodo.douban.com/api/v2/subject_collection/";
 }else{
-    getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP列表.json"}));
+    getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/"+filename}));
 }
 ######批量搜索
 var appSign="8c1a742e9f9c4ee5b9ec18fa642b32c5";
@@ -166,7 +166,7 @@ var KEY=getVar("KEY");
 var appName="APP影视.js";
 var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
-    var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP列表.json"})).replace(/\s/g,"");
+    var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/"+filename})).replace(/\s/g,"");
     var 分类=e2Arr(原,".json(data)");
     var res=[];
     for(var j=0;j<分类.length;j++){
@@ -615,7 +615,7 @@ var filename=e2Rex("6Ieq55SoLmpzb24=",".t().dn64()");
 var appName="APP影视.js";
 var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
-    getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP列表.json"}));
+    getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/+filename"}));
 }else{
     "";
 }
