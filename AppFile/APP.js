@@ -66,7 +66,7 @@ var NewVersion="20211120";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var appSign="8c1a742e9f9c4ee5b9ec18fa642b32c5";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
-var filename=e2Rex("QVBQ5b2x6KeG5YiX6KGo",".t().dn64()");
+var filename=e2Rex("6Ieq55So",".t().dn64()");
 var appName="APP影视.js";
 var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
@@ -133,7 +133,7 @@ var NewVersion="20211120";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var appSign="8c1a742e9f9c4ee5b9ec18fa642b32c5";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
-var filename=e2Rex("QVBQ5b2x6KeG5YiX6KGo",".t().dn64()");
+var filename=e2Rex("6Ieq55So",".t().dn64()");
 var appName="APP影视.js";
 var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
@@ -144,7 +144,7 @@ if(version==NewVersion&&sign==appSign&&name==appName){
 }
 ######地址判断
 var u=getVar("url");
-var filename=e2Rex("QVBQ5b2x6KeG5YiX6KGo",".t().dn64()");
+var filename=e2Rex("6Ieq55So",".t().dn64()");
 if(u.indexOf("搜狗")!=-1){
     "https://waptv.sogou.com/napi/video/classlist?abtest=0";
 }else if(u.indexOf("豆瓣片库")!=-1){
@@ -161,7 +161,7 @@ var appSign="8c1a742e9f9c4ee5b9ec18fa642b32c5";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
 var NewVersion="20211120";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
-var filename=e2Rex("QVBQ5b2x6KeG5YiX6KGo",".t().dn64()");
+var filename=e2Rex("6Ieq55So",".t().dn64()");
 var KEY=getVar("KEY");
 var appName="APP影视.js";
 var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
@@ -611,7 +611,7 @@ var appSign="8c1a742e9f9c4ee5b9ec18fa642b32c5";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
 var NewVersion="20211120";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
-var filename=e2Rex("QVBQ5b2x6KeG5YiX6KGo",".t().dn64()");
+var filename=e2Rex("6Ieq55So",".t().dn64()");
 var appName="APP影视.js";
 var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
