@@ -615,7 +615,7 @@ var filename=e2Rex("6Ieq55SoLmpzb24=",".t().dn64()");
 var appName="APP影视.js";
 var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
-    getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/+filename"}));
+    getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/"+filename}));
 }else{
     "";
 }
