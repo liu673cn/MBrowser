@@ -3,6 +3,12 @@
     {
     "title":"APP影视(xiaogui)",
     "list":[
+            {
+            "title":"火箭影视",
+            "url":"http://huojian.wchulian.com.cn/api.php/app/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/AppIcon/火箭影视.png",
+            "murl":"q:APP影视"
+            },
         {
         "title":"1",
         "url":"http://www.webiyeys99.com/xgapp.php/v1/",

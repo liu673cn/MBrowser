@@ -172,12 +172,6 @@
             "murl":"q:APP影视"
             },
             {
-            "title":"火箭影视",
-            "url":"http://huojian.wchulian.com.cn/api.php/app/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/AppIcon/火箭影视.png",
-            "murl":"q:APP影视"
-            },
-            {
             "title":"环球影视",
             "url":"https://hqystv.com/api.php/app/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/AppIcon/环球影视.png",
@@ -1233,6 +1227,12 @@
             "title":"乐酷TV",
             "url":"http://150.138.78.177:2021/api.php/Chengcheng/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/AppIcon/乐酷TV.png",
+            "murl":"q:TV影视"
+            },
+            {
+            "title":"懒猫TV",
+            "url":"http://www.esellauto.com/api.php/lh/vod/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/AppIcon/懒猫TV.png",
             "murl":"q:TV影视"
             },
             {
