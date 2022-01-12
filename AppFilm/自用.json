@@ -161,7 +161,7 @@
             },
             {
             "title":"瓜皮TV",
-            "url":"http://www.dijiaxia.com/xgapp.php/v1/",
+            "url":"http://appguapi.lihaoyun.top:11543/api.php/app/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/AppIcon/瓜皮TV.png",
             "murl":"q:APP影视"
             },
@@ -1161,6 +1161,12 @@
             "title":"爱西西TV",
             "url":"http://tv.aixixi.vip/api.php/iptv/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/AppIcon/爱西西TV.png",
+            "murl":"q:TV影视"
+            },
+            {
+            "title":"白熊影院",
+            "url":"http://qt.yhzy.xyz/api.php/iptv/vod/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/AppIcon/白熊影院.png",
             "murl":"q:TV影视"
             },
             {
