@@ -506,7 +506,7 @@ if(uu.indexOf("baidu.com")!=-1){
         var uuu="http://json.yyyy.fun/xd.php?url="+playurl;
         var resp=JZ(JSON.stringify({url:uuu}));
         JSON.stringify({url:JSON.parse(resp.code).url,head:{"referer":"https://www.duoduozy.com/"}});
-    if(playurl.indexOf("cache.suoyo.cc")!=-1){
+    }else if(playurl.indexOf("suoyo.cc")!=-1){
         var ua="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36 SE 2.X MetaSr 1.0";
         var refer="origin: https://player.duoduozy.com";
         var uuu="https://app.json.suoyo.cc/guapitg.php?url="+playurl;
