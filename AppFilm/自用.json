@@ -877,6 +877,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"聚合视频",
+            "url":"https://app.jhystv.com/mogai_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/AppIcon/聚合视频.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"剧迷视频",
             "url":"http://pan.hzafw.com/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/AppIcon/剧迷视频.png",
