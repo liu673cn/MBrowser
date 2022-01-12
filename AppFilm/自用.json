@@ -292,6 +292,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"牛马TV",
+            "url":"http://www.niumatv.com/api.php/app/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/AppIcon/牛马TV.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"皮皮影视",
             "url":"http://pp.ig4.cn/api.php/app/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/AppIcon/皮皮影视.png",
