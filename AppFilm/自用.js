@@ -507,9 +507,7 @@ if(uu.indexOf("baidu.com")!=-1){
         var resp=JZ(JSON.stringify({url:uuu}));
         JSON.stringify({url:JSON.parse(resp.code).url,head:{"referer":"https://www.duoduozy.com/"}});
     }else if(playurl.indexOf("suoyo.cc")!=-1){
-        var uuu="https://app.json.suoyo.cc/guapitg.php?url="+playurl;
-        var resp=JZ(JSON.stringify({url:uuu,head:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36 SE 2.X MetaSr 1.0"}}));
-        JSON.stringify({url:JSON.parse(resp.code).url,head:{"referer":"origin: https://player.duoduozy.com"}});
+        JSON.stringify({url:playurl,head:{"referer":"origin: https://player.duoduozy.com"}});
     }else if(playurl.indexOf("api.iopenyun.com:88")!=-1){
         if(playurl.indexOf("html")!=-1){
             var uu="https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=dgilouvFKNRSWX2467&url="+playurl.split("=")[1];
