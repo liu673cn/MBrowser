@@ -596,6 +596,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"番茄动漫",
+            "url":"http://dm.69ty.cc/mogai_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/AppIcon/番茄动漫.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"汇聚库TV",
             "url":"https://www.zzclove666.com/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/AppIcon/汇聚库TV.png",
@@ -772,6 +778,12 @@
             "title":"U5影视",
             "url":"https://appx.uy07.com/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/AppIcon/U5影视.png",
+            "murl":"q:APP影视"
+            },
+            {
+            "title":"XG影视",
+            "url":"http://cms.xggm.top/ruifenglb_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/AppIcon/XG影视.png",
             "murl":"q:APP影视"
             },
             {
