@@ -502,11 +502,7 @@ var uu=getVar("url");
 var resp=JZ(JSON.stringify({url:uu,redirect:false,head:{"User-Agent":"Mozilla/5.0 Android"}}));
 if(uu.indexOf("baidu.com")!=-1){
     var playurl=uu.split("wd=")[1];
-    if(playurl.indexOf("duoduozy.com")!=-1||playurl.indexOf("suoyo.cc")!=-1){
-        var uuu="https://www.6080kan.cc/app.php?url="+playurl;
-        var resp=JZ(JSON.stringify({url:uuu}));
-        JSON.stringify({url:JSON.parse(resp.code).url});
-    }else if(playurl.indexOf("api.iopenyun.com:88")!=-1){
+    if(playurl.indexOf("api.iopenyun.com:88")!=-1){
         if(playurl.indexOf("html")!=-1){
             var uu="https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=dgilouvFKNRSWX2467&url="+playurl.split("=")[1];
             var resp=JZ(JSON.stringify({url:uu}));
