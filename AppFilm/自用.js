@@ -505,7 +505,7 @@ if(uu.indexOf("baidu.com")!=-1){
     if(playurl.indexOf("duoduozy.com")!=-1||playurl.indexOf("suoyo.cc")!=-1){
         var uuu="https://www.6080kan.cc/app.php?url="+playurl;
         var resp=JZ(JSON.stringify({url:uuu}));
-        JSON.stringify({url:JSON.parse(resp.code).url,head:{"referer":"https://player.duoduozy.com"}});
+        JSON.stringify({url:JSON.parse(resp.code).url,head:{"referer":"https://www.duoduozy.com"}});
     }else if(playurl.indexOf("api.iopenyun.com:88")!=-1){
         if(playurl.indexOf("html")!=-1){
             var uu="https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=dgilouvFKNRSWX2467&url="+playurl.split("=")[1];
