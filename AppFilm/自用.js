@@ -66,11 +66,11 @@ var NewVersion="20211120";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var appSign="8c1a742e9f9c4ee5b9ec18fa642b32c5";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
-var filename=e2Rex("6Ieq55SoLmpzb24=",".t().dn64()");
+var filename=e2Rex("aHR0cHM6Ly9pbm1lbW9yeS5jb2RpbmcubmV0L3AvSW5NZW1vcnkvZC9BcHBGaWxtL2dpdC9yYXcvbWFzdGVyL+WIl+ihqC5qc29u",".t().dn64()");
 var appName="APP影视.js";
 var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
-    var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/"+filename})).replace(/\s/g,"");
+    var 原=getHttp(JSON.stringify({url:filename})).replace(/\s/g,"");
     var 分类=e2Arr(原,".z(\\{[^{]+?\\})");
     var newArr=分类.filter(item=>item.indexOf("api.php/app")!=-1||item.indexOf("xgapp.php/v1")!=-1||item.indexOf(".vod")!=-1);
     var 随机=newArr[Math.floor(Math.random()*newArr.length)];
@@ -133,7 +133,7 @@ var NewVersion="20211120";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var appSign="8c1a742e9f9c4ee5b9ec18fa642b32c5";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
-var filename=e2Rex("6Ieq55SoLmpzb24=",".t().dn64()");
+var filename=e2Rex("aHR0cHM6Ly9pbm1lbW9yeS5jb2RpbmcubmV0L3AvSW5NZW1vcnkvZC9BcHBGaWxtL2dpdC9yYXcvbWFzdGVyL+WIl+ihqC5qc29u",".t().dn64()");
 var appName="APP影视.js";
 var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
@@ -144,7 +144,7 @@ if(version==NewVersion&&sign==appSign&&name==appName){
 }
 ######地址判断
 var u=getVar("url");
-var filename=e2Rex("6Ieq55SoLmpzb24=",".t().dn64()");
+var filename=e2Rex("aHR0cHM6Ly9pbm1lbW9yeS5jb2RpbmcubmV0L3AvSW5NZW1vcnkvZC9BcHBGaWxtL2dpdC9yYXcvbWFzdGVyL+WIl+ihqC5qc29u",".t().dn64()");
 if(u.indexOf("搜狗")!=-1){
     "https://waptv.sogou.com/napi/video/classlist?abtest=0";
 }else if(u.indexOf("豆瓣片库")!=-1){
@@ -154,19 +154,19 @@ if(u.indexOf("搜狗")!=-1){
 }else if(u.indexOf("豆瓣榜单")!=-1){
     "https://frodo.douban.com/api/v2/subject_collection/";
 }else{
-    getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/"+filename}));
+    getHttp(JSON.stringify({url:filename}));
 }
 ######批量搜索
 var appSign="8c1a742e9f9c4ee5b9ec18fa642b32c5";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
 var NewVersion="20211120";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
-var filename=e2Rex("6Ieq55SoLmpzb24=",".t().dn64()");
+var filename=e2Rex("aHR0cHM6Ly9pbm1lbW9yeS5jb2RpbmcubmV0L3AvSW5NZW1vcnkvZC9BcHBGaWxtL2dpdC9yYXcvbWFzdGVyL+WIl+ihqC5qc29u",".t().dn64()");
 var KEY=getVar("KEY");
 var appName="APP影视.js";
 var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
-    var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/"+filename})).replace(/\s/g,"");
+    var 原=getHttp(JSON.stringify({url:filename})).replace(/\s/g,"");
     var 分类=e2Arr(原,".json(data)");
     var res=[];
     for(var j=0;j<分类.length;j++){
@@ -611,11 +611,11 @@ var appSign="8c1a742e9f9c4ee5b9ec18fa642b32c5";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
 var NewVersion="20211120";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
-var filename=e2Rex("6Ieq55SoLmpzb24=",".t().dn64()");
+var filename=e2Rex("aHR0cHM6Ly9pbm1lbW9yeS5jb2RpbmcubmV0L3AvSW5NZW1vcnkvZC9BcHBGaWxtL2dpdC9yYXcvbWFzdGVyL+WIl+ihqC5qc29u",".t().dn64()");
 var appName="APP影视.js";
 var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
-    getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFilm/"+filename}));
+    getHttp(JSON.stringify({url:filename}));
 }else{
     "";
 }
