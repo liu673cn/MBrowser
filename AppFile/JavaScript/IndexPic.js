@@ -12,5 +12,5 @@ if(version==NewVersion&&sign==appSign&&name==appName){
     e2Rex(IndexPic,".json(data).i(0)");
 }else{
     alert(update)
-    e2Rex(index,".json(data).i(1)");
+    e2Rex(IndexPic,".json(data).i(1)");
 }
