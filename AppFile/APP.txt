@@ -192,12 +192,12 @@ if(version==NewVersion&&sign==appSign&&name==appName){
                 }
                 var 地址=地址+"?ac=list&"+word+"="+KEY+"&page=";
             }
-            items.push(标题+"="+地址);
+        items.push(标题+"="+地址);
         }
-        var 合并=items.join("\n");
-        var 分类标题=e2Rex(分类[j],".json(title)");
-        list.url=合并;list.title=分类标题;
-        res.push(list);
+    var 合并=items.join("\n");
+    var 分类标题=e2Rex(分类[j],".json(title)");
+    list.url=合并;list.title=分类标题;
+    res.push(list);
     }
     JSON.stringify(res);
 }else{
