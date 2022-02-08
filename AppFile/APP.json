@@ -950,6 +950,12 @@
             "murl":"q:TV影视"
             },
             {
+            "title":"叮当TV",
+            "url":"http://tv.hyddys.top/api.php/iptv/vod/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/叮当TV.png",
+            "murl":"q:TV影视"
+            },
+            {
             "title":"嘀哩嘀哩",
             "url":"https://api.diliktv.xyz/api.php/Chengcheng/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/嘀哩嘀哩TV.png",
