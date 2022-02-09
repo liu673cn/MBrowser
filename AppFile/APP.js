@@ -286,9 +286,7 @@ var 分类筛选=JSON.parse(getVar("CODE")).type_extend;
 var str="";
 for(var key in 分类筛选){
     if(key=="class"||key=="area"||key=="lang"||key=="year"){
-        if(分类筛选[key].length>1){
-            str=str+"筛选"+key+"+全部=+"+分类筛选[key].replace(/,/g,"+")+"\r\n";
-        }
+        str=str+"筛选"+key+"+全部=+"+分类筛选[key].replace(/,/g,"+")+"\r\n";
     }
 }
 if(URL.indexOf(".vod")!=-1){
