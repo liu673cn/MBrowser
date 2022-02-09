@@ -272,9 +272,9 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
-    "&class=筛选class&area=筛选area&lang=筛选lang&year=筛选year&star=筛选star&director=筛选director&state=筛选state&version=筛选version&limit=18&pg=#PN#";
+    "&class=筛选class&area=筛选area&lang=筛选lang&year=筛选year&limit=18&pg=#PN#";
 }else if(URL.indexOf(".vod")!=-1){
-    "&class=筛选class&area=筛选area&lang=筛选lang&year=筛选year&star=筛选star&director=筛选director&state=筛选state&version=筛选version&by=排序&limit=18&page=#PN#";
+    "&class=筛选class&area=筛选area&lang=筛选lang&year=筛选year&by=排序&limit=18&page=#PN#";
 }else if(URL.indexOf("豆瓣片单")!=-1){
     "/items?apikey=0dad551ec0f84ed02907ff5c42e8ec70&start=#PN#&count=20&items_only=0";
 }else{
@@ -285,7 +285,11 @@ var URL=getVar("url");
 var 分类筛选=JSON.parse(getVar("CODE")).type_extend;
 var str="";
 for(var key in 分类筛选){
-  str=str+"筛选"+key+"+全部=+"+分类筛选[key].replace(/,/g,"+")+"\r\n";
+    if(key=="class"||key=="area"||key=="lang"||key=="year"){
+        if(分类筛选[key].length>1){
+            str=str+"筛选"+key+"+全部=+"+分类筛选[key].replace(/,/g,"+")+"\r\n";
+        }
+    }
 }
 if(URL.indexOf(".vod")!=-1){
   str+"\r\n"+"排序+全部=+最新=time+最热=hits+评分=score";
