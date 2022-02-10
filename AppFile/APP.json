@@ -353,7 +353,7 @@
             },
             {
             "title":"优视影视",
-            "url":"http://cc.ysys.asia/api.php/v1.vod",
+            "url":"http://app.ysys.asia/lvdou_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/优视影视.png",
             "murl":"q:APP影视"
             },
