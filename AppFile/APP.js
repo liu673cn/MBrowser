@@ -387,7 +387,7 @@ function 选集列表(){
                     var 接口=URL.match(/https?:\/\/[^\/]*/)[0]+可用接口[0].match(/\/.*(url|v|vid|php\?id)=/)[0].replace("..",".");
                 }
             }else{
-                var 接口="http://1.117.152.239:39000/?url=";
+                var 接口="http://egwang186.gitee.io/?url=";
             }
         }else if(URL.indexOf("api.php/app/")!=-1||URL.indexOf("xgapp")!=-1){
             var 接口=e2Rex(分类CODE,".json(parse_api)");
@@ -435,7 +435,7 @@ function 选集列表(){
                 }else if(接口.indexOf("url=")==-1&&选集地址.indexOf("renrenmi")!=-1){
                     var 选集地址="https://www.baidu.com/s?wd=https://kuba.renrenmi.cc:2266/api/?key=Y6UYLYtjImTCKe98JD&url="+选集地址;
                 }else if(接口.indexOf("url=")==-1&&选集地址.indexOf(".html")!=-1){
-                    var 选集地址="https://www.baidu.com/s?wd=http://1.117.152.239:39000/?url="+选集地址;
+                    var 选集地址="https://www.baidu.com/s?wd=http://egwang186.gitee.io/?url="+选集地址;
                 }else if(选集地址.indexOf("xfy")!=-1){
                     var 选集地址="https://www.baidu.com/s?wd=http://jiexi.yunl.cc/api/?key=xYNESYSvHp1DV2ckKs&url="+选集地址;
                 }else{
@@ -581,7 +581,7 @@ if(uu.indexOf("baidu.com")!=-1){
                     "web="+playurl;
                 }else{
                     if(playurl.split("url=")[1].indexOf("http")!=-1){
-                        "web=http://1.117.152.239:39000/?url="+playurl.split("url=")[1];
+                        "web=http://egwang186.gitee.io/?url="+playurl.split("url=")[1];
                     }else if(playurl.split("url=")[1].indexOf("renrenmi")!=-1){
                         var 接口="http://www.1080kan.cc/jiexi/rrmi.php?url=";
                         "web="+接口+playurl.split("url=")[1]+'@{"Referer":"http://www.1080kan.cc/"}';
@@ -604,7 +604,7 @@ if(uu.indexOf("baidu.com")!=-1){
                         JSON.stringify({url:realurl});
                     }
                 }else if(playurl.split("url=")[1].indexOf("http")!=-1){
-                    "web=http://1.117.152.239:39000/?url="+playurl.split("url=")[1];
+                    "web=http://egwang186.gitee.io/?url="+playurl.split("url=")[1];
                 }else if(playurl.split("url=")[1].indexOf("renrenmi")!=-1){
                     var 接口="http://www.1080kan.cc/jiexi/rrmi.php?url=";
                     "web="+接口+playurl.split("url=")[1]+'@{"Referer":"http://www.1080kan.cc/"}';
