@@ -94,6 +94,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"安云影视",
+            "url":"http://api.vue8.cc/lvdou_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/安云影视.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"初心影视",
             "url":"https://www.18mv.club/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/初心影视.png",
