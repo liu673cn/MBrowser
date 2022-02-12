@@ -447,12 +447,6 @@
             "murl":"q:APP影视"
             },
             {
-            "title":"百讯视频",
-            "url":"https://z.iopenyun.com:99/app_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/百讯视频.png",
-            "murl":"q:APP影视"
-            },
-            {
             "title":"菜鸟动漫",
             "url":"http://taikong.huangguay.com/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/菜鸟动漫.png",
