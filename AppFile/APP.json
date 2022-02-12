@@ -878,12 +878,6 @@
             "murl":"q:TV影视"
             },
             {
-            "title":"懒猫TV",
-            "url":"http://www.esellauto.com/api.php/lh/vod/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/懒猫TV.png",
-            "murl":"q:TV影视"
-            },
-            {
             "title":"六维影视",
             "url":"http://liuweiiptv.gq:1357/api.php/iptv/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/六维影视.png",
@@ -950,12 +944,6 @@
             "murl":"q:TV影视"
             },
             {
-            "title":"双子星",
-            "url":"http://tv.diyoui.cc/api.php/iptv/vod/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/双子星.png",
-            "murl":"q:TV影视"
-            },
-            {
             "title":"山楂影视",
             "url":"http://dy6.dcd1.cn/api.php/iptv/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/山楂影视.png",
@@ -983,12 +971,6 @@
             "title":"小熊猫TV",
             "url":"http://tv2.hetaoys.vip/api.php/iptv/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/小熊猫TV.png",
-            "murl":"q:TV影视"
-            },
-            {
-            "title":"紫曦影视",
-            "url":"http://appys.azx.tools:88/api.php/iptv/vod/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/紫曦影视.png",
             "murl":"q:TV影视"
             }
         ]
