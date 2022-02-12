@@ -150,7 +150,7 @@
             {
             "title":"飞云视频",
             "url":"http://app.kxtv.ltd/lvdou_api.php/v1.vod",
-            "img":"https://in-memory.coding.net/p/FilmAndTv/d/FilmAndTv/git/raw/master/AppFile/AppIcon/飞云视频.png",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/.飞云视频.png",
             "murl":"q:APP影视"
             },
             {
@@ -186,7 +186,7 @@
             {
             "title":"零刻影院",
             "url":"https://ys.ling00.cn/api.php/v1.vod",
-            "img":"https://in-memory.coding.net/p/FilmAndTv/d/FilmAndTv/git/raw/master/AppFile/AppIcon/零刻影院.png",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/零刻影院.png",
             "murl":"q:APP影视"
             },
             {
@@ -1031,6 +1031,12 @@
             "title":"久久影院",
             "url":"http://l.bhtv.org.cn/mv/api.php/Chengcheng/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/久久影院.png",
+            "murl":"q:TV影视"
+            },
+            {
+            "title":"极品影视",
+            "url":"http://jpsb.yhzy.xyz/api.php/iptv/vod/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/极品影视TV.png",
             "murl":"q:TV影视"
             },
             {
