@@ -687,24 +687,6 @@
             "murl":"q:APP影视"
             },
             {
-            "title":"新享影视",
-            "url":"https://app.jiagan.cx/api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/新享影视.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"星影相随",
-            "url":"http://app.rootthree.top/mogai_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/星影相随.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"小易影视",
-            "url":"http://xy.irop.cn/api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/小易影视.png",
-            "murl":"q:APP影视"
-            },
-            {
             "title":"云城影院",
             "url":"https://ayyf.cn/mubai_api.php/m2.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/云城影院.png",
@@ -720,12 +702,6 @@
             "title":"樱花动漫",
             "url":"https://www.dmwu.cc/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/樱花动漫.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"月亮影视",
-            "url":"http://ys.13tv.top/acj_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/月亮影视.png",
             "murl":"q:APP影视"
             },
             {
