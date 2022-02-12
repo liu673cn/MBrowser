@@ -615,12 +615,6 @@
             "murl":"q:APP影视"
             },
             {
-            "title":"天空影视",
-            "url":"https://tv.51aizn.com/api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/天空影视.png",
-            "murl":"q:APP影视"
-            },
-            {
             "title":"天天视频",
             "url":"http://app.qianju.cc/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/天天视频.png",
@@ -634,7 +628,7 @@
             },
             {
             "title":"我爱跟剧",
-            "url":"https://www.genmov.com/api.php/v1.vod",
+            "url":"https://www.genmov.com/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/我爱跟剧.png",
             "murl":"q:APP影视"
             },
