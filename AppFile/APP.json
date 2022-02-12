@@ -513,12 +513,6 @@
             "murl":"q:APP影视"
             },
             {
-            "title":"快播吧",
-            "url":"http://app.hd8.pw/api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/快播吧.png",
-            "murl":"q:APP影视"
-            },
-            {
             "title":"看剧吧",
             "url":"http://app.ishen520.com/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/看剧吧.png",
@@ -528,12 +522,6 @@
             "title":"看看剧",
             "url":"https://www.kankanju.cn/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/看看剧.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"酷酷影视",
-            "url":"http://www.ccc8.net/api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/酷酷影视.png",
             "murl":"q:APP影视"
             },
             {
@@ -552,12 +540,6 @@
             "title":"蓝光视频",
             "url":"http://vip.91iqiyi.com/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/蓝光视频.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"林谷影视",
-            "url":"http://ys.linguyy.xyz/mogai_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/林谷影视.png",
             "murl":"q:APP影视"
             },
             {
