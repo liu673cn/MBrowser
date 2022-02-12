@@ -363,12 +363,6 @@
             "murl":"q:APP影视"
             },
             {
-            "title":"80影视",
-            "url":"http://www.ccc8.net/api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/80影视.png",
-            "murl":"q:APP影视"
-            },
-            {
             "title":"JDODO",
             "url":"https://appys.jdodo.xyz/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/JDODO影视.png",
@@ -426,18 +420,6 @@
             "title":"安云影视",
             "url":"http://api.vue8.cc/lvdou_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/安云影视.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"爱追剧",
-            "url":"http://81.71.18.95:520/lvdou_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/爱追剧.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"白菜追剧",
-            "url":"http://lbapp.huimaojia.com:30119/mogai_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/白菜追剧.png",
             "murl":"q:APP影视"
             },
             {
