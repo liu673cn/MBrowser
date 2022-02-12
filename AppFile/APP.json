@@ -800,21 +800,9 @@
             "murl":"q:TV影视"
             },
             {
-            "title":"白熊影院",
-            "url":"http://qt.yhzy.xyz/api.php/iptv/vod/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/白熊影院.png",
-            "murl":"q:TV影视"
-            },
-            {
             "title":"刺桐影视",
             "url":"http://tv.cttv.vip/api.php/iptv/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/刺桐影视.png",
-            "murl":"q:TV影视"
-            },
-            {
-            "title":"尘梓TV",
-            "url":"http://cztv.vip:83/api.php/chenziystv/vod/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/尘梓TV.png",
             "murl":"q:TV影视"
             },
             {
@@ -827,12 +815,6 @@
             "title":"嘀哩嘀哩",
             "url":"https://api.diliktv.xyz/api.php/Chengcheng/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/嘀哩嘀哩TV.png",
-            "murl":"q:TV影视"
-            },
-            {
-            "title":"动力影视",
-            "url":"http://www.love9989.com/api.php/iptv/vod/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/动力影视.png",
             "murl":"q:TV影视"
             },
             {
@@ -869,12 +851,6 @@
             "title":"黑龙影视",
             "url":"http://vip.ji-ding-he.site/api.php/iptv/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/黑龙影视.png",
-            "murl":"q:TV影视"
-            },
-            {
-            "title":"河马影院",
-            "url":"http://1.14.63.101/api.php/Chengcheng/vod/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/河马影院.png",
             "murl":"q:TV影视"
             },
             {
