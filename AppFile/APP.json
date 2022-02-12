@@ -561,27 +561,9 @@
             "murl":"q:APP影视"
             },
             {
-            "title":"名视影",
-            "url":"http://app.qqccv.com/mogai_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/名视影.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"麻子追剧",
-            "url":"http://b.2maz.cn/api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/麻子追剧.png",
-            "murl":"q:APP影视"
-            },
-            {
             "title":"奈飞中文",
             "url":"https://www.naifei.org/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/奈飞中文.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"苹果影视",
-            "url":"https://apple678.xyz/api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/苹果影视.png",
             "murl":"q:APP影视"
             },
             {
@@ -624,12 +606,6 @@
             "title":"视听星球",
             "url":"http://zjyapijzys.shynwlkj.com/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/视听星球.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"土豆TV",
-            "url":"http://xiuxian.qd234.cn/mogai_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/土豆TV.png",
             "murl":"q:APP影视"
             },
             {
