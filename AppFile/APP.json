@@ -154,12 +154,6 @@
             "murl":"q:APP影视"
             },
             {
-            "title":"汇聚库TV",
-            "url":"https://www.zzclove666.com/api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/汇聚库TV.png",
-            "murl":"q:APP影视"
-            },
-            {
             "title":"虎猫视频",
             "url":"https://humaosp.com/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/虎猫视频.png",
@@ -187,12 +181,6 @@
             "title":"零刻影院",
             "url":"https://ys.ling00.cn/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/零刻影院.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"懒猫电影",
-            "url":"http://www.esellauto.com/ruifenglb_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/懒猫电影.png",
             "murl":"q:APP影视"
             },
             {
@@ -289,12 +277,6 @@
             "title":"天天影视",
             "url":"https://app.daishusc.com/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/天天影视.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"温妮影视",
-            "url":"https://www.wenniys.com/mogai_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/温妮影视.png",
             "murl":"q:APP影视"
             },
             {
