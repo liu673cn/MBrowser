@@ -549,6 +549,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"免费影视",
+            "url":"http://111.229.120.180:88/lvdou_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/免费影视.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"美剧范",
             "url":"http://ttzmz.net/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/美剧范.png",
