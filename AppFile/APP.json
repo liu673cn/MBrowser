@@ -759,6 +759,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"追剧吧",
+            "url":"http://wtv.fit/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/追剧吧1.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"追剧达人",
             "url":"https://www.zhuijudaren.com/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/追剧达人.png",
