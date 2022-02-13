@@ -62,7 +62,7 @@
 }
 ######首页轮播图
 var update=getVar("版本更新");
-var NewVersion="20220207";
+var NewVersion="20220214";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
@@ -128,7 +128,7 @@ if(version==NewVersion&&sign==appSign&&name==appName){
 }
 ######APP影视首页图标判断
 var index=getVar("首页图标");
-var NewVersion="20220207";
+var NewVersion="20220214";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
@@ -137,7 +137,7 @@ var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
     e2Rex(index,".json(data).i(0)");
 }else{
-    alert("————更新内容————\n    ·筛选更新为动态筛选\n    ·将就用，没多少空弄\n\n—————声明—————\n    ·本轻站仅限学习交流使用，请于导入后24小时内删除，任何组织或个人不得以任何方式方法传播此规则的整体或部分。\n    ·数据来源于网络，如喜欢，请支持官方APP；APP接口本身无收费，切勿用于任何有关于交易的行为。\n    ·请勿相信任何广告，涉及人身财产安全问题请理智对待。\n    ·如接口侵权请联系删除。\n    ·因技术有限，更新修复视情况而定，使用中如有问题请通过M浏览器官方群或轻创社区反馈。\n    ·特别感谢广大侠的代码支持以及木白的首页图标。")
+    alert("————更新内容————\n    ·修复批量搜索获取不正确问题\n    ·去掉多余代码\n·祝大家脱单\n\n—————声明—————\n    ·本轻站仅限学习交流使用，请于导入后24小时内删除，任何组织或个人不得以任何方式方法传播此规则的整体或部分。\n    ·数据来源于网络，如喜欢，请支持官方APP；APP接口本身无收费，切勿用于任何有关于交易的行为。\n    ·请勿相信任何广告，涉及人身财产安全问题请理智对待。\n    ·如接口侵权请联系删除。\n    ·因技术有限，更新修复视情况而定，使用中如有问题请通过M浏览器官方群或轻创社区反馈。\n    ·特别感谢广大侠的代码支持以及木白的首页图标。")
     e2Rex(index,".json(data).i(1)");
 }
 ######地址判断
@@ -156,7 +156,7 @@ if(u.indexOf("搜狗")!=-1){
 ######批量搜索
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
-var NewVersion="20220207";
+var NewVersion="20220214";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var KEY=getVar("KEY");
 var appName="APP影视";
@@ -626,7 +626,7 @@ if(uu.indexOf("baidu.com")!=-1){
 ######单一搜索
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
-var NewVersion="20220207";
+var NewVersion="20220214";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var appName="APP影视";
 var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
