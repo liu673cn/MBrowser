@@ -441,6 +441,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"多啦咪PRO",
+            "url":"http://maccms.gqys.xyz/lvdou_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/多啦咪PRO.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"比邻影视",
             "url":"http://0hzy.cn:9990/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/比邻影视.png",
