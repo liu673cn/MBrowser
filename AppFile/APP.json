@@ -184,6 +184,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"懒猫电影",
+            "url":"http://lanmao.lanmaoymw.cn/ruifenglb_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/懒猫电影.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"蜜蜂影视",
             "url":"http://app.f8tp.com/lvdou_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/蜜蜂影视.png",
