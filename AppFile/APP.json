@@ -190,6 +190,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"蓝猫影院",
+            "url":"http://www.baofu111.top/mogai_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/蓝猫影院.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"蜜蜂影视",
             "url":"http://app.f8tp.com/lvdou_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/蜜蜂影视.png",
