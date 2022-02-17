@@ -432,8 +432,6 @@ function 选集列表(){
                     var 选集地址="https://www.baidu.com/s?wd=https://f7.pyxddc.com/bcjx/4k.php?url="+选集地址;
                 }else if(接口.indexOf("url=")==-1&&选集地址.indexOf("renrenmi")!=-1){
                     var 选集地址="https://www.baidu.com/s?wd=https://kuba.renrenmi.cc:2266/api/?key=Y6UYLYtjImTCKe98JD&url="+选集地址;
-                }else if(接口.indexOf("url=")==-1&&选集地址.indexOf("renrenmi")!=-1){
-                    var 选集地址="https://www.baidu.com/s?wd=https://kuba.renrenmi.cc:2266/api/?key=Y6UYLYtjImTCKe98JD&url="+选集地址;
                 }else if(接口.indexOf("url=")==-1&&选集地址.indexOf(".html")!=-1){
                     var 选集地址="https://www.baidu.com/s?wd=http://1.117.152.239:39000/?url="+选集地址;
                 }else if(选集地址.indexOf("xfy")!=-1){
