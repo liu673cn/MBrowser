@@ -705,6 +705,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"小鸟动漫",
+            "url":"http://xydm.baicai.buzz/mogai_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/小鸟动漫.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"玺娜影视",
             "url":"https://pp.wxina.cn/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/玺娜影视.png",
@@ -971,6 +977,12 @@
             "title":"七科影视",
             "url":"http://tv.7kfm.cn/api.php/iptv/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/七科影视.png",
+            "murl":"q:TV影视"
+            },
+            {
+            "title":"青杏TV",
+            "url":"http://pp.ddmym.cn/api.php/iptv/vod/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/青杏TV.png",
             "murl":"q:TV影视"
             },
             {
