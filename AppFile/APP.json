@@ -1050,6 +1050,12 @@
             "url":"http://tv2.hetaoys.vip/api.php/iptv/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/小熊猫TV.png",
             "murl":"q:TV影视"
+            },
+            {
+            "title":"影视阁",
+            "url":"http://216.98.10.85/api.php/iptv/vod/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/影视阁.png",
+            "murl":"q:TV影视"
             }
         ]
         }
