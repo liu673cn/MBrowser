@@ -64,6 +64,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"nod影视",
+            "url":"http://yss.kkysw.top/mogai_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/nod影视.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"爱看美剧",
             "url":"https://www.uumjw.com/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/爱看美剧.png",
@@ -175,6 +181,12 @@
             "title":"康耀影视",
             "url":"http://124.222.126.23:999/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/康耀影视.png",
+            "murl":"q:APP影视"
+            },
+            {
+            "title":"六把刀影院",
+            "url":"https://pro.6bd.net/mogai_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/六把刀影院.png",
             "murl":"q:APP影视"
             },
             {

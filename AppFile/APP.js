@@ -328,8 +328,8 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
         URL+"video_detail?id=";
     }
 }else if(URL.indexOf(".vod")!=-1){
-    if(URL.indexOf("iopenyun")!=-1){
-        URL+"/detailID?vod_id=";
+    if(URL.indexOf("yss.kkysw.top")!=-1){
+        URL+"/detail?key=0223&vod_id=";
     }else{
         URL+"/detail?vod_id=";
     }
@@ -352,9 +352,9 @@ if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp")!=-1){
         URL+"video_detail?id="; 
     }
 }else if(URLS.indexOf(".vod")!=-1){
-    if(URLS.indexOf("iopenyun")!=-1){
-        var URL=URLS.split("/list?")[0];
-        URL+"/detailID?vod_id=";
+    if(URLS.indexOf("yss.kkysw.top")!=-1){
+        var URL=URLS.split("?wd=")[0];
+        URL+"/detail?key=0223&vod_id=";
     }else{
         var URL=URLS.split("?wd=")[0];
         URL+"/detail?vod_id=";
@@ -668,9 +668,9 @@ if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp")!=-1){
         URL+"video_detail?id="; 
     }
 }else if(URLS.indexOf(".vod")!=-1){
-    if(URLS.indexOf("iopenyun")!=-1){
-        var URL=URLS.split("/list?")[0];
-        URL+"/detailID?vod_id=";
+    if(URLS.indexOf("yss.kkysw.top")!=-1){
+        var URL=URLS.split("?wd=")[0];
+        URL+"/detail?key=0223&vod_id=";
     }else{
         var URL=URLS.split("?wd=")[0];
         URL+"/detail?vod_id=";
