@@ -329,7 +329,7 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
     }
 }else if(URL.indexOf(".vod")!=-1){
     if(URL.indexOf("yss.kkysw.top")!=-1){
-        URL+"/detail?key=0223&vod_id=";
+        URL+"/detail?key=0224&vod_id=";
     }else{
         URL+"/detail?vod_id=";
     }
@@ -354,7 +354,7 @@ if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp")!=-1){
 }else if(URLS.indexOf(".vod")!=-1){
     if(URLS.indexOf("yss.kkysw.top")!=-1){
         var URL=URLS.split("?wd=")[0];
-        URL+"/detail?key=0223&vod_id=";
+        URL+"/detail?key=0224&vod_id=";
     }else{
         var URL=URLS.split("?wd=")[0];
         URL+"/detail?vod_id=";
@@ -670,7 +670,7 @@ if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp")!=-1){
 }else if(URLS.indexOf(".vod")!=-1){
     if(URLS.indexOf("yss.kkysw.top")!=-1){
         var URL=URLS.split("?wd=")[0];
-        URL+"/detail?key=0223&vod_id=";
+        URL+"/detail?key=0224&vod_id=";
     }else{
         var URL=URLS.split("?wd=")[0];
         URL+"/detail?vod_id=";
