@@ -268,21 +268,9 @@
             "murl":"q:APP影视"
             },
             {
-            "title":"七零动漫",
-            "url":"https://cf.70yu.cn/mogai_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/七零动漫.png",
-            "murl":"q:APP影视"
-            },
-            {
             "title":"瑞丰资源",
             "url":"https://tv.yjhan.com:4433/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/瑞丰.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"闪光影视",
-            "url":"http://101.35.128.192/mubai_api.php/m2.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/闪光影视.png",
             "murl":"q:APP影视"
             },
             {
