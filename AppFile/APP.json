@@ -214,6 +214,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"乐云影视",
+            "url":"https://www.leyun.tv/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/乐云影视.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"蜜蜂影视",
             "url":"http://app.f8tp.com/lvdou_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/蜜蜂影视.png",
@@ -989,6 +995,12 @@
             "title":"米来影视",
             "url":"http://42.51.37.161:2346/api.php/iptv/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/米来影视.png",
+            "murl":"q:TV影视"
+            },
+            {
+            "title":"猫咪TV",
+            "url":"http://106.12.113.90:6565/api.php/iptv/vod/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/猫咪TV.png",
             "murl":"q:TV影视"
             },
             {
