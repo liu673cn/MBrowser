@@ -17,6 +17,14 @@
         "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/广大侠/资源采集.mqz"
         },
         {
+        "name":"阿里云盘",
+        "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/广大侠/阿里云盘.mqz"
+        },
+        {
+        "name":"一个直播",
+        "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/广大侠/一个直播.mqz"
+        },
+        {
         "name":"网络直播",
         "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/广大侠/网络直播.mqz"
         },
@@ -63,6 +71,16 @@
         {
         "name":"聚应用",
         "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/广大侠/聚应用.mqz"
+        }
+        ]
+        },
+        {
+        "title":"漂泊的小猫",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/icon/漂泊的小猫.png",
+        "list":[
+        {
+        "name":"轻仓库",
+        "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/漂泊的小猫/轻仓库.mqz"
         }
         ]
         },
