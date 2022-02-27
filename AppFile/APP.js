@@ -312,7 +312,7 @@ var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
     URL+"video_detail?id=";
 }else if(URL.indexOf(".vod")!=-1){
-    URL+"/detail?key="+KTime+"&vod_id=";
+    URL+"/detail?key="+Ktime+"&vod_id=";
 }else{
     "";
 }
@@ -324,7 +324,7 @@ if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp")!=-1){
     URL+"video_detail?id="; 
 }else if(URLS.indexOf(".vod")!=-1){
     var URL=URLS.split("?wd=")[0];
-    URL+"/detail?key="+KTime+"&vod_id=";
+    URL+"/detail?key="+Ktime+"&vod_id=";
 }else{
     "";
 }
@@ -622,7 +622,7 @@ if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp")!=-1){
     URL+"video_detail?id="; 
 }else if(URLS.indexOf(".vod")!=-1){
     var URL=URLS.split("?wd=")[0];
-    URL+"/detail?key="+KTime+"&vod_id=";
+    URL+"/detail?key="+Ktime+"&vod_id=";
 }else{
     "";
 }
