@@ -1125,22 +1125,6 @@
         ]
         }
     ]
-    },
-    {
-    "title":"VIA轻插件",
-    "murl":"q:#浏览框?url=",
-    "typelist":[
-        {
-        "title":"VIA轻插件",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/icon/favicon.ico",
-        "list":[
-        {
-        "name":"VIA轻插件官网",
-        "url":"http://via-app.cn/#/tabBar/home"
-        }
-        ]
-        }
-    ]
     }
 ]
 }
