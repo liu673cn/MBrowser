@@ -251,18 +251,9 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
-    if(URL.indexOf("dijiaxia")!=-1){
-        var URL="http://www.dijiaxia.com/api.php/app/";
-        URL+"video?tid=";
-    }else{
-        URL+"video?tid=";
-    }
+    URL+"video?tid=";
 }else if(URL.indexOf(".vod")!=-1){
-    if(URL.indexOf("iopenyun")!=-1){
-        URL+"/list?type=";
-    }else{
-        URL+"?type=";
-    }
+    URL+"?type=";
 }else if(URL.indexOf("豆瓣片单")!=-1){
     "https://frodo.douban.com/api/v2/subject_collection/";
 }else{
@@ -315,50 +306,25 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
     "";
 }
 ######播放器前缀地址
+var Ktime=e2Rex(getVar("TIME_"),".time(MMDD)");
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
-    if(URL.indexOf("dijiaxia")!=-1){
-        var URL="http://www.dijiaxia.com/api.php/app/";
-        URL+"video_detail?id=";
-    }else if(URL.indexOf("1010dy")!=-1){
-        var URL="http://www.1010dy.cc/api.php/app/";
-        URL+"video_detail?id=";
-    }else{
-        URL+"video_detail?id=";
-    }
+    URL+"video_detail?id=";
 }else if(URL.indexOf(".vod")!=-1){
-    if(URL.indexOf("yss.kkysw.top")!=-1){
-        URL+"/detail?key=0224&vod_id=";
-    }else{
-        URL+"/detail?vod_id=";
-    }
+    URL+"/detail?key="+KTime+"&vod_id=";
 }else{
     "";
 }
 ######搜索播放器前缀地址
+var Ktime=e2Rex(getVar("TIME_"),".time(MMDD)");
 var URLS=getVar("urls");
 if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp")!=-1){
-    if(URLS.indexOf("dijiaxia")!=-1){
-        var URL=URLS.split("search?")[0];
-        var URL="http://www.dijiaxia.com/api.php/app/";
-        URL+"video_detail?id=";
-    }else if(URLS.indexOf("1010dy")!=-1){
-        var URL=URLS.split("search?")[0];
-        var URL="http://www.1010dy.cc/api.php/app/";
-        URL+"video_detail?id=";
-    }else{
-        var URL=URLS.split("search?")[0];
-        URL+"video_detail?id="; 
-    }
+    var URL=URLS.split("search?")[0];
+    URL+"video_detail?id="; 
 }else if(URLS.indexOf(".vod")!=-1){
-    if(URLS.indexOf("yss.kkysw.top")!=-1){
-        var URL=URLS.split("?wd=")[0];
-        URL+"/detail?key=0224&vod_id=";
-    }else{
-        var URL=URLS.split("?wd=")[0];
-        URL+"/detail?vod_id=";
-    }
+    var URL=URLS.split("?wd=")[0];
+    URL+"/detail?key="+KTime+"&vod_id=";
 }else{
     "";
 }
@@ -637,11 +603,7 @@ if(version==NewVersion&&sign==appSign&&name==appName){
 var 地址=getVar("url");
 var KEY=getVar("KEY");
 if(地址.indexOf(".vod")!=-1){
-    if(地址.indexOf("iopenyun.com")!=-1){
-        "/list?wd="+KEY+"&page=";
-    }else{
-        "?wd="+KEY+"&page=";
-    }
+    "?wd="+KEY+"&page=";
 }else if(地址.indexOf("api.php/app")!=-1||地址.indexOf("xgapp")!=-1){
     "search?text="+KEY+"&pg=";
 }else{
@@ -653,28 +615,14 @@ if(地址.indexOf(".vod")!=-1){
     "?ac=list&"+word+"="+KEY+"&page=";
 }
 ######单一搜索播放器前缀地址
+var Ktime=e2Rex(getVar("TIME_"),".time(MMDD)");
 var URLS=getVar("url");
 if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp")!=-1){
-    if(URLS.indexOf("dijiaxia")!=-1){
-        var URL=URLS.split("search?")[0];
-        var URL="http://www.dijiaxia.com/api.php/app/";
-        URL+"video_detail?id=";
-    }else if(URLS.indexOf("1010dy")!=-1){
-        var URL=URLS.split("search?")[0];
-        var URL="http://www.1010dy.cc/api.php/app/";
-        URL+"video_detail?id=";
-    }else{
-        var URL=URLS.split("search?")[0];
-        URL+"video_detail?id="; 
-    }
+    var URL=URLS.split("search?")[0];
+    URL+"video_detail?id="; 
 }else if(URLS.indexOf(".vod")!=-1){
-    if(URLS.indexOf("yss.kkysw.top")!=-1){
-        var URL=URLS.split("?wd=")[0];
-        URL+"/detail?key=0224&vod_id=";
-    }else{
-        var URL=URLS.split("?wd=")[0];
-        URL+"/detail?vod_id=";
-    }
+    var URL=URLS.split("?wd=")[0];
+    URL+"/detail?key="+KTime+"&vod_id=";
 }else{
     "";
 }
