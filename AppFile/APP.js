@@ -306,7 +306,7 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
     "";
 }
 ######播放器前缀地址
-var Ktime=e2Rex(getVar("TIME_"),".time(MMDD)");
+var Ktime=e2Rex(getVar("TIME_"),".time(MMdd)");
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
@@ -317,7 +317,7 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
     "";
 }
 ######搜索播放器前缀地址
-var Ktime=e2Rex(getVar("TIME_"),".time(MMDD)");
+var Ktime=e2Rex(getVar("TIME_"),".time(MMdd)");
 var URLS=getVar("urls");
 if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp")!=-1){
     var URL=URLS.split("search?")[0];
@@ -615,7 +615,7 @@ if(地址.indexOf(".vod")!=-1){
     "?ac=list&"+word+"="+KEY+"&page=";
 }
 ######单一搜索播放器前缀地址
-var Ktime=e2Rex(getVar("TIME_"),".time(MMDD)");
+var Ktime=e2Rex(getVar("TIME_"),".time(MMdd)");
 var URLS=getVar("url");
 if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp")!=-1){
     var URL=URLS.split("search?")[0];
