@@ -615,6 +615,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"乐看TV",
+            "url":"http://z001.cye1688.com/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/乐看TV.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"冷视TV",
             "url":"https://len.tv/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/冷视TV.png",
