@@ -381,6 +381,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"CC影视",
+            "url":"https://ccbug.cc/lvdou_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/CC影视.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"JDODO",
             "url":"https://appys.jdodo.xyz/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/JDODO影视.png",
