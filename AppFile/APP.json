@@ -602,6 +602,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"看看视频",
+            "url":"http://888.ccboke.top/ruifenglb_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/看看视频.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"绿豆视频",
             "url":"https://v.lvdoui.cn/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/绿豆影音.png",
