@@ -955,6 +955,12 @@
             "murl":"q:TV影视"
             },
             {
+            "title":"极品影院",
+            "url":"http://293x.yhzy.xyz/mv/api.php/Chengcheng/vod/",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/极品影院TV.png",
+            "murl":"q:TV影视"
+            },
+            {
             "title":"乐酷TV",
             "url":"http://103.45.161.138:2021/api.php/Chengcheng/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/乐酷TV.png",
