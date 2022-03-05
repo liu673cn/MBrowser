@@ -453,6 +453,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"大威电影",
+            "url":"http://vip.davdy.com/ruifenglb_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/大威电影.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"豆渣影视",
             "url":"http://douzhayss.cc/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/豆渣影视.png",
