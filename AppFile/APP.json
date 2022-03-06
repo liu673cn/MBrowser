@@ -51,12 +51,6 @@
         "title":"优质",
         "list":[
             {
-            "title":"1080p",
-            "url":"https://1080p.one/lvdou_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/1080p.png",
-            "murl":"q:APP影视"
-            },
-            {
             "title":"1231D",
             "url":"https://vue.app.yunboys.cn/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/1231D.png",
@@ -84,12 +78,6 @@
             "title":"DC影视",
             "url":"http://chaorenbb.com/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/DC影视.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"F7高清",
-            "url":"http://bc.haokanju1.cc/lvdou_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/F7高清.png",
             "murl":"q:APP影视"
             },
             {
@@ -279,12 +267,6 @@
             "murl":"q:APP影视"
             },
             {
-            "title":"柠柚影视",
-            "url":"http://nu.e4tv.cn/lvdou_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/柠柚影视.png",
-            "murl":"q:APP影视"
-            },
-            {
             "title":"奇怪视频",
             "url":"https://giguai.net/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png",
@@ -358,12 +340,6 @@
             },
             {
             "title":"影视大全",
-            "url":"http://app.269w.com/api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/影视大全.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"影视大全",
             "url":"https://app.okmedcos.com/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/影视大全.png",
             "murl":"q:APP影视"
@@ -401,12 +377,6 @@
             "title":"51视频",
             "url":"http://51shipin.cc/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/51视频.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"CC影视",
-            "url":"https://ccbug.cc/lvdou_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/CC影视.png",
             "murl":"q:APP影视"
             },
             {
@@ -461,12 +431,6 @@
             "title":"爱影视",
             "url":"https://www.hzlff.cn/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/爱影视.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"安云影视",
-            "url":"http://api.vue8.cc/lvdou_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/安云影视.png",
             "murl":"q:APP影视"
             },
             {
@@ -584,12 +548,6 @@
             "murl":"q:APP影视"
             },
             {
-            "title":"极品影视",
-            "url":"http://app.yhzy.xyz/lvdou_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/极品影视.png",
-            "murl":"q:APP影视"
-            },
-            {
             "title":"橘子影视",
             "url":"http://jz.juzidy.vip/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/橘子影视.png",
@@ -677,12 +635,6 @@
             "title":"任性看",
             "url":"https://renxingkan.net/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/任性看.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"速播影院",
-            "url":"http://subolg.com/lvdou_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/速播影院.png",
             "murl":"q:APP影视"
             },
             {
