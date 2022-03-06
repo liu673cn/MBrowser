@@ -315,12 +315,6 @@
             "murl":"q:APP影视"
             },
             {
-            "title":"心鸾影视",
-            "url":"http://zhiyutv.xyz/api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/心鸾影视.png",
-            "murl":"q:APP影视"
-            },
-            {
             "title":"雪人影视",
             "url":"https://zy.qd234.cn/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/雪人影视.png",
