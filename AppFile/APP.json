@@ -51,12 +51,6 @@
         "title":"优质",
         "list":[
             {
-            "title":"1231D",
-            "url":"https://vue.app.yunboys.cn/api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/1231D.png",
-            "murl":"q:APP影视"
-            },
-            {
             "title":"300看世界",
             "url":"https://300ys.xyz/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/300看世界.png",
