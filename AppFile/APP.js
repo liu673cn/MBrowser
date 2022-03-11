@@ -407,7 +407,9 @@ function 选集列表(){
                 }
             }else if(URL.search(/api\.php\/.*?\/vod/)!=-1){
                 if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15||选集地址.indexOf("/obj/tos")!=-1){
-                    if(选集地址.indexOf("url=")!=-1){
+                    if(选集地址.indexOf("ruifenglb")!=-1){
+                      var 选集地址="http://ts..yjhan.com:8090/api/?key=DSQFgXdmj9xkDyiXdr&url="+选集地址;
+                    }else if(选集地址.indexOf("url=")!=-1){
                         var 切割地址=选集地址.split("url=")[1];
                         var 选集地址="https://www.baidu.com/s?wd="+切割地址;
                     }else{
