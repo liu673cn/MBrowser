@@ -87,6 +87,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"tvip",
+            "url":"http://app.tvip.cc/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/tvip.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"爱看美剧",
             "url":"https://www.uumjw.com/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/爱看美剧.png",
