@@ -408,7 +408,7 @@ function 选集列表(){
             }else if(URL.search(/api\.php\/.*?\/vod/)!=-1){
                 if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15||选集地址.indexOf("/obj/tos")!=-1){
                     if(选集地址.indexOf("ruifenglb")!=-1){
-                      var 选集地址="http://ts..yjhan.com:8090/api/?key=DSQFgXdmj9xkDyiXdr&url="+选集地址;
+                      var 选集地址="http://ts.yjhan.com:8090/api/?key=DSQFgXdmj9xkDyiXdr&url="+选集地址;
                     }else if(选集地址.indexOf("url=")!=-1){
                         var 切割地址=选集地址.split("url=")[1];
                         var 选集地址="https://www.baidu.com/s?wd="+切割地址;
@@ -484,8 +484,6 @@ if(uu.indexOf("baidu.com")!=-1){
     var playurl=uu.split("wd=")[1];
     if(playurl.indexOf("duoduozy.com")!=-1||playurl.indexOf("m3u8.cache.suoyo.cc")!=-1){
         "web=https://jhpc.manduhu.com/duoduo/?url="+playurl+'@{"Referer":"https://555dy3.com"}';
-    }else if(playurl.indexOf("ruifenglb.com")!=-1){
-      "web=https://tv.yjhan.com:4433/CL4K/?url="+playurl;
     }else if(playurl.indexOf("xfy")!=-1){
         var resp=JZ(JSON.stringify({url:playurl}));
         JSON.stringify({url:JSON.parse(resp.code).url,head:{"referer":"appguapi.lihaoyun.top:11543","User-Agent":"Dart/2.14 (dart:io)"}});
