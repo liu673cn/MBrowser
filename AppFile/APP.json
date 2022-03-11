@@ -285,12 +285,6 @@
             "murl":"q:APP影视"
             },
             {
-            "title":"小极影视",
-            "url":"http://app.8d8q.com/api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/小极影视.png",
-            "murl":"q:APP影视"
-            },
-            {
             "title":"雪人影视",
             "url":"https://zy.qd234.cn/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/雪人影视.png",
