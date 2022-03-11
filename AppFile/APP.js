@@ -480,21 +480,13 @@ var uu=getVar("url");
 var resp=JZ(JSON.stringify({url:uu,redirect:false,head:{"User-Agent":"Mozilla/5.0 Android"}}));
 if(uu.indexOf("baidu.com")!=-1){
     var playurl=uu.split("wd=")[1];
-    if(playurl.indexOf("duoduozy.com")!=-1||playurl.indexOf("suoyo.cc")!=-1){
-        var uuu="https://www.6080kan.cc/app.php?url="+playurl;
-        var resp=JZ(JSON.stringify({url:uuu}));
-        JSON.stringify({url:JSON.parse(resp.code).url,head:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36 SE 2.X MetaSr 1.0","referer":"https://player.duoduozy.com","origin":"origin:https://dp.duoduozy.com","Host":"cache.m3u8.suoyo.cc"}});
+    if(playurl.indexOf("duoduozy.com")!=-1||playurl.indexOf("m3u8.cache.suoyo.cc")!=-1){
+        "web=https://jhpc.manduhu.com/duoduo/?url="+playurl+'@{"Referer":"https://555dy3.com"}';
+    }else if(playurl.indexOf("ruifenglb.com")!=-1){
+      "web=https://tv.yjhan.com:4433/CL4K/?url="+playurl;
     }else if(playurl.indexOf("xfy")!=-1){
         var resp=JZ(JSON.stringify({url:playurl}));
         JSON.stringify({url:JSON.parse(resp.code).url,head:{"referer":"appguapi.lihaoyun.top:11543","User-Agent":"Dart/2.14 (dart:io)"}});
-    }else if(playurl.indexOf("api.iopenyun.com:88")!=-1){
-        if(playurl.indexOf("html")!=-1){
-            var uu="https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=dgilouvFKNRSWX2467&url="+playurl.split("=")[1];
-            var resp=JZ(JSON.stringify({url:uu}));
-            JSON.stringify({url:JSON.parse(resp.code).url});
-        }else{
-            "web="+playurl+'@{"Referer":"https://user.iopenyun.com:520/user/video","User-Agent":"Mozilla/5.0 Windows10"}';
-        }
     }else if(playurl.indexOf("cat.wkfile.com")!=-1){
         JSON.stringify({url:playurl,head:{"User-Agent":"Lavf/58.12.100","Referer":"wkfile.com"}});
     }else if(playurl.indexOf("=")==-1&&playurl.indexOf(".m3u8")>15||playurl.indexOf(".mp4")>15||playurl.indexOf("/obj/tos")!=-1){
