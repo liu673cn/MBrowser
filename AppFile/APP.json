@@ -165,12 +165,6 @@
             "murl":"q:APP影视"
             },
             {
-            "title":"疯狂看",
-            "url":"http://app.fkkdy.vip/mogai_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/疯狂看电影.png",
-            "murl":"q:APP影视"
-            },
-            {
             "title":"粉象视界",
             "url":"http://42.157.129.15:34444/lvdou_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/粉象视界.png",
