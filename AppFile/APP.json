@@ -661,21 +661,9 @@
             "murl":"q:TV影视"
             },
             {
-            "title":"刺桐影视",
-            "url":"http://tv.cttv.vip/api.php/iptv/vod/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/刺桐影视.png",
-            "murl":"q:TV影视"
-            },
-            {
             "title":"叮当TV",
             "url":"http://tv.hyddys.top/api.php/iptv/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/叮当TV.png",
-            "murl":"q:TV影视"
-            },
-            {
-            "title":"嘀哩嘀哩",
-            "url":"https://api.diliktv.xyz/api.php/Chengcheng/vod/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/嘀哩嘀哩TV.png",
             "murl":"q:TV影视"
             },
             {
@@ -733,24 +721,6 @@
             "murl":"q:TV影视"
             },
             {
-            "title":"乐酷TV",
-            "url":"http://103.45.161.138:2021/api.php/Chengcheng/vod/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/乐酷TV.png",
-            "murl":"q:TV影视"
-            },
-            {
-            "title":"六维影视",
-            "url":"http://liuweiiptv.gq:1357/api.php/iptv/vod/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/六维影视.png",
-            "murl":"q:TV影视"
-            },
-            {
-            "title":"流星雨",
-            "url":"http://nn.lxyyy.xyz:8/c/api.php/WAiLaowang/vod/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/流星雨影院.png",
-            "murl":"q:TV影视"
-            },
-            {
             "title":"荔枝影视",
             "url":"http://api.zjys.vip/api.php/iptv/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/荔枝影视TV.png",
@@ -778,12 +748,6 @@
             "title":"米奇TV",
             "url":"http://www.s6ep3.top/api.php/iptv/vod/",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/米奇TV.png",
-            "murl":"q:TV影视"
-            },
-            {
-            "title":"七科影视",
-            "url":"http://tv.7kfm.cn/api.php/iptv/vod/",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/七科影视.png",
             "murl":"q:TV影视"
             },
             {
