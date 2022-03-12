@@ -279,6 +279,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"闲人视频",
+            "url":"http://yingshi.xibiandexianren.cn/lvdou_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/闲人视频.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"雪人影视",
             "url":"https://zy.qd234.cn/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/雪人影视.png",
@@ -294,12 +300,6 @@
             "title":"雨果影视",
             "url":"http://2.yhys63.com/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/雨果影视.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"闲人视频",
-            "url":"http://yingshi.xibiandexianren.cn/lvdou_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/闲人视频.png",
             "murl":"q:APP影视"
             },
             {
