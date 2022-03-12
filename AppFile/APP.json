@@ -166,7 +166,7 @@
             },
             {
             "title":"虎猫视频",
-            "url":"https://humaosp.com/mogai_api.php/v1.vod",
+            "url":"http://vv.humaoweb.com/mogai_api.php/gctvapi.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/虎猫视频.png",
             "murl":"q:APP影视"
             },
@@ -581,6 +581,12 @@
             "title":"星球视频",
             "url":"http://119.29.121.48:8088/api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/星球视频.png",
+            "murl":"q:APP影视"
+            },
+            {
+            "title":"闲人视频",
+            "url":"http://yingshi.xibiandexianren.cn/lvdou_api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/闲人视频.png",
             "murl":"q:APP影视"
             },
             {
