@@ -256,7 +256,7 @@
             },
             {
             "title":"瑞丰资源",
-            "url":"https://tv.yjhan.com:4433/api.php/v1.vod",
+            "url":"https://tv.yjhan.com:4423/ruifenglb_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/瑞丰.png",
             "murl":"q:APP影视"
             },
