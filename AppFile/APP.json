@@ -309,6 +309,12 @@
             "murl":"q:APP影视"
             },
             {
+            "title":"影视达人",
+            "url":"http://www.ysdr.vip/api.php/v1.vod",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png",
+            "murl":"q:APP影视"
+            },
+            {
             "title":"月色影视",
             "url":"http://69ty.cc/mogai_api.php/v1.vod",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/月色影视.png",
