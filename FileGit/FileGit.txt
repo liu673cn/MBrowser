@@ -253,8 +253,8 @@
         "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/Killer Jack/速搜TV.K.mqz"
         },
         {
-        "name":"动漫聚合.K",
-        "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/Killer Jack/动漫聚合.K.mqz"
+        "name":"动漫聚合K",
+        "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/Killer Jack/动漫聚合K.mqz"
         },
         {
         "name":"网易公开课.K",
