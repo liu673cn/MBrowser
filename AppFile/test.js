@@ -587,7 +587,7 @@ if(getVar("KEY").length>10){
         var url=e2Rex(getVar("KEY"),".json(url)");
         var img=e2Rex(getVar("KEY"),".json(img)");
         var murl=e2Rex(getVar("KEY"),".json(murl)");
-        记录.push({title:title,url:url,img:img,murl:mrul});
+        记录.push({title:title,url:url,img:img,murl:murl});
     }else{
 		alert("请输入正确规则格式");
 	}
