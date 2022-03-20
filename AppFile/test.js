@@ -2,14 +2,20 @@
 {
     "data":[
         {
-        "url":"https://7cc7cc.com/thread-902.htm",
-        "title":"本地规则写入教程",
+        "url":"暂无",
+        "title":"本地规则管理教程",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/反馈.png"
         },
         {
-        "url":"https://7cc7cc.com/thread-902.htm",
-        "title":"反馈",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/反馈.png"
+        "url":"mqqwpa://im/chat?chat_type=wpa&uin=272775028",
+        "title":"向轻站开发者提交规则/图片",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/公告.png"
+        },
+        {
+
+        "url":"暂无",
+        "title":"规则分享区",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/公告.png"
         }
     ]
     }
