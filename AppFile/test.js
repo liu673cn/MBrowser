@@ -1,3 +1,16 @@
+######首页轮播图
+{
+    "data":[
+        {
+        "url":"mapi:qm/https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/InMemory/APP影视.mqz",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/更新.png"
+        },
+        {
+        "url":"https://7cc7cc.com/thread-902.htm",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/反馈.png"
+        }
+    ]
+    }
 ######APP影视首页图标
 {
 "data":[
