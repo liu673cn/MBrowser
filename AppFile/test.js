@@ -605,7 +605,7 @@ if(getVar("KEY").length>10){
 	alert("请输入正确规则格式");
 }
 ######读取规则23
-eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/q.js'),'.dn64()'));
+eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js'),'.dn64()'));
 var filename='APP影视.txt';
 _.read(filename);
 ######删除规则24
