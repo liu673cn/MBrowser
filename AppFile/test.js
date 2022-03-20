@@ -1,4 +1,4 @@
-######首页轮播图
+######首页轮播图1
 {
     "data":[
         {
@@ -13,7 +13,7 @@
         }
     ]
     }
-######APP影视首页图标
+######APP影视首页图标2
 {
 "data":[
     {
@@ -75,7 +75,7 @@
     }
 ]
 }
-######首页版本判断
+######首页版本判断3
 var index=getVar("首页图标");
 var NewVersion="20220214";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
@@ -89,7 +89,7 @@ if(version==NewVersion&&sign==appSign&&name==appName){
     alert("————更新内容————\n    ·增加导入自定义源\n\n—————声明—————\n    ·本轻站仅限学习交流使用，请于导入后24小时内删除，任何组织或个人不得以任何方式方法传播此规则的整体或部分。\n    ·数据来源于网络，如喜欢，请支持官方APP；APP接口本身无收费，切勿用于任何有关于交易的行为。\n    ·请勿相信任何广告，涉及人身财产安全问题请理智对待。\n    ·如接口侵权请联系删除。\n    ·因技术有限，更新修复视情况而定，使用中如有问题请通过M浏览器官方群或轻创社区反馈。\n    ·特别感谢广大侠的代码支持以及木白的首页图标。")
     e2Rex(index,".json(data).i(1)");
 }
-######首页地址判断
+######首页地址判断4
 var u=getVar("url");
 if(u.indexOf("搜狗")!=-1){
     "https://waptv.sogou.com/napi/video/classlist?abtest=0";
@@ -102,7 +102,7 @@ if(u.indexOf("搜狗")!=-1){
 }else{
     getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP.json"}));
 }
-######UA
+######UA5
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1||URL.indexOf("freekan")!=-1){
@@ -116,7 +116,7 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1||URL.indexOf("freeka
 }else{
     "Dalvik/2.1.0";
 }
-######POST
+######POST6
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
@@ -128,7 +128,7 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
 }else{
     "";
 }
-######cookie
+######cookie7
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
@@ -140,7 +140,7 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
 }else{
     "";
 }
-######批量搜索
+######批量搜索8
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
 var NewVersion="20220214";
@@ -186,7 +186,7 @@ if(version==NewVersion&&sign==appSign&&name==appName){
 }else{
     "";
 }
-######单一搜索
+######单一搜索9
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
 var NewVersion="20220214";
@@ -198,7 +198,7 @@ if(version==NewVersion&&sign==appSign&&name==appName){
 }else{
     "";
 }
-######单一搜索搜索地址
+######单一搜索搜索地址10
 var 地址=getVar("url");
 var KEY=getVar("KEY");
 if(地址.indexOf(".vod")!=-1){
@@ -213,7 +213,19 @@ if(地址.indexOf(".vod")!=-1){
     }
     "?ac=list&"+word+"="+KEY+"&page=";
 }
-######单一搜索播放器前缀地址
+######批量搜索播放器前缀地址11
+var Ktime=e2Rex(getVar("TIME_"),".time(MMdd)");
+var URLS=getVar("urls");
+if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp")!=-1){
+    var URL=URLS.split("search?")[0];
+    URL+"video_detail?id="; 
+}else if(URLS.indexOf(".vod")!=-1){
+    var URL=URLS.split("?wd=")[0];
+    URL+"/detail?key="+Ktime+"&vod_id=";
+}else{
+    "";
+}
+######单一搜索播放器前缀地址12
 var Ktime=e2Rex(getVar("TIME_"),".time(MMdd)");
 var URLS=getVar("url");
 if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp")!=-1){
@@ -225,7 +237,7 @@ if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp")!=-1){
 }else{
     "";
 }
-######轮播图
+######APP轮播图13
 var update=getVar("版本更新");
 var NewVersion="20220214";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
@@ -291,7 +303,7 @@ if(version==NewVersion&&sign==appSign&&name==appName){
 }else{
     e2Rex(update,".json(data).i(2)");
 }
-######获取分类地址
+######获取分类地址14
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
@@ -301,7 +313,7 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
 }else{
     "";
 }
-######分类筛选前缀地址
+######分类筛选前缀地址15
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
@@ -313,7 +325,7 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
 }else{
     URL;
 }
-######分类筛选后缀地址
+######分类筛选后缀地址16
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
@@ -325,7 +337,7 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
 }else{
     "";
 }
-######筛选内容
+######筛选内容17
 var URL=getVar("url");
 var 分类筛选=JSON.parse(getVar("CODE")).type_extend;
 var str="";
@@ -349,7 +361,7 @@ if(URL.indexOf(".vod")!=-1){
 }else{
     "分类+全部=+电影=movie+连续剧=tvplay+综艺=tvshow+动漫=comic+4K=movie_4k+体育=tiyu\n类型+全部=+喜剧+爱情+恐怖+动作+科幻+剧情+战争+警匪+犯罪+动画+奇幻+武侠+冒险+枪战+恐怖+悬疑+惊悚+经典+青春+文艺+微电影+古装+历史+运动+农村+惊悚+惊悚+伦理+情色+福利+三级+儿童+网络电影\n地区+全部=+大陆+香港+台湾+美国+英国+法国+日本+韩国+德国+泰国+印度+西班牙+加拿大+其他\n年份+全部=+2021+2020+2019+2018+2017+2016+2015+2014+2013+2012+2011+2010+2009+2008+2007+2006+2005+2004+2003+2002+2001+2000";
 }
-######推荐地址
+######推荐地址18
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
@@ -359,7 +371,7 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
 }else{
     "";
 }
-######播放器前缀地址
+######播放器前缀地址19
 var Ktime=e2Rex(getVar("TIME_"),".time(MMdd)");
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
@@ -370,19 +382,7 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
 }else{
     "";
 }
-######搜索播放器前缀地址
-var Ktime=e2Rex(getVar("TIME_"),".time(MMdd)");
-var URLS=getVar("urls");
-if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp")!=-1){
-    var URL=URLS.split("search?")[0];
-    URL+"video_detail?id="; 
-}else if(URLS.indexOf(".vod")!=-1){
-    var URL=URLS.split("?wd=")[0];
-    URL+"/detail?key="+Ktime+"&vod_id=";
-}else{
-    "";
-}
-######选集
+######选集20
 var URL=getVar("url");
 function 选集列表(){
     var res={};var items=[];var detail=[];
@@ -531,7 +531,7 @@ if(URL.indexOf("api.php/app/")!=-1){
     var 选集规则=".json(title)";
     var 选集地址规则=".json(url)";选集列表();
 }
-######视频地址
+######视频地址21
 var uu=getVar("url");
 var resp=JZ(JSON.stringify({url:uu,redirect:false,head:{"User-Agent":"Mozilla/5.0 Android"}}));
 if(uu.indexOf("baidu.com")!=-1){
