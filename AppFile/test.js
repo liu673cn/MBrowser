@@ -608,7 +608,7 @@ if(getVar("KEY").length>10){
 eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/q.js'),'.dn64()'));
 var filename='APP影视.txt';
 _.read(filename);
-######删除规则23
+######删除规则24
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js'),'.dn64()'));
 var filename="APP影视.txt";
 var 新记录=JSON.parse(_.read(filename))[0].data.filter(item=>item.title!=JSON.parse(getVar("CODE")).title);
