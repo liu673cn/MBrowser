@@ -3,10 +3,12 @@
     "data":[
         {
         "url":"mapi:qm/https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/InMemory/APP影视.mqz",
+        "title":"更新版本",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/更新.png"
         },
         {
         "url":"https://7cc7cc.com/thread-902.htm",
+        "title":"反馈",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/反馈.png"
         }
     ]
