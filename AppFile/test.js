@@ -237,35 +237,12 @@ if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp")!=-1){
 }else{
     "";
 }
-######APP轮播图13
+######APP轮播图地址13
 var uu=getVar("url");
 if(uu.search(/api\.php\/app/)!=-1||uu.search(/xgapp/)!=-1){
-    var CODE=getHttp(JSON.stringify({url:uu+"advert?token=&position=2"}));
+    uu+"advert?token=&position=2";
 }else{
-    var CODE=getHttp(JSON.stringify({url:uu+"?level=9"}));
-}
-if(uu.search(/api\.php\/app/)!=-1||uu.search(/xgapp/)!=-1){
-    var CODE=getHttp(JSON.stringify({url:uu+"advert?token=&position=2"}));
-    var 轮播=e2Arr(CODE,".json(data)");
-    var items=[];
-    for(var i=0;i<轮播.length;i++){
-        var url=uu+"video_detail?id="+e2Rex(轮播[i],".json(req_content)");
-        var img=e2Rex(轮播[i],".json(content)");
-        var title=e2Rex(轮播[i],".json(name)");
-        items.push({url:url,img:img,title:title})
-    }
-    JSON.stringify(items);
-}else{
-    var CODE=getHttp(JSON.stringify({url:uu+"?level=9"}));
-    var 轮播=e2Arr(CODE,".json(data).json(list)");
-    var items=[];
-    for(var i=0;i<轮播.length;i++){
-        var url=uu+"/detail?vod_id="+e2Rex(轮播[i],".json(vod_id)");
-        var img=e2Rex(轮播[i],".json(vod_pic_slide)");
-        var title=e2Rex(轮播[i],".json(vod_name)");
-        items.push({url:url,img:img,title:title})
-    }
-    JSON.stringify(items);
+    uu+"?level=9";
 }
 ######获取分类地址14
 var code=getVar("CODE");
