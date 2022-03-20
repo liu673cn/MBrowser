@@ -577,7 +577,7 @@ if(uu.indexOf("baidu.com")!=-1){
 }else{
     "web="+uu;
 }
-######导入规则
+######导入规则22
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js'),'.dn64()'));
 var filename='APP影视.txt';
 var 记录=[];
@@ -604,7 +604,7 @@ if(getVar("KEY").length>10){
 }else{
 	alert("请输入正确规则格式");
 }
-######读取规则
+######读取规则23
 eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/q.js'),'.dn64()'));
 var filename='APP影视.txt';
 _.read(filename);
