@@ -35,8 +35,8 @@
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/片单.png"
         },
         {
-        "url":"q:导入",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/导入.png"
+        "url":"q:管理",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/管理.png"
         },
         {
         "url":"q:豆瓣榜单",
