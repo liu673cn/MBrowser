@@ -577,7 +577,7 @@ if(uu.indexOf("baidu.com")!=-1){
 }else{
     "web="+uu;
 }
-######导入规则22
+######写入规则22
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js'),'.dn64()'));
 var filename='APP影视.txt';
 var 记录=[];
@@ -594,10 +594,10 @@ if(getVar("KEY").length>10){
     if(_.read(filename)){
 		var 新记录=[];
 		var 记录=记录.concat(JSON.parse(_.read(filename))[0].data);
-		新记录.push({title:"本地规则",data:记录});
+		新记录.push({title:"本地",data:记录});
 	}else{
 		var 新记录=[];
-		新记录.push({title:"本地规则",data:记录});
+		新记录.push({title:"本地",data:记录});
 	}
 	_.write(JSON.stringify(新记录),filename);
 	_.read(filename);
@@ -612,6 +612,6 @@ _.read(filename);
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js'),'.dn64()'));
 var filename="APP影视.txt";
 var 新记录=JSON.parse(_.read(filename))[0].data.filter(item=>item.title!=JSON.parse(getVar("CODE")).title);
-var 新数据=[];新数据.push({title:"本地规则",data:新记录});
+var 新数据=[];新数据.push({title:"本地",data:新记录});
 _.write(JSON.stringify(新数据),filename);
 _.read(filename);
