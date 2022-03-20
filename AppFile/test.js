@@ -619,11 +619,11 @@ _.read(filename);
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js'),'.dn64()'));
 var filename='APP影视.txt';
 var 原=_.read(filename);
-var 分类=e2Arr(原,".json(data)");
+var 分类=e2Arr(原,".json()");
 var res=[];
 for(var j=0;j<分类.length;j++){
     var list={};
-    var 列表=e2Arr(分类[j],".json(list)");
+    var 列表=e2Arr(分类[j],".json(data)");
     var items=[];
     for(var i=0;i<列表.length;i++){
         var 标题=e2Rex(列表[i],".json(title)");
