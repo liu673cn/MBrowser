@@ -581,6 +581,7 @@ if(uu.indexOf("baidu.com")!=-1){
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js'),'.dn64()'));
 var filename='APP影视.txt';
 var 记录=[];
+var KEY=getVar("KEY");
 if(getVar("KEY").length>10){
 	if(e2Rex(getVar("KEY"),".json(title)")&&e2Rex(getVar("KEY"),".json(url)")&&e2Rex(getVar("KEY"),".json(img)")){
         var title=e2Rex(getVar("KEY"),".json(title)");
