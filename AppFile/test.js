@@ -581,7 +581,6 @@ if(uu.indexOf("baidu.com")!=-1){
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js'),'.dn64()'));
 var filename='APP影视.txt';
 var 记录=[];
-var KEY=getVar("KEY");
 if(getVar("KEY").length>10){
 	if(e2Rex(getVar("KEY"),".json(title)")&&e2Rex(getVar("KEY"),".json(url)")&&e2Rex(getVar("KEY"),".json(img)")){
         var title=e2Rex(getVar("KEY"),".json(title)");
@@ -620,6 +619,7 @@ _.read(filename);
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js'),'.dn64()'));
 var filename='APP影视.txt';
 var 原=_.read(filename);
+var KEY=getVar("KEY");
 var 分类=e2Arr(原,".json()");
 var res=[];
 for(var j=0;j<分类.length;j++){
