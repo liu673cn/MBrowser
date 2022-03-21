@@ -7,8 +7,8 @@
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/反馈.png"
         },
         {
-        "url":"mqqwpa://im/chat?chat_type=wpa&uin=272775028",
-        "title":"公告",
+        "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/声明.js",
+        "title":"声明",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/公告.png"
         }
     ]
