@@ -62,7 +62,7 @@
 }
 ######首页轮播图
 var update=getVar("版本更新");
-var NewVersion="20220214";
+var NewVersion="20220321";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
@@ -128,7 +128,7 @@ if(version==NewVersion&&sign==appSign&&name==appName){
 }
 ######APP影视首页图标判断
 var index=getVar("首页图标");
-var NewVersion="20220214";
+var NewVersion="20220321";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
@@ -156,7 +156,7 @@ if(u.indexOf("搜狗")!=-1){
 ######批量搜索
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
-var NewVersion="20220214";
+var NewVersion="20220321";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var KEY=getVar("KEY");
 var appName="APP影视";
@@ -582,7 +582,7 @@ if(uu.indexOf("baidu.com")!=-1){
 ######单一搜索
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
-var NewVersion="20220214";
+var NewVersion="20220321";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var appName="APP影视";
 var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
