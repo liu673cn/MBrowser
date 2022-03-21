@@ -9,7 +9,7 @@
         {
         "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/声明.txt",
         "title":"声明",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/公告.png"
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/更新底部.png"
         }
     ]
     }
