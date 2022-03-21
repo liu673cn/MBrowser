@@ -23,7 +23,7 @@
   {"title":"京广航","url":"https://www.jingguanghang66.com/api.php/app/","img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/京广航影视.png","murl":"q:APP影视"}
   
   详细介绍：
-  title：后面的双引号里面的名字随便起，但不为空；
+  title：名字随便起，但不为空；
   url：APP的链接，按上面支持的链接类型输入，
        注意最后有没有/，严格按要求输入；
   img：图片地址，可以自定义图片地址，如果没有图片
