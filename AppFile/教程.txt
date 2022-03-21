@@ -1,0 +1,35 @@
+·本地规则支持以下几种特定类型的链接，
+ 除了列出来的样式，其余的暂不支持
+ 
+ 小龟：
+   1、http://域名/api.php/app/
+   2、http://域名/xgapp.php/v1/
+   3、http://域名/xgapp.php/v2/
+   
+ v1:
+   4、http://域名/api.php/v1.vod
+   5、http://域名/mogai_api.php/v1.vod
+   6、http://域名/ruifenglb_api.php/v1.vod
+   7、http://域名/lvdou_api.php/v1.vod
+   
+ IPTV：
+   8、http://域名/api.php/iptv/vod/
+   9、http://域名/api.php/Chengcheng/vod/
+
+·写入本地规则的数据文本格式必须是以下格式：
+  {"title":"这里填APP的名字","url":"这里填APP类似上面支持的类型的链接","img":"这里填图片的链接","murl":"这里填轻站里面要跳转的模块"}
+  
+  例如：
+  {"title":"京广航","url":"https://www.jingguanghang66.com/api.php/app/","img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/京广航影视.png","murl":"q:APP影视"}
+  
+  详细介绍：
+  title：后面的双引号里面的名字随便起，但不为空；
+  url：APP的链接，按上面支持的链接类型输入，
+       注意最后有没有/，严格按要求输入；
+  img：图片地址，可以自定义图片地址，如果没有图片
+       的话，可以使用
+       https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png
+  murl：特别注意，
+        小龟和v1分类的必须输入q:APP影视
+        IPTV分类输入q:TV影视，
+        输入相反内容规则获取不到数据。
