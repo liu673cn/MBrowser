@@ -17,22 +17,18 @@
    9、http://域名/api.php/Chengcheng/vod/
 
 ·写入本地规则的数据文本格式必须是以下格式：
-  {"title":"这里填APP的名字","url":"这里填APP类似上面支持的类型的链接","img":"这里填图片的链接","murl":"这里填轻站里面要跳转的模块"}
+  APP名字=APP接口链接#图片链接
+
+  详细介绍：
+  APP名字：名字随便起，但不为空，以等于号结尾；
+  APP接口链接：APP的链接，按上面支持的链接类型输入，以#号结尾；
+  图片链接：图片地址，可以自定义图片地址，自定义图片地址要完整的图片链接，如果没有图片，可以输入：通用图标 这四个字
   
   例如：
-  {"title":"京广航","url":"https://www.jingguanghang66.com/api.php/app/","img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/京广航影视.png","murl":"q:APP影视"}
+  爱看电影=http://域名/api.php/app/#https://www.baidu.com/logo.png
+  爱看影视=https://域名/api.php/app/#通用图标
+
   
-  详细介绍：
-  title：名字随便起，但不为空；
-  url：APP的链接，按上面支持的链接类型输入，
-       注意最后有没有/，严格按要求输入；
-  img：图片地址，可以自定义图片地址，如果没有图片
-       的话，可以使用
-       https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png
-  murl：特别注意，
-        第一和第二分类的必须输入q:APP影视
-        第三种IPTV分类输入q:TV影视，
-        输入相反或者其它内容，规则获取不到数据。
         
         
 ·注意：有些APP数据有加密处理，本轻站不支持解密，
