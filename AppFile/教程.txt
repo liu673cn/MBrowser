@@ -13,7 +13,7 @@
    7、http://域名/lvdou_api.php/v1.vod
    8、http://域名/mubai_api.php/m2.vod
    
- 第三种分类--IPTV：
+ 第三种分类--神马：
    9、http://域名/api.php/iptv/vod/
    10、http://域名/api.php/Chengcheng/vod/
 
