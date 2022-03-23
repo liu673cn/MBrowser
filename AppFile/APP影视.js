@@ -557,23 +557,28 @@ if(uu.indexOf("baidu.com")!=-1){
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js'),'.dn64()'));
 var filename='APP影视.txt';
 var 记录=[];
-if(getVar("KEY").length>10){
-	var title=e2Rex(getVar("KEY"),".tz(=)");
-	var url=e2Rex(getVar("KEY"),".ty(=).tz(#)");
-	var img=e2Rex(getVar("KEY"),".ty(#)");
-	if(img.indexOf("http")!=-1){
-		var img=img;
-	}else if(img==""){
-		var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png"
-	}else{
-		var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/"+img+".png";
-	}
-	if(url.search(/api\.php\/.*?\/vod/)!=-1){
-		var murl="q:TV影视";
-	}else{
-		var murl="q:APP影视";
-	}
-    记录.push({title:title,url:url,img:img,murl:murl});
+var rule=getVar("KEY");
+if(rule){
+    if(getVar("KEY").length>10&&getVar("KEY").indexOf("=")!=-1&&getVar("KEY").indexOf("#")!=-1){
+	    var title=e2Rex(getVar("KEY"),".tz(=)");
+	    var url=e2Rex(getVar("KEY"),".ty(=).tz(#)");
+	    var img=e2Rex(getVar("KEY"),".ty(#)");
+	    if(img.indexOf("http")!=-1){
+		    var img=img;
+	    }else if(img==""){
+		    var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png"
+	    }else{
+		    var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/"+img+".png";
+	    }
+	    if(url.search(/api\.php\/.*?\/vod/)!=-1){
+		    var murl="q:TV影视";
+	    }else{
+		    var murl="q:APP影视";
+	    }
+        记录.push({title:title,url:url,img:img,murl:murl});
+    }else{
+        alert("请输入正确规则格式");
+    }
     if(_.read(filename)){
 		var 新记录=[];
 		var 记录=记录.concat(JSON.parse(_.read(filename))[0].data);
