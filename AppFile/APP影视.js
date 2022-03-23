@@ -217,7 +217,7 @@ if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp")!=-1){
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
-    URL+"advert?token=&position=2";
+    URL+"advert?position=2";
 }else if(URL.indexOf(".vod")!=-1){
     URL+"?level=9";
 }else{
@@ -227,7 +227,7 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
-    URL+"nav?token=";
+    URL+"nav";
 }else if(URL.indexOf(".vod")!=-1){
     URL+"/types";
 }else{
@@ -285,7 +285,7 @@ if(URL.indexOf(".vod")!=-1){
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
-    URL+"index_video?token=";
+    URL+"index_video";
 }else if(URL.indexOf(".vod")!=-1){
     URL+"/vodPhbAll";
 }else{
