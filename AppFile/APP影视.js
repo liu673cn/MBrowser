@@ -7,7 +7,7 @@
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/轮播1.jpg"
         },
         {
-        "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/声明.txt",
+        "url":"https://7cc7cc.com/thread-902.htm",
         "title":"反馈",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/轮播4.jpg"
         },
