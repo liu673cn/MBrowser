@@ -141,6 +141,7 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
     "";
 }
 ######批量搜索8
+var KEY=getVar("KEY");
 var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP.json"})).replace(/\s/g,"");
 var 分类=e2Arr(原,".json(data)");
 var res=[];
