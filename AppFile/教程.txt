@@ -6,15 +6,16 @@
    2、http://域名/xgapp.php/v1/
    3、http://域名/xgapp.php/v2/
    
- 第二种分类--萝卜/白菜/木白:
+ 第二种分类--萝卜/白菜/木白/绿豆:
    4、http://域名/api.php/v1.vod
    5、http://域名/mogai_api.php/v1.vod
    6、http://域名/ruifenglb_api.php/v1.vod
    7、http://域名/lvdou_api.php/v1.vod
+   8、http://域名/mubai_api.php/m2.vod
    
  第三种分类--IPTV：
-   8、http://域名/api.php/iptv/vod/
-   9、http://域名/api.php/Chengcheng/vod/
+   9、http://域名/api.php/iptv/vod/
+   10、http://域名/api.php/Chengcheng/vod/
 
 ·写入本地规则的数据文本格式必须是以下格式：
   APP名字=APP接口链接#图片链接
