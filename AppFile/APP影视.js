@@ -559,7 +559,7 @@ var 记录=[];
 if(getVar("KEY").length>10){
 	var title=e2Rex(getVar("KEY"),".tz(=)");
 	var url=e2Rex(getVar("KEY"),".ty(=).tz(#)");
-	var img=e2Rex(getVar("KEY"),".ty(#));
+	var img=e2Rex(getVar("KEY"),".ty(#)");
 	if(img.indexOf("http")!=-1){
 		var img=img;
 	}else if(img==""){
