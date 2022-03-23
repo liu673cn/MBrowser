@@ -1,18 +1,18 @@
 ·本地规则支持以下几种特定类型的链接，
  除了列出来的样式，其余的暂不支持
  
- 小龟：
+ 第一种分类--小龟：
    1、http://域名/api.php/app/
    2、http://域名/xgapp.php/v1/
    3、http://域名/xgapp.php/v2/
    
- v1:
+ 第二种分类--萝卜/白菜/木白:
    4、http://域名/api.php/v1.vod
    5、http://域名/mogai_api.php/v1.vod
    6、http://域名/ruifenglb_api.php/v1.vod
    7、http://域名/lvdou_api.php/v1.vod
    
- IPTV：
+ 第三种分类--IPTV：
    8、http://域名/api.php/iptv/vod/
    9、http://域名/api.php/Chengcheng/vod/
 
@@ -30,8 +30,8 @@
        的话，可以使用
        https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png
   murl：特别注意，
-        小龟和v1分类的必须输入q:APP影视
-        IPTV分类输入q:TV影视，
+        第一和第二分类的必须输入q:APP影视
+        第三种IPTV分类输入q:TV影视，
         输入相反或者其它内容，规则获取不到数据。
         
         
