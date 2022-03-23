@@ -1,53 +1,6 @@
 {
     "data":[
         {
-        "title":"大熊",
-        "list":[
-            {
-            "title":"大熊",
-            "url":"https://dxys2233.com/mogai_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/大熊.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"流星",
-            "url":"http://fkxs2233.com/mogai_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/流星.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"全能",
-            "url":"https://qnys5566.com/mogai_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/全能.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"手指",
-            "url":"https://szys5678.com/mogai_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/手指.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"心爱",
-            "url":"https://xays6677.com/mogai_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/心爱.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"雪梨",
-            "url":"https://zsb2233.com/mogai_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/雪梨.png",
-            "murl":"q:APP影视"
-            },
-            {
-            "title":"杨桃",
-            "url":"https://ytys3456.com/mogai_api.php/v1.vod",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/杨桃.png",
-            "murl":"q:APP影视"
-            }
-        ]
-        },
-        {
         "title":"优质",
         "list":[
             {

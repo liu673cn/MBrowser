@@ -1,0 +1,36 @@
+·本地规则支持以下几种特定类型的链接，
+ 除了列出来的样式，其余的暂不支持
+ 
+ 第一种分类--小龟：
+   1、http://域名/api.php/app/
+   2、http://域名/xgapp.php/v1/
+   3、http://域名/xgapp.php/v2/
+   
+ 第二种分类--萝卜/白菜/木白/绿豆:
+   4、http://域名/api.php/v1.vod
+   5、http://域名/mogai_api.php/v1.vod
+   6、http://域名/ruifenglb_api.php/v1.vod
+   7、http://域名/lvdou_api.php/v1.vod
+   8、http://域名/mubai_api.php/m2.vod
+   
+ 第三种分类--IPTV：
+   9、http://域名/api.php/iptv/vod/
+   10、http://域名/api.php/Chengcheng/vod/
+
+·写入本地规则的数据文本格式必须是以下格式：
+  APP名字=APP接口链接#图片链接
+
+  详细介绍：
+  APP名字：名字随便起，但不为空，以等于号结尾；
+  APP接口链接：APP的链接，按上面支持的链接类型输入，不为空，以#号结尾，不管后面有没有图片，必须有#号；
+  图片链接：图片地址，可以自定义图片地址，自定义图片地址要完整的图片链接，如果没有图片，可以不输入，会有个默认图标
+  
+  例如：
+  爱看电影=http://域名/api.php/app/#https://www.baidu.com/logo.png
+  爱看影视=https://域名/api.php/app/#
+
+  
+        
+        
+·注意：有些APP数据有加密处理，本轻站不支持解密，
+      如果有加密的话，删除规则。
