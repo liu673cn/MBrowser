@@ -3,7 +3,7 @@
     "data":[
         {
         "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/教程.txt",
-        "title":"本地规则教程，写入规则方式有变更，请认真阅读",
+        "title":"本地规则教程，按分类写入新文件，旧文件不适用",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/轮播1.jpg"
         },
         {
@@ -560,52 +560,83 @@ if(uu.indexOf("baidu.com")!=-1){
 }
 ######写入规则22
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js'),'.dn64()'));
-var filename='APP影视.txt';
+var 记录=[];
+var filename="APP影视.json";
 var 记录=[];
 if(getVar("KEY").length>10&&getVar("KEY").indexOf("=")!=-1&&getVar("KEY").indexOf("#")!=-1){
-	var title=e2Rex(getVar("KEY"),".tz(=)");
-	var url=e2Rex(getVar("KEY"),".ty(=).tz(#)");
-	var img=e2Rex(getVar("KEY"),".ty(#)");
-	if(img.indexOf("http")!=-1){
-		var img=img;
-	}else if(img==""){
-		var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png"
-	}else{
-		var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/"+img+".png";
-	}
-	if(url.search(/api\.php\/.*?\/vod/)!=-1){
-		var murl="q:TV影视";
-	}else{
-		var murl="q:APP影视";
-	}
-    记录.push({title:title,url:url,img:img,murl:murl});
-    if(_.read(filename)){
-	    var 新记录=[];
-	    var 记录=记录.concat(JSON.parse(_.read(filename))[0].data);
-	    新记录.push({title:"本地",data:记录});
+    if(getVar("KEY").indexOf("api.php/app")!=-1||getVar("KEY").indexOf("xgapp")!=-1||getVar("KEY").indexOf(".vod")!=-1||getVar("KEY").search(/api\.php\/.+?\/vod\//)!=-1){
+        var title=e2Rex(getVar("KEY"),".tz(=)");
+        var url=e2Rex(getVar("KEY"),".ty(=).tz(#)");
+        var img=e2Rex(getVar("KEY"),".ty(#)");
+        if(img.indexOf("http")!=-1){
+            var img=img;
+        }else if(img==""){
+            var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png"
+        }else{
+            var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/"+img+".png";
+        }
+        if(url.search(/api\.php\/.*?\/vod/)!=-1){
+            var murl="q:TV影视";
+        }else{
+            var murl="q:APP影视";
+        }
+        if(url.indexOf("api.php/app")!=-1||url.indexOf("xgapp")!=-1){
+            var type="小龟";
+        }else if(url.indexOf(".vod")!=-1){
+            var type="萝卜/白菜/木白/绿豆";
+        }else if(url.search(/api\.php\/.+?\/vod\//)!=-1){
+            var type="神马";
+        }
+        记录.push({title:title,url:url,img:img,murl:murl,type:type});
+        if(_.read(filename)){
+            var 新记录=JSON.parse(_.read(filename));
+        }else{
+            var 新记录=[];
+        }
+        if(新记录.length==0) {
+            新记录.push({title:记录[0].type,data:记录});
+        }else{
+            let res=新记录.some(item=>{
+            //判断类型，有就添加到当前项
+                if(item.title == 记录[0].type){
+                    item.data=记录.concat(item.data);
+                    return true
+                }
+            });
+            if (!res){
+            //如果没找相同类型添加一个类型
+                新记录.push({title:记录[0].type,data:记录});
+            }
+        }
+        _.write(JSON.stringify(新记录),filename);
+        alert(title+"写入成功");
+        _.read(filename);
     }else{
-	    var 新记录=[];
-	    新记录.push({title:"本地",data:记录});
+        alert("暂未适配");
     }
-    _.write(JSON.stringify(新记录),filename);
-	_.read(filename);
 }else{
 	alert("请输入正确规则格式");
 }
 ######读取规则23
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js'),'.dn64()'));
-var filename='APP影视.txt';
+var filename='APP影视.json';
 _.read(filename);
 ######删除规则24
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js'),'.dn64()'));
-var filename="APP影视.txt";
-var 新记录=JSON.parse(_.read(filename))[0].data.filter(item=>item.title!=JSON.parse(getVar("CODE")).title);
-var 新数据=[];新数据.push({title:"本地",data:新记录});
-_.write(JSON.stringify(新数据),filename);
+var filename='APP影视.json';
+var 记录=getVar("CODE");
+var 新记录=JSON.parse(_.read(filename));
+let res=新记录.some(item=>{
+    if(item.title == JSON.parse(记录).type){
+        item.data=item.data.filter(a=>a.url!=JSON.parse(记录).url);
+        return true
+    }
+});
+_.write(JSON.stringify(新记录),filename);
 _.read(filename);
 ######本地规则批量搜索25
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js'),'.dn64()'));
-var filename='APP影视.txt';
+var filename='APP影视.json';
 var 原=_.read(filename);
 var KEY=getVar("KEY");
 var 分类=e2Arr(原,".json()");
