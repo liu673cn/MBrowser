@@ -30,7 +30,9 @@
   爱看影视=https://域名/api.php/app/#
 
   
-        
+·本地文件路径：/Android/data/cn.nr19.mbrowser/files/qm/d566$$$APP影视/数据/
+  旧文件：APP影视.txt
+  新文件：APP影视.json
         
 ·注意：有些APP数据有加密处理，本轻站不支持解密，
       如果有加密的话，删除规则。
