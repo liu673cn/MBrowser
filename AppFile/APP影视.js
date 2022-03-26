@@ -563,9 +563,9 @@ eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/ma
 var 记录=[];
 var filename="APP影视.json";
 var 记录=[];
-if(getVar("KEY").length>10&&getVar("KEY").indexOf("=")!=-1&&getVar("KEY").indexOf("#")!=-1){
+if(getVar("KEY").length>10&&getVar("KEY").indexOf("@")!=-1&&getVar("KEY").indexOf("=")!=-1&&getVar("KEY").indexOf("#")!=-1){
     if(getVar("KEY").indexOf("api.php/app")!=-1||getVar("KEY").indexOf("xgapp")!=-1||getVar("KEY").indexOf(".vod")!=-1||getVar("KEY").search(/api\.php\/.+?\/vod\//)!=-1){
-        var title=e2Rex(getVar("KEY"),".tz(=)");
+        var title=e2Rex(getVar("KEY"),".ty(@).tz(=)");
         var url=e2Rex(getVar("KEY"),".ty(=).tz(#)");
         var img=e2Rex(getVar("KEY"),".ty(#)");
         if(img.indexOf("http")!=-1){
@@ -580,7 +580,9 @@ if(getVar("KEY").length>10&&getVar("KEY").indexOf("=")!=-1&&getVar("KEY").indexO
         }else{
             var murl="q:APP影视";
         }
-        if(url.indexOf("api.php/app")!=-1||url.indexOf("xgapp")!=-1){
+        if(e2Rex(getVar("KEY"),".tz(@)")!=""){
+            var type=e2Rex(getVar("KEY"),".tz(@)");
+        }else if(url.indexOf("api.php/app")!=-1||url.indexOf("xgapp")!=-1){
             var type="小龟";
         }else if(url.indexOf(".vod")!=-1){
             var type="萝卜/白菜/木白/绿豆";
