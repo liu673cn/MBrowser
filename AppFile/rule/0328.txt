@@ -9,3 +9,4 @@
 普通@小白动漫=http://121.62.60.222:13579/xiaobai_api.php/v1.vod#小白动漫
 普通@美剧迷=http://mj.zjtv.cc/ruifenglb_api.php/v1.vod#美剧迷
 普通@雯雯视频=http://139.224.52.247:81/lvdou_api.php/v1.vod#雯雯视频
+普通@雨果影视=http://123.youguo520.top/lvdou_api.php/v1.vod#雨果影视
