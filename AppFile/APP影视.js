@@ -684,13 +684,13 @@ JSON.stringify(res);
             "title":"萝卜/白菜/木白/绿豆：大象影视",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png",
             "murl":"q:依赖下载"
-            }
+            },
             {
             "url":"@4k狗=http://4kdog.tk/api.php/app/#",
             "title":"萝卜/白菜/木白/绿豆：大象影视",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png",
             "murl":"q:依赖下载"
-            }
+            },
             {
             "url":"@蓝光动漫=https://v.lvdi.vip/api.php/app/#蓝光动漫",
             "title":"萝卜/白菜/木白/绿豆：大象影视",
