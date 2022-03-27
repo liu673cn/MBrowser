@@ -1,7 +1,7 @@
 小龟(全部)@4k狗=http://4kdog.tk/api.php/app/#
 小龟(全部)@4k狗=http://4kdog.tk/xgapp.php/v1/#
-小龟(全部)@席娜影视=https://a.xinady.cn/api.php/app/#席娜影视
-小龟(全部)@席娜影视=https://a.xinady.cn/xgapp.php/v1/#席娜影视
+小龟(全部)@玺娜影视=https://a.xinady.cn/api.php/app/#席娜影视
+小龟(全部)@玺娜影视=https://a.xinady.cn/xgapp.php/v1/#席娜影视
 小龟(全部)@遇见彩虹=http://caihong.xingyueju.com/api.php/app/#遇见彩虹
 小龟(全部)@遇见彩虹=http://caihong.xingyueju.com/xgapp.php/v1/#遇见彩虹
 小龟(全部)@我的视界=https://shijie.xingyueju.com/api.php/app/#我的视界
