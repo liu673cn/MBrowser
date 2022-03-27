@@ -681,25 +681,25 @@ JSON.stringify(res);
         "list":[
             {
             "url":"@呀哩动漫=https://app.yaliyali.cc/api.php/v1.vod#呀哩动漫",
-            "title":"萝卜/白菜/木白/绿豆：大象影视",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png",
+            "title":"呀哩动漫",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/呀哩动漫.png",
             "murl":"q:依赖下载"
             },
             {
             "url":"@4k狗=http://4kdog.tk/api.php/app/#",
-            "title":"萝卜/白菜/木白/绿豆：大象影视",
+            "title":"4k狗",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png",
             "murl":"q:依赖下载"
             },
             {
             "url":"@蓝光动漫=https://v.lvdi.vip/api.php/app/#蓝光动漫",
-            "title":"萝卜/白菜/木白/绿豆：大象影视",
+            "title":"蓝光动漫",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png",
             "murl":"q:依赖下载"
             },
             {
             "url":"@大象影视=http://vip.91iqiyi.com/mogai_api.php/v1.vod#",
-            "title":"萝卜/白菜/木白/绿豆：大象影视",
+            "title":"大象影视",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png",
             "murl":"q:依赖下载"
             }
