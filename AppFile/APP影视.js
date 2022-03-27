@@ -694,18 +694,6 @@ JSON.stringify(res);
         "title":"依赖文件列表(暂时没用)",
         "list":[
             {
-            "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视.js",
-            "title":"轻站全局变量文件",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/脚本.webp",
-            "murl":"q:依赖下载"
-            },
-            {
-            "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP.json",
-            "title":"云端APP列表",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/脚本.webp",
-            "murl":"q:依赖下载"
-            },
-            {
             "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js",
             "title":"q.js(写入/读取文件)",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/脚本.webp",
