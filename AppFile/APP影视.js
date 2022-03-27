@@ -13,12 +13,12 @@
         },
         {
         "url":"https://7cc7cc.com/thread-902.htm",
-        "title":"反馈",
+        "title":"轻创社区反馈",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/轮播4.jpg"
         },
         {
         "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/声明.txt",
-        "title":"声明",
+        "title":"声明/更新日志",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/轮播2.jpg"
         }
     ]
