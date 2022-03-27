@@ -596,7 +596,7 @@ if(getVar("KEY").length>10&&getVar("KEY").indexOf("@")!=-1&&getVar("KEY").indexO
             }
         }
         _.write(JSON.stringify(新记录),filename);
-        alert(title+"\n写入成功");
+        alert("规则写入成功");
         _.read(filename);
     }else{
         alert("暂未适配");
@@ -657,7 +657,7 @@ if(getVar("KEY").length>10&&getVar("KEY").indexOf("@")!=-1&&getVar("KEY").indexO
             }
         }
         _.write(JSON.stringify(新记录),filename);
-        alert(title+"\n写入成功");
+        alert(Fname+"\n全部规则写入成功");
         _.read(filename);
     }else{
         alert("暂未适配");
