@@ -82,7 +82,7 @@
 }
 ######首页版本判断3
 var index=getVar("首页图标");
-var NewVersion="20220321";
+var NewVersion="20220327";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
@@ -91,7 +91,7 @@ var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
     e2Rex(index,".json(data).i(0)");
 }else{
-    alert("————更新内容————\n    ·增加导入自定义源")
+    alert("————更新内容————\n    ·增加导入自定义源\n    ·增加资源发布区\n\n    请详细阅读本地写入教程")
     e2Rex(index,".json(data).i(1)");
 }
 ######首页地址判断4
