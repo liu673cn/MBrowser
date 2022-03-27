@@ -316,11 +316,12 @@ function 选集列表(){
         var 列表=e2Arr(分类CODE,列表规则);
         var 标题=e2Rex(分类CODE,标题规则);
         if(URL.indexOf(".vod")!=-1){
+            //萝卜/白菜/木白/绿豆类型接口
             var PARSE=e2Rex(分类CODE,".json(player_info).json(parse)").split(",");
             var PARSE2=e2Rex(分类CODE,".json(player_info).json(parse2)").split(",");
             var 总接口=PARSE2.concat(PARSE).filter(item => item.search(/\/.+\?.+=/)!=-1);
             var 过滤规则=[
-            /jx\.+huimaojia\.+com\/player/,/py\.+789pan\.+cn\/player\/tm\.php\?url=/,/ztys\.+waruanzy\.+com\/player\/\?url=/,/yingshi\.+waruanzy\.+com\/789pan\/\?url=/,/vip\.+parwix\.+com:4433\/player\/\?url=/,/api\.+cxitco\.+cn/,/\/vip\.+renrenmi.cc/,/yanbing\.+parwix\.+com:4433\/player/,/json\.+cantin\.+cc\/apijson\.php/,/ffdm\.+miaoletv\.+com\/\?url=/,/vip\.+sylwl\.+cn\/api\/\?key=/,/jx\.+dikotv\.+com\/\?url=/,/zly\.+xjqxz\.+top\/player\/\?url=/,/5znn\.+xyz\/m3u8\.+php/,/uid=1735&my=/,/api\.+xkvideo\.+design\/m3u8\.+php\?url=/,/play\.+szbodankyy\.+com\/xxoocnmb/,/vip\.+fj6080\.+xyz\/player\/\?url=/,/a\.+dxzj88\.+com\/jiexi/,/host\.+q-q\.+wang\/api/,/qpsvipr\.+naifeimi\.+com/,/mogai_api\.+php/,/lvdou_api\.+php/,/保佑/
+                /jx\.+huimaojia\.+com\/player/,/py\.+789pan\.+cn\/player\/tm\.php\?url=/,/ztys\.+waruanzy\.+com\/player\/\?url=/,/yingshi\.+waruanzy\.+com\/789pan\/\?url=/,/vip\.+parwix\.+com:4433\/player\/\?url=/,/api\.+cxitco\.+cn/,/\/vip\.+renrenmi.cc/,/yanbing\.+parwix\.+com:4433\/player/,/json\.+cantin\.+cc\/apijson\.php/,/ffdm\.+miaoletv\.+com\/\?url=/,/vip\.+sylwl\.+cn\/api\/\?key=/,/jx\.+dikotv\.+com\/\?url=/,/zly\.+xjqxz\.+top\/player\/\?url=/,/5znn\.+xyz\/m3u8\.+php/,/uid=1735&my=/,/api\.+xkvideo\.+design\/m3u8\.+php\?url=/,/play\.+szbodankyy\.+com\/xxoocnmb/,/vip\.+fj6080\.+xyz\/player\/\?url=/,/a\.+dxzj88\.+com\/jiexi/,/host\.+q-q\.+wang\/api/,/qpsvipr\.+naifeimi\.+com/,/mogai_api\.+php/,/lvdou_api\.+php/,/保佑/
             ];
             var 可用接口=总接口.filter(function (text) {return !过滤规则.some(function (regex) {return regex.test(text);});});
             if(JSON.stringify(可用接口).indexOf("=")!=-1){
@@ -332,18 +333,25 @@ function 选集列表(){
                     var 接口=URL.match(/https?:\/\/[^\/]*/)[0]+可用接口[0].match(/\/.*(url|v|vid|php\?id)=/)[0].replace("..",".");
                 }
             }else{
-                var 接口="http://1.117.152.239:39000/jiexi.php?url=";
+                //对于无自带接口的，给予一个统一接口
+                var 接口="http://1.117.152.239:39000/?url=";
             }
         }else if(URL.indexOf("api.php/app/")!=-1||URL.indexOf("xgapp")!=-1){
+            //小龟类型接口
             var 接口=e2Rex(分类CODE,".json(parse_api)");
+            //替换接口
             if(接口.indexOf("jpg.hou.lu/jm/za/index.php")!=-1){
                 var 接口="http://vip.mengx.vip/home/api?type=ys&uid=3249696&key=aefqrtuwxyEFHKNOQY&url=";
+            }else if(接口==""){
+                var 接口="http://1.117.152.239:39000/?url=";
             }else{
                 var 接口=接口;
             }
         }else{
+            //其它类型
             var 接口=URL;
         }
+        //统一更换接口
         if(接口.indexOf("svip.jhyun.jx.cn")!=-1||接口.indexOf("svip.jhdyw.vip")!=-1){
             if(标题.indexOf("人人迷")!=-1){
                 接口="http://www.1080kan.cc/jiexi/rrmi.php?url=";
@@ -364,6 +372,7 @@ function 选集列表(){
             var 选集=e2Rex(列表[j],选集规则);
             var 选集地址=e2Rex(列表[j],选集地址规则);
             if(URL.indexOf("xgapp")!=-1||URL.indexOf("api.php/app/")!=-1||URL.indexOf(".vod")!=-1){
+                //萝卜/白菜/木白/绿豆/小龟类型选集地址
                 if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15){
                     if(选集地址.indexOf("url=")!=-1){
                         var 切割地址=选集地址.split("url=")[1];
@@ -371,35 +380,17 @@ function 选集列表(){
                     }else{
                         var 选集地址="https://www.baidu.com/s?wd="+选集地址;
                     }
-                }else if(接口.indexOf("url=")==-1&&选集地址.indexOf("RongXingVR")!=-1){
-                    var 选集地址="https://www.baidu.com/s?wd=https://fast.rongxingvr.cn:8866/api/?key=nShWumGdMIbTwngTbI&url="+选集地址;
-                }else if(接口.indexOf("url=")==-1&&选集地址.indexOf("LT")!=-1){
-                    var 选集地址="https://www.baidu.com/s?wd=https://f7.pyxddc.com/bcjx/4k.php?url="+选集地址;
-                }else if(接口.indexOf("url=")==-1&&选集地址.indexOf("renrenmi")!=-1){
-                    var 选集地址="https://www.baidu.com/s?wd=https://kuba.renrenmi.cc:2266/api/?key=Y6UYLYtjImTCKe98JD&url="+选集地址;
-                }else if(接口.indexOf("url=")==-1&&选集地址.indexOf(".html")!=-1){
-                    var 选集地址="https://www.baidu.com/s?wd=http://1.117.152.239:39000/?url="+选集地址;
-                }else if(选集地址.indexOf("xfy")!=-1){
-                    var 选集地址="https://www.baidu.com/s?wd=http://jiexi.yunl.cc/api/?key=xYNESYSvHp1DV2ckKs&url="+选集地址;
                 }else{
                     var 选集地址="https://www.baidu.com/s?wd="+接口+选集地址;
                 }
             }else if(URL.search(/api\.php\/.*?\/vod/)!=-1){
+                //神马类型选择地址
                 if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15){
-                    if(选集地址.indexOf("ruifenglb")!=-1){
-                      var 选集地址="http://ts.yjhan.com:8090/api/?key=DSQFgXdmj9xkDyiXdr&url="+选集地址;
-                    }else if(选集地址.indexOf("url=")!=-1){
+                    if(选集地址.indexOf("url=")!=-1){
                         var 切割地址=选集地址.split("url=")[1];
                         var 选集地址="https://www.baidu.com/s?wd="+切割地址;
                     }else{
                         var 选集地址="https://www.baidu.com/s?wd="+选集地址;
-                    }
-                }else if(选集地址.indexOf("xfy")!=-1){
-                    if(选集地址.indexOf("url=")!=-1){
-                        var 切割地址=选集地址.split("url=")[1];
-                        var 选集地址="https://www.baidu.com/s?wd=http://cache.dmtt.xyz/xfyjx/xfyjx.php?url="+切割地址;
-                    }else{
-                        var 选集地址="https://www.baidu.com/s?wd=https://json.hfyrw.com/mao.go?url="+选集地址;
                     }
                 }else if(选集地址.indexOf("www.bilibili.com")!=-1){
                     var 切割地址=选集地址.split("url=")[1];
@@ -408,7 +399,7 @@ function 选集列表(){
                     var 选集地址="https://www.baidu.com/s?wd="+选集地址+"&app=10000&account=272775028&password=qq272775028";
                 }else if(URL.indexOf("lxyyy")!=-1||URL.indexOf("j.zjj.life")!=-1||URL.indexOf("lktv")!=-1||URL.indexOf("0818tv")!=-1||URL.indexOf("ruoxinew")!=-1){
                     var 切割地址=选集地址.split("url=")[1];
-                    var 选集地址="https://www.baidu.com/s?wd=https://play.tkys.tv/?url="+切割地址;
+                    var 选集地址="https://www.baidu.com/s?wd=https://jx.parwix.com:4433/player/?url="+切割地址;
                 }else{
                     var 选集地址="https://www.baidu.com/s?wd="+选集地址;
                 }
@@ -470,15 +461,13 @@ if(uu.indexOf("baidu.com")!=-1){
         JSON.stringify({url:playurl,head:{"User-Agent":"Lavf/58.12.100","Referer":"wkfile.com"}});
     }else if(playurl.indexOf("=")==-1&&playurl.indexOf(".m3u8")>15||playurl.indexOf(".mp4")>15||playurl.indexOf("/obj/tos")!=-1){
         if(playurl.indexOf("hsl.ysgc.xyz")!=-1){
-            var cccc=JZ(JSON.stringify({url:"https://jx.ysgc.xyz/?url="+playurl}));
+            var cccc=JZ(JSON.stringify({url:"https://play.dushe520.com/m3u8.php?url="+playurl}));
             JSON.stringify({url:JSON.parse(cccc.code).url,head:{"Referer":"https://ysgc.cc"}});
-        }else if(playurl.indexOf("1.ruifenglb.com")!=-1){
-            JSON.stringify({url:playurl,head:{"referer":"https://1.ruifenglb.com"}});
         }else{
             JSON.stringify({url:playurl.match(/.*(http.*)/)[1]});
         }
     }else if(playurl.indexOf("=")!=-1){
-        var resp=JZ(JSON.stringify({url:playurl,redirect:false,head:{"User-Agent":"Mozilla/5.0 Android"}}));
+        var resp=JZ(JSON.stringify({url:playurl,redirect:false}));
         if(resp.head.location||resp.head.Location){
             var a=resp;
             while(a.head.location||a.head.Location){
@@ -511,26 +500,26 @@ if(uu.indexOf("baidu.com")!=-1){
                 }
             }
         }else{
+            function 切换解析(data){
+                if(data.split("url=")[1].indexOf("http")!=-1){
+                    return "web=http://1.117.152.239:39000/?url="+data.split("url=")[1];
+                }else if(data.split("url=")[1].indexOf("renrenmi")!=-1){
+                    return "web=https://jx.blbo.cc:4433/?url="+data.split("url=")[1];
+                }else if(data.split("url=")[1].indexOf("LT-")!=-1){
+                    return "web=https://analysis.yikan.one/analysis/player/?uid=8&my=fjkmoqFJLORTVZ1359&url="+data.split("url=")[1];
+                }else{
+                    return "web=http://1.117.152.239:39000/?url="+data.split("url=")[1];
+                }
+            }
             if(resp.code.indexOf("<html")!=-1){
                 if(resp.code.search(/player=new/)!=-1||resp.code.search(/<div id="video"/)!=-1||resp.code.search(/<div id="[^"]*?player"/)!=-1||resp.code.search(/\/\/视频链接/)!=-1||resp.code.search(/<iframe[\s\S]*?src="[^"]+?"/)!=-1||resp.code.search(/<video[\s\S]*?src="[^"]+?"/)!=-1){
-                    "web="+playurl;
+                   "web="+playurl;
                 }else{
-                    if(playurl.split("url=")[1].indexOf("http")!=-1){
-                        "web=http://1.117.152.239:39000/?url="+playurl.split("url=")[1];
-                    }else if(playurl.split("url=")[1].indexOf("renrenmi")!=-1){
-                        var 接口="http://www.1080kan.cc/jiexi/rrmi.php?url=";
-                        "web="+接口+playurl.split("url=")[1]+'@{"Referer":"http://www.1080kan.cc/"}';
-                    }else{
-                    var id=playurl.split("url=")[1];
-                    var uuu="https://vip.gaotian.love/api/?key=sRy0QAq8hqXRlrEtrq&url="+id;
-                    var resp=JZ(JSON.stringify({url:uuu}));
-                    var realurl=JSON.parse(resp.code).url||JSON.parse(resp.code).msg;
-                    JSON.stringify({url:realurl});
-                    }
+                   切换解析(playurl);
                 }
             }else{
-                if(e2Rex(resp.code,".json(url)").length>1){
-                    var realurl=JSON.parse(resp.code).url;
+                if(e2Rex(resp.code,".json(url).or().json(data).json(url)").length>1){
+                    var realurl=JSON.parse(resp.code).url||JSON.parse(resp.code).data.url;
                     if(playurl.indexOf("mgtv.com")!=-1){
                         JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Referer":""}});
                     }else if(playurl.indexOf("bilibili.com")!=-1){
@@ -538,22 +527,12 @@ if(uu.indexOf("baidu.com")!=-1){
                     }else{
                         JSON.stringify({url:realurl});
                     }
-                }else if(playurl.split("url=")[1].indexOf("http")!=-1){
-                    "web=http://1.117.152.239:39000/?url="+playurl.split("url=")[1];
-                }else if(playurl.split("url=")[1].indexOf("renrenmi")!=-1){
-                    var 接口="http://www.1080kan.cc/jiexi/rrmi.php?url=";
-                    "web="+接口+playurl.split("url=")[1]+'@{"Referer":"http://www.1080kan.cc/"}';
                 }else{
-                    var id=playurl.split("url=")[1];
-                    var uuu="https://vip.gaotian.love/api/?key=sRy0QAq8hqXRlrEtrq&url="+id;
-                    var resp2=JZ(JSON.stringify({url:uuu}));
-                    var realurl=JSON.parse(resp2.code).url||JSON.parse(resp2.code).msg;
-                    JSON.stringify({url:realurl});
+                    切换解析(playurl);
                 }
             }
         }
-    }else{
-        JSON.stringify({url:playurl});
+    
     }
 }else{
     "web="+uu;
