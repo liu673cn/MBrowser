@@ -546,9 +546,9 @@ if(getVar("KEY").length>10&&getVar("KEY").indexOf("@")!=-1&&getVar("KEY").indexO
     if(getVar("KEY").indexOf("api.php/app")!=-1||getVar("KEY").indexOf("xgapp")!=-1||getVar("KEY").indexOf(".vod")!=-1||getVar("KEY").search(/api\.php\/.+?\/vod\//)!=-1){
         var 输入条目=getVar("KEY").match(/.+=http.+/g);
         for(var j in 输入条目){
-            var title=e2Rex(getVar("KEY"),".ty(@).tz(=)");
-            var url=e2Rex(getVar("KEY"),".ty(=).tz(#)");
-            var img=e2Rex(getVar("KEY"),".ty(#)");
+            var title=e2Rex(输入条目[j],".ty(@).tz(=)");
+            var url=e2Rex(输入条目[j],".ty(=).tz(#)");
+            var img=e2Rex(输入条目[j],".ty(#)");
             if(img.indexOf("http")!=-1){
                 var img=img;
             }else if(img==""){
@@ -561,8 +561,8 @@ if(getVar("KEY").length>10&&getVar("KEY").indexOf("@")!=-1&&getVar("KEY").indexO
             }else{
                 var murl="q:APP影视";
             }
-            if(e2Rex(getVar("KEY"),".tz(@)")!=""){
-                var type=e2Rex(getVar("KEY"),".tz(@)");
+            if(e2Rex(输入条目[j],".tz(@)")!=""){
+                var type=e2Rex(输入条目[j],".tz(@)");
             }else if(url.indexOf("api.php/app")!=-1||url.indexOf("xgapp")!=-1){
                 var type="小龟";
             }else if(url.indexOf(".vod")!=-1){
