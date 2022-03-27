@@ -693,19 +693,19 @@ JSON.stringify(res);
             {
             "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视.js",
             "title":"轻站全局变量文件",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/依赖图标.png",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/脚本.webp",
             "murl":"q:依赖下载"
             },
             {
             "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP.json",
             "title":"云端APP列表",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/依赖图标.png",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/脚本.webp",
             "murl":"q:依赖下载"
             },
             {
             "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js",
             "title":"q.js(写入/读取文件)",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/依赖图标.png",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/脚本.webp",
             "murl":"q:依赖下载"
             }
         ]
@@ -716,13 +716,13 @@ JSON.stringify(res);
             {
             "url":"",
             "title":"APP影视",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/依赖图标.png",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/轻站.webp",
             "murl":"mapi:qm/https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/InMemory/APP影视.mqz"
             },
             {
             "url":"",
             "title":"m仓库",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/依赖图标.png",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/轻站.webp",
             "murl":"mapi:qm/https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/InMemory/m仓库.mqz"
             }
         ]
