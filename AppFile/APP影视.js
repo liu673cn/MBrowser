@@ -544,7 +544,7 @@ var filename="APP影视.json";
 var 记录=[];
 if(getVar("KEY").length>10&&getVar("KEY").indexOf("@")!=-1&&getVar("KEY").indexOf("=")!=-1&&getVar("KEY").indexOf("#")!=-1){
     if(getVar("KEY").indexOf("api.php/app")!=-1||getVar("KEY").indexOf("xgapp")!=-1||getVar("KEY").indexOf(".vod")!=-1||getVar("KEY").search(/api\.php\/.+?\/vod\//)!=-1){
-        var 输入条目=getVar("KEY").match(/.+,http.+/g);
+        var 输入条目=getVar("KEY").match(/.+=http.+/g);
         for(var j in 输入条目){
             var title=e2Rex(getVar("KEY"),".ty(@).tz(=)");
             var url=e2Rex(getVar("KEY"),".ty(=).tz(#)");
