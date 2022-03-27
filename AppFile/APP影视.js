@@ -731,12 +731,6 @@ JSON.stringify(res);
         "title":"规则分享，每日分享规则",
         "list":[
             {
-            "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/app.txt",
-            "title":"云端规则",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png",
-            "murl":"q:依赖下载"
-            },
-            {
             "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/0328.txt",
             "title":"0328",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png",
