@@ -784,7 +784,7 @@ JSON.stringify(res);
 var url=e2Rex(getVar("CODE"),".json(url)");
 var t=e2Rex(getVar("CODE"),".json(title)");
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js'),'.dn64()'));
-if(url.indexOf("规则")!=-1){
+if(url.indexOf("txt")!=-1){
     var filename="APP影视.json";
     var 记录=[];
     var u=getHttp(url);
