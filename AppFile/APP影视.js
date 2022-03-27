@@ -787,7 +787,7 @@ if(u.indexOf("@")!=-1&&u.indexOf("=")!=-1&&u.indexOf("#")!=-1){
     _.read(filename);
 }else{
     var FileCode=getHttp(JSON.stringify({url:u}));
-    if(u.indexOf("APP")!=-1){
+    if(u.indexOf("影视")!=-1){
         var filename='APP影视.js';
     }else if(u.indexOf("json")!=-1){
         var filename='APP.json';
