@@ -601,6 +601,67 @@ if(getVar("KEY").length>10&&getVar("KEY").indexOf("@")!=-1&&getVar("KEY").indexO
     }else{
         alert("暂未适配");
     }
+}else if(getVar("KEY").length<10&&getVar("KEY").indexOf("txt")!=-1){
+    var Fname=getVar("KEY")
+    var 源=_.read(Fname);
+    if(源.indexOf("api.php/app")!=-1||源.indexOf("xgapp")!=-1||源.indexOf(".vod")!=-1||源.search(/api\.php\/.+?\/vod\//)!=-1){
+        var 输入条目=源.match(/.+=http.+/g);
+        for(var j in 输入条目){
+            var title=e2Rex(输入条目[j],".ty(@).tz(=)");
+            var url=e2Rex(输入条目[j],".ty(=).tz(#)");
+            var img=e2Rex(输入条目[j],".ty(#)");
+            if(img.indexOf("http")!=-1){
+                var img=img;
+            }else if(img==""){
+                var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png"
+            }else{
+                var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/"+img+".png";
+            }
+            if(url.search(/api\.php\/.*?\/vod/)!=-1){
+                var murl="q:TV影视";
+            }else{
+                var murl="q:APP影视";
+            }
+            if(e2Rex(输入条目[j],".tz(@)")!=""){
+                var type=e2Rex(输入条目[j],".tz(@)");
+            }else if(url.indexOf("api.php/app")!=-1||url.indexOf("xgapp")!=-1){
+                var type="小龟";
+            }else if(url.indexOf(".vod")!=-1){
+                var type="萝卜/白菜/木白/绿豆";
+            }else if(url.search(/api\.php\/.+?\/vod\//)!=-1){
+                var type="神马";
+            }
+            记录.push({title:title,url:url,img:img,murl:murl,type:type});
+        }
+        if(_.read(filename)){
+            var 新记录=JSON.parse(_.read(filename));
+        }else{
+            var 新记录=[];
+        }
+        for(var i in 记录){
+            var 当前条目=[];当前条目.push(记录[i]);
+            if(新记录.length==0) {
+                新记录.push({title:记录[i].type,data:当前条目});
+            }else{
+                let res=新记录.some(item=>{
+                //判断类型，有就添加到当前项
+                    if(item.title == 记录[i].type){
+                        item.data=当前条目.concat(item.data);
+                        return true
+                    }
+                });
+                if (!res) {
+                //如果没找相同类型添加一个类型
+                    新记录.push({title:记录[i].type,data:当前条目});
+                }
+            }
+        }
+        _.write(JSON.stringify(新记录),filename);
+        alert(title+"\n写入成功");
+        _.read(filename);
+    }else{
+        alert("暂未适配");
+    }
 }else{
 	alert("请输入正确规则格式");
 }
