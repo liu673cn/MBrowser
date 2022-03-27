@@ -723,11 +723,23 @@ JSON.stringify(res);
     "version":"20220327",
     "data":[
         {
-        "title":"2022年3月27日规则",
+        "title":"规则分享，每日分享规则",
         "list":[
             {
-            "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/规则发布.txt",
-            "title":"0328规则",
+            "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/app.txt",
+            "title":"云端规则(不再添加)",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png",
+            "murl":"q:依赖下载"
+            },
+            {
+            "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/0328.txt",
+            "title":"0328",
+            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png",
+            "murl":"q:依赖下载"
+            },
+            {
+            "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/0327.txt",
+            "title":"0327",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png",
             "murl":"q:依赖下载"
             }
