@@ -48,8 +48,8 @@
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/榜单.png"
         },
         {
-        "url":"https://7cc7cc.com/thread-902.htm",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/反馈.png"
+        "url":"q:依赖",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/发布.png"
         },
         {
         "url":"q:搜狗片库",
@@ -692,7 +692,7 @@ JSON.stringify(res);
         "list":[
             {
             "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视.js",
-            "title":"全局变量文件",
+            "title":"轻站全局变量文件",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/依赖图标.png",
             "murl":"q:依赖下载"
             },
