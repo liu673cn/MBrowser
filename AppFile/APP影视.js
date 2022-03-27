@@ -728,7 +728,7 @@ JSON.stringify(res);
     "version":"20220327",
     "data":[
         {
-        "title":"规则分享，每日分享规则",
+        "title":"每日规则分享",
         "list":[
             {
             "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/0328.txt",
