@@ -769,8 +769,7 @@ var t=e2Rex(getVar("CODE"),".json(title)");
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js'),'.dn64()'));
 if(url.indexOf("规则")!=-1){
     var u=getHttp(url);
-    alert(u);
-    if(u>10&&u.indexOf("@")!=-1&&u.indexOf("=")!=-1&&u.indexOf("#")!=-1){
+    if(u.length>10&&u.indexOf("@")!=-1&&u.indexOf("=")!=-1&&u.indexOf("#")!=-1){
         if(u.indexOf("api.php/app")!=-1||u.indexOf("xgapp")!=-1||u.indexOf(".vod")!=-1||u.search(/api\.php\/.+?\/vod\//)!=-1){
             var 输入条目=u.match(/.+=http.+/g);
             for(var j in 输入条目){
