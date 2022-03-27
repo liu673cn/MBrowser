@@ -726,26 +726,8 @@ JSON.stringify(res);
         "title":"2022年3月27日规则",
         "list":[
             {
-            "url":"@呀哩动漫=https://app.yaliyali.cc/api.php/v1.vod#呀哩动漫",
-            "title":"呀哩动漫",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/呀哩动漫.png",
-            "murl":"q:依赖下载"
-            },
-            {
-            "url":"@4k狗=http://4kdog.tk/api.php/app/#",
-            "title":"4k狗",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png",
-            "murl":"q:依赖下载"
-            },
-            {
-            "url":"@蓝光动漫=https://v.lvdi.vip/api.php/app/#蓝光动漫",
-            "title":"蓝光动漫",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png",
-            "murl":"q:依赖下载"
-            },
-            {
-            "url":"@大象影视=http://vip.91iqiyi.com/mogai_api.php/v1.vod#",
-            "title":"大象影视",
+            "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/规则发布.txt",
+            "title":"0328规则",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png",
             "murl":"q:依赖下载"
             }
@@ -756,7 +738,7 @@ JSON.stringify(res);
         "list":[
             {
             "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js",
-            "title":"q.js(写入/读取文件)",
+            "title":"q.js",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/脚本.webp",
             "murl":"q:依赖下载"
             }
@@ -781,70 +763,84 @@ JSON.stringify(res);
         }
     ]
 }
-######依赖文件下载27
-var u=e2Rex(getVar("CODE"),".json(url)");
-var q='ZXZhbChmdW5jdGlvbihlLGYsYSxkLGMsZyl7Yz1mdW5jdGlvbihiKXtyZXR1cm4oYjxmPyIiOmMocGFyc2VJbnQoYi9mKSkpKygzNTwoYiU9Zik/U3RyaW5nLmZyb21DaGFyQ29kZShiKzI5KTpiLnRvU3RyaW5nKDM2KSl9O2lmKCEiIi5yZXBsYWNlKC9eLyxTdHJpbmcpKXtmb3IoO2EtLTspZ1tjKGEpXT1kW2FdfHxjKGEpO2Q9W2Z1bmN0aW9uKGIpe3JldHVybiBnW2JdfV07Yz1mdW5jdGlvbigpe3JldHVybiJcXHcrIn07YT0xfWZvcig7YS0tOylkW2FdJiYoZT1lLnJlcGxhY2UobmV3IFJlZ0V4cCgiXFxiIitjKGEpKyJcXGIiLCJnIiksZFthXSkpO3JldHVybiBlfSgiKDUoKXszIDY9e307MyBtPTEuMDszIHE9Ui4xdi4xdy4xeC4xeTszIHI9Ui4xdi4xdy4xeC4xeSgpLmMuMjc7MyBzPTF6LjI4LjI5LjJhKCk7MyB0PVMuMmI7MyB1PVMuMUE7MyB2PXQuVC4yYzszIHc9MUIoKSt2KycyZCcrditFKCkuVS5WKDAsNCkrJyQkJCcrRSgpLjE4K3Y7SD0oMUMpPT4xRCAxQz09PScyZSc7NSAxOShhKXsyZiAxYT0xRCBhOzcgYSE9SSYmKDFhPT0nMmcnfHwxYT09JzUnKX0zIHk9Uy4yaC4yaTszIHo9OCB5LjJqLjJrKCk7NSBXKGEpezFFPXsxRjo1KCl7NyBhKCl9LH07MyBiPTggeS4ybCgxRSk7ei5YKGIpOzcgYn01IFkoYSxiKXtKIEs9MDtKIDFiPVtdO0woSzxhLkQpezFiLjFjKGEuMm0oSyxLK2IpKTtLKz1ifTcgMWIuMm4oKG8pPT5vLkQ+MCl9NSBYKGwsbil7Yz1bXTtaPVkobCxsLkQvbik7MyBuPTA7TChuPFouRCl7NSBsKHgpezcgNSBvKCl7MyBhPVtdOzFkKEogaT0wO2k8Wlt4XS5EO2krKyl7YS4xYyhaW3hdW2ldKCkpfTcgYX19Yy4xYyhXKGwobikpKTtuKyt9NyBjfTUgMTAoZil7MyBhPWYuMm8oKTs5KCFhLjFHKCkpYS4xMCgpfTUgRihhLGIpezMgYz04IHQuVCh3KydcdTY1NzBcdTYzNmUnK3YrYik7MTAoYyk7MyBkPTggdC4ycChjLDFlKTtkLkYoYSk7ZC5NKCl9NSBOKGEpezMgYj04IHQuVCh3KydcdTY1NzBcdTYzNmUnK3YrYSk7MyBjPTA7OSghYi4xRygpfHwoYz1iLkQoKSk9PTApNycnOzMgZD11LjFILjFJLjFKKHUuMUsuMUwsYyk7MyBlPTggdC4ycShiKTtlLk4oZCk7ZS5NKCk7NyA4IHUuMnIoZCl9MyBBPVIuMnMuMnQ7MyBCPUEuMnUuMnY7NSAxMShvKXtKezFmLEcsTywxZywxMiwxaH09bzszIGE9QS4ydy4yeCgxZik7YS4yeSgxMyk7YS4yeigyQSk7MWg9PT0xZT9hLjFNKDFoKTphLjFNKDEzKTs5KDE5KEcpKTFkKHggMU4gRylhLkcoeCxHW3hdKTs5KDE5KE8pKXs5KDFnPT09MTMpYS4yQihPKTsxTyAxZChwIDFOIE8pYS4yQyhwLE9bcF0pfTMgYjs5KDFnPT09MTN8fDEyPT0nMkQnKWI9YS4xMihCLjJFKS4xUCgpOzFPIGI9YS4xMihCLjJGKS4xUCgpOzcgYn01IDFRKGEsYil7YS4yRyhiKTs3IGEuMkgoKX01IDFSKGEsYil7NyBiKyc9JythLjJJKGIpfTUgMVMoYSl7MyBiPScnOzMgYz1hLjJKKCkuMVQoKS4xVSgpO0woYy4xVigpKXszIGQ9Yy4xVygpO2IrPWQuMVgoKSsnPScrZC4xWSgpKyc7J303IGJ9NSAxWihhLGIpezcgYS5HKGIpfTUgMjAoYSl7MyBiPScnOzMgYz1hLjJLKCkuMVQoKS4xVSgpO0woYy4xVigpKXszIGQ9Yy4xVygpO2IrPWQuMVgoKSsnPScrZC4xWSgpKyc7J303IGJ9NSAxaShhKXszIGI9YS4xaignLycpOzkoYS5EKCk9PWIrMSl7YT1hLlYoMCxiKTs3IDFpKGEpfTcgYS5WKDAsYS4xaignLicpKX01IDFrKG8pezJMe0p7MWwsMjF9PW87MyBhPTExKG8pOzMgYj0xaShhLjFmKCkuMjIoKSk7MyBjPXMuMk0oYS4yTigpLjJPKCc7JylbMF0pOzMgZD1iLlYoYi4xaignLycpKzEpKycuJytjO1A9SCgxbCk/MWwrditkOncrJ1x1NGUwYlx1OGY3ZCcrditkOzMgZj1hLjJQKCk7MyBnPTggdS4xSC4xSS4xSih1LjFLLjFMLDJRKTszIGg9MDszIGk9OCB0LjJSKCk7TCgoaD1mLk4oZykpIT0tMSl7aS5GKGcsMCxoKX0zIGo9OCB0LlQoUCk7MTAoaik7MyBrPTggdC4yUyhqKTtrLkYoaS4yVCgpKTs5KDIxPT09MWUpNyBQO1EoJ1x1NGUwYlx1OGY3ZFx1NjIxMFx1NTI5Zlx1ZmYwY1x1OGRlZlx1NWY4NDonK1ApOzcgUH0yVShlKXsxNChlKTtRKCdcdTRlMGJcdThmN2RcdTU5MzFcdThkMjUsXHU4YmY3XHU2MjUzXHU1ZjAwXHU4YzAzXHU4YmQ1XHU1M2YwXHU2N2U1XHU3NzBiXHU1MTc3XHU0ZjUzXHU1ZjAyXHU1ZTM4XHU0ZmUxXHU2MDZmJyl9MlZ7OShpIT1JKWkuTSgpOzkoayE9SSlrLk0oKTs5KGYhPUkpZi5NKCl9fTMgQz1yLjJXKEUoKS5VLHIuMlgpOzUgMW0oYSxiKXszIGM9Qy4xbigpO2MuMlkoYSxiKTtjLjFvKCl9NSAxcChhLGIpezcgQy4yWihhLGIpfTUgMXEoYSl7MyBjPUMuMW4oKTtjLjMwKGEpO2MuMW8oKX01IDIzKCl7MyBjPUMuMW4oKTtjLjMxKCk7Yy4xbygpfTUgJCgpezMgYT0xNS5EOzMyKGEpezI0IDE6NyAxNigxNVswXSk7MjQgMjo3IDMzKDE1WzBdLDE1WzFdKTszNDo3IDM1KCl9fTUgMTQoZSl7SChlKT9cdTYyYTVcdTk1MTkoZSk6XHU2MmE1XHU5NTE5KGUuMjIoKSl9NSBRKGEpe3EuaC5iKGEpfTUgMXIoKXs4IFIuMXouMzYuMzcoKS4zOCg0KX01IDFCKCl7NyByLjM5KEkpLjNhKCl9NSAxNyhhKXtTLjFBLjNiLjE3KGEpfTUgRSgpe289e307by5VPTFzKDE2KCcxdCcpLCcuMXUoVSkudCgpJyk7by4yNT0xcygxNignMXQnKSwnLjF1KDI1KS50KCknKTtvLjE4PTFzKDE2KCcxdCcpLCcuMXUoMTgpLnQoKScpOzcgb302LjNjPW07Ni5OPU47Ni5GPUY7Ni4xNz0xNzs2Llc9Vzs2Llg9WDs2Llk9WTs2LjFyPTFyOzYuSD1IOzYuMTE9MTE7Ni4zZD0xUTs2LjNlPTFSOzYuM2Y9MVM7Ni4zZz0xWjs2LjNoPTIwOzYuMWs9MWs7Ni5FPUU7Ni5RPVE7Ni4xND0xNDs2LjFtPTFtOzYuMXA9MXA7Ni4xcT0xcTs2LjNpPTIzOzYuJD0kOzI2LjY9Nn0uMUYoMjYpKTsiLAo2MiwyMDUsIiAgIHZhciAgZnVuY3Rpb24gXyByZXR1cm4gbmV3IGlmICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGVuZ3RoIGluZm8gd3JpdGUgaGVhZGVyIGlzU3RyaW5nIG51bGwgbGV0IGluZGV4IHdoaWxlIGNsb3NlIHJlYWQgcGFyYW1zIHNhdmVwYXRoIHRvYXN0IFBhY2thZ2VzIGphdmEgRmlsZSBzaWduIHN1YnN0cmluZyB0aHJlYWQgc3VibWl0IGNodW5rIGxpc3QgbWtkaXJzIGh0dHAgbWV0aG9kIHRydWUgZXJyb3IgYXJndW1lbnRzIGdldFZhciBzbGVlcCBuYW1lIGlzT2JqZWN0IHR5cGUgcmVzIHB1c2ggZm9yIGZhbHNlIHVybCBqc29uIHJlIHRyaW1VIGxhc3RJbmRleE9mIGRvd25sb2FkIHNldHBhdGggcHV0U3AgZWRpdCBjb21taXQgZ2V0U3AgY2xlYXJTcCBiYWNrIGUyUmV4IFFNSU5GTyBnZXQgY24gbWJyb3dzZXIgY29uZmlnIEFwcCBhbmRyb2lkIGxhbmcgcGF0aCB2YWwgdHlwZW9mIG9iaiBjYWxsIGV4aXN0cyByZWZsZWN0IEFycmF5IG5ld0luc3RhbmNlIEJ5dGUgVFlQRSBmb2xsb3dSZWRpcmVjdHMgaW4gZWxzZSBleGVjdXRlIGh0dHBCb2R5IGh0dHBDb29raWUgaHR0cENvb2tpZXMgZW50cnlTZXQgaXRlcmF0b3IgaGFzTmV4dCBuZXh0IGdldEtleSBnZXRWYWx1ZSBodHRwSGVhZGVyIGh0dHBIZWFkZXJzIHRpcHMgdG9TdHJpbmcgcmVtb3ZlU3AgY2FzZSB2ZXJzaW9uIHRoaXMgYXBwbGljYXRpb25Db250ZXh0IHdlYmtpdCBNaW1lVHlwZU1hcCBnZXRTaW5nbGV0b24gaW8gc2VwYXJhdG9yIHFtIHN0cmluZyBjb25zdCBvYmplY3QgdXRpbCBjb25jdXJyZW50IEV4ZWN1dG9ycyBuZXdDYWNoZWRUaHJlYWRQb29sIEZ1dHVyZVRhc2sgc2xpY2UgZmlsdGVyIGdldFBhcmVudEZpbGUgRmlsZVdyaXRlciBGaWxlSW5wdXRTdHJlYW0gU3RyaW5nIG9yZyBqc291cCBDb25uZWN0aW9uIE1ldGhvZCBKc291cCBjb25uZWN0IGlnbm9yZUNvbnRlbnRUeXBlIG1heEJvZHlTaXplIDEwNDg1NzYwMDAgcmVxdWVzdEJvZHkgZGF0YSBwb3N0IFBPU1QgR0VUIGNoYXJzZXQgYm9keSBjb29raWUgY29va2llcyBoZWFkZXJzIHRyeSBnZXRFeHRlbnNpb25Gcm9tTWltZVR5cGUgY29udGVudFR5cGUgc3BsaXQgYm9keVN0cmVhbSA0MDk2IEJ5dGVBcnJheU91dHB1dFN0cmVhbSBGaWxlT3V0cHV0U3RyZWFtIHRvQnl0ZUFycmF5IGNhdGNoIGZpbmFsbHkgZ2V0U2hhcmVkUHJlZmVyZW5jZXMgTU9ERV9QUklWQVRFIHB1dFN0cmluZyBnZXRTdHJpbmcgcmVtb3ZlIGNsZWFyIHN3aXRjaCBwdXRWYXIgZGVmYXVsdCBnZXRDb2RlIGFwcCBJbnN0cnVtZW50YXRpb24gc2VuZEtleURvd25VcFN5bmMgZ2V0RXh0ZXJuYWxGaWxlc0RpciBnZXRQYXRoIFRocmVhZCBWRVJTSU9OIGJkIGNrIGNrcyBoZCBoZHMgZGVsU3AiLnNwbGl0KCIgIiksCjAse30pKTs=';
-eval(e2Rex(q,'.dn64()'));
-if(u.indexOf("@")!=-1&&u.indexOf("=")!=-1&&u.indexOf("#")!=-1){
-    var 记录=[];
-    var filename="APP影视.json";
-    var 记录=[];
-    var title=e2Rex(u,".ty(@).tz(=)");
-    var url=e2Rex(u,".ty(=).tz(#)");
-    var img=e2Rex(u,".ty(#)");
-    if(img.indexOf("http")!=-1){
-        var img=img;
-    }else if(img==""){
-        var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png"
-    }else{
-        var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/"+img+".png";
-    }
-    if(url.search(/api\.php\/.*?\/vod/)!=-1){
-        var murl="q:TV影视";
-    }else{
-        var murl="q:APP影视";
-    }
-    if(e2Rex(u,".tz(@)")!=""){
-        var type=e2Rex(u,".tz(@)");
-    }else if(url.indexOf("api.php/app")!=-1||url.indexOf("xgapp")!=-1){
-        var type="小龟";
-    }else if(url.indexOf(".vod")!=-1){
-        var type="萝卜/白菜/木白/绿豆";
-    }else if(url.search(/api\.php\/.+?\/vod\//)!=-1){
-        var type="神马";
-    }
-    记录.push({title:title,url:url,img:img,murl:murl,type:type});
-    if(_.read(filename)){
-        var 新记录=JSON.parse(_.read(filename));
-    }else{
-        var 新记录=[];
-    }
-    if(新记录.length==0) {
-        新记录.push({title:记录[0].type,data:记录});
-    }else{
-        let res=新记录.some(item=>{
-        //判断类型，有就添加到当前项
-            if(item.title == 记录[0].type){
-                item.data=记录.concat(item.data);
-                return true
+######文件下载27
+var url=e2Rex(getVar("CODE"),".json(url)");
+var t=e2Rex(getVar("CODE"),".json(title)");
+eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js'),'.dn64()'));
+if(url.indexOf("规则")!=-1){
+    var u=getHttp(JSON.stringify({url:url}));
+    if(u>10&&u.indexOf("@")!=-1&&u.indexOf("=")!=-1&&u.indexOf("#")!=-1){
+        if(u.indexOf("api.php/app")!=-1||u.indexOf("xgapp")!=-1||u.indexOf(".vod")!=-1||u.search(/api\.php\/.+?\/vod\//)!=-1){
+            var 输入条目=u.match(/.+=http.+/g);
+            for(var j in 输入条目){
+                var title=e2Rex(输入条目[j],".ty(@).tz(=)");
+                var url=e2Rex(输入条目[j],".ty(=).tz(#)");
+                var img=e2Rex(输入条目[j],".ty(#)");
+                if(img.indexOf("http")!=-1){
+                    var img=img;
+                }else if(img==""){
+                    var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png"
+                }else{
+                    var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/"+img+".png";
+                }
+                if(url.search(/api\.php\/.*?\/vod/)!=-1){
+                    var murl="q:TV影视";
+                }else{
+                    var murl="q:APP影视";
+                }
+                if(e2Rex(输入条目[j],".tz(@)")!=""){
+                    var type=e2Rex(输入条目[j],".tz(@)");
+                }else if(url.indexOf("api.php/app")!=-1||url.indexOf("xgapp")!=-1){
+                    var type="小龟";
+                }else if(url.indexOf(".vod")!=-1){
+                    var type="萝卜/白菜/木白/绿豆";
+                }else if(url.search(/api\.php\/.+?\/vod\//)!=-1){
+                    var type="神马";
+                }
+                记录.push({title:title,url:url,img:img,murl:murl,type:type});
             }
-        });
-        if (!res){
-        //如果没找相同类型添加一个类型
-            新记录.push({title:记录[0].type,data:记录});
+            if(_.read(filename)){
+                var 新记录=JSON.parse(_.read(filename));
+            }else{
+                var 新记录=[];
+            }
+            for(var i in 记录){
+                var 当前条目=[];当前条目.push(记录[i]);
+                if(新记录.length==0) {
+                    新记录.push({title:记录[i].type,data:当前条目});
+                }else{
+                    let res=新记录.some(item=>{
+                    //判断类型，有就添加到当前项
+                        if(item.title == 记录[i].type){
+                            item.data=当前条目.concat(item.data);
+                            return true
+                        }
+                    });
+                    if (!res) {
+                    //如果没找相同类型添加一个类型
+                        新记录.push({title:记录[i].type,data:当前条目});
+                    }
+                }
+            }
+            _.write(JSON.stringify(新记录),filename);
+            alert(t+"\n写入成功");
+            _.read(filename);
+        }else{
+            alert("暂未适配");
         }
-    }
-    _.write(JSON.stringify(新记录),filename);
-     alert(title+"\n写入成功");
-    _.read(filename);
-}else{
-    var FileCode=getHttp(JSON.stringify({url:u}));
-    if(u.indexOf("影视")!=-1){
-        var filename='APP影视.js';
-    }else if(u.indexOf("json")!=-1){
-        var filename='APP.json';
     }else{
+        alert("请输入正确规则格式");
+    }
+}else{
+    var FileCode=getHttp(JSON.stringify({url:url}));
+    if(url.indexOf("影视")!=-1){
+        var filename='APP影视.js';
+    }else if(url.indexOf("json")!=-1){
+        var filename='APP.json';
+    }else if(url.indexOf("q.js")!=-1){
         var filename='q.js';
+    }else{
+        var filename=t;
     }
     _.write(FileCode,filename);
     alert(filename+"\n下载成功");
