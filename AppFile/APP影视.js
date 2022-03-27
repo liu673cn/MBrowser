@@ -790,7 +790,7 @@ if(u.indexOf("@")!=-1&&u.indexOf("=")!=-1&&u.indexOf("#")!=-1){
     if(u.indexOf("APP")!=-1){
         var filename='APP影视.js';
     }else if(u.indexOf("json")!=-1){
-        var filename='APP影视.json';
+        var filename='APP.json';
     }else{
         var filename='q.js';
     }
