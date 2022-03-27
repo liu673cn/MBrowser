@@ -611,7 +611,7 @@ if(getVar("KEY").length>10&&getVar("KEY").indexOf("@")!=-1&&getVar("KEY").indexO
             }
         }
         _.write(JSON.stringify(新记录),filename);
-        alert(title+"写入成功");
+        alert(title+"\n写入成功");
         _.read(filename);
     }else{
         alert("暂未适配");
@@ -634,7 +634,9 @@ let res=新记录.some(item=>{
         return true
     }
 });
+var AppName=e2Rex(记录,".json(title)");
 _.write(JSON.stringify(新记录),filename);
+alert(AppName+"\n删除成功");
 _.read(filename);
 ######本地规则批量搜索25
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js'),'.dn64()'));
