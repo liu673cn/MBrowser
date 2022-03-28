@@ -317,7 +317,7 @@ var URL=getVar("url");
 function 选集列表(){
     var res={};var items=[];var detail=[];
     for(var i=0;i<分类.length;i++){
-        var 分类CODE=分类[i];
+        var 分类CODE=分类[i].replace(/\s+/g,"");
         var 列表=e2Arr(分类CODE,列表规则);
         var 标题=e2Rex(分类CODE,标题规则);
         if(URL.indexOf(".vod")!=-1){
@@ -336,8 +336,6 @@ function 选集列表(){
                     var 接口="http:"+可用接口[0].match(/\/\/.*(url|v|vid|php\?id)=/)[0].replace("..",".");
                 }else{
                     var 接口=URL.match(/https?:\/\/[^\/]*/)[0]+可用接口[0].match(/\/.*(url|v|vid|php\?id)=/)[0].replace("..",".");
-                }else{
-                  var 接口="http://1.117.152.239:39000/?url=";
                 }
             }else{
                 //对于无自带接口的，给予一个统一接口
