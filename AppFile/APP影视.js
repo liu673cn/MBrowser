@@ -777,6 +777,7 @@ if(url.indexOf("rule")!=-1){
     var Ktime=e2Rex(getVar("TIME_"),".time(MMdd)");
     var 记录=[];
     var u=getHttp(url+Ktime+".txt");
+    alert(u);
     if(u.indexOf("@")!=-1&&u.indexOf("=")!=-1&&u.indexOf("#")!=-1){
         if(u.indexOf("api.php/app")!=-1||u.indexOf("xgapp")!=-1||u.indexOf(".vod")!=-1||u.search(/api\.php\/.*?\/vod/)!=-1){
             var 输入条目=u.match(/.+=http.+/g);
