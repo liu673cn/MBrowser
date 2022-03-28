@@ -336,6 +336,8 @@ function 选集列表(){
                     var 接口="http:"+可用接口[0].match(/\/\/.*(url|v|vid|php\?id)=/)[0].replace("..",".");
                 }else{
                     var 接口=URL.match(/https?:\/\/[^\/]*/)[0]+可用接口[0].match(/\/.*(url|v|vid|php\?id)=/)[0].replace("..",".");
+                }else{
+                  var 接口="http://1.117.152.239:39000/?url=";
                 }
             }else{
                 //对于无自带接口的，给予一个统一接口
