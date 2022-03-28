@@ -317,7 +317,7 @@ var URL=getVar("url");
 function 选集列表(){
     var res={};var items=[];var detail=[];
     for(var i=0;i<分类.length;i++){
-        var 分类CODE=分类[i].replace(/\s+/g,"");
+        var 分类CODE=分类[i];
         var 列表=e2Arr(分类CODE,列表规则);
         var 标题=e2Rex(分类CODE,标题规则);
         if(URL.indexOf(".vod")!=-1){
@@ -438,7 +438,7 @@ if(URL.indexOf("api.php/app/")!=-1){
     var 选集规则=".z2(\\\(.+?\\\)\\$)";
     var 选集地址规则=".z2(\\$\\\(.+?\\\)[#|\"])";选集列表();
 }else if(URL.indexOf(".vod")!=-1){
-    var 分类=e2Arr(getVar("源码"),".json(data).json(vod_play_list)");
+    var 分类=e2Arr(getVar("源码").replace(/\s+/g,""),".json(data).json(vod_play_list)");
     var 简介=e2Rex(getVar("源码"),".json(data).json(vod_content)");
     var 列表规则=".json(url).ct(#).z(.*?\\$.*?#)";
     var 标题规则=".json(player_info).json(show)";
