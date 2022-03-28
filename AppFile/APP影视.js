@@ -731,14 +731,8 @@ JSON.stringify(res);
         "title":"每日规则分享",
         "list":[
             {
-            "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/0328.txt",
-            "title":"0328",
-            "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png",
-            "murl":"q:依赖下载"
-            },
-            {
-            "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/0327.txt",
-            "title":"0327",
+            "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/",
+            "title":"点击写入今日分享规则",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png",
             "murl":"q:依赖下载"
             }
@@ -780,8 +774,9 @@ var t=e2Rex(getVar("CODE"),".json(title)");
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js'),'.dn64()'));
 if(url.indexOf("txt")!=-1){
     var filename="APP影视.json";
+    var Ktime=e2Rex(getVar("TIME_"),".time(MMdd)");
     var 记录=[];
-    var u=getHttp(url);
+    var u=getHttp(url+Ktime+".txt");
     if(u.length>10&&u.indexOf("@")!=-1&&u.indexOf("=")!=-1&&u.indexOf("#")!=-1){
         if(u.indexOf("api.php/app")!=-1||u.indexOf("xgapp")!=-1||u.indexOf(".vod")!=-1||u.search(/api\.php\/.+?\/vod\//)!=-1){
             var 输入条目=u.match(/.+=http.+/g);
@@ -842,7 +837,7 @@ if(url.indexOf("txt")!=-1){
             alert("暂未适配");
         }
     }else{
-        alert("请输入正确规则格式");
+        alert("暂无分享的规则，请稍后再试");
     }
 }else{
     var FileCode=getHttp(JSON.stringify({url:url}));
