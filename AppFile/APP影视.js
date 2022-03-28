@@ -731,7 +731,7 @@ JSON.stringify(res);
         "title":"每日规则分享",
         "list":[
             {
-            "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/",
+            "url":"rule",
             "title":"点击写入今日分享规则",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png",
             "murl":"q:依赖下载"
@@ -776,7 +776,7 @@ if(url.indexOf("rule")!=-1){
     var filename="APP影视.json";
     var Ktime=e2Rex(getVar("TIME_"),".time(MMdd)");
     var 记录=[];
-    var u=getHttp(url+Ktime+".txt");
+    var u=getHttp("https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/"+Ktime+".txt");
     if(u.indexOf("@")!=-1&&u.indexOf("=http")!=-1&&u.indexOf("#")!=-1){
         if(u.indexOf("api.php/app")!=-1||u.indexOf("xgapp")!=-1||u.indexOf(".vod")!=-1||u.search(/api\.php\/.*?\/vod/)!=-1){
             var 输入条目=u.match(/.+=http.+/g);
