@@ -739,7 +739,7 @@ JSON.stringify(res);
         ]
         },
         {
-        "title":"依赖文件列表(暂时没用)",
+        "title":"依赖文件(暂无用，未完成本地化)",
         "list":[
             {
             "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js",
