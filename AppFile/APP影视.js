@@ -814,7 +814,7 @@ if(url.indexOf("rule")!=-1){
             }
             for(var i in 记录){
                 var 当前条目=[];当前条目.push(记录[i]);
-                if(新记录.length==0) {
+                if(新记录.length==0){
                     新记录.push({title:记录[i].type,data:当前条目});
                 }else{
                     let res=新记录.some(item=>{
@@ -824,7 +824,7 @@ if(url.indexOf("rule")!=-1){
                             return true
                         }
                     });
-                    if (!res) {
+                    if(!res){
                     //如果没找相同类型添加一个类型
                         新记录.push({title:记录[i].type,data:当前条目});
                     }
