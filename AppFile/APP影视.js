@@ -831,7 +831,7 @@ if(url.indexOf("rule")!=-1){
                 }
             }
             _.write(JSON.stringify(新记录),filename);
-            alert(t+"\n写入成功");
+            alert(Ktime+"规则\n写入成功");
             _.read(filename);
         }else{
             alert("暂未适配");
