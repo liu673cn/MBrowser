@@ -590,7 +590,7 @@ if(getVar("KEY").length>10&&getVar("KEY").indexOf("@")!=-1&&getVar("KEY").indexO
                 let res=新记录.some(item=>{
                 //判断类型，有就添加到当前项
                     if(item.title == 记录[i].type){
-                        item.data=当前条目.concat(item.data);
+                        item.data=当前条目.concat(item.data.filter(d=>d.url!=记录[i].url));
                         return true
                     }
                 });
@@ -651,7 +651,7 @@ if(getVar("KEY").length>10&&getVar("KEY").indexOf("@")!=-1&&getVar("KEY").indexO
                 let res=新记录.some(item=>{
                 //判断类型，有就添加到当前项
                     if(item.title == 记录[i].type){
-                        item.data=当前条目.concat(item.data);
+                        item.data=当前条目.concat(item.data.filter(d=>d.url!=记录[i].url));
                         return true
                     }
                 });
@@ -820,7 +820,7 @@ if(url.indexOf("rule")!=-1){
                     let res=新记录.some(item=>{
                     //判断类型，有就添加到当前项
                         if(item.title == 记录[i].type){
-                            item.data=当前条目.concat(item.data);
+                            item.data=当前条目.concat(item.data.filter(d=>d.url!=记录[i].url));
                             return true
                         }
                     });
