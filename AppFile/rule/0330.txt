@@ -1,2 +1,1 @@
 普通@风凌影视=http://z1q1.com/mogai_api.php/v1.vod#风凌影视
-普通@涵云影视=http://hanyun.ml/api.php/v1.vod#涵云影视
