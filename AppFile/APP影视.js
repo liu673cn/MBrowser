@@ -563,6 +563,8 @@ if(key.indexOf("http")==-1&&key.indexOf("InMemory")==-1&&key.indexOf(".txt")!=-1
 }else if(uu.indexOf("http")==-1&&uu.indexOf("rule")!=-1){
     var filename="APP影视.json";
     var rule=getHttp("https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/app.txt");
+}else if(key==""){
+    alert("请输入以下三种文本\n以txt格式结尾的网络订阅地址\n本地txt格式文件名\n包含@=#三个符号的格式文本");
 }else{
     var rule=getHttp(JSON.stringify({url:uu}));
     if(uu.indexOf("影视")!=-1){
@@ -628,12 +630,10 @@ if(rule.indexOf("api.php/app")!=-1||rule.indexOf("xgapp")!=-1||rule.indexOf(".vo
     _.write(JSON.stringify(新记录),filename);
     alert("规则写入/更新成功");
     _.read(filename);
-}else if(rule.length>10||rule.indexOf("api.php/app")==-1||rule.indexOf("xgapp")==-1||rule.indexOf(".vod")==-1||rule.search(/api\.php\/.+?\/vod\//)==-1){
+}else{
     _.write(rule,filename);
     alert(filename+"下载成功");
     _.read(filename);
-}else{
-    alert("请输入以下三种文本\n以txt格式结尾的网络订阅地址\n本地txt格式文件名\n包含@=#三个符号的格式文本");
 }
 ######读取规则23
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
