@@ -544,17 +544,25 @@ if(uu.indexOf("baidu.com")!=-1){
 }
 ######写入规则22
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
-var filename="APP影视.json";
+var uu=e2Rex(getVar("CODE"),".json(url)");
+var tt=e2Rex(getVar("CODE"),".json(title)");
 var 记录=[];
 var key=getVar("KEY");
-if(key.length>10&&key.indexOf("@")!=-1&&key.indexOf("=")!=-1&&key.indexOf("#")!=-1){
+if(key.indexOf("http")==-1&&key.indexOf("InMemory")==-1&&key.indexOf(".txt")!=-1){
+    var filename="APP.json";
+    var rule=_.read(key);
+}else if(key.length>10&&key.indexOf("@")!=-1&&key.indexOf("=")!=-1&&key.indexOf("#")!=-1){
+    var filename="APP影视.json";
     var rule=key;
 }else if(key.indexOf("http")==-1&&key.indexOf(".txt")!=-1){
-    var rule=_.read(Fname);
+    var filename="APP影视.json";
+    var rule=_.read(key);
 }else if(key.indexOf("http")!=-1&&key.indexOf(".txt")!=-1){
-     var rule=getHttp(key);
-}else{
-    alert("请输入包含@=#三个符号的正确格式");
+    var filename="APP影视.json";
+    var rule=getHttp(key);
+}else if(url.indexOf("http")==-1&&uu.indexOf("rule")!=-1){
+    var filename="APP影视.json";
+    var rule=getHttp("https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/app.txt");
 }
 if(rule.indexOf("api.php/app")!=-1||rule.indexOf("xgapp")!=-1||rule.indexOf(".vod")!=-1||rule.search(/api\.php\/.+?\/vod\//)!=-1){
     var 输入条目=rule.match(/.+=http.+/g);
@@ -611,8 +619,20 @@ if(rule.indexOf("api.php/app")!=-1||rule.indexOf("xgapp")!=-1||rule.indexOf(".vo
     _.write(JSON.stringify(新记录),filename);
     alert("规则写入/更新成功");
     _.read(filename);
+}else if(uu.indexOf("http")!=-1&&uu.indexOf("js")!=-1){
+    var rule=getHttp(JSON.stringify({url:uu}));
+    if(uu.indexOf("影视")!=-1){
+        var Fname='APP影视.js';
+    }else if(uu.indexOf("q.js")!=-1){
+        var Fname='q.js';
+    }else{
+        var Fname=tt;
+    }
+    _.write(rule,Fname);
+    alert(Fname+"\n下载成功");
+    _.read(Fname);
 }else{
-    alert("接口类型输入错误");
+    alert("请输入以下三种文本\n以txt格式结尾的网络订阅地址\n本地txt格式文件名\n包含@=#三个符号的格式文本");
 }
 ######读取规则23
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
@@ -678,7 +698,7 @@ JSON.stringify(res);
             "url":"rule",
             "title":"点击更新规则",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png",
-            "murl":"q:依赖下载"
+            "murl":"q:写入本地"
             }
         ]
         },
@@ -689,7 +709,7 @@ JSON.stringify(res);
             "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js",
             "title":"q.js",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/脚本.webp",
-            "murl":"q:依赖下载"
+            "murl":"q:写入本地"
             }
         ]
         },
@@ -711,89 +731,4 @@ JSON.stringify(res);
         ]
         }
     ]
-}
-######文件下载27
-var url=e2Rex(getVar("CODE"),".json(url)");
-var t=e2Rex(getVar("CODE"),".json(title)");
-eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
-if(url.indexOf("rule")!=-1){
-    var filename="APP影视.json";
-    var 记录=[];
-    var rule=getHttp("https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/app.txt");
-    if(rule.indexOf("@")!=-1&&rule.indexOf("=http")!=-1&&rule.indexOf("#")!=-1){
-        if(rule.indexOf("api.php/app")!=-1||rule.indexOf("xgapp")!=-1||rule.indexOf(".vod")!=-1||rule.search(/api\.php\/.*?\/vod/)!=-1){
-            var 输入条目=rule.match(/.+=http.+/g);
-            for(var j in 输入条目){
-                var title=e2Rex(输入条目[j],".ty(@).tz(=)");
-                var url=e2Rex(输入条目[j],".ty(=).tz(#)");
-                var img=e2Rex(输入条目[j],".ty(#)");
-                if(img.indexOf("http")!=-1){
-                    var img=img;
-                }else if(img==""){
-                    var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png"
-                }else{
-                    var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/"+img+".png";
-                }
-                if(url.search(/api\.php\/.*?\/vod/)!=-1){
-                    var murl="q:TV影视";
-                }else{
-                    var murl="q:APP影视";
-                }
-                if(e2Rex(输入条目[j],".tz(@)")!=""){
-                    var type=e2Rex(输入条目[j],".tz(@)");
-                }else if(url.indexOf("api.php/app")!=-1||url.indexOf("xgapp")!=-1){
-                    var type="小龟";
-                }else if(url.indexOf(".vod")!=-1){
-                    var type="萝卜/白菜/木白/绿豆";
-                }else if(url.search(/api\.php\/.+?\/vod\//)!=-1){
-                    var type="神马";
-                }
-                记录.push({title:title,url:url,img:img,murl:murl,type:type});
-            }
-            if(_.read(filename)){
-                var 新记录=JSON.parse(_.read(filename));
-            }else{
-                var 新记录=[];
-            }
-            for(var i in 记录){
-                var 当前条目=[];当前条目.push(记录[i]);
-                if(新记录.length==0){
-                    新记录.push({title:记录[i].type,data:当前条目});
-                }else{
-                    let res=新记录.some(item=>{
-                    //判断类型，有就添加到当前项
-                        if(item.title == 记录[i].type){
-                            item.data=当前条目.concat(item.data.filter(d=>d.url!=记录[i].url));
-                            return true
-                        }
-                    });
-                    if(!res){
-                    //如果没找相同类型添加一个类型
-                        新记录.push({title:记录[i].type,data:当前条目});
-                    }
-                }
-            }
-            _.write(JSON.stringify(新记录),filename);
-            alert("规则写入/更新成功");
-            _.read(filename);
-        }else{
-            alert("接口类型输入错误");
-        }
-    }else{
-        alert("请输入包含@=#三个符号的正确格式");
-    }
-}else{
-    var FileCode=getHttp(JSON.stringify({url:url}));
-    if(url.indexOf("影视")!=-1){
-        var filename='APP影视.js';
-    }else if(url.indexOf("json")!=-1){
-        var filename='APP.json';
-    }else if(url.indexOf("q.js")!=-1){
-        var filename='q.js';
-    }else{
-        var filename=t;
-    }
-    _.write(FileCode,filename);
-    alert(filename+"\n下载成功");
-    _.read(filename);
 }
