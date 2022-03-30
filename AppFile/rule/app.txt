@@ -61,10 +61,8 @@
 普通@随风影视=http://app.ruchu.cloud/api.php/v1.vod#随风影视
 普通@任性看=https://renxingkan.net/api.php/v1.vod#任性看
 普通@青蛙影视=https://www.9ge.org/api.php/v1.vod#青蛙影视
-普通@柠檬影视=http://123.youguo520.top/lvdou_api.php/v1.vod#柠檬影视
 普通@美剧迷=http://mj.zjtv.cc/ruifenglb_api.php/v1.vod#美剧迷
 普通@美剧范=http://ttzmz.net/api.php/v1.vod#美剧范
-普通@木瓜影视=http://123.youguo520.top/456/lvdou_api.php/v1.vod#木瓜影视
 普通@免费影视=http://111.229.120.180:88/lvdou_api.php/v1.vod#免费影视
 普通@乐云影视=https://www.leyun.tv/api.php/v1.vod#乐云影视
 普通@冷视TV=https://len.tv/api.php/v1.vod#冷视TV
