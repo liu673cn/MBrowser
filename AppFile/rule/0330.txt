@@ -15,6 +15,5 @@
 普通@美剧迷=http://mj.zjtv.cc/ruifenglb_api.php/v1.vod#美剧迷
 普通@雯雯视频=http://139.224.52.247:81/lvdou_api.php/v1.vod#雯雯视频
 普通@雨果影视=http://123.youguo520.top/lvdou_api.php/v1.vod#雨果影视
-普通@风凌影视=http://z1q1.com/mogai_api.php/v1.vod#风凌影视
 普通@涵云影视=http://hanyun.ml/api.php/v1.vod#涵云影视
 @聚多影视=http://jdys.weetai.cn/api.php/iptv/vod/#聚多影视
