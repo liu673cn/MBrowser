@@ -96,7 +96,7 @@ var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
     e2Rex(index,".json(data).i(0)");
 }else{
-    alert("————更新内容————\n    ·增加导入自定义源\n    ·增加资源发布区\n\n    请详细阅读本地写入教程")
+    alert("————更新内容————\n    ·自定义源支持订阅\n\n    请详细阅读本地写入教程，有订阅说明")
     e2Rex(index,".json(data).i(1)");
 }
 ######首页地址判断4
