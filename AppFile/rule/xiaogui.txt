@@ -410,7 +410,7 @@
 小龟(全部)@泡饭影视=http://xg.paofans.tv/xgapp.php/v1/#泡饭影视
 小龟(全部)@双十电影=https://www.1010dy.cc/api.php/app/#双十电影
 小龟(全部)@双十电影=https://www.1010dy.cc/xgapp.php/v1/#双十电影
-小龟(全部)@森之屋=https://www.senfun.net/xgapp.php/v1/#森之屋
+小龟(全部)@森之屋=https://www.senfun.net/api.php/app/#森之屋
 小龟(全部)@森之屋=https://www.senfun.net/xgapp.php/v1/#森之屋
 小龟(全部)@小龟视频=http://aliys.cn:90/api.php/app/#小龟视频
 小龟(全部)@小龟视频=http://aliys.cn:90/xgapp.php/v1/#小龟视频
