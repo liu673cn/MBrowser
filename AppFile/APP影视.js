@@ -549,7 +549,7 @@ var tt=e2Rex(getVar("CODE"),".json(title)");
 var 记录=[];
 var key=getVar("KEY");
 if(key.indexOf("http")==-1&&key.indexOf("InMemory")==-1&&key.indexOf(".txt")!=-1){
-    var filename="APP.json";
+    var filename="APP影视.json";
     var rule=_.read(key);
 }else if(key.length>10&&key.indexOf("@")!=-1&&key.indexOf("=")!=-1&&key.indexOf("#")!=-1){
     var filename="APP影视.json";
