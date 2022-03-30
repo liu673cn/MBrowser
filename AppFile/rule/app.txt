@@ -42,8 +42,9 @@
 普通@渔渔影视=http://luobo.yugenye.site/api.php/v1.vod#渔渔影视
 普通@影视大全=https://xc.xixi2yy.xyz/mogai_api.php/v1.vod#影视大全HD
 普通@呀哩动漫=https://app.yaliyali.cc/api.php/v1.vod#呀哩动漫
-普通@星宿漫=http://3.xingxiuman.com/mogai_api.php/v1.vod#星宿漫
+普通@雨果影视=http://123.youguo520.top/lvdou_api.php/v1.vod#雨果影视
 普通@月儿影视=https://yue52.xyz/api.php/v1.vod#
+普通@星宿漫=http://3.xingxiuman.com/mogai_api.php/v1.vod#星宿漫
 普通@星球视频=http://119.29.121.48:8088/api.php/v1.vod#星球视频
 普通@小蜻蜓=http://3ketv.com/mogai_api.php/v1.vod#小蜻蜓视频
 普通@小鸟动漫=http://xydm.baicai.buzz/mogai_api.php/v1.vod#小鸟动漫
