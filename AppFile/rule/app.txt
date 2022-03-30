@@ -3,6 +3,7 @@
 优质@优视影视=http://app.ysys.asia/lvdou_api.php/v1.vod#优视影视
 优质@影视达人=http://www.ysdr.vip/api.php/v1.vod#
 优质@影视大全=https://app.okmedcos.com/api.php/v1.vod#影视大全
+优质@雨果影视=http://123.youguo520.top/lvdou_api.php/v1.vod#雨果影视
 优质@益达影院=http://luobu.yss6080.com/mogai_api.php/v1.vod#益达影院
 优质@雪人影视=https://zy.qd234.cn/mogai_api.php/v1.vod#雪人影视
 优质@天天影视=https://app.daishusc.com/api.php/v1.vod#天天影视
@@ -42,7 +43,6 @@
 普通@渔渔影视=http://luobo.yugenye.site/api.php/v1.vod#渔渔影视
 普通@影视大全=https://xc.xixi2yy.xyz/mogai_api.php/v1.vod#影视大全HD
 普通@呀哩动漫=https://app.yaliyali.cc/api.php/v1.vod#呀哩动漫
-普通@雨果影视=http://123.youguo520.top/lvdou_api.php/v1.vod#雨果影视
 普通@月儿影视=https://yue52.xyz/api.php/v1.vod#
 普通@星宿漫=http://3.xingxiuman.com/mogai_api.php/v1.vod#星宿漫
 普通@星球视频=http://119.29.121.48:8088/api.php/v1.vod#星球视频
