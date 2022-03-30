@@ -780,7 +780,7 @@ if(url.indexOf("rule")!=-1){
     var filename="APP影视.json";
     var Ktime=e2Rex(getVar("TIME_"),".time(MMdd)");
     var 记录=[];
-    var u=getHttp("https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/"+Ktime+".txt");
+    var u=getHttp("https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/xiaogui.txt");
     if(u.indexOf("@")!=-1&&u.indexOf("=http")!=-1&&u.indexOf("#")!=-1){
         if(u.indexOf("api.php/app")!=-1||u.indexOf("xgapp")!=-1||u.indexOf(".vod")!=-1||u.search(/api\.php\/.*?\/vod/)!=-1){
             var 输入条目=u.match(/.+=http.+/g);
