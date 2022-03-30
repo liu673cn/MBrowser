@@ -549,10 +549,10 @@ var 记录=[];
 var key=getVar("KEY");
 if(key.length>10&&key.indexOf("@")!=-1&&key.indexOf("=")!=-1&&key.indexOf("#")!=-1){
     var rule=key;
-}else if(key.indexOf("http")==-1&&key.indexOf("txt")!=-1){
+}else if(key.indexOf("http")==-1&&key.indexOf(".txt")!=-1){
     var rule=_.read(Fname);
-}else if(key.indexOf("http")!=-1&&key.indexOf("txt")!=-1){
-     var rule=getHttp(KEY);
+}else if(key.indexOf("http")!=-1&&key.indexOf(".txt")!=-1){
+     var rule=getHttp(key);
 }else{
     alert("请输入包含@=#三个符号的正确格式");
 }
