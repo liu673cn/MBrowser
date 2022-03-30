@@ -95,6 +95,7 @@
 神马@虾皮视频=http://tv.cmt8.xyz/api.php/iptv/vod/#虾皮视频
 神马@天空TV=http://tv.tkys.tv/api.php/iptv/vod/#天空TV
 神马@山楂影视=http://dy6.dcd1.cn/api.php/iptv/vod/#山楂影视
+神马@柠檬TV=http://106.12.113.90:7575/api.php/iptv/vod/#柠檬TV
 神马@米奇TV=http://www.s6ep3.top/api.php/iptv/vod/#米奇TV
 神马@猫咪TV=http://106.12.113.90:6565/api.php/iptv/vod/#猫咪TV
 神马@米来影视=http://42.51.37.161:2346/api.php/iptv/vod/#米来影视
