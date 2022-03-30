@@ -543,7 +543,7 @@ if(uu.indexOf("baidu.com")!=-1){
     "web="+uu;
 }
 ######写入规则22
-eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js'),'.dn64()'));
+eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 var 记录=[];
 var filename="APP影视.json";
 var 记录=[];
@@ -671,11 +671,11 @@ if(getVar("KEY").length>10&&getVar("KEY").indexOf("@")!=-1&&getVar("KEY").indexO
 	alert("请输入正确规则格式");
 }
 ######读取规则23
-eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js'),'.dn64()'));
+eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 var filename='APP影视.json';
 _.read(filename);
 ######删除规则24
-eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js'),'.dn64()'));
+eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 var filename='APP影视.json';
 var 记录=getVar("CODE");
 var 新记录=JSON.parse(_.read(filename));
@@ -690,7 +690,7 @@ _.write(JSON.stringify(新记录),filename);
 alert(AppName+"\n删除成功");
 _.read(filename);
 ######本地规则批量搜索25
-eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js'),'.dn64()'));
+eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 var filename='APP影视.json';
 var 原=_.read(filename);
 var KEY=getVar("KEY");
@@ -742,7 +742,7 @@ JSON.stringify(res);
         "title":"依赖文件(暂无用，未完成本地化)",
         "list":[
             {
-            "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js",
+            "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js",
             "title":"q.js",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/脚本.webp",
             "murl":"q:依赖下载"
@@ -771,7 +771,7 @@ JSON.stringify(res);
 ######文件下载27
 var url=e2Rex(getVar("CODE"),".json(url)");
 var t=e2Rex(getVar("CODE"),".json(title)");
-eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/q.js'),'.dn64()'));
+eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 if(url.indexOf("rule")!=-1){
     var filename="APP影视.json";
     var Ktime=e2Rex(getVar("TIME_"),".time(MMdd)");
