@@ -564,7 +564,7 @@ if(key.indexOf("http")==-1&&key.indexOf("InMemory")==-1&&key.indexOf(".txt")!=-1
     var filename="APP影视.json";
     var rule=getHttp("https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/app.txt");
 }else if(key==""){
-    alert("请输入以下三种文本\n以txt格式结尾的网络订阅地址\n本地txt格式文件名\n包含@=#三个符号的格式文本");
+    alert("请输入以下三种文本\n\n1.以txt格式结尾的网络订阅地址\n2.本地txt格式文件名\n3.包含@=#三个符号格式的规则文本");
 }else{
     var rule=getHttp(JSON.stringify({url:uu}));
     if(uu.indexOf("影视")!=-1){
