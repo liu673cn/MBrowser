@@ -606,7 +606,7 @@ if(getVar("KEY").length>10&&getVar("KEY").indexOf("@")!=-1&&getVar("KEY").indexO
     }else{
         alert("暂未适配");
     }
-}else if(getVar("KEY").length<10&&getVar("KEY").indexOf("txt")!=-1){
+}else if(getVar("KEY").indexOf("txt")!=-1){
     var Fname=getVar("KEY")
     var 源=_.read(Fname);
     if(源.indexOf("api.php/app")!=-1||源.indexOf("xgapp")!=-1||源.indexOf(".vod")!=-1||源.search(/api\.php\/.+?\/vod\//)!=-1){
