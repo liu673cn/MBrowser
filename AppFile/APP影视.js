@@ -701,7 +701,7 @@ JSON.stringify(res);
             "url":"rule",
             "title":"点击更新规则",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png",
-            "murl":"q:本地写入"
+            "murl":"q:本地写入文本框"
             }
         ]
         },
@@ -712,7 +712,7 @@ JSON.stringify(res);
             "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js",
             "title":"q.js",
             "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/脚本.webp",
-            "murl":"q:本地写入"
+            "murl":"q:本地写入文本框"
             }
         ]
         },
