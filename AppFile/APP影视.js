@@ -87,7 +87,7 @@
 }
 ######首页版本判断3
 var index=getVar("首页图标");
-var NewVersion="20220327";
+var NewVersion="20220331";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
@@ -692,7 +692,7 @@ for(var j=0;j<分类.length;j++){
 JSON.stringify(res);
 ######规则发布26
 {
-    "version":"20220327",
+    "version":"20220331",
     "data":[
         {
         "title":"规则分享",
