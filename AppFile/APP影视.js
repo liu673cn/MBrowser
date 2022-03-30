@@ -629,11 +629,11 @@ if(rule.indexOf("api.php/app")!=-1||rule.indexOf("xgapp")!=-1||rule.indexOf(".vo
     }
     _.write(JSON.stringify(新记录),filename);
     alert("规则写入/更新成功");
-    _.read(rule);
+    _.read(filename);
 }else if(uu.indexOf("http")!=-1){
     _.write(rule,filename);
     alert(filename+"下载成功");
-    _.read(rule);
+    _.read(filename);
 }else{
     alert("输入的接口类型错误");
 }
