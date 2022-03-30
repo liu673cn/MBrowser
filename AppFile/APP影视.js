@@ -548,77 +548,79 @@ var uu=e2Rex(getVar("CODE"),".json(url)");
 var tt=e2Rex(getVar("CODE"),".json(title)");
 var 记录=[];
 var key=getVar("KEY");
-if(key.indexOf("http")==-1&&key.indexOf("InMemory")==-1&&key.indexOf(".txt")!=-1){
-    var filename="APP.json";
-    var rule=_.read(key);
-}else if(key.length>10&&key.indexOf("@")!=-1&&key.indexOf("=")!=-1&&key.indexOf("#")!=-1){
-    var filename="APP影视.json";
-    var rule=key;
-}else if(key.indexOf("http")==-1&&key.indexOf(".txt")!=-1){
-    var filename="APP影视.json";
-    var rule=_.read(key);
-}else if(key.indexOf("http")!=-1&&key.indexOf(".txt")!=-1){
-    var filename="APP影视.json";
-    var rule=getHttp(key);
-}else if(url.indexOf("http")==-1&&uu.indexOf("rule")!=-1){
-    var filename="APP影视.json";
-    var rule=getHttp("https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/app.txt");
-}
-if(rule.indexOf("api.php/app")!=-1||rule.indexOf("xgapp")!=-1||rule.indexOf(".vod")!=-1||rule.search(/api\.php\/.+?\/vod\//)!=-1){
-    var 输入条目=rule.match(/.+=http.+/g);
-    for(var j in 输入条目){
-        var title=e2Rex(输入条目[j],".ty(@).tz(=)");
-        var url=e2Rex(输入条目[j],".ty(=).tz(#)");
-        var img=e2Rex(输入条目[j],".ty(#)");
-        if(img.indexOf("http")!=-1){
-            var img=img;
-        }else if(img==""){
-            var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png"
-        }else{
-            var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/"+img+".png";
-        }
-        if(url.search(/api\.php\/.*?\/vod/)!=-1){
-            var murl="q:TV影视";
-        }else{
-            var murl="q:APP影视";
-        }
-        if(e2Rex(输入条目[j],".tz(@)")!=""){
-            var type=e2Rex(输入条目[j],".tz(@)");
-        }else if(url.indexOf("api.php/app")!=-1||url.indexOf("xgapp")!=-1){
-            var type="小龟";
-        }else if(url.indexOf(".vod")!=-1){
-            var type="萝卜/白菜/木白/绿豆";
-        }else if(url.search(/api\.php\/.+?\/vod\//)!=-1){
-            var type="神马";
-        }
-        记录.push({title:title,url:url,img:img,murl:murl,type:type});
+if(key){
+    if(key.indexOf("http")==-1&&key.indexOf("InMemory")==-1&&key.indexOf(".txt")!=-1){
+        var filename="APP.json";
+        var rule=_.read(key);
+    }else if(key.length>10&&key.indexOf("@")!=-1&&key.indexOf("=")!=-1&&key.indexOf("#")!=-1){
+        var filename="APP影视.json";
+        var rule=key;
+    }else if(key.indexOf("http")==-1&&key.indexOf(".txt")!=-1){
+        var filename="APP影视.json";
+        var rule=_.read(key);
+    }else if(key.indexOf("http")!=-1&&key.indexOf(".txt")!=-1){
+        var filename="APP影视.json";
+        var rule=getHttp(key);
+    }else if(url.indexOf("http")==-1&&uu.indexOf("rule")!=-1){
+        var filename="APP影视.json";
+        var rule=getHttp("https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/app.txt");
     }
-    if(_.read(filename)){
-        var 新记录=JSON.parse(_.read(filename));
-    }else{
-        var 新记录=[];
-    }
-    for(var i in 记录){
-        var 当前条目=[];当前条目.push(记录[i]);
-        if(新记录.length==0) {
-            新记录.push({title:记录[i].type,data:当前条目});
+    if(rule.indexOf("api.php/app")!=-1||rule.indexOf("xgapp")!=-1||rule.indexOf(".vod")!=-1||rule.search(/api\.php\/.+?\/vod\//)!=-1){
+        var 输入条目=rule.match(/.+=http.+/g);
+        for(var j in 输入条目){
+            var title=e2Rex(输入条目[j],".ty(@).tz(=)");
+            var url=e2Rex(输入条目[j],".ty(=).tz(#)");
+            var img=e2Rex(输入条目[j],".ty(#)");
+            if(img.indexOf("http")!=-1){
+                var img=img;
+            }else if(img==""){
+                var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png"
+            }else{
+                var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/"+img+".png";
+            }
+            if(url.search(/api\.php\/.*?\/vod/)!=-1){
+                var murl="q:TV影视";
+            }else{
+                var murl="q:APP影视";
+            }
+            if(e2Rex(输入条目[j],".tz(@)")!=""){
+                var type=e2Rex(输入条目[j],".tz(@)");
+            }else if(url.indexOf("api.php/app")!=-1||url.indexOf("xgapp")!=-1){
+                var type="小龟";
+            }else if(url.indexOf(".vod")!=-1){
+                var type="萝卜/白菜/木白/绿豆";
+            }else if(url.search(/api\.php\/.+?\/vod\//)!=-1){
+                var type="神马";
+            }
+            记录.push({title:title,url:url,img:img,murl:murl,type:type});
+        }
+        if(_.read(filename)){
+            var 新记录=JSON.parse(_.read(filename));
         }else{
-            let res=新记录.some(item=>{
-            //判断类型，有就添加到当前项
-                if(item.title == 记录[i].type){
-                    item.data=当前条目.concat(item.data.filter(d=>d.url!=记录[i].url));
-                    return true
-                }
-            });
-            if (!res) {
-            //如果没找相同类型添加一个类型
+            var 新记录=[];
+        }
+        for(var i in 记录){
+            var 当前条目=[];当前条目.push(记录[i]);
+            if(新记录.length==0) {
                 新记录.push({title:记录[i].type,data:当前条目});
+            }else{
+                let res=新记录.some(item=>{
+                //判断类型，有就添加到当前项
+                    if(item.title == 记录[i].type){
+                        item.data=当前条目.concat(item.data.filter(d=>d.url!=记录[i].url));
+                        return true
+                    }
+                });
+                if (!res) {
+                //如果没找相同类型添加一个类型
+                    新记录.push({title:记录[i].type,data:当前条目});
+                }
             }
         }
+        _.write(JSON.stringify(新记录),filename);
+        alert("规则写入/更新成功");
+        _.read(filename);
     }
-    _.write(JSON.stringify(新记录),filename);
-    alert("规则写入/更新成功");
-    _.read(filename);
 }else if(uu.indexOf("http")!=-1&&uu.indexOf("js")!=-1){
     var rule=getHttp(JSON.stringify({url:uu}));
     if(uu.indexOf("影视")!=-1){
