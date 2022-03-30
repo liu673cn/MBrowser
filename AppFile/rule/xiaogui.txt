@@ -416,8 +416,6 @@
 小龟(全部)@小龟视频=http://aliys.cn:90/xgapp.php/v1/#小龟视频
 小龟(全部)@外剧迷=http://www.waijumi.com/api.php/app/#外剧迷
 小龟(全部)@外剧迷=http://www.waijumi.com/xgapp.php/v1/#外剧迷
-小龟(全部)@无尽视频=https://www.ikmjtv.com/api.php/app/#无尽视频
-小龟(全部)@无尽视频=https://www.ikmjtv.com/xgapp.php/v1/#无尽视频
 小龟(全部)@云梦影视=https://yunl.cc/api.php/app/#云梦影视
 小龟(全部)@云梦影视=https://yunl.cc/xgapp.php/v1/#云梦影视
 小龟(全部)@一家影院=http://vip857.top/api.php/app/#一家影院
