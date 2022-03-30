@@ -132,11 +132,7 @@ var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
     "";
 }else if(URL.indexOf(".vod")!=-1){
-    if (URL.indexOf("youguo520") != -1) {
-      "apikey=7669d8a4f1776e046e9a44f40b522137";
-    } else {
       "";
-    }
 }else if(URL.indexOf("豆瓣")!=-1){
     "host=frodo.douban.com&accept=*/*";
 }else{
@@ -312,7 +308,11 @@ var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
     URL+"video_detail?id=";
 }else if(URL.indexOf(".vod")!=-1){
-    URL+"/detail?key="+Ktime+"&vod_id=";
+    if (URL.indexOf("youguo520") != -1) {
+      URL+"/detail?key="+Ktime+"apikey=7669d8a4f1776e046e9a44f40b522137&vod_id=";
+    } else {
+        URL+"/detail?key="+Ktime+"&vod_id=";
+    }
 }else{
     "";
 }
