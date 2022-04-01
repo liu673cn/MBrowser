@@ -7,6 +7,7 @@
 优质@益达影院=http://luobu.yss6080.com/mogai_api.php/v1.vod#益达影院
 优质@雪人影视=https://zy.qd234.cn/mogai_api.php/v1.vod#雪人影视
 优质@天天影视=https://app.daishusc.com/api.php/v1.vod#天天影视
+优质@青柠蓝光=http://v.lovebuy365.com/mogai_api.php/v1.vod#青柠蓝光
 优质@青视频=http://150.158.133.36:9904/qingdoujiekou.php/v1.vod#青视频
 优质@暖光影视=https://app.bl210.com/api.php/v1.vod#暖光影视
 优质@南府影视=http://iapp.nfuxs.club/dnmb.php/v1.vod#南府影视
@@ -22,6 +23,7 @@
 优质@看看影视=http://kk.ccboke.top/ruifenglb_api.php/v1.vod#看看影视
 优质@飓风影院=http://yidayy.top/lehailb_api.php/v1.vod#飓风影院
 优质@虎猫视频=http://vv.humaoweb.com/mogai_api.php/gctvapi.vod#虎猫视频
+优质@好6哦影视=https://hao6o.com/mogai_api.php/v1.vod#好6哦影视
 优质@粉象视界=http://42.157.129.15:34444/lvdou_api.php/v1.vod#粉象视界
 优质@飞捷影视=https://www.fj6080.com/api.php/v1.vod#飞捷影视
 优质@段友影视=https://shangjihuoke.com/api.php/tv.vod#段友影视
@@ -87,6 +89,7 @@
 普通@艾特影视=https://www.aitee.cc/api.php/v1.vod#艾特影视
 普通@阿里影视=http://aliys.cn:90/api.php/v1.vod#阿里影视
 普通@爱电影=https://www.idianying.com.cn/mogai_api.php/v1.vod#爱电影
+普通@UM影院=https://www.2tu.uk/api.php/v1.vod#
 普通@U5影视=https://appx.uy07.com/api.php/v1.vod#U5影视
 普通@JDODO=https://appys.jdodo.xyz/mogai_api.php/v1.vod#JDODO影视
 普通@MX影视=http://mkk.gotka.top/api.php/v1.vod#
