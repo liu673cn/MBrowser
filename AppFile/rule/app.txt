@@ -23,7 +23,6 @@
 优质@看看影视=http://kk.ccboke.top/ruifenglb_api.php/v1.vod#看看影视
 优质@飓风影院=http://yidayy.top/lehailb_api.php/v1.vod#飓风影院
 优质@虎猫视频=http://vv.humaoweb.com/mogai_api.php/gctvapi.vod#虎猫视频
-优质@好6哦影视=https://hao6o.com/mogai_api.php/v1.vod#好6哦影视
 优质@粉象视界=http://42.157.129.15:34444/lvdou_api.php/v1.vod#粉象视界
 优质@飞捷影视=https://www.fj6080.com/api.php/v1.vod#飞捷影视
 优质@段友影视=https://shangjihuoke.com/api.php/tv.vod#段友影视
@@ -79,6 +78,7 @@
 普通@晗先森=https://hantv.top/api.php/v1.vod#晗先森影视
 普通@黄河影视=http://i.ledu8.cn/api.php/v1.vod#黄河影视
 普通@寒枫视频=https://vip.shenyunwl.cn/mogai_api.php/v1.vod#寒枫视频
+普通@好6哦影视=https://hao6o.com/mogai_api.php/v1.vod#好6哦影视
 普通@风凌影视=http://z1q1.com/mogai_api.php/v1.vod#风凌影视
 普通@豆渣影视=http://douzhayss.cc/api.php/v1.vod#豆渣影视
 普通@大象影视=http://vip.91iqiyi.com/mogai_api.php/v1.vod#
