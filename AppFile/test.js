@@ -567,7 +567,6 @@ if(key){
         if(key.indexOf("api.php/app")!=-1||key.indexOf("xgapp")!=-1||key.indexOf(".vod")!=-1||key.search(/api\.php\/.+?\/vod\//)!=-1){
             var txtfile='自定义.txt';
             var filename='自定义.json';
-            var txt记录=key.match(/.+?,http.+/g);
             var 输入条目=key.match(/.+=http.+/g);
             for(var j in 输入条目){
                 var title=e2Rex(输入条目[j],".ty(@).tz(=)");
@@ -597,10 +596,10 @@ if(key){
                 记录.push({title:title,url:url,img:img,murl:murl,type:type});
             }
             if(_.read(txtfile)){
-                var txt旧记录=_.read(txtfile).match(/.+?,http.+/g);
-                var txt新记录=txt记录.concat(txt旧记录);
+                var txt旧记录=_.read(txtfile).match(/.+?=http.+/g);
+                var txt新记录=输入条目.concat(txt旧记录);
             }else{
-                var txt新记录=txt记录;
+                var txt新记录=输入条目;
             }
             if(_.read(filename)){
                 var 新记录=JSON.parse(_.read(filename));
