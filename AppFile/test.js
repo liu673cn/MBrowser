@@ -556,7 +556,7 @@ if(key){
         记录=key.match(/.+?,http.+/g);
         if (_.read(filename)){
             var 旧记录=_.read(filename).match(/.+?,http.+/g);
-            var 新记录=记录.concat(旧记录);
+            var 新记录 = 记录.concat(旧记录.filter(item=>item!=记录[0]));
         } else {
             var 新记录=记录;
         }
@@ -602,7 +602,6 @@ if(key){
             }
             if(_.read(txtfile)){
                 var txt旧记录=_.read(txtfile).match(/.+?=http.+/g);
-                var txt新记录=输入条目.concat(txt旧记录);
             }else{
                 var txt新记录=输入条目;
             }
@@ -621,6 +620,7 @@ if(key){
                         新记录.push({title:记录[i].type,data:当前条目});
                     }
                 }
+                var 新记录 = 记录.concat(旧记录.filter(item=>item!=记录[0]));
             }
             _.write(JSON.stringify(新记录),filename);
             _.write(txt新记录.join("\n"),txtfile);
