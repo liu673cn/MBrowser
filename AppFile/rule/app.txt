@@ -101,7 +101,6 @@
 普通@JDODO=https://appys.jdodo.xyz/mogai_api.php/v1.vod#JDODO影视
 普通@MX影视=http://mkk.gotka.top/api.php/v1.vod#
 普通@5秒看电影=https://www.5skan.com/mogai_api.php/v1.vod#
-普通@51视频=http://51shipin.cc/mogai_api.php/v1.vod#51视频
 神马@影视阁=http://216.98.10.85/api.php/iptv/vod/#影视阁
 神马@小熊猫TV=http://tv2.hetaoys.vip/api.php/iptv/vod/#小熊猫TV
 神马@虾皮视频=http://tv.cmt8.xyz/api.php/iptv/vod/#虾皮视频
