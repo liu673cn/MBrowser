@@ -607,7 +607,7 @@ if(key){
             }
             for(var i in 记录){
                 var 当前条目=[];当前条目.push(记录[i]);
-                if(新记录.length==0){
+                if(新记录.length==0||txt新记录.length==0){
                     新记录.push({title:记录[i].type,data:当前条目});
                 }else{
                     let res=新记录.some(item=>{
