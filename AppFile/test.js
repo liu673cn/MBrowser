@@ -620,7 +620,7 @@ if(key){
                         新记录.push({title:记录[i].type,data:当前条目});
                     }
                 }
-                var 新记录 = 记录.concat(旧记录.filter(item=>item!=记录[0]));
+                var txt新记录=key.concat(txt旧记录.filter(item=>item!=key[0]));
             }
             _.write(JSON.stringify(新记录),filename);
             _.write(txt新记录.join("\n"),txtfile);
