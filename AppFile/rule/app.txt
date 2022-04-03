@@ -17,6 +17,7 @@
 优质@麻瓜视频=http://aliyun.k8aa.com/mogai_api.php/v1.vod#麻瓜视频1
 优质@蜜蜂影视=http://app.f8tp.com/lvdou_api.php/v1.vod#蜜蜂影视
 优质@琅琊影视=http://fgyuu.top/lehailb_api.php/v1.vod#琅琊影视
+优质@懒猫影视=http://lanmao.lanmaoymw.cn/api.php/v1.vod#懒猫影视
 优质@零刻影院=https://ys.ling00.cn/api.php/v1.vod#零刻影院
 优质@绿箭影视=http://www.69ty.cc/mogai_api.php/v1.vod#绿箭影视
 优质@六把刀影院=https://pro.6bd.net/mogai_api.php/v1.vod#六把刀影院
@@ -31,6 +32,7 @@
 优质@独播社=http://35ys.cc/api.php/v1.vod#独播社
 优质@初心影视=https://www.18mv.club/api.php/v1.vod#初心影视
 优质@白嫖影视=http://zgjxdtg.cn/api.php/v1.vod#白嫖影视
+优质@嗷呜视频=http://www.cx99999.cn/lvdou_api.php/v1.vod#嗷呜视频
 优质@爱酷影视=https://www.zhanlangbu.com/ruifenglb_api.php/v1.vod#爱酷影视
 优质@爱看美剧=https://www.uumjw.com/api.php/v1.vod#爱看美剧
 优质@tvip=http://app.tvip.cc/api.php/v1.vod#tvip
@@ -44,7 +46,9 @@
 普通@追剧猫=http://tv.kmtvb.com/api.php/v1.vod#追剧猫
 普通@柚子视频=http://yz.26ys.cn/api.php/v1.vod#柚子视频
 普通@渔渔影视=http://luobo.yugenye.site/api.php/v1.vod#渔渔影视
+普通@影视猫=https://vip.wscyun.com/api.php/v1.vod#影视猫
 普通@影视大全=https://xc.xixi2yy.xyz/mogai_api.php/v1.vod#影视大全HD
+普通@樱恋雨影视=https://yingshi.miaomemg.com/api.php/v1.vod#
 普通@呀哩动漫=https://app.yaliyali.cc/api.php/v1.vod#呀哩动漫
 普通@月儿影视=https://yue52.xyz/api.php/v1.vod#
 普通@星宿漫=http://3.xingxiuman.com/mogai_api.php/v1.vod#星宿漫
@@ -53,6 +57,7 @@
 普通@小鸟动漫=http://xydm.baicai.buzz/mogai_api.php/v1.vod#小鸟动漫
 普通@熊猫视频=http://anegh.com/lvdou_api.php/v1.vod#熊猫视频
 普通@熊猫动漫=http://dongman.k8aa.com/mogai_api.php/v1.vod#熊猫动漫
+普通@寻常影视=http://tv.91ymz.cn/api.php/v1.vod#寻常影视
 普通@小白动漫=http://121.62.60.222:13579/xiaobai_api.php/v1.vod#小白动漫
 普通@雯雯视频=http://139.224.52.247:81/lvdou_api.php/v1.vod#雯雯视频
 普通@蜗牛动漫=http://woniudm.woniu.cyou:20000/mogai_api.php/v1.vod#蜗牛动漫
@@ -68,13 +73,14 @@
 普通@免费影视=http://111.229.120.180:88/lvdou_api.php/v1.vod#免费影视
 普通@乐云影视=https://www.leyun.tv/api.php/v1.vod#乐云影视
 普通@冷视TV=https://len.tv/api.php/v1.vod#冷视TV
+普通@蓝风影视=http://www.ruchuplus.cn/api.php/v1.vod#
 普通@看看视频=http://888.ccboke.top/ruifenglb_api.php/v1.vod#看看视频
 普通@看看剧=https://www.kankanju.cn/api.php/v1.vod#看看剧
 普通@看剧吧=http://app.ishen520.com/api.php/v1.vod#看剧吧
 普通@橘子影视=http://jz.juzidy.vip/mogai_api.php/v1.vod#橘子影视
 普通@玖肆资源=http://android.jiusi.vip/mogai_api.php/v1.vod#玖肆资源
 普通@聚合视频=https://app.jhystv.com/mogai_api.php/v1.vod#聚合视频
-普通@筋斗云=https://tv.jindcloud.com/api.php/v1.vod#筋斗云影视
+普通@筋斗云影视=https://tv.jindcloud.com/api.php/v1.vod#筋斗云影视
 普通@涵云影视=http://hanyun.ml/api.php/v1.vod#涵云影视
 普通@晗先森=https://hantv.top/api.php/v1.vod#晗先森影视
 普通@黄河影视=http://i.ledu8.cn/api.php/v1.vod#黄河影视
@@ -92,8 +98,10 @@
 普通@爱电影=https://www.idianying.com.cn/mogai_api.php/v1.vod#爱电影
 普通@UM影院=https://www.2tu.uk/api.php/v1.vod#
 普通@U5影视=https://appx.uy07.com/api.php/v1.vod#U5影视
+普通@51视频=http://51shipin.cc/mogai_api.php/v1.vod#51视频
 普通@JDODO=https://appys.jdodo.xyz/mogai_api.php/v1.vod#JDODO影视
 普通@MX影视=http://mkk.gotka.top/api.php/v1.vod#
+普通@5秒看电影=https://www.5skan.com/mogai_api.php/v1.vod#
 神马@影视阁=http://216.98.10.85/api.php/iptv/vod/#影视阁
 神马@小熊猫TV=http://tv2.hetaoys.vip/api.php/iptv/vod/#小熊猫TV
 神马@虾皮视频=http://tv.cmt8.xyz/api.php/iptv/vod/#虾皮视频
