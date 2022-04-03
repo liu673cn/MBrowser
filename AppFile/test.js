@@ -543,106 +543,188 @@ if(uu.indexOf("baidu.com")!=-1){
     "web="+uu;
 }
 ######写入规则22
-eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
-var uu=e2Rex(getVar("CODE"),".json(url)");
-var tt=e2Rex(getVar("CODE"),".json(title)");
-var 记录=[];
+eval(e2Rex(getVar("qjs"),'.dn64()'));
 var key=getVar("KEY");
-if(key.indexOf("http")==-1&&key.indexOf("InMemory")==-1&&key.indexOf(".txt")!=-1){
-    var filename="APP影视.json";
-    var rule=_.read(key);
-}else if(key.length>10&&key.indexOf("@")!=-1&&key.indexOf("=")!=-1&&key.indexOf("#")!=-1){
-    var filename="APP影视.json";
-    var rule=key;
-}else if(key.indexOf("http")==-1&&key.indexOf(".txt")!=-1){
-    var filename="APP影视.json";
-    var rule=_.read(key);
-}else if(key.indexOf("http")!=-1&&key.indexOf(".txt")!=-1){
-    var filename="APP影视.json";
-    var rule=getHttp(key);
-}else if(uu.indexOf("http")==-1&&uu.indexOf("rule")!=-1){
-    var filename="APP影视.json";
-    var rule=getHttp("https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/app.txt");
-}else if(key==""){
-    alert("请输入以下三种文本\n\n1.以txt格式结尾的网络订阅地址\n2.本地txt格式文件名\n3.包含@=#三个符号格式的规则文本");
-}else{
-    var rule=getHttp(JSON.stringify({url:uu}));
-    if(uu.indexOf("影视")!=-1){
-        var filename='APP影视.js';
-    }else if(uu.indexOf("q.js")!=-1){
-        var filename='q.js';
-    }else{
-        var filename=tt;
-    }
-}
-if(rule.indexOf("api.php/app")!=-1||rule.indexOf("xgapp")!=-1||rule.indexOf(".vod")!=-1||rule.search(/api\.php\/.+?\/vod\//)!=-1){
-    var 输入条目=rule.match(/.+=http.+/g);
-    for(var j in 输入条目){
-        var title=e2Rex(输入条目[j],".ty(@).tz(=)");
-        var url=e2Rex(输入条目[j],".ty(=).tz(#)");
-        var img=e2Rex(输入条目[j],".ty(#)");
-        if(img.indexOf("http")!=-1){
-            var img=img;
-        }else if(img==""){
-            var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png"
-        }else{
-            var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/"+img+".png";
+var SubFlieName='远程订阅索引.txt';
+var SubFlieCode=_.read(SubFlieName);
+var JsUrl='https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视.txt';
+var 记录=[];
+if(key){
+    if(key.indexOf(",http")>1&&key.indexOf("#")){
+        var SubName=key.split(",")[0];
+        var filename=SubFlieName;
+        记录=key.match(/.+?,http.+/g);
+        if (_.read(filename)){
+            var 旧记录=_.read(filename).match(/.+?,http.+/g);
+            var 新记录=记录.concat(旧记录);
+        } else {
+            var 新记录=记录;
         }
-        if(url.search(/api\.php\/.*?\/vod/)!=-1){
-            var murl="q:TV影视";
-        }else{
-            var murl="q:APP影视";
-        }
-        if(e2Rex(输入条目[j],".tz(@)")!=""){
-            var type=e2Rex(输入条目[j],".tz(@)");
-        }else if(url.indexOf("api.php/app")!=-1||url.indexOf("xgapp")!=-1){
-            var type="小龟";
-        }else if(url.indexOf(".vod")!=-1){
-            var type="萝卜/白菜/木白/绿豆";
-        }else if(url.search(/api\.php\/.+?\/vod\//)!=-1){
-            var type="神马";
-        }
-        记录.push({title:title,url:url,img:img,murl:murl,type:type});
-    }
-    if(_.read(filename)){
-        var 新记录=JSON.parse(_.read(filename));
-    }else{
-        var 新记录=[];
-    }
-    for(var i in 记录){
-        var 当前条目=[];当前条目.push(记录[i]);
-        if(新记录.length==0) {
-            新记录.push({title:记录[i].type,data:当前条目});
-        }else{
-            let res=新记录.some(item=>{
-            //判断类型，有就添加到当前项
-                if(item.title == 记录[i].type){
-                    item.data=当前条目.concat(item.data.filter(d=>d.url!=记录[i].url));
-                    return true
+        _.write(新记录.join("\n"),filename);
+        alert(SubName+"\n订阅成功");
+        _.read(filename);
+    }else if(key.length>10&&key.indexOf("@")!=-1&&key.indexOf("=")!=-1&&key.indexOf("#")!=-1){
+        if(key.indexOf("api.php/app")!=-1||key.indexOf("xgapp")!=-1||key.indexOf(".vod")!=-1||key.search(/api\.php\/.+?\/vod\//)!=-1){
+            var txtfile='自定义.txt';
+            var filename='自定义.json';
+            var txt记录=key.match(/.+?,http.+/g);
+            var 输入条目=key.match(/.+=http.+/g);
+            for(var j in 输入条目){
+                var title=e2Rex(输入条目[j],".ty(@).tz(=)");
+                var url=e2Rex(输入条目[j],".ty(=).tz(#)");
+                var img=e2Rex(输入条目[j],".ty(#)");
+                if(img.indexOf("http")!=-1){
+                    var img=img;
+                }else if(img==""){
+                    var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png"
+                }else{
+                    var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/"+img+".png";
                 }
-            });
-            if (!res) {
-            //如果没找相同类型添加一个类型
+                if(url.search(/api\.php\/.*?\/vod/)!=-1){
+                    var murl="q:TV影视";
+                }else{
+                    var murl="q:APP影视";
+                }
+                if(e2Rex(输入条目[j],".tz(@)")!=""){
+                    var type=e2Rex(输入条目[j],".tz(@)");
+                }else if(url.indexOf("api.php/app")!=-1||url.indexOf("xgapp")!=-1){
+                    var type="小龟";
+                }else if(url.indexOf(".vod")!=-1){
+                    var type="萝卜/白菜/木白/绿豆";
+                }else if(url.search(/api\.php\/.+?\/vod\//)!=-1){
+                    var type="神马";
+                }
+                记录.push({title:title,url:url,img:img,murl:murl,type:type});
+            }
+            if(_.read(txtfile)){
+                var txt旧记录=_.read(txtfile).match(/.+?,http.+/g);
+                var txt新记录=txt记录.concat(txt旧记录);
+            }else{
+                var txt新记录=txt记录;
+            }
+            if(_.read(filename)){
+                var 新记录=JSON.parse(_.read(filename));
+            }else{
+                var 新记录=[];
+            }
+            for(var i in 记录){
+                var 当前条目=[];当前条目.push(记录[i]);
+                if(新记录.length==0) {
+                    新记录.push({title:记录[i].type,data:当前条目});
+                }else{
+                    let res=新记录.some(item=>{
+                    //判断类型，有就添加到当前项
+                        if(item.title == 记录[i].type){
+                            item.data=当前条目.concat(item.data.filter(d=>d.url!=记录[i].url));
+                            return true
+                        }
+                    });
+                    if (!res) {
+                    //如果没找相同类型添加一个类型
+                        新记录.push({title:记录[i].type,data:当前条目});
+                    }
+                }
+            }
+            _.write(JSON.stringify(新记录),filename);
+            _.write(txt新记录.join("\n"),txtfile);
+            alert("规则写入/更新成功");
+            _.read(txtfile);
+        }
+    }else{
+        alert("请输入以下格式\n\n1.[订阅名,订阅地址#图片地址]格式的网络订阅\n2.[分类名@APP名称=APP接口地址#图片地址]格式的规则\n详情请查看首页轮播内的教程");
+    }
+}else if(SubFlieCode){
+    var SubUrl=e2Rex(SubFlieCode,".ty(,).tz(#)");
+    var SubTitle=e2Rex(SubFlieCode,".tz(,)");
+    var SubImg=e2Rex(SubFlieCode,".ty($)");
+    var filename=SubName+'.json';
+    var rule=getHttp(JSON.stringify({url:SubUrl}));
+    if(rule.indexOf("api.php/app")!=-1||rule.indexOf("xgapp")!=-1||rule.indexOf(".vod")!=-1||rule.search(/api\.php\/.+?\/vod\//)!=-1){
+        var 输入条目=rule.match(/.+=http.+/g);
+        for(var j in 输入条目){
+            var title=e2Rex(输入条目[j],".ty(@).tz(=)");
+            var url=e2Rex(输入条目[j],".ty(=).tz(#)");
+            var img=e2Rex(输入条目[j],".ty(#)");
+            if(img.indexOf("http")!=-1){
+                var img=img;
+            }else if(img==""){
+                var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png"
+            }else{
+                var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/"+img+".png";
+            }
+            if(url.search(/api\.php\/.*?\/vod/)!=-1){
+                var murl="q:TV影视";
+            }else{
+                var murl="q:APP影视";
+            }
+            if(e2Rex(输入条目[j],".tz(@)")!=""){
+                var type=e2Rex(输入条目[j],".tz(@)");
+            }else if(url.indexOf("api.php/app")!=-1||url.indexOf("xgapp")!=-1){
+                var type="小龟";
+            }else if(url.indexOf(".vod")!=-1){
+                var type="萝卜/白菜/木白/绿豆";
+            }else if(url.search(/api\.php\/.+?\/vod\//)!=-1){
+                var type="神马";
+            }
+            记录.push({title:title,url:url,img:img,murl:murl,type:type});
+        }
+        if(_.read(filename)){
+            var 新记录=JSON.parse(_.read(filename));
+        }else{
+            var 新记录=[];
+        }
+        for(var i in 记录){
+            var 当前条目=[];当前条目.push(记录[i]);
+            if(新记录.length==0) {
                 新记录.push({title:记录[i].type,data:当前条目});
+            }else{
+                let res=新记录.some(item=>{
+                //判断类型，有就添加到当前项
+                    if(item.title == 记录[i].type){
+                        item.data=当前条目.concat(item.data.filter(d=>d.url!=记录[i].url));
+                        return true
+                    }
+                });
+                if (!res) {
+                //如果没找相同类型添加一个类型
+                    新记录.push({title:记录[i].type,data:当前条目});
+                }
             }
         }
+        _.write(JSON.stringify(新记录),filename);
+        alert("规则写入/更新成功");
+        _.read(SubName+'.txt');
     }
-    _.write(JSON.stringify(新记录),filename);
-    alert("规则写入/更新成功");
-    _.read(filename);
-}else if(uu.indexOf("http")!=-1){
-    _.write(rule,filename);
-    alert(filename+"下载成功");
-    _.read(filename);
+}else if(JsUrl){
+    var JsCode=getHttp(JSON.stringify({url:JsUrl}));
+    _.write(JsCode,'APP影视.js');
+    alert("变量脚本下载/更新成功");
 }else{
-    alert("输入的接口类型错误");
+    alert("内容为空");
 }
 ######读取规则23
-eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
+eval(e2Rex(getVar("qjs"),'.dn64()'));
+var filename='远程订阅索引.txt';
+if(_.read(filename)){
+  var code=_.read(filename).match(/.+?,.+/g);
+}else{
+  var data="InMemory,https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/app.txt#InMemory";
+  _.write(data, filename);
+  var code=_.read(filename).match(/.+?,.+/g);
+}
+var items=[];
+for (var i in code) {
+  var title=code[i].split(",")[0];
+  var url="q:资源采集首页?url=远程$$"+code[i].split(",")[1];
+  items.push({title:title,url:url});
+}
+JSON.stringify(items);
+
+eval(e2Rex(getVar("qjs"),'.dn64()'));
 var filename='APP影视.json';
 _.read(filename);
 ######删除规则24
-eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
+eval(e2Rex(getVar("qjs"),'.dn64()'));
 var filename='APP影视.json';
 var 记录=getVar("CODE");
 var 新记录=JSON.parse(_.read(filename));
@@ -657,7 +739,7 @@ _.write(JSON.stringify(新记录),filename);
 alert(AppName+"\n删除成功");
 _.read(filename);
 ######本地规则批量搜索25
-eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
+eval(e2Rex(getVar("qjs"),'.dn64()'));
 var filename='APP影视.json';
 var 原=_.read(filename);
 var KEY=getVar("KEY");
@@ -690,30 +772,13 @@ for(var j=0;j<分类.length;j++){
     res.push(list);
 }
 JSON.stringify(res);
-######远程订阅写入本地1
-eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'), '.dn64()'));
-var filename = '资源采集远程索引.txt';
-var 记录 = "";
-if (getVar("rurl") != 'null' && getVar("rurl").indexOf(",http") > 1) {
-  记录 = getVar("rurl").match(/.+?,http.+/g);
-  if (_.read(filename)) {
-    var 旧记录 = _.read(filename).match(/.+?,http.+/g);
-    var 新记录 = 记录.concat(旧记录);
-  } else {
-    var 新记录 = 记录;
-  }
-  _.write(新记录.join("\n"), filename);
-  _.read(filename);
-} else {
-  "请输入正确格式(支持批量):名称,地址";
-}
 ######读取远程订阅2
-eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'), '.dn64()'));
-var filename = '资源采集远程索引.txt';
+eval(e2Rex(getVar("qjs"), '.dn64()'));
+var filename = '远程订阅索引.txt';
 if (_.read(filename)) {
   var code = _.read(filename).match(/.+?,.+/g);
 } else {
-  var data = "内置,https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/zywcj/资源网采集.txt";
+  var data = "InMemory,https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/app.txt#InMemory";
   _.write(data, filename);
   var code = _.read(filename).match(/.+?,.+/g);
 }
@@ -725,8 +790,8 @@ for (var i in code) {
 }
 JSON.stringify(items);
 ######单一搜索读取远程订阅3
-eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'), '.dn64()'));
-var filename = '资源采集远程索引.txt';
+eval(e2Rex(getVar("qjs"), '.dn64()'));
+var filename = '远程订阅索引.txt';
 var code = _.read(filename).match(/.+?,.+/g);
 var items = [];
 for (var i in code) {
@@ -736,8 +801,8 @@ for (var i in code) {
 }
 JSON.stringify(items);
 ######侧边栏搜索读取远程订阅4
-eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'), '.dn64()'));
-var filename = '资源采集远程索引.txt';
+eval(e2Rex(getVar("qjs"), '.dn64()'));
+var filename = '远程订阅索引.txt';
 var code = _.read(filename).match(/.+?,.+/g);
 var items = [];
 for (var i in code) {
@@ -747,13 +812,13 @@ for (var i in code) {
 }
 JSON.stringify(items);
 ######管理订阅5
-eval(e2Rex(getHttp('https://egwang186.coding.net/p/egwang186/d/iptv/git/raw/master/aliyun/QJS.js'),'.dn64()'));
-var filename='资源采集远程索引.txt';
+eval(e2Rex(getVar("qjs"),'.dn64()'));
+var filename='远程订阅索引.txt';
 var code=_.read(filename).match(/.+?,.+/g);
 var items=[];
 for(var i in code){
-var title=code[i].split(",")[0];
-var url="q:管理订阅按钮?url="+code[i];
-items.push({title:title,url:url});
+    var title=code[i].split(",")[0];
+    var url="q:管理订阅按钮?url="+code[i];
+    items.push({title:title,url:url});
 }
 JSON.stringify(items);
