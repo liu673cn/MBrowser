@@ -595,12 +595,6 @@ if(key){
                 }
                 记录.push({title:title,url:url,img:img,murl:murl,type:type});
             }
-            if(_.read(txtfile)){
-                var txt旧记录=_.read(txtfile).match(/.+?=http.+/g);
-                var txt新记录=输入条目.concat(txt旧记录);
-            }else{
-                var txt新记录=输入条目;
-            }
             if(_.read(filename)){
                 var 新记录=JSON.parse(_.read(filename));
             }else{
@@ -608,20 +602,24 @@ if(key){
             }
             for(var i in 记录){
                 var 当前条目=[];当前条目.push(记录[i]);
-                if(新记录.length==0) {
+                if(新记录.length==0){
                     新记录.push({title:记录[i].type,data:当前条目});
                 }else{
                     let res=新记录.some(item=>{
-                    //判断类型，有就添加到当前项
                         if(item.title == 记录[i].type){
                             item.data=当前条目.concat(item.data.filter(d=>d.url!=记录[i].url));
                             return true
                         }
                     });
-                    if (!res) {
-                    //如果没找相同类型添加一个类型
+                    if(!res) {
                         新记录.push({title:记录[i].type,data:当前条目});
                     }
+                }
+                if(_.read(txtfile)){
+                    var txt旧记录=_.read(txtfile).match(/.+?=http.+/g);
+                    var txt新记录=输入条目.concat(txt旧记录);
+                }else{
+                    var txt新记录=输入条目;
                 }
             }
             _.write(JSON.stringify(新记录),filename);
