@@ -637,7 +637,7 @@ if(key.length>10){
         var SubTitle=e2Rex(SubFlieCode,".tz(,)");
         var SubImg=e2Rex(SubFlieCode,".ty($)");
     }
-    var filename=SubName+'.json';
+    var filename=SubTitle+'.json';
     var rule=getHttp(JSON.stringify({url:SubUrl}));
     if(rule.indexOf("api.php/app")!=-1||rule.indexOf("xgapp")!=-1||rule.indexOf(".vod")!=-1||rule.search(/api\.php\/.+?\/vod\//)!=-1){
         var 输入条目=rule.match(/.+=http.+/g);
