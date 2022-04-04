@@ -549,7 +549,7 @@ var SubFlieName='远程订阅索引.txt';
 var SubFlieCode=_.read(SubFlieName);
 var JsUrl='https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视.js';
 var 记录=[];
-var txt记录=[];
+var rule记录=[];
 if(key){
     if(key.indexOf(",http")>1&&key.indexOf("#")){
         var SubName=key.split(",")[0];
@@ -570,7 +570,7 @@ if(key){
             var filename='自定义.json';
             var 输入条目=key.match(/.+=http.+/g);
             for(var j in 输入条目){
-                var txt=e2Rex(输入条目[j],".t()");
+                var rule=e2Rex(输入条目[j],".t()");
                 var title=e2Rex(输入条目[j],".ty(@).tz(=)");
                 var url=e2Rex(输入条目[j],".ty(=).tz(#)");
                 var img=e2Rex(输入条目[j],".ty(#)");
@@ -596,7 +596,7 @@ if(key){
                     var type="神马";
                 }
                 记录.push({title:title,url:url,img:img,murl:murl,type:type});
-                txt记录.push=(txt);
+                rule记录.push=(rule);
             }
             alert(txt记录);
             if(_.read(filename)){
@@ -605,18 +605,18 @@ if(key){
                 var 新记录=[];
             }
             if(_.read(txtfile)){
-                    var txt新记录=_.read(txtfile).match(/.+=http.+/g);
+                    var rule新记录=_.read(txtfile);
             }else{
-                    var txt新记录=[];
+                    var rule新记录=[];
             }
-            for(var k in txt记录){
-                var txt当前条目=[];txt当前条目.push(记录[k]);
-                if(txt新记录.length==0){
-                    txt新记录.push(txt当前条目);
+            for(var k in rule记录){
+                var rule当前条目=[];rule当前条目.push(rule记录[k]);
+                if(rule新记录.length==0){
+                    rule新记录.push(rule当前条目);
                 }else{
-                    let res=新记录.some(item=>{
-                        if(item.title==记录[k]){
-                        txt新记录=txt当前条目.concat(txt当前条目.filter(d=>d!=txt记录[k]));
+                    let res=rule新记录.some(item=>{
+                        if(item.title==rule记录[k]){
+                        rule新记录=rule当前条目.concat(rule当前条目.filter(d=>d!=rule记录[k]));
                         }
                     });
                     if(!res){
