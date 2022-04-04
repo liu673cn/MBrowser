@@ -708,7 +708,7 @@ if(_.read(filename)){
 var items=[];
 for (var i in code){
   var title=e2Rex(code[i],".tz(,)");
-  var url=e2Rex(code[i],".ty(,).tz(#)");
+  var url=e2Rex(code[i],".t()");
   var img=e2Rex(code[i],".ty(#)");
   if(img){
     var img=img;
