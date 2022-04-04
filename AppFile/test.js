@@ -707,7 +707,7 @@ if(_.read(filename)){
 }
 var items=[];
 for (var i in code){
-  var title=code[i].split(",")[0];
+  var title=e2Rex(code[i],".tz(,)");
   var url=e2Rex(code[i],".ty(,).tz(#)");
   var img=e2Rex(code[i],".ty(#)");
   if(img){
@@ -715,10 +715,9 @@ for (var i in code){
   }else{
     var img="http://1.117.152.239:39000/tupian.php?text="+title;
   }
-  items.push({ title:title,url:url,img:img});
+  items.push({title:title,url:url,img:img});
 }
 JSON.stringify(items);
-_.read(filename);
 ######删除规则24
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 var filename='APP影视.json';
