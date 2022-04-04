@@ -683,7 +683,7 @@ if(key.length>10){
         }
         _.write(JSON.stringify(新记录),filename);
         alert("规则写入/更新成功");
-        _.read(SubTitle+'.txt');
+        _.read(filename);
     }
 }else{
     alert("内容为空");
