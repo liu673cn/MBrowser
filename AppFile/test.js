@@ -710,28 +710,11 @@ if(key){
     alert("内容为空");
 }
 ######读取规则23
-eval(e2Rex(getVar("qjs"),'.dn64()'));
-var filename='远程订阅索引.txt';
-if(_.read(filename)){
-  var code=_.read(filename).match(/.+?,.+/g);
-}else{
-  var data="InMemory,https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/app.txt#InMemory";
-  _.write(data, filename);
-  var code=_.read(filename).match(/.+?,.+/g);
-}
-var items=[];
-for (var i in code) {
-  var title=code[i].split(",")[0];
-  var url="q:资源采集首页?url=远程$$"+code[i].split(",")[1];
-  items.push({title:title,url:url});
-}
-JSON.stringify(items);
-
-eval(e2Rex(getVar("qjs"),'.dn64()'));
-var filename='APP影视.json';
+eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
+var filename='自定义.json';
 _.read(filename);
 ######删除规则24
-eval(e2Rex(getVar("qjs"),'.dn64()'));
+eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 var filename='APP影视.json';
 var 记录=getVar("CODE");
 var 新记录=JSON.parse(_.read(filename));
