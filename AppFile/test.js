@@ -598,7 +598,6 @@ if(key){
                 记录.push({title:title,url:url,img:img,murl:murl,type:type});
                 rule记录.push=(rule);
             }
-            alert(txt记录);
             if(_.read(filename)){
                 var 新记录=JSON.parse(_.read(filename));
             }else{
