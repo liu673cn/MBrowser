@@ -732,7 +732,7 @@ for (var i in code){
     }else{
         var img="http://1.117.152.239:39000/tupian.php?text="+title;
     }
-    items.push({title:title,url:url,img:img});
+    items.push({title:title,img:img,url:url});
 }
 JSON.stringify(items);
 ######删除规则24
