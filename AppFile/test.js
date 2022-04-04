@@ -595,7 +595,7 @@ if(key){
                     var type="神马";
                 }
                 记录.push({title:title,url:url,img:img,murl:murl,type:type});
-                rule记录.push=(type+"@"+title+"="+url+"#"+img);
+                rule记录.push=(type+"@"+title+"="+url+"#"+img+"\n");
             }
             if(_.read(filename)){
                 var 新记录=JSON.parse(_.read(filename));
