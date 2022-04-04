@@ -723,15 +723,16 @@ if(_.read(filename)){
 }
 var items=[];
 for (var i in code){
-  var title=e2Rex(code[i],".tz(,)");
-  var data=_.read(title+".json")
-  var img=e2Rex(code[i],".ty(#)");
-  if(img){
-    var img=img;
-  }else{
-    var img="http://1.117.152.239:39000/tupian.php?text="+title;
-  }
-  items.push({title:title,data:data,img:img});
+    var title=e2Rex(code[i],".tz(,)");
+    var name=title+".json";
+    var url=_.read(name);
+    var img=e2Rex(code[i],".ty(#)");
+    if(img){
+        var img=img;
+    }else{
+        var img="http://1.117.152.239:39000/tupian.php?text="+title;
+    }
+    items.push({title:title,url:url,img:img});
 }
 JSON.stringify(items);
 ######删除规则24
