@@ -553,7 +553,7 @@ var SubFlieName='远程订阅索引.txt';
 var SubFlieCode=_.read(SubFlieName);
 var JsUrl='https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视.js';
 var 记录=[];
-if(key){
+if(key.length>10){
     if(key.indexOf(",http")>1&&key.indexOf("#")){
         var SubName=key.split(",")[0];
         var filename=SubFlieName;
@@ -567,7 +567,7 @@ if(key){
         _.write(新记录.join("\n"),filename);
         alert(SubName+"\n订阅成功");
         _.read(filename);
-    }else if(key.length>10&&key.indexOf("@")!=-1&&key.indexOf("=")!=-1&&key.indexOf("#")!=-1){
+    }else if(key.indexOf("@")!=-1&&key.indexOf("=")!=-1&&key.indexOf("#")!=-1){
         if(key.indexOf("api.php/app")!=-1||key.indexOf("xgapp")!=-1||key.indexOf(".vod")!=-1||key.search(/api\.php\/.+?\/vod\//)!=-1){
             var filename='自定义.json';
             var 输入条目=key.match(/.+=http.+/g);
