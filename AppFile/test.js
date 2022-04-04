@@ -569,6 +569,7 @@ if(key){
             var filename='自定义.json';
             var 输入条目=key.match(/.+=http.+/g);
             for(var j in 输入条目){
+                var txt记录='';
                 var title=e2Rex(输入条目[j],".ty(@).tz(=)");
                 var url=e2Rex(输入条目[j],".ty(=).tz(#)");
                 var img=e2Rex(输入条目[j],".ty(#)");
@@ -594,6 +595,7 @@ if(key){
                     var type="神马";
                 }
                 记录.push({title:title,url:url,img:img,murl:murl,type:type});
+                txt记录.push=(输入条目[j]);
             }
             if(_.read(filename)){
                 var 新记录=JSON.parse(_.read(filename));
@@ -605,6 +607,14 @@ if(key){
                 var txt新记录=输入条目[j].concat(txt旧记录.filter(item=>item!=key[0]));
             }else{
                 var txt新记录=输入条目[j];
+            }
+            for(var k in txt记录){
+                if (_.read(txtfile)){
+                    var txt旧记录=_.read(txtfile).match(/.+=http.+/g);
+                    var txt新记录=txt记录.concat(txt旧记录.filter(item=>item!=txt记录[0]));
+                } else {
+                    var txt新记录=txt记录;
+                }
             }
             for(var i in 记录){
                 var 当前条目=[];当前条目.push(记录[i]);
