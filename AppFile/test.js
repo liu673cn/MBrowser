@@ -553,7 +553,7 @@ var 记录=[];
 if(key.length>10){
     if(key.indexOf(",http")>1&&key.indexOf("#")){
         var SubName=key.split(",")[0];
-        var filename=SubFlieName;
+        var filename='远程订阅索引.txt';
         记录=key.match(/.+?,http.+/g);
         if (_.read(filename)){
             var 旧记录=_.read(filename).match(/.+?,http.+/g);
