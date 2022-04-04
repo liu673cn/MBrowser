@@ -620,7 +620,7 @@ if(key){
                         }
                     });
                     if(!res){
-                        txt新记录.push(txt当前条目);
+                        rule新记录.push(rule当前条目);
                     }
                 }
             }
