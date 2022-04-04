@@ -547,7 +547,7 @@ eval(e2Rex(getVar("qjs"),'.dn64()'));
 var key=getVar("KEY");
 var SubFlieName='远程订阅索引.txt';
 var SubFlieCode=_.read(SubFlieName);
-var JsUrl='https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视.txt';
+var JsUrl='https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视.js';
 var 记录=[];
 if(key){
     if(key.indexOf(",http")>1&&key.indexOf("#")){
@@ -602,8 +602,9 @@ if(key){
             }
             if(_.read(txtfile)){
                 var txt旧记录=_.read(txtfile).match(/.+?=http.+/g);
+                var txt新记录=输入条目[j].concat(txt旧记录.filter(item=>item!=key[0]));
             }else{
-                var txt新记录=输入条目;
+                var txt新记录=输入条目[j];
             }
             for(var i in 记录){
                 var 当前条目=[];当前条目.push(记录[i]);
@@ -620,7 +621,6 @@ if(key){
                         新记录.push({title:记录[i].type,data:当前条目});
                     }
                 }
-                var txt新记录=key.concat(txt旧记录.filter(item=>item!=key[0]));
             }
             _.write(JSON.stringify(新记录),filename);
             _.write(txt新记录.join("\n"),txtfile);
