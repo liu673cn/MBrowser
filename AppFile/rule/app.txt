@@ -17,7 +17,7 @@
 优质@麻瓜视频=http://aliyun.k8aa.com/mogai_api.php/v1.vod#麻瓜视频1
 优质@蜜蜂影视=http://app.f8tp.com/lvdou_api.php/v1.vod#蜜蜂影视
 优质@琅琊影视=http://fgyuu.top/lehailb_api.php/v1.vod#琅琊影视
-优质@懒猫影视=http://lanmao.lanmaoymw.cn/api.php/v1.vod#懒猫影视
+优质@懒猫电影=http://lanmao.lanmaoymw.cn/api.php/v1.vod#懒猫电影
 优质@零刻影院=https://ys.ling00.cn/api.php/v1.vod#零刻影院
 优质@绿箭影视=http://www.69ty.cc/mogai_api.php/v1.vod#绿箭影视
 优质@六把刀影院=https://pro.6bd.net/mogai_api.php/v1.vod#六把刀影院
