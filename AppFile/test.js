@@ -543,7 +543,7 @@ if(uu.indexOf("baidu.com")!=-1){
     "web="+uu;
 }
 ######写入规则22
-eval(e2Rex(getVar("qjs"),'.dn64()'));
+eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 var key=getVar("KEY");
 var SubFlieName='远程订阅索引.txt';
 var SubFlieCode=_.read(SubFlieName);
