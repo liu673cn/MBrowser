@@ -628,9 +628,15 @@ if(key.length>10){
         alert("请输入以下格式\n\n1.[订阅名,订阅地址#图片地址]格式的网络订阅\n2.[分类名@APP名称=APP接口地址#图片地址]格式的规则\n详情请查看首页轮播内的教程");
     }
 }else if(SubFlieCode.indexOf(",http")||Url.indexOf(",http")!=-1){
-    var SubUrl=e2Rex(SubFlieCode,".ty(,).tz(#)");
-    var SubTitle=e2Rex(SubFlieCode,".tz(,)");
-    var SubImg=e2Rex(SubFlieCode,".ty($)");
+    if(Url.indexOf(",http")!=-1){
+        var SubUrl=e2Rex(Url,".ty(,).tz(#)");
+        var SubTitle=e2Rex(Url,".tz(,)");
+        var SubImg=e2Rex(Url,".ty($)");
+    }else{
+        var SubUrl=e2Rex(SubFlieCode,".ty(,).tz(#)");
+        var SubTitle=e2Rex(SubFlieCode,".tz(,)");
+        var SubImg=e2Rex(SubFlieCode,".ty($)");
+    }
     var filename=SubName+'.json';
     var rule=getHttp(JSON.stringify({url:SubUrl}));
     if(rule.indexOf("api.php/app")!=-1||rule.indexOf("xgapp")!=-1||rule.indexOf(".vod")!=-1||rule.search(/api\.php\/.+?\/vod\//)!=-1){
