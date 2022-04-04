@@ -548,6 +548,7 @@ if(uu.indexOf("baidu.com")!=-1){
 ######写入规则22
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 var key=getVar("KEY");
+var Url=getVar("url");
 var SubFlieName='远程订阅索引.txt';
 var SubFlieCode=_.read(SubFlieName);
 var JsUrl='https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视.js';
@@ -626,7 +627,7 @@ if(key){
     }else{
         alert("请输入以下格式\n\n1.[订阅名,订阅地址#图片地址]格式的网络订阅\n2.[分类名@APP名称=APP接口地址#图片地址]格式的规则\n详情请查看首页轮播内的教程");
     }
-}else if(SubFlieCode||getVar("url")){
+}else if(SubFlieCode||Url.indexOf(",http")!=-1){
     var SubUrl=e2Rex(SubFlieCode,".ty(,).tz(#)");
     var SubTitle=e2Rex(SubFlieCode,".tz(,)");
     var SubImg=e2Rex(SubFlieCode,".ty($)");
