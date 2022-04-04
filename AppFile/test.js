@@ -614,7 +614,7 @@ if(key){
                     rule新记录.push(rule当前条目);
                 }else{
                     let res=rule新记录.some(item=>{
-                        if(item.title==rule记录[k]){
+                        if(item==rule记录[k]){
                             item=rule当前条目.concat(item.filter(d=>d!=rule记录[k]));
                         }
                     });
