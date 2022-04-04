@@ -609,7 +609,18 @@ if(key){
             }
             for(var k in txt记录){
                 var txt当前条目=[];txt当前条目.push(记录[k]);
-                var txt新记录=txt当前条目.concat(txt当前条目.filter(d=>d!=txt记录[k]));
+                if(txt新记录.length==0){
+                    txt新记录.push(txt当前条目);
+                }else{
+                    let res=新记录.some(item=>{
+                        if(item.title==记录[k]){
+                        txt新记录=txt当前条目.concat(txt当前条目.filter(d=>d!=txt记录[k]));
+                        }
+                    });
+                    if(!res){
+                        txt新记录.push(txt当前条目);
+                    }
+                }
             }
             for(var i in 记录){
                 var 当前条目=[];当前条目.push(记录[i]);
