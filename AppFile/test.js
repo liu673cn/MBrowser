@@ -725,7 +725,7 @@ var items=[];
 for (var i in code){
     var title=e2Rex(code[i],".tz(,)");
     var Fname=title+".json";
-    var url=_.read(Fname);
+    var url=JSON.parse(_.read(Fname));
     var img=e2Rex(code[i],".ty(#)");
     if(img){
         var img=img;
