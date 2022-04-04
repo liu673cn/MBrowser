@@ -36,6 +36,7 @@
 优质@爱酷影视=https://www.zhanlangbu.com/ruifenglb_api.php/v1.vod#爱酷影视
 优质@爱看美剧=https://www.uumjw.com/api.php/v1.vod#爱看美剧
 优质@tvip=http://app.tvip.cc/api.php/v1.vod#tvip
+优质@Hi影视=http://114.132.251.111:999/lvdou_api.php/v1.vod#Hi影视
 优质@HG影视=http://hgyx.vip/api.php/v1.vod#HG影视
 优质@DC影视=http://chaorenbb.com/api.php/v1.vod#DC影视
 优质@CJT影院=https://www.cjt521.com/api.php/v1.vod#CJT影院
