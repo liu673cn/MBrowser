@@ -627,7 +627,7 @@ if(key.length>10){
 }else if(Url.indexOf(",http")!=-1&&Url.indexOf("#")!=-1){
     var SubUrl=e2Rex(Url,".ty(,).tz(#)");
     var SubTitle=e2Rex(Url,".tz(,)");
-    var filename=SubTitle;
+    var filename=SubTitle+".json";
     var rule=getHttp(JSON.stringify({url:SubUrl}));
     if(rule.indexOf("api.php/app")!=-1||rule.indexOf("xgapp")!=-1||rule.indexOf(".vod")!=-1||rule.search(/api\.php\/.+?\/vod\//)!=-1){
         var 输入条目=rule.match(/.+=http.+/g);
