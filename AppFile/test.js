@@ -461,7 +461,7 @@ if(uu.indexOf("baidu.com")!=-1){
         "web=https://jhpc.manduhu.com/duoduo/?url="+playurl+'@{"Referer":"https://555dy3.com"}';
     }else if(playurl.indexOf("ruifenglb")!=-1){
         var resp=JZ(JSON.stringify({url:"http://jx.yjhan.com:8090/home/api?type=ys&uid=268886&key=afghilnyEGKPRTVY56&url="+playurl}));
-        JSON.stringify({url:JSON.parse(resp.code).url});
+        JSON.stringify({url:JSON.parse(resp.code).url,head:{"referer":"https://1.ruifenglb.com/","User-Agent":""}});
     }else if(playurl.indexOf("xfy")!=-1){
         var resp=JZ(JSON.stringify({url:playurl}));
         JSON.stringify({url:JSON.parse(resp.code).url,head:{"referer":"appguapi.lihaoyun.top:11543","User-Agent":"Dart/2.14 (dart:io)"}});
