@@ -568,7 +568,6 @@ if(key){
         _.read(filename);
     }else if(key.length>10&&key.indexOf("@")!=-1&&key.indexOf("=")!=-1&&key.indexOf("#")!=-1){
         if(key.indexOf("api.php/app")!=-1||key.indexOf("xgapp")!=-1||key.indexOf(".vod")!=-1||key.search(/api\.php\/.+?\/vod\//)!=-1){
-            var txtfile='自定义.txt';
             var filename='自定义.json';
             var 输入条目=key.match(/.+=http.+/g);
             for(var j in 输入条目){
@@ -603,17 +602,10 @@ if(key){
             }else{
                 var 新记录=[];
             }
-            if(_.read(txtfile)){
-                var rule=(_.read(txtfile));
-            }else{
-                var rule=[];
-            }
             for(var i in 记录){
                 var 当前条目=[];当前条目.push(记录[i]);
-                var rule条目=[];rule条目.push(记录[i]);
-                if(新记录.length==0||rule==0){
+                if(新记录.length==0){
                     新记录.push({title:记录[i].type,data:当前条目});
-                    rule.push(记录[i].type+'@'+记录[i].title+'='+url+'#'+img);
                 }else{
                     let res=新记录.some(item=>{
                         if(item.title==记录[i].type){
@@ -623,15 +615,6 @@ if(key){
                     });
                     if(!res){
                         新记录.push({title:记录[i].type,data:当前条目});
-                    }
-                    let rres=rule.some(item=>{
-                        if(item.title==记录[i].type){
-                            item=rule条目.concat(item.filter(d=>d.url!=记录[i].url));
-                            return true
-                        }
-                    });
-                    if(!rres){
-                        rule.push(记录[i].type+'@'+记录[i].title+'='+url+'#'+img);
                     }
                 }
             }
@@ -714,7 +697,22 @@ if(key){
 }
 ######读取规则23
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
-var filename='自定义.json';
+var filename='远程订阅索引.txt';
+if(_.read(filename)){
+  var code=_.read(filename).match(/.+?,.+/g);
+}else{
+  var data="InMemory,https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/app.txt";
+  _.write(data,filename);
+  var code=_.read(filename).match(/.+?,.+/g);
+}
+var items=[];
+for (var i in code){
+  var title=code[i].split(",")[0];
+  var url=code[i].split(",")[1];
+  var img=e2Rex(code[i],".ty(#)");
+  items.push({ title:title,url:url,img:img});
+}
+JSON.stringify(items);
 _.read(filename);
 ######删除规则24
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
