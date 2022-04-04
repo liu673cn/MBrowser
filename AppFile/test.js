@@ -762,13 +762,12 @@ for (var i in code){
     var title=e2Rex(code[i],".tz(,)");
     var url=e2Rex(code[i],".t()");
     var img=e2Rex(code[i],".ty(#)");
-    var Ktime=e2Rex(getVar("TIME_"),".time(YYYY-MM-dd hh:mm)");
     if(img){
         var img=img;
     }else{
         var img="http://1.117.152.239:39000/tupian.php?text="+title;
     }
-    items.push({title:title,url:url,img:img,time:Ktime});
+    items.push({title:title,url:url,img:img});
 }
 JSON.stringify(items);
 ######读取规则列表24
@@ -787,13 +786,12 @@ for (var i in code){
     var Fname=title+".json";
     var Curl=JSON.parse(_.read(Fname));
     var img=e2Rex(code[i],".ty(#)");
-    var Ktime=e2Rex(getVar("TIME_"),".time(YYYY-MM-dd hh:mm)");
     if(img){
         var img=img;
     }else{
         var img="http://1.117.152.239:39000/tupian.php?text="+title;
     }
-    items.push({title:title,img:img,time:Ktime,Curl:Curl});
+    items.push({title:title,img:img,Curl:Curl});
 }
 JSON.stringify(items);
 ######删除规则24
