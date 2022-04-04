@@ -695,21 +695,26 @@ if(key){
 }else{
     alert("内容为空");
 }
-######读取规则23
+######读取订阅列表23
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 var filename='远程订阅索引.txt';
 if(_.read(filename)){
   var code=_.read(filename).match(/.+?,.+/g);
 }else{
-  var data="InMemory,https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/app.txt";
+  var data=".,https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/app.txt#https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/icon/InMemory.jpg";
   _.write(data,filename);
   var code=_.read(filename).match(/.+?,.+/g);
 }
 var items=[];
 for (var i in code){
   var title=code[i].split(",")[0];
-  var url=code[i].split(",")[1];
+  var url=e2Rex(code[i],".ty(,).tz(#)");
   var img=e2Rex(code[i],".ty(#)");
+  if(img){
+    var img=img;
+  }else{
+    var img="http://1.117.152.239:39000/tupian.php?text="+title;
+  }
   items.push({ title:title,url:url,img:img});
 }
 JSON.stringify(items);
