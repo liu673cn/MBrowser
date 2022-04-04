@@ -725,14 +725,14 @@ var items=[];
 for (var i in code){
     var title=e2Rex(code[i],".tz(,)");
     var Fname=title+".json";
-    var url=JSON.parse(_.read(Fname));
+    var Curl=JSON.parse(_.read(Fname));
     var img=e2Rex(code[i],".ty(#)");
     if(img){
         var img=img;
     }else{
         var img="http://1.117.152.239:39000/tupian.php?text="+title;
     }
-    items.push({title:title,img:img,url:url});
+    items.push({title:title,img:img,Curl:Curl});
 }
 JSON.stringify(items);
 ######删除规则24
