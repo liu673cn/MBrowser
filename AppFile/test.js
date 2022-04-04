@@ -692,23 +692,40 @@ if(key.length>10){
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 var filename='远程订阅索引.txt';
 if(_.read(filename)){
-  var code=_.read(filename).match(/.+?,.+/g);
+    var code=_.read(filename).match(/.+?,.+/g);
 }else{
-  var data="InMemory,https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/app.txt#https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/icon/InMemory.jpg";
-  _.write(data,filename);
-  var code=_.read(filename).match(/.+?,.+/g);
+    var data="InMemory,https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/app.txt#https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/icon/InMemory.jpg";
+    _.write(data,filename);
+    var code=_.read(filename).match(/.+?,.+/g);
 }
 var items=[];
 for (var i in code){
+    var title=e2Rex(code[i],".tz(,)");
+    var url=e2Rex(code[i],".t()");
+    var img=e2Rex(code[i],".ty(#)");
+    if(img){
+        var img=img;
+    }else{
+        var img="http://1.117.152.239:39000/tupian.php?text="+title;
+    }
+    items.push({title:title,url:url,img:img});
+}
+JSON.stringify(items);
+######读取规则列表24
+eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
+var filename='远程订阅索引.txt';
+var code=_.read(filename).match(/.+?,.+/g);
+var items=[];
+for (var i in code){
   var title=e2Rex(code[i],".tz(,)");
-  var url=e2Rex(code[i],".t()");
+  var data=_.read(title+".json")
   var img=e2Rex(code[i],".ty(#)");
   if(img){
     var img=img;
   }else{
     var img="http://1.117.152.239:39000/tupian.php?text="+title;
   }
-  items.push({title:title,url:url,img:img});
+  items.push({title:title,data:data,img:img});
 }
 JSON.stringify(items);
 ######删除规则24
