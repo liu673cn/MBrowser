@@ -641,7 +641,7 @@ if(key){
                 }
             }
             _.write(JSON.stringify(新记录),filename);
-            _.write(txt新记录.join("\n"),txtfile);
+            _.write(rule新记录.join("\n"),txtfile);
             alert("规则写入/更新成功");
             _.read(txtfile);
         }
