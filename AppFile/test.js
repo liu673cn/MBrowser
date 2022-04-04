@@ -590,7 +590,7 @@ if(key){
                 }else if(url.indexOf("api.php/app")!=-1||url.indexOf("xgapp")!=-1){
                     var type="小龟";
                 }else if(url.indexOf(".vod")!=-1){
-                    var type="萝卜/白菜/木白/绿豆";
+                    var type="萝卜";
                 }else if(url.search(/api\.php\/.+?\/vod\//)!=-1){
                     var type="神马";
                 }
@@ -641,6 +641,7 @@ if(key){
             _.write(JSON.stringify(新记录),filename);
             _.write(rule新记录.join("\n"),txtfile);
             alert("规则写入/更新成功");
+            alert(rule记录);
             _.read(txtfile);
         }
     }else{
