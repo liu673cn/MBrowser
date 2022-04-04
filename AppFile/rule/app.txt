@@ -1,3 +1,4 @@
+优质@钟特影视=https://app.zteys.com/api.php/v1.vod#钟特影视
 优质@追剧吧=http://zhuiju8.vip/api.php/v1.vod#追剧吧影视
 优质@影阅阁=http://221.236.18.12:665/api.php/v1.vod#影阅阁
 优质@优视影视=http://app.ysys.asia/lvdou_api.php/v1.vod#优视影视
@@ -12,6 +13,7 @@
 优质@暖光影视=https://app.bl210.com/api.php/v1.vod#暖光影视
 优质@南府影视=http://iapp.nfuxs.club/dnmb.php/v1.vod#南府影视
 优质@奈非迷=https://app.netflixmi.com/api.php/v1.vod#奈非迷影视
+优质@迷雾剧场=https://www.miwu.tv/mogai_api.php/v1.vod#迷雾剧场
 优质@美剧范=http://ttzmz.net/api.php/v1.vod#美剧范
 优质@美剧虫=https://meijuchong.com/api.php/v1.vod#美剧虫
 优质@麻瓜视频=http://aliyun.k8aa.com/mogai_api.php/v1.vod#麻瓜视频1
@@ -42,7 +44,6 @@
 优质@CJT影院=https://www.cjt521.com/api.php/v1.vod#CJT影院
 优质@4K影院=http://1api.4kdytv.com/api.php/v1.vod#4K影院
 优质@300看世界=https://300ys.xyz/api.php/v1.vod#300看世界
-普通@钟特影视=https://app.zteys.com/api.php/v1.vod#钟特影视
 普通@追剧影院=http://82.157.98.129/lvdou_api.php/v1.vod#追剧影院
 普通@追剧猫=http://tv.kmtvb.com/api.php/v1.vod#追剧猫
 普通@柚子视频=http://yz.26ys.cn/api.php/v1.vod#柚子视频
@@ -118,6 +119,7 @@
 神马@聚多影视=http://jdys.weetai.cn/api.php/iptv/vod/#聚多影视
 神马@黑龙影视=http://vip.ji-ding-he.site/api.php/iptv/vod/#黑龙影视
 神马@嘿荼锋=http://tv.hfys8.vip/api.php/Sntv/vod/#嘿荼锋
+神马@贵宾影院=https://vipdytv.com/api.php/iptv/vod/#
 神马@飞扬TV=http://diancj.zhenfy.cn/api.php/Chengcheng/vod/#飞扬TV
 神马@非凡影院=http://cms.feifan12.xyz/api.php/iptv/vod/#非凡影院
 神马@大师兄=http://dsxtv.tv.ci/api.php/dsx/vod/#大师兄影视
