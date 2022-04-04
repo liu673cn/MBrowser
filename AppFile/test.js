@@ -603,15 +603,9 @@ if(key){
                 var 新记录=[];
             }
             if(_.read(txtfile)){
-                var txt旧记录=_.read(txtfile).match(/.+?=http.+/g);
-                var txt新记录=输入条目[j].concat(txt旧记录.filter(item=>item!=key[0]));
+                    var txt新记录=_.read(txtfile).match(/.+=http.+/g);
             }else{
-                var txt新记录=输入条目[j];
-            }
-            if(_.read(txtfile)){
-                    var txt旧记录=_.read(txtfile).match(/.+=http.+/g);
-            }else{
-                    var txt新记录=txt记录;
+                    var txt新记录=[];
             }
             for(var k in txt记录){
                 var txt新记录=txt记录.concat(txt旧记录.filter(item=>item!=txt记录[0]));
