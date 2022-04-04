@@ -596,8 +596,8 @@ if(key){
                 }
                 记录.push({title:title,url:url,img:img,murl:murl,type:type});
                 txt记录.push=(输入条目[j].match(/.+=http.+/g));
-                alert(txt记录);
             }
+            alert(txt记录);
             if(_.read(filename)){
                 var 新记录=JSON.parse(_.read(filename));
             }else{
