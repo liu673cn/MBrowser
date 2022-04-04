@@ -608,7 +608,8 @@ if(key){
                     var txt新记录=[];
             }
             for(var k in txt记录){
-                var txt新记录=txt记录.concat(txt新记录.filter(item=>item!=txt记录[k]));
+                var txt当前条目=[];txt当前条目.push(记录[k]);
+                var txt新记录=txt当前条目.concat(item.filter(d=>d!=txt记录[k]));
             }
             for(var i in 记录){
                 var 当前条目=[];当前条目.push(记录[i]);
