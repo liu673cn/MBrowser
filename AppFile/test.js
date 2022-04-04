@@ -549,7 +549,6 @@ var SubFlieName='远程订阅索引.txt';
 var SubFlieCode=_.read(SubFlieName);
 var JsUrl='https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视.js';
 var 记录=[];
-var rule记录=[];
 if(key){
     if(key.indexOf(",http")>1&&key.indexOf("#")){
         var SubName=key.split(",")[0];
@@ -595,35 +594,41 @@ if(key){
                     var type="神马";
                 }
                 记录.push({title:title,url:url,img:img,murl:murl,type:type});
-                rule记录.push=(type+"@"+title+"="+url+"#"+img+"\n");
             }
             if(_.read(filename)){
                 var 新记录=JSON.parse(_.read(filename));
             }else{
                 var 新记录=[];
             }
-            for(var k in rule记录){
-                var url=e2Rex(rule记录[k],".ty(=).tz(#)");
-                if(_.read(txtfile)){
-                    var rule旧记录=_.read(txtfile).match(/.+=http.+/g);
-                    var rule新记录=rule记录[k].concat(rule旧记录.filter(item=>item!=url[0]));
-                }else{
-                    var rule新记录=[];
-                }
+            if(_.read(txtfile)){
+                var rule=(_.read(txtfile));
+            }else{
+                var rule=[];
             }
             for(var i in 记录){
                 var 当前条目=[];当前条目.push(记录[i]);
-                if(新记录.length==0){
+                var rule条目=[];rule条目.push(记录[i]);
+                if(新记录.length==0||rule==0){
                     新记录.push({title:记录[i].type,data:当前条目});
+                    rule.push(记录[i].type+'@'+记录[i].title+'='+url+'#'+img);
                 }else{
                     let res=新记录.some(item=>{
-                        if(item.title == 记录[i].type){
+                        if(item.title==记录[i].type){
                             item.data=当前条目.concat(item.data.filter(d=>d.url!=记录[i].url));
                             return true
                         }
                     });
-                    if(!res) {
+                    if(!res){
                         新记录.push({title:记录[i].type,data:当前条目});
+                    }
+                    let rres=rule.some(item=>{
+                        if(item.title==记录[i].type){
+                            item=rule条目.concat(item.filter(d=>d.url!=记录[i].url));
+                            return true
+                        }
+                    });
+                    if(!rres){
+                        rule.push(记录[i].type+'@'+记录[i].title+'='+url+'#'+img);
                     }
                 }
             }
