@@ -602,11 +602,6 @@ if(key){
             }else{
                 var 新记录=[];
             }
-            if(_.read(txtfile)){
-                var rule新记录=_.read(txtfile);
-            }else{
-                var rule新记录=[];
-            }
             for(var k in rule记录){
                 if (_.read(txtfile)){
                     var rule旧记录=_.read(txtfile).match(/.+?,http.+/g);
