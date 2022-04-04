@@ -626,7 +626,7 @@ if(key){
     }else{
         alert("请输入以下格式\n\n1.[订阅名,订阅地址#图片地址]格式的网络订阅\n2.[分类名@APP名称=APP接口地址#图片地址]格式的规则\n详情请查看首页轮播内的教程");
     }
-}else if(SubFlieCode){
+}else if(SubFlieCode||getVar("url")){
     var SubUrl=e2Rex(SubFlieCode,".ty(,).tz(#)");
     var SubTitle=e2Rex(SubFlieCode,".tz(,)");
     var SubImg=e2Rex(SubFlieCode,".ty($)");
