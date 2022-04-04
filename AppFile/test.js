@@ -602,13 +602,11 @@ if(key){
             }else{
                 var 新记录=[];
             }
-            for(var k in rule记录){
-                if (_.read(txtfile)){
-                    var rule旧记录=_.read(txtfile).match(/.+?=http.+/g);
-                    var rule新记录 = rule记录.concat(rule旧记录.filter(item=>item!=rule记录[0]));
-                } else {
-                    var rule新记录=rule记录;
-                }
+            if(_.read(txtfile)){
+                var rule旧记录=_.read(txtfile).match(/.+?=http.+/g);
+                var rule新记录=rule记录.concat(rule旧记录.filter(item=>item!=rule记录[0]));
+            }else{
+                var rule新记录=rule记录;
             }
             for(var i in 记录){
                 var 当前条目=[];当前条目.push(记录[i]);
