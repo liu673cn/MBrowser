@@ -549,9 +549,6 @@ if(uu.indexOf("baidu.com")!=-1){
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 var key=getVar("KEY");
 var Url=getVar("url");
-var SubFlieName='远程订阅索引.txt';
-var SubFlieCode=_.read(SubFlieName);
-var JsUrl='https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP影视.js';
 var 记录=[];
 if(key.length>10){
     if(key.indexOf(",http")>1&&key.indexOf("#")){
@@ -627,17 +624,10 @@ if(key.length>10){
     }else{
         alert("请输入以下格式\n\n1.[订阅名,订阅地址#图片地址]格式的网络订阅\n2.[分类名@APP名称=APP接口地址#图片地址]格式的规则\n详情请查看首页轮播内的教程");
     }
-}else if(SubFlieCode.indexOf(",http")||Url.indexOf(",http")!=-1){
-    if(Url.indexOf(",http")!=-1){
-        var SubUrl=e2Rex(Url,".ty(,).tz(#)");
-        var SubTitle=e2Rex(Url,".tz(,)");
-        var SubImg=e2Rex(Url,".ty($)");
-    }else{
-        var SubUrl=e2Rex(SubFlieCode,".ty(,).tz(#)");
-        var SubTitle=e2Rex(SubFlieCode,".tz(,)");
-        var SubImg=e2Rex(SubFlieCode,".ty($)");
-    }
-    var filename=SubTitle+'.json';
+}else if(Url.indexOf(",http")!=-1&&Url.indexOf("#")!=-1){
+    var SubUrl=e2Rex(Url,".ty(,).tz(#)");
+    var SubTitle=e2Rex(Url,".tz(,)");
+    var filename=SubTitle;
     var rule=getHttp(JSON.stringify({url:SubUrl}));
     if(rule.indexOf("api.php/app")!=-1||rule.indexOf("xgapp")!=-1||rule.indexOf(".vod")!=-1||rule.search(/api\.php\/.+?\/vod\//)!=-1){
         var 输入条目=rule.match(/.+=http.+/g);
@@ -695,10 +685,6 @@ if(key.length>10){
         alert("规则写入/更新成功");
         _.read(SubTitle+'.txt');
     }
-}else if(JsUrl){
-    var JsCode=getHttp(JSON.stringify({url:JsUrl}));
-    _.write(JsCode,'APP影视.js');
-    alert("变量脚本下载/更新成功");
 }else{
     alert("内容为空");
 }
