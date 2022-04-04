@@ -569,7 +569,7 @@ if(key){
             var filename='自定义.json';
             var 输入条目=key.match(/.+=http.+/g);
             for(var j in 输入条目){
-                var txt记录='';
+                var txt记录=[];
                 var title=e2Rex(输入条目[j],".ty(@).tz(=)");
                 var url=e2Rex(输入条目[j],".ty(=).tz(#)");
                 var img=e2Rex(输入条目[j],".ty(#)");
