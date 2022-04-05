@@ -2,11 +2,6 @@
 {
     "data":[
         {
-        "url":"mqqwpa://im/chat?chat_type=wpa&uin=272775028",
-        "title":"欢迎分享规则，点击向轻站开发者提供",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/轮播3.jpg"
-        },
-        {
         "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/教程.txt",
         "title":"本地规则教程，按分类写入新文件，点击查看详情",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/轮播1.jpg"
