@@ -681,9 +681,15 @@ if(key.length>10){
     alert(title+'\n下载/更新成功');
     _.read(filename);
 }else if(Url.indexOf(",http")!=-1||uurl.indexOf(",http")!=-1){
-    var SubUrl=e2Rex(Url,".ty(,).tz(#)");
-    var SubTitle=e2Rex(Url,".tz(,)");
-    var filename=SubTitle+".json";
+    if(uurl.indexOf(",http")!=-1){
+        var SubUrl=e2Rex(Url,".ty(,).tz(#)");
+        var SubTitle=e2Rex(Url,".tz(,)");
+        var filename=SubTitle+".json";
+    }else if(Url.indexOf(",http")!=-1){
+        var SubUrl=e2Rex(Url,".ty(,).tz(#)");
+        var SubTitle=e2Rex(Url,".tz(,)");
+        var filename=SubTitle+".json";
+    }
     var rule=getHttp(JSON.stringify({url:SubUrl}));
     if(rule.indexOf("api.php/app")!=-1||rule.indexOf("xgapp")!=-1||rule.indexOf(".vod")!=-1||rule.search(/api\.php\/.+?\/vod\//)!=-1){
         var 输入条目=rule.match(/.+=http.+/g);
