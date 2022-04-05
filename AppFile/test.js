@@ -534,7 +534,7 @@ var key=getVar("KEY");
 var Url=getVar("url");
 var uurl=(getVar("CODE"),".json().json(url)");
 var 记录=[];
-if(key.length<1){
+if(key.length>10){
     if(key.indexOf(",http")>1&&key.indexOf("#")){
         var SubTitle=e2Rex(key,".tz(,)");
         var subfilename='远程订阅索引.txt';
@@ -666,7 +666,7 @@ if(key.length<1){
     }else{
         alert("请输入以下格式\n\n1.[订阅名,订阅地址#图片地址]格式的网络订阅\n2.[分类名@APP名称=APP接口地址#图片地址]格式的规则\n详情请查看首页轮播内的教程");
     }
-}else if(Url.indexOf(".js")!=-1||key.indexOf("js")!=-1){
+}else if(Url.indexOf(".js")!=-1){
     if(Url.index(',http')!=-1&&Url.indexOf("#")!=-1){
         var title=e2Rex(Url,".tz(,)");
         var filename=title+'.js';
