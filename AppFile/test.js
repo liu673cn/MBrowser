@@ -534,7 +534,7 @@ var key=getVar("KEY");
 var Url=getVar("url");
 var uurl=(getVar("CODE"),".json().json(url)");
 var 记录=[];
-if(key.length>10){
+if(key.length<1){
     if(key.indexOf(",http")>1&&key.indexOf("#")){
         var SubTitle=e2Rex(key,".tz(,)");
         var subfilename='远程订阅索引.txt';
