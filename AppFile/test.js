@@ -774,6 +774,8 @@ for (var i in code){
     if(_.read(Fname)){
         var Curl=JSON.parse(_.read(Fname));
         items.push({title:title,img:img,url:url,Curl:Curl});
+    }else{
+        items.push({title:title,img:img,url:url});
     }
 }
 JSON.stringify(items);
@@ -796,17 +798,6 @@ for (var i in code){
     if(_.read(Fname)){
         var Curl=JSON.parse(_.read(Fname));
         items.push({title:title,img:img,url:url,Curl:Curl});
-    }else{
-        var title=e2Rex(code[i],".tz(,)");
-        var Fname=title+".json";
-        var url=e2Rex(code[i],".ty(,).tz(#)");
-        var img=e2Rex(code[i],".ty(#)");
-        if(img){
-            var img=img;
-        }else{
-            var img="http://1.117.152.239:39000/tupian.php?text="+title;
-            items.push({title:title,img:img,url:url});
-        }
     }
     JSON.stringify(items);
 }
