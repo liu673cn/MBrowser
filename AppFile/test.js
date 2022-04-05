@@ -778,7 +778,7 @@ if(_.read(filename)){
     var data="InMemory,https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/app.txt#https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/icon/InMemory.jpg";
     _.write(data,filename);
     var fcode=_.read(filename).match(/.+?,.+/g);
-    var code=fcode+"本地,本地规则#";
+    var code=fcode+"本地,http#";
 }
 var items=[];
 for (var i in code){
