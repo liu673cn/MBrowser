@@ -605,8 +605,8 @@ if(key.length>10){
         }else{
             alert(SubTitle+"\n订阅内容没有符合的规则或订阅地址失效");
         }
-        alert(SubTitle+"\n订阅成功");
-        _.read(key);
+        alert(SubTitle+"\n订阅成功，APP列表已写入本地");
+        _.read(subfilename);
     }else if(key.indexOf("@")!=-1&&key.indexOf("=")!=-1&&key.indexOf("#")!=-1){
         if(key.indexOf("api.php/app")!=-1||key.indexOf("xgapp")!=-1||key.indexOf(".vod")!=-1||key.search(/api\.php\/.+?\/vod\//)!=-1){
             var filename='本地.json';
