@@ -606,7 +606,7 @@ if(key.length>10){
             alert(SubTitle+"\n订阅内容没有符合的规则或订阅地址失效");
         }
         alert(SubTitle+"\n订阅成功");
-        _.read(filename);
+        _.read(key);
     }else if(key.indexOf("@")!=-1&&key.indexOf("=")!=-1&&key.indexOf("#")!=-1){
         if(key.indexOf("api.php/app")!=-1||key.indexOf("xgapp")!=-1||key.indexOf(".vod")!=-1||key.search(/api\.php\/.+?\/vod\//)!=-1){
             var filename='本地.json';
@@ -660,7 +660,7 @@ if(key.length>10){
                 }
             }
             _.write(JSON.stringify(新记录),filename);
-            alert("规则写入成功");
+            alert("本地规则写入成功");
             _.read(txtfile);
         }
     }else{
