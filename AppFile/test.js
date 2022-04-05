@@ -779,7 +779,7 @@ var filename='远程订阅索引.txt';
 var ff="本地,#\n"+_.read(filename);
 var code=ff.match(/.+?,.+/g);
 var SubName=getVar("订阅名");
-if(SubName>1){
+if(SubName){
     var Fname=SubName+".json";
     _.read(Fname);
 }else{
