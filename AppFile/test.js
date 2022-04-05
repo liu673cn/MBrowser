@@ -795,11 +795,11 @@ for (var i in code){
         var Curl=JSON.parse(_.read(Fname));
         items.push({title:title,img:img,url:url,Curl:Curl});
     }
+    JSON.stringify(items);
 }else{
     var Fname=SubName+".json";
     _.read(Fname);
 }
-JSON.stringify(items);
 ######删除规则23
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 var SubName=getVar("订阅名");
