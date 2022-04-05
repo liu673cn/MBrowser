@@ -534,7 +534,7 @@ var key=getVar("KEY");
 var Url=getVar("url");
 var uurl=(getVar("CODE"),".json().json(url)");
 var 记录=[];
-if(key.length>10){
+if(key.length){
     if(key.indexOf(",http")>1&&key.indexOf("#")){
         var SubTitle=e2Rex(key,".tz(,)");
         var subfilename='远程订阅索引.txt';
@@ -804,7 +804,7 @@ for (var i in code){
 ######删除规则23
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 var SubName=getVar("订阅名");
-if(SubName.length>1){
+if(SubName){
     var filename=SubName+'.json';
     var 记录=getVar("CODE");
     var 新记录=JSON.parse(_.read(filename));
