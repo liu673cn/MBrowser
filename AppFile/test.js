@@ -772,8 +772,9 @@ JSON.stringify(items);
 ######读取规则列表24
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 var filename='远程订阅索引.txt';
-var code=_.read(filename).match(/.+?,.+/g);
-alert(code);
+var fcode=_.read(filename).match(/.+?,.+/g);
+var ff=_.read(filename)+"\n本地,本地规则#";
+var code=ff.match(/.+?,.+/g);
 var items=[];
 for (var i in code){
     var title=e2Rex(code[i],".tz(,)");
