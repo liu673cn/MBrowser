@@ -779,10 +779,7 @@ var filename='远程订阅索引.txt';
 var ff="本地,#\n"+_.read(filename);
 var code=ff.match(/.+?,.+/g);
 var SubName=getVar("订阅名");
-if(SubName){
-    var Fname=SubName+".json";
-    _.read(Fname);
-}else{
+if(SubName.indexOf("")!=-1){
 var items=[];
 for (var i in code){
     var title=e2Rex(code[i],".tz(,)");
@@ -798,7 +795,9 @@ for (var i in code){
         var Curl=JSON.parse(_.read(Fname));
         items.push({title:title,img:img,url:url,Curl:Curl});
     }
-}
+}else{
+    var Fname=SubName+".json";
+    _.read(Fname);
 }
 JSON.stringify(items);
 ######删除规则23
