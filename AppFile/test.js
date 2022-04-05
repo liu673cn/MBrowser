@@ -774,7 +774,6 @@ eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/ma
 var filename='远程订阅索引.txt';
 var fcode=_.read(filename).match(/.+?,.+/g);
 var code=fcode.push("本地,本地规则#").join("\n");
-alert(fcode);alert(code);
 var items=[];
 for (var i in code){
     var title=e2Rex(code[i],".tz(,)");
