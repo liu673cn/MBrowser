@@ -625,7 +625,7 @@ if(key.length>10){
         _.read(filename);
     }else if(key.indexOf("@")!=-1&&key.indexOf("=")!=-1&&key.indexOf("#")!=-1){
         if(key.indexOf("api.php/app")!=-1||key.indexOf("xgapp")!=-1||key.indexOf(".vod")!=-1||key.search(/api\.php\/.+?\/vod\//)!=-1){
-            var filename='自定义.json';
+            var filename='本地.json';
             var 输入条目=key.match(/.+=http.+/g);
             for(var j in 输入条目){
                 var title=e2Rex(输入条目[j],".ty(@).tz(=)");
@@ -778,7 +778,7 @@ if(_.read(filename)){
 }else{
     var data="InMemory,https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/app.txt#https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/icon/InMemory.jpg";
     _.write(data,filename);
-    var code=_.read(filename).match(/.+?,.+/g);
+    var code=_.read(filename).match(/.+?,.+/g)+"本地,本地规则#";
 }
 var items=[];
 for (var i in code){
