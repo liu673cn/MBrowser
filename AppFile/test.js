@@ -806,7 +806,7 @@ for (var i in code){
 JSON.stringify(items);
 ######删除规则25
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
-var title=getVar("title");
+var title=getVar("订阅名");
 var filename=title+'.json';
 var 记录=getVar("CODE");
 var 新记录=JSON.parse(_.read(filename));
