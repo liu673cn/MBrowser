@@ -763,6 +763,7 @@ if(_.read(filename)){
 var items=[];
 for (var i in code){
     var title=e2Rex(code[i],".tz(,)");
+    var Fname=title+".json";
     var url=e2Rex(code[i],".t()");
     var img=e2Rex(code[i],".ty(#)");
     if(img){
@@ -770,7 +771,10 @@ for (var i in code){
     }else{
         var img="http://1.117.152.239:39000/tupian.php?text="+title;
     }
-    items.push({title:title,url:url,img:img});
+    if(_.read(Fname)){
+        var Curl=JSON.parse(_.read(Fname));
+        items.push({title:title,img:img,url:url,Curl:Curl});
+    }
 }
 JSON.stringify(items);
 ######读取规则列表22
