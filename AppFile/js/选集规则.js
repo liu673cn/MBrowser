@@ -16,11 +16,11 @@ function 选集列表(){
             var 可用接口=总接口.filter(function (text) {return !过滤规则.some(function (regex) {return regex.test(text);});});
             if(JSON.stringify(可用接口).indexOf("=")!=-1){
                 if(可用接口[0].indexOf("http")!=-1){
-                    var 接口=可用接口[0].match(/.*(url|v|vid|pid|php\?id)=/)[0].replace("..",".").replace("vip.aotian.love","vip.gaotian.love");
+                    var 接口=可用接口[0].match(/.*(url|v|vid|php\?id)=/)[0].replace("..",".").replace("vip.aotian.love","vip.gaotian.love");
                 }else if(可用接口[0].indexOf("//")!=-1){
-                    var 接口="http:"+可用接口[0].match(/\/\/.*(url|v|vid|pid|php\?id)=/)[0].replace("..",".");
+                    var 接口="http:"+可用接口[0].match(/\/\/.*(url|v|vid|php\?id)=/)[0].replace("..",".");
                 }else{
-                    var 接口=URL.match(/https?:\/\/[^\/]*/)[0]+可用接口[0].match(/\/.*(url|pid|v|vid|php\?id)=/)[0].replace("..",".");
+                    var 接口=URL.match(/https?:\/\/[^\/]*/)[0]+可用接口[0].match(/\/.*(url|v|vid|php\?id)=/)[0].replace("..",".");
                 }
             }else{
                 //对于无自带接口的，给予一个统一接口

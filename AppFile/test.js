@@ -682,6 +682,20 @@ if(key.length>10){
     }else{
         alert("请输入以下格式\n\n1.[订阅名,订阅地址#图片地址]格式的网络订阅\n2.[分类名@APP名称=APP接口地址#图片地址]格式的规则\n详情请查看首页轮播内的教程");
     }
+}else if(Url.indexOf(".js")!=-1){
+    if(Url.index(',http')!=-1&&Url.indexOf("#")!=-1){
+        var title=e2Rex(Url,".tz(,)");
+        var filename=title+'.js';
+        var url=e2Rex(Url,".ty(,).tz(#)");
+    }else{
+        var title=e2Rex(Url,".ty2(/)");
+        var url=Url;
+        var filename=e2Rex(Url,".ty2(/)");
+    }
+    var code=getHttp(url);
+    _.write(code,filename);
+    alert(title+'\n下载/更新成功');
+    _.read(filename);
 }else if(Url.indexOf(",http")!=-1&&Url.indexOf("#")!=-1){
     var SubUrl=e2Rex(Url,".ty(,).tz(#)");
     var SubTitle=e2Rex(Url,".tz(,)");
@@ -743,18 +757,6 @@ if(key.length>10){
         alert("订阅更新成功");
         _.read(filename);
     }
-}else if(Url.indexOf(".js")!=-1){
-    if(Url.index(,http)!=-1&&Url.indexOf("#")!=-1){
-        var title=e2Rex(Url,".tz(,)");
-        var filename=title+'.js';
-        var url=e2Rex(Url,".ty(,).tz(#)");
-    }else{
-        var url=Url;
-    }
-    var code=getHttp(url);
-    _.write(code,filename);
-    alert(title+'\n下载/更新成功');
-    _.read(filename);
 }else{
     alert("内容为空");
 }
@@ -802,20 +804,25 @@ for (var i in code){
     }
 }
 JSON.stringify(items);
-######删除规则24
+######删除规则25
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
-var filename='APP影视.json';
-var 记录=getVar("CODE");
-var 新记录=JSON.parse(_.read(filename));
-let res=新记录.some(item=>{
-    if(item.title == JSON.parse(记录).type){
-        item.data=item.data.filter(a=>a.url!=JSON.parse(记录).url);
-        return true
-    }
-});
-var AppName=e2Rex(记录,".json(title)");
-_.write(JSON.stringify(新记录),filename);
-alert(AppName+"\n删除成功");
+if(getVar("url").indexOf(".js")){
+    var filename='APP影视.json';
+    var 记录=getVar("CODE");
+    var 新记录=JSON.parse(_.read(filename));
+    let res=新记录.some(item=>{
+        if(item.title == JSON.parse(记录).type){
+            item.data=item.data.filter(a=>a.url!=JSON.parse(记录).url);
+            return true
+        }
+    });
+    var AppName=e2Rex(记录,".json(title)");
+    _.write(JSON.stringify(新记录),filename);
+    alert(AppName+"\n删除成功");
+    _.read(filename);
+var filename='资源采集远程索引.txt';
+var 新记录=_.read(filename).match(/.+?,.+/g).filter(item=>item!=getVar("url"));
+_.write(新记录.join("\n"),filename);
 _.read(filename);
 ######本地规则批量搜索25
 eval(e2Rex(getVar("qjs"),'.dn64()'));
