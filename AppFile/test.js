@@ -676,7 +676,6 @@ if(key.length>10){
                 }
             }
             _.write(JSON.stringify(新记录),filename);
-            _.write(rule.join("\n"),txtfile);
             alert("规则写入/更新成功");
             _.read(txtfile);
         }
