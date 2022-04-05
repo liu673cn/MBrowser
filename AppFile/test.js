@@ -781,7 +781,7 @@ var code=ff.match(/.+?,.+/g);
 var SubName=getVar("订阅名");
 if(SubName.length>1){
     var Fname=SubName+".json";
-    JSON.parse(_.read(Fname));
+    _.read(Fname);
 }else{
 var items=[];
 for (var i in code){
