@@ -94,20 +94,7 @@ if(version==NewVersion&&sign==appSign&&name==appName){
     alert("————更新内容————\n    ·自定义源支持订阅\n\n    请详细阅读本地写入教程，有订阅说明")
     e2Rex(index,".json(data).i(1)");
 }
-######首页地址判断4
-var u=getVar("url");
-if(u.indexOf("搜狗")!=-1){
-    "https://waptv.sogou.com/napi/video/classlist?abtest=0";
-}else if(u.indexOf("豆瓣片库")!=-1){
-    "https://frodo.douban.com/api/v2/movie/tag?apikey=0dad551ec0f84ed02907ff5c42e8ec70";
-}else if(u.indexOf("豆瓣片单")!=-1){
-    "https://frodo.douban.com/api/v2/skynet/new_playlists?apikey=0dad551ec0f84ed02907ff5c42e8ec70";
-}else if(u.indexOf("豆瓣榜单")!=-1){
-    "https://frodo.douban.com/api/v2/subject_collection/";
-}else{
-    getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP.json"}));
-}
-######UA5
+######UA4
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1||URL.indexOf("freekan")!=-1){
@@ -121,7 +108,7 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1||URL.indexOf("freeka
 }else{
     "Dalvik/2.1.0";
 }
-######POST6
+######POST5
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
@@ -133,7 +120,7 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
 }else{
     "";
 }
-######cookie7
+######cookie6
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
@@ -145,14 +132,17 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
 }else{
     "";
 }
-######批量搜索8
+######本地规则批量搜索7
+eval(e2Rex(getVar("qjs"),'.dn64()'));
+var SubName=getVar("订阅名");
+var filename=SubName+'.json';
+var 原=_.read(filename);
 var KEY=getVar("KEY");
-var 原=getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP.json"})).replace(/\s/g,"");
-var 分类=e2Arr(原,".json(data)");
+var 分类=e2Arr(原,".json()");
 var res=[];
 for(var j=0;j<分类.length;j++){
     var list={};
-    var 列表=e2Arr(分类[j],".json(list)");
+    var 列表=e2Arr(分类[j],".json(data)");
     var items=[];
     for(var i=0;i<列表.length;i++){
         var 标题=e2Rex(列表[i],".json(title)");
@@ -177,9 +167,7 @@ for(var j=0;j<分类.length;j++){
     res.push(list);
 }
 JSON.stringify(res);
-######单一搜索9
-getHttp(JSON.stringify({url:"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/APP.json"}));
-######单一搜索搜索地址10
+######单一搜索搜索地址8
 var 地址=getVar("url");
 var KEY=getVar("KEY");
 if(地址.indexOf(".vod")!=-1){
@@ -194,7 +182,7 @@ if(地址.indexOf(".vod")!=-1){
     }
     "?ac=list&"+word+"="+KEY+"&page=";
 }
-######批量搜索播放器前缀地址11
+######批量搜索播放器前缀地址9
 var Ktime=e2Rex(getVar("TIME_"),".time(MMdd)");
 var URLS=getVar("urls");
 if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp")!=-1){
@@ -206,7 +194,7 @@ if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp")!=-1){
 }else{
     "";
 }
-######单一搜索播放器前缀地址12
+######单一搜索播放器前缀地址10
 var Ktime=e2Rex(getVar("TIME_"),".time(MMdd)");
 var URLS=getVar("url");
 if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp")!=-1){
@@ -218,7 +206,7 @@ if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp")!=-1){
 }else{
     "";
 }
-######APP轮播图地址13
+######APP轮播图地址11
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
@@ -228,7 +216,7 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
 }else{
     "";
 }
-######获取分类地址14
+######获取分类地址12
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
@@ -238,7 +226,7 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
 }else{
     "";
 }
-######分类筛选前缀地址15
+######分类筛选前缀地址13
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
@@ -250,7 +238,7 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
 }else{
     URL;
 }
-######分类筛选后缀地址16
+######分类筛选后缀地址14
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
@@ -262,7 +250,7 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
 }else{
     "";
 }
-######筛选内容17
+######筛选内容15
 var URL=getVar("url");
 var 分类筛选=JSON.parse(getVar("CODE")).type_extend;
 var str="";
@@ -286,7 +274,7 @@ if(URL.indexOf(".vod")!=-1){
 }else{
     "分类+全部=+电影=movie+连续剧=tvplay+综艺=tvshow+动漫=comic+4K=movie_4k+体育=tiyu\n类型+全部=+喜剧+爱情+恐怖+动作+科幻+剧情+战争+警匪+犯罪+动画+奇幻+武侠+冒险+枪战+恐怖+悬疑+惊悚+经典+青春+文艺+微电影+古装+历史+运动+农村+惊悚+惊悚+伦理+情色+福利+三级+儿童+网络电影\n地区+全部=+大陆+香港+台湾+美国+英国+法国+日本+韩国+德国+泰国+印度+西班牙+加拿大+其他\n年份+全部=+2021+2020+2019+2018+2017+2016+2015+2014+2013+2012+2011+2010+2009+2008+2007+2006+2005+2004+2003+2002+2001+2000";
 }
-######推荐地址18
+######推荐地址16
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
@@ -296,7 +284,7 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
 }else{
     "";
 }
-######播放器前缀地址19
+######播放器前缀地址17
 var Ktime=e2Rex(getVar("TIME_"),".time(MMdd)");
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
@@ -307,7 +295,7 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
 }else{
     "";
 }
-######选集20
+######选集18
 var URL=getVar("url");
 function 选集列表(){
     var res={};var items=[];var detail=[];
@@ -447,7 +435,7 @@ if(URL.indexOf("api.php/app/")!=-1){
     var 选集规则=".json(title)";
     var 选集地址规则=".json(url)";选集列表();
 }
-######视频地址21
+######视频地址19
 var uu=getVar("url");
 var resp=JZ(JSON.stringify({url:uu,redirect:false,head:{"User-Agent":"Mozilla/5.0 Android"}}));
 if(uu.indexOf("baidu.com")!=-1){
@@ -540,7 +528,7 @@ if(uu.indexOf("baidu.com")!=-1){
 }else{
     "web="+uu;
 }
-######写入规则22
+######写入规则20
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 var key=getVar("KEY");
 var Url=getVar("url");
@@ -755,7 +743,7 @@ if(key.length>10){
 }else{
     alert("内容为空");
 }
-######读取订阅列表23
+######读取订阅列表21
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 var filename='远程订阅索引.txt';
 if(_.read(filename)){
@@ -778,7 +766,7 @@ for (var i in code){
     items.push({title:title,url:url,img:img});
 }
 JSON.stringify(items);
-######读取规则列表24
+######读取规则列表22
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 var filename='远程订阅索引.txt';
 var ff="本地,#\n"+_.read(filename);
@@ -799,7 +787,7 @@ for (var i in code){
     }
 }
 JSON.stringify(items);
-######删除规则25
+######删除规则23
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 var SubName=getVar("订阅名");
 if(SubName>1){
@@ -822,87 +810,3 @@ if(SubName>1){
     _.write(新记录.join("\n"),filename);
     _.read(filename);
 }
-######本地规则批量搜索25
-eval(e2Rex(getVar("qjs"),'.dn64()'));
-var filename='APP影视.json';
-var 原=_.read(filename);
-var KEY=getVar("KEY");
-var 分类=e2Arr(原,".json()");
-var res=[];
-for(var j=0;j<分类.length;j++){
-    var list={};
-    var 列表=e2Arr(分类[j],".json(data)");
-    var items=[];
-    for(var i=0;i<列表.length;i++){
-        var 标题=e2Rex(列表[i],".json(title)");
-        var 地址=e2Rex(列表[i],".json(url)");
-        if(地址.indexOf(".vod")!=-1){
-            var 地址=地址+"?wd="+KEY+"&page=";
-        }else if(地址.indexOf("api.php/app")!=-1||地址.indexOf("xgapp")!=-1){
-            var 地址=地址+"search?text="+KEY+"&pg=";
-        }else if(地址.search(/api\.php\/.*?\/vod/)!=-1){
-            if(地址.indexOf("esellauto")!=-1||地址.indexOf("1.14.63.101")!=-1||地址.indexOf("zjys")!=-1||地址.indexOf("tv.cttv")!=-1||地址.indexOf("dcd")!=-1||地址.indexOf("lxue")!=-1||地址.indexOf("weetai.cn")!=-1||地址.indexOf("haokanju1")!=-1||地址.indexOf("fit:8")!=-1||地址.indexOf("zjj.life")!=-1||地址.indexOf("love9989")!=-1||地址.indexOf("8d8q")!=-1||地址.indexOf("lk.pxun")!=-1||地址.indexOf("hgyx")!=-1||地址.indexOf("521x5")!=-1||地址.indexOf("lxyyy")!=-1||地址.indexOf("0818tv")!=-1||地址.indexOf("diyoui")!=-1||地址.indexOf("diliktv")!=-1||地址.indexOf("ppzhu")!=-1||地址.indexOf("aitesucai")!=-1||地址.indexOf("zz.ci")!=-1||地址.indexOf("chxjon")!=-1||地址.indexOf("watchmi")!=-1||地址.indexOf("vipbp")!=-1||地址.indexOf("bhtv")!=-1||地址.indexOf("xfykl")!=-1){
-                var word="wd";
-            }else{
-                var word="zm";
-            }
-            var 地址=地址+"?ac=list&"+word+"="+KEY+"&page=";
-        }
-        items.push(标题+"="+地址);
-    }
-    var 合并=items.join("\n");
-    var 分类标题=e2Rex(分类[j],".json(title)");
-    list.url=合并;list.title=分类标题;
-    res.push(list);
-}
-JSON.stringify(res);
-######读取远程订阅2
-eval(e2Rex(getVar("qjs"), '.dn64()'));
-var filename = '远程订阅索引.txt';
-if (_.read(filename)) {
-  var code = _.read(filename).match(/.+?,.+/g);
-} else {
-  var data = "InMemory,https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/app.txt#InMemory";
-  _.write(data, filename);
-  var code = _.read(filename).match(/.+?,.+/g);
-}
-var items = [];
-for (var i in code) {
-  var title = code[i].split(",")[0];
-  var url = "q:资源采集首页?url=远程$$" + code[i].split(",")[1];
-  items.push({ title: title, url: url });
-}
-JSON.stringify(items);
-######单一搜索读取远程订阅3
-eval(e2Rex(getVar("qjs"), '.dn64()'));
-var filename = '远程订阅索引.txt';
-var code = _.read(filename).match(/.+?,.+/g);
-var items = [];
-for (var i in code) {
-  var title = code[i].split(",")[0];
-  var url = "q:单一搜索?url=远程$$" + code[i].split(",")[1];
-  items.push({ title: title, url: url });
-}
-JSON.stringify(items);
-######侧边栏搜索读取远程订阅4
-eval(e2Rex(getVar("qjs"), '.dn64()'));
-var filename = '远程订阅索引.txt';
-var code = _.read(filename).match(/.+?,.+/g);
-var items = [];
-for (var i in code) {
-  var title = code[i].split(",")[0];
-  var url = "q:侧边栏引导?url=远程$$" + code[i].split(",")[1];
-  items.push({ title: title, url: url });
-}
-JSON.stringify(items);
-######管理订阅5
-eval(e2Rex(getVar("qjs"),'.dn64()'));
-var filename='远程订阅索引.txt';
-var code=_.read(filename).match(/.+?,.+/g);
-var items=[];
-for(var i in code){
-    var title=code[i].split(",")[0];
-    var url="q:管理订阅按钮?url="+code[i];
-    items.push({title:title,url:url});
-}
-JSON.stringify(items);
