@@ -785,7 +785,7 @@ for (var i in code){
     if(_.read(Fname)){
         var Curl=JSON.parse(_.read(Fname));
     }else{
-        var Curl="";
+        "";
     }
     var img=e2Rex(code[i],".ty(#)");
     if(img){
