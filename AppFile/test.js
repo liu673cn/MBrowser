@@ -750,7 +750,7 @@ if(key.length>10){
 }else{
     alert("内容为空");
 }
-######读取订阅列表21
+######订阅21
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 var filename='远程订阅索引.txt';
 if(_.read(filename)){
@@ -777,7 +777,7 @@ for (var i in code){
     }
 }
 JSON.stringify(items);
-######读取规则列表22
+######本地规则列表22
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 var filename='远程订阅索引.txt';
 var ff="本地,#\n"+_.read(filename);
