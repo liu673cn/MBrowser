@@ -532,7 +532,7 @@ if(uu.indexOf("baidu.com")!=-1){
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 var key=getVar("KEY");
 var Url=getVar("url");
-var uurl=(getVar("CODE"),".json(url)");
+var uurl=(getVar("CODE"),".json().json(url)");
 var 记录=[];
 if(key.length>10){
     if(key.indexOf(",http")>1&&key.indexOf("#")){
