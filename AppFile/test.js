@@ -775,6 +775,7 @@ var items=[];
 for (var i in code){
     var title=e2Rex(code[i],".tz(,)");
     var Fname=title+".json";
+    var url=e2Rex(code[i],".ty(,).tz(#)");
     var img=e2Rex(code[i],".ty(#)");
     if(img){
         var img=img;
@@ -783,7 +784,7 @@ for (var i in code){
     }
     if(_.read(Fname)){
         var Curl=JSON.parse(_.read(Fname));
-        items.push({title:title,img:img,Curl:Curl});
+        items.push({title:title,img:img,url:url,Curl:Curl});
     }
 }
 JSON.stringify(items);
