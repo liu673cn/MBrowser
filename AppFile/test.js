@@ -787,6 +787,7 @@ for (var i in code){
     items.push({title:title,img:img,Curl:Curl});
 }
 JSON.stringify(items);
+alert(code);
 ######删除规则24
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 var filename='APP影视.json';
