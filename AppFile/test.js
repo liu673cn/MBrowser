@@ -773,7 +773,7 @@ JSON.stringify(items);
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 var filename='远程订阅索引.txt';
 var code=_.read(filename).match(/.+?,.+/g);
-code.push("本地,本地规则#").join("\n");
+alert(code);
 var items=[];
 for (var i in code){
     var title=e2Rex(code[i],".tz(,)");
