@@ -29,32 +29,32 @@
     {
     "list":[
         {
-        "url":"q:云端",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/云端.png"
+        "url":"q:本地",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/规则.png"
         },
         {
         "url":"q:豆瓣片库",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/豆瓣.png"
         },
         {
-        "url":"q:本地",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/本地.png"
+        "url":"q:订阅",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/订阅.png"
         },
         {
         "url":"q:豆瓣片单",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/片单.png"
         },
         {
-        "url":"q:管理",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/管理.png"
+        "url":"q:写入",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/写入.png"
         },
         {
         "url":"q:豆瓣榜单",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/榜单.png"
         },
         {
-        "url":"q:依赖",
-        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/发布.png"
+        "url":"mqqwpa://im/chat?chat_type=wpa&uin=272775028",
+        "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/反馈.png"
         },
         {
         "url":"q:搜狗片库",
