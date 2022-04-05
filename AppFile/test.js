@@ -680,7 +680,7 @@ if(key.length>10){
     _.write(code,filename);
     alert(title+'\n下载/更新成功');
     _.read(filename);
-}else if(Url.indexOf(",http")!=-1&&Url.indexOf("#")!=-1||uurl.indexOf(",http")!=-1||uurl.indexOf("#")!=-1){
+}else if(Url.indexOf(",http")!=-1||uurl.indexOf(",http")!=-1){
     var SubUrl=e2Rex(Url,".ty(,).tz(#)");
     var SubTitle=e2Rex(Url,".tz(,)");
     var filename=SubTitle+".json";
