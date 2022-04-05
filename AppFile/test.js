@@ -746,7 +746,15 @@ if(key.length>10){
 }else if(Url.indexOf(".js")!=-1){
     if(Url.index(,http)!=-1&&Url.indexOf("#")!=-1){
         var title=e2Rex(Url,".tz(,)");
+        var filename=title+'.js';
         var url=e2Rex(Url,".ty(,).tz(#)");
+    }else{
+        var url=Url;
+    }
+    var code=getHttp(url);
+    _.write(code,filename);
+    alert(title+'\n下载/更新成功');
+    _.read(filename);
 }else{
     alert("内容为空");
 }
