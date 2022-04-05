@@ -779,7 +779,7 @@ var filename='远程订阅索引.txt';
 var ff="本地,#\n"+_.read(filename);
 var code=ff.match(/.+?,.+/g);
 var SubName=getVar("name");
-if(SubName.indexOf("")!=-1){
+if(SubName){
 var items=[];
 for (var i in code){
     var title=e2Rex(code[i],".tz(,)");
