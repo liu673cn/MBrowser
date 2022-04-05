@@ -779,7 +779,7 @@ var filename='远程订阅索引.txt';
 var ff="本地,#\n"+_.read(filename);
 var code=ff.match(/.+?,.+/g);
 var SubName=getVar("订阅名");
-if(订阅名>1){
+if(订阅名.length>1){
     var Fname=SubName+".json";
     JSON.parse(_.read(Fname));
 }else{
@@ -804,7 +804,7 @@ JSON.stringify(items);
 ######删除规则23
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 var SubName=getVar("订阅名");
-if(SubName>1){
+if(SubName.length>1){
     var filename=SubName+'.json';
     var 记录=getVar("CODE");
     var 新记录=JSON.parse(_.read(filename));
