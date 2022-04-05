@@ -619,7 +619,7 @@ if(key.length>10){
             }
             _.write(JSON.stringify(新记录),filename);
         }else{
-            alert(SubTitle+"\n订阅内容没有符合的规则");
+            alert(SubTitle+"\n订阅内容没有符合的规则或订阅地址失效");
         }
         alert(SubTitle+"\n订阅成功");
         _.read(filename);
@@ -676,7 +676,7 @@ if(key.length>10){
                 }
             }
             _.write(JSON.stringify(新记录),filename);
-            alert("规则写入/更新成功");
+            alert("规则写入成功");
             _.read(txtfile);
         }
     }else{
@@ -743,6 +743,10 @@ if(key.length>10){
         alert("订阅更新成功");
         _.read(filename);
     }
+}else if(Url.indexOf(".js")!=-1){
+    if(Url.index(,http)!=-1&&Url.indexOf("#")!=-1){
+        var title=e2Rex(Url,".tz(,)");
+        var url=e2Rex(Url,".ty(,).tz(#)");
 }else{
     alert("内容为空");
 }
@@ -778,7 +782,11 @@ var items=[];
 for (var i in code){
     var title=e2Rex(code[i],".tz(,)");
     var Fname=title+".json";
-    var Curl=JSON.parse(_.read(Fname));
+    if(_.read(Fname)){
+        var Curl=JSON.parse(_.read(Fname));
+    }else{
+        var Curl="";
+    }
     var img=e2Rex(code[i],".ty(#)");
     if(img){
         var img=img;
