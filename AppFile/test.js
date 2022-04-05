@@ -532,6 +532,7 @@ if(uu.indexOf("baidu.com")!=-1){
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 var key=getVar("KEY");
 var Url=getVar("url");
+var uurl=(getVar(CODE),".json(url)");
 var 记录=[];
 if(key.length>10){
     if(key.indexOf(",http")>1&&key.indexOf("#")){
@@ -679,7 +680,7 @@ if(key.length>10){
     _.write(code,filename);
     alert(title+'\n下载/更新成功');
     _.read(filename);
-}else if(Url.indexOf(",http")!=-1&&Url.indexOf("#")!=-1){
+}else if(Url.indexOf(",http")!=-1&&Url.indexOf("#")!=-1||uurl.indexOf(",http")!=-1||uurl.indexOf("#")!=-1){
     var SubUrl=e2Rex(Url,".ty(,).tz(#)");
     var SubTitle=e2Rex(Url,".tz(,)");
     var filename=SubTitle+".json";
