@@ -756,7 +756,7 @@ var filename='远程订阅索引.txt';
 if(_.read(filename)){
     var code=_.read(filename).match(/.+?,.+/g);
 }else{
-    var data="InMemory,https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/app.txt#https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/icon/InMemory.jpg";
+    var data="内置,https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/app.txt#";
     _.write(data,filename);
     var code=_.read(filename).match(/.+?,.+/g);
 }
