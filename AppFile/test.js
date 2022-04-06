@@ -748,7 +748,7 @@ if(key.length>10){
         _.read(filename);
     }
 }else{
-    alert("未知错误");
+    alert("请输入以下格式\n\n1.[订阅名,订阅地址#图片地址]格式的网络订阅\n2.[分类名@APP名称=APP接口地址#图片地址]格式的规则\n详情请查看首页轮播内的教程");
 }
 ######订阅21
 eval(getVar("qjs"));
