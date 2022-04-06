@@ -666,8 +666,6 @@ if(key.length>10){
     }else{
         alert("请输入以下格式\n\n1.[订阅名,订阅地址#图片地址]格式的网络订阅\n2.[分类名@APP名称=APP接口地址#图片地址]格式的规则\n详情请查看首页轮播内的教程");
     }
-}else if(key.length>1&&key.length<5){
-    alert("请输入以下格式\n\n1.[订阅名,订阅地址#图片地址]格式的网络订阅\n2.[分类名@APP名称=APP接口地址#图片地址]格式的规则\n详情请查看首页轮播内的教程");
 }else if(Url.indexOf(".js")!=-1){
     if(Url.index(',http')!=-1&&Url.indexOf("#")!=-1){
         var title=e2Rex(Url,".tz(,)");
