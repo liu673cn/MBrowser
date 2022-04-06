@@ -804,6 +804,7 @@ for (var i in code){
 ######删除规则23
 eval(e2Rex(getHttp('https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/js/q.js'),'.dn64()'));
 var SubName=getVar("订阅名");
+alert(SubName);
 if(SubName.length>2){
     var filename=SubName+'.json';
     var 记录=getVar("CODE");
