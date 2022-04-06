@@ -783,7 +783,7 @@ if(url.indexOf("订阅")!=-1){
         }
     }
     JSON.stringify(items);
-}else if(url.indexOf("")!=-1){
+}else if(url.indexOf("本地")!=-1){
     var ff="本地,#\n"+_.read(filename);
     var code=ff.match(/.+?,.+/g);
     for (var i in code){
