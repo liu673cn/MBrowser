@@ -10,6 +10,7 @@
 优质@天天影视=https://app.daishusc.com/api.php/v1.vod#天天影视
 优质@青柠蓝光=http://v.lovebuy365.com/mogai_api.php/v1.vod#青柠蓝光
 优质@青视频=http://150.158.133.36:9904/qingdoujiekou.php/v1.vod#青视频
+优质@蒲公英视频=http://www.pgy1.top/ruifenglb_api.php/v1.vod#蒲公英视频
 优质@暖光影视=https://app.bl210.com/api.php/v1.vod#暖光影视
 优质@南府影视=http://iapp.nfuxs.club/dnmb.php/v1.vod#南府影视
 优质@奈非迷=https://app.netflixmi.com/api.php/v1.vod#奈非迷影视
@@ -24,6 +25,7 @@
 优质@绿箭影视=http://www.69ty.cc/mogai_api.php/v1.vod#绿箭影视
 优质@六把刀影院=https://pro.6bd.net/mogai_api.php/v1.vod#六把刀影院
 优质@看看影视=http://kk.ccboke.top/ruifenglb_api.php/v1.vod#看看影视
+优质@极酷影视=https://jiku.vip/mogai_api.php/v1.vod#
 优质@飓风影院=http://yidayy.top/lehailb_api.php/v1.vod#飓风影院
 优质@虎猫视频=http://vv.humaoweb.com/mogai_api.php/gctvapi.vod#虎猫视频
 优质@粉象视界=http://42.157.129.15:34444/lvdou_api.php/v1.vod#粉象视界
