@@ -529,7 +529,7 @@ if(uu.indexOf("baidu.com")!=-1){
     "web="+uu;
 }
 ######写入规则20
-eval(getVar("qjs");
+eval(getVar("qjs"));
 var key=getVar("KEY");
 var Url=getVar("url");
 var uurl=(getVar("CODE"),".json().json(url)");
@@ -751,7 +751,7 @@ if(key.length>10){
     alert("内容为空");
 }
 ######订阅21
-eval(getVar("qjs");
+eval(getVar("qjs"));
 var filename='远程订阅索引.txt';
 if(_.read(filename)){
     var code=_.read(filename).match(/.+?,.+/g);
@@ -780,7 +780,7 @@ for (var i in code){
 }
 JSON.stringify(items);
 ######本地规则列表22
-eval(getVar("qjs");
+eval(getVar("qjs"));
 var filename='远程订阅索引.txt';
 var ff="本地,#\n"+_.read(filename);
 var code=ff.match(/.+?,.+/g);
@@ -802,7 +802,7 @@ for (var i in code){
     JSON.stringify(items);
 }
 ######删除规则23
-eval(getVar("qjs");
+eval(getVar("qjs"));
 var SubName=getVar("订阅名");
 if(SubName){
     var filename=SubName+'.json';
