@@ -808,6 +808,7 @@ if(SubName.indexOf("null")!=-1){
     var filename='远程订阅索引.txt';
     var 新记录=_.read(filename).match(/.+?,.+/g).filter(item=>item!=getVar("url"));
     _.write(新记录.join("\n"),filename);
+    alert("订阅删除成功");
     _.read(filename);
 }else{
     var filename=SubName+'.json';
