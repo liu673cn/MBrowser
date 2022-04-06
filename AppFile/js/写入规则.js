@@ -1,6 +1,7 @@
-eval(e2Rex(getVar("qjs"),'.dn64()'));
+eval(getVar("qjs"));
 var key=getVar("KEY");
 var Url=getVar("url");
+var uurl=(getVar("CODE"),".json().json(url)");
 var 记录=[];
 if(key.length>10){
     if(key.indexOf(",http")>1&&key.indexOf("#")){
@@ -73,8 +74,8 @@ if(key.length>10){
         }else{
             alert(SubTitle+"\n订阅内容没有符合的规则或订阅地址失效");
         }
-        alert(SubTitle+"\n订阅成功");
-        _.read(filename);
+        alert(SubTitle+"订阅成功\nAPP列表已写入本地");
+        _.read(subfilename);
     }else if(key.indexOf("@")!=-1&&key.indexOf("=")!=-1&&key.indexOf("#")!=-1){
         if(key.indexOf("api.php/app")!=-1||key.indexOf("xgapp")!=-1||key.indexOf(".vod")!=-1||key.search(/api\.php\/.+?\/vod\//)!=-1){
             var filename='本地.json';
@@ -128,8 +129,8 @@ if(key.length>10){
                 }
             }
             _.write(JSON.stringify(新记录),filename);
-            alert("规则写入成功");
-            _.read(txtfile);
+            alert("本地规则写入成功");
+            _.read(filename);
         }
     }else{
         alert("请输入以下格式\n\n1.[订阅名,订阅地址#图片地址]格式的网络订阅\n2.[分类名@APP名称=APP接口地址#图片地址]格式的规则\n详情请查看首页轮播内的教程");
@@ -137,8 +138,8 @@ if(key.length>10){
 }else if(Url.indexOf(".js")!=-1){
     if(Url.index(',http')!=-1&&Url.indexOf("#")!=-1){
         var title=e2Rex(Url,".tz(,)");
-        var url=e2Rex(Url,".ty(,).tz(#)");
         var filename=title+'.js';
+        var url=e2Rex(Url,".ty(,).tz(#)");
     }else{
         var title=e2Rex(Url,".ty2(/)");
         var url=Url;
@@ -148,10 +149,16 @@ if(key.length>10){
     _.write(code,filename);
     alert(title+'\n下载/更新成功');
     _.read(filename);
-}else if(Url.indexOf(",http")!=-1&&Url.indexOf("#")!=-1){
-    var SubUrl=e2Rex(Url,".ty(,).tz(#)");
-    var SubTitle=e2Rex(Url,".tz(,)");
-    var filename=SubTitle+".json";
+}else if(Url.indexOf(",http")!=-1||uurl.indexOf(",http")!=-1){
+    if(uurl.indexOf(",http")!=-1){
+        var SubUrl=e2Rex(Url,".ty(,).tz(#)");
+        var SubTitle=e2Rex(Url,".tz(,)");
+        var filename=SubTitle+".json";
+    }else if(Url.indexOf(",http")!=-1){
+        var SubUrl=e2Rex(Url,".ty(,).tz(#)");
+        var SubTitle=e2Rex(Url,".tz(,)");
+        var filename=SubTitle+".json";
+    }
     var rule=getHttp(JSON.stringify({url:SubUrl}));
     if(rule.indexOf("api.php/app")!=-1||rule.indexOf("xgapp")!=-1||rule.indexOf(".vod")!=-1||rule.search(/api\.php\/.+?\/vod\//)!=-1){
         var 输入条目=rule.match(/.+=http.+/g);
@@ -210,5 +217,5 @@ if(key.length>10){
         _.read(filename);
     }
 }else{
-    alert("内容为空");
+    alert("请输入以下格式\n\n1.[订阅名,订阅地址#图片地址]格式的网络订阅\n2.[分类名@APP名称=APP接口地址#图片地址]格式的规则\n详情请查看首页轮播内的教程");
 }
