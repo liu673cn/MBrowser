@@ -804,7 +804,7 @@ for (var i in code){
 ######删除规则23
 eval(getVar("qjs"));
 var SubName=getVar("订阅名");
-if(SubName){
+if(SubName.match(/.+?/g)){
     var filename=SubName+'.json';
     var 记录=getVar("CODE");
     var 新记录=JSON.parse(_.read(filename));
