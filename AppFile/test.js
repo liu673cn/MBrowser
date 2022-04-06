@@ -750,7 +750,7 @@ if(key.length>10){
         _.read(filename);
     }
 }else{
-    alert("内容为空");
+    alert("未知错误");
 }
 ######订阅21
 eval(getVar("qjs"));
