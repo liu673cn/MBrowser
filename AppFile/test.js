@@ -765,7 +765,7 @@ if(url.indexOf("订阅")!=-1){
         var filecode=_.read(filename);
     }
     if(_.read(localjson)){
-        var addcode="本地,#"+filecode;
+        var addcode="本地,#\n"+filecode;
         var code=addcode.match(/.+?,.+/g);
     }else{
         var code=filecode.match(/.+?,.+/g);
