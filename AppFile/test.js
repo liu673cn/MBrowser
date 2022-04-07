@@ -754,14 +754,21 @@ if(key.length>10){
 eval(getVar("qjs"));
 var url=getVar("url");
 var filename='远程订阅索引.txt';
+var localjson="本地.json";
 var items=[];
 if(url.indexOf("订阅")!=-1){
     if(_.read(filename)){
-        var code=_.read(filename).match(/.+?,.+/g);
+        var filecode=_.read(filename);
     }else{
         var data="内置,https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/rule/app.txt#";
         _.write(data,filename);
-        var code=_.read(filename).match(/.+?,.+/g);
+        var filecode=_.read(filename);
+    }
+    if(_.read(localjson)){
+        var addcode="本地,#"+filecode;
+        var code=addcode.match(/.+?,.+/g);
+    }else{
+        var code=filecode.match(/.+?,.+/g);
     }
     for (var i in code){
         var title=e2Rex(code[i],".tz(,)");
