@@ -819,7 +819,7 @@ if(SubName.indexOf("null")!=-1){
     _.write(新记录.join("\n"),filename);
     alert("订阅删除成功");
     _.read(filename);
-}else if(SubName.indexOf("本地")!=-1){
+}else if(getVar("name").indexOf("本地")!=-1){
     alert("本地规则为手动写入，无法删除订阅。")
 }else{
     var filename=SubName+'.json';
