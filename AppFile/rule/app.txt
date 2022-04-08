@@ -32,6 +32,7 @@
 优质@段友影视=http://121.204.249.135:4433/ruifenglb_api.php/v1.vod#段友影视3
 优质@叮当影视=https://tv.0573wl.com/api.php/v1.vod#叮当影视
 优质@独播社=http://35ys.cc/api.php/v1.vod#独播社
+优质@次元动漫=http://81.68.211.181/lvdou_api.php/v1.vod#次元动漫
 优质@初心影视=https://www.18mv.club/api.php/v1.vod#初心影视
 优质@白嫖影视=http://zgjxdtg.cn/api.php/v1.vod#白嫖影视
 优质@嗷呜视频=http://www.cx99999.cn/lvdou_api.php/v1.vod#嗷呜视频
@@ -60,6 +61,7 @@
 普通@熊猫视频=http://anegh.com/lvdou_api.php/v1.vod#熊猫视频
 普通@熊猫动漫=http://dongman.k8aa.com/mogai_api.php/v1.vod#熊猫动漫
 普通@寻常影视=http://tv.91ymz.cn/api.php/v1.vod#寻常影视
+普通@迅播影音=http://xunbo.tv/lvdou_api.php/v1.vod#迅播影音
 普通@小白动漫=http://121.62.60.222:13579/xiaobai_api.php/v1.vod#小白动漫
 普通@雯雯视频=http://139.224.52.247:81/lvdou_api.php/v1.vod#雯雯视频
 普通@蜗牛动漫=http://woniudm.woniu.cyou:20000/mogai_api.php/v1.vod#蜗牛动漫
@@ -96,6 +98,7 @@
 普通@大威电影=http://vip.davdy.com/ruifenglb_api.php/v1.vod#大威电影
 普通@比邻影视=http://0hzy.cn:9990/mogai_api.php/v1.vod#比邻影视
 普通@百淘影视=http://ys.58g8.com/lvdou_api.php/v1.vod#百淘影视
+普通@薄荷影视=http://bh.kj1.top/api.php/v1.vod#薄荷影视
 普通@爱影视=https://www.hzlff.cn/api.php/v1.vod#爱影视
 普通@艾特影视=https://www.aitee.cc/api.php/v1.vod#艾特影视
 普通@阿里影视=http://aliys.cn:90/api.php/v1.vod#阿里影视
