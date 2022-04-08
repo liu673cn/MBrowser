@@ -7,6 +7,7 @@
 优质@雨果影视=http://123.youguo520.top/lvdou_api.php/v1.vod#雨果影视
 优质@益达影院=http://luobu.yss6080.com/mogai_api.php/v1.vod#益达影院
 优质@雪人影视=https://zy.qd234.cn/mogai_api.php/v1.vod#雪人影视
+优质@我爱电影网=https://www.haokanju.cc/api.php/v1.vod#我爱电影网
 优质@天天影视=https://app.daishusc.com/api.php/v1.vod#天天影视
 优质@青柠蓝光=http://v.lovebuy365.com/mogai_api.php/v1.vod#青柠蓝光
 优质@青视频=http://150.158.133.36:9904/qingdoujiekou.php/v1.vod#青视频
@@ -41,6 +42,7 @@
 优质@tvip=http://app.tvip.cc/api.php/v1.vod#tvip
 优质@Hi影视=http://114.132.251.111:999/lvdou_api.php/v1.vod#Hi影视
 优质@HG影视=http://hgyx.vip/api.php/v1.vod#HG影视
+优质@F7高清=http://bc.haokanju1.cc/lvdou_api.php/v1.vod#F7高清
 优质@DC影视=http://chaorenbb.com/api.php/v1.vod#DC影视
 优质@CJT影院=https://www.cjt521.com/api.php/v1.vod#CJT影院
 优质@4K影院=http://1api.4kdytv.com/api.php/v1.vod#4K影院
