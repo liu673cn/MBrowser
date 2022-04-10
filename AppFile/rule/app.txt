@@ -51,6 +51,7 @@
 普通@追剧猫=http://tv.kmtvb.com/api.php/v1.vod#追剧猫
 普通@柚子视频=http://yz.26ys.cn/api.php/v1.vod#柚子视频
 普通@渔渔影视=http://luobo.yugenye.site/api.php/v1.vod#渔渔影视
+普通@余生影视=http://yu.cuicanys.cn/lvdou_api.php/v1.vod#余生影视
 普通@影视猫=https://vip.wscyun.com/api.php/v1.vod#影视猫
 普通@影视大全=https://xc.xixi2yy.xyz/mogai_api.php/v1.vod#影视大全HD
 普通@樱恋雨影视=https://yingshi.miaomemg.com/api.php/v1.vod#
