@@ -330,6 +330,8 @@ function 选集列表(){
             //替换接口
             if(接口.indexOf("jpg.hou.lu/jm/za/index.php")!=-1){
                 var 接口="http://vip.mengx.vip/home/api?type=ys&uid=3249696&key=aefqrtuwxyEFHKNOQY&url=";
+            }else if(URL.indexOf("xiaoyezy")!=-1){
+                var 接口="https://jiexi.xiaoyezy.cn/2233/analysis.php?v=";
             }else if(接口==""){
                 var 接口="http://1.117.152.239:39000/?url=";
             }else{
@@ -365,8 +367,6 @@ function 选集列表(){
                     if(选集地址.indexOf("url=")!=-1){
                         var 切割地址=选集地址.split("url=")[1];
                         var 选集地址="https://www.baidu.com/s?wd="+切割地址;
-                    }else if(URL.indexOf("xiaoyezy")!=-1){
-                        var 选集地址="https://jiexi.xiaoyezy.cn/2233/analysis.php?v="+选集地址;
                     }else{
                         var 选集地址="https://www.baidu.com/s?wd="+选集地址;
                     }
