@@ -29,6 +29,7 @@
 优质@虎猫视频=http://vv.humaoweb.com/mogai_api.php/gctvapi.vod#虎猫视频
 优质@粉象视界=http://42.157.129.15:34444/lvdou_api.php/v1.vod#粉象视界
 优质@飞捷影视=https://www.fj6080.com/api.php/v1.vod#飞捷影视
+优质@饭后电影=http://yinliub.cn/lvdou_api.php/v1.vod#饭后电影
 优质@段友影视=https://shangjihuoke.com/api.php/tv.vod#段友影视
 优质@段友影视=http://121.204.249.135:4433/ruifenglb_api.php/v1.vod#段友影视3
 优质@叮当影视=https://tv.0573wl.com/api.php/v1.vod#叮当影视
