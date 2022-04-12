@@ -34,6 +34,7 @@
 优质@段友影视=http://121.204.249.135:4433/ruifenglb_api.php/v1.vod#段友影视3
 优质@叮当影视=https://tv.0573wl.com/api.php/v1.vod#叮当影视
 优质@独播社=http://35ys.cc/api.php/v1.vod#独播社
+优质@创意影视=https://www.30dian.cn/api.php/v1.vod#创意影视
 优质@次元动漫=http://81.68.211.181/lvdou_api.php/v1.vod#次元动漫
 优质@初心影视=https://www.18mv.club/api.php/v1.vod#初心影视
 优质@白嫖影视=http://zgjxdtg.cn/api.php/v1.vod#白嫖影视
@@ -81,6 +82,7 @@
 普通@美剧迷=http://mj.zjtv.cc/ruifenglb_api.php/v1.vod#美剧迷
 普通@免费影视=http://111.229.120.180:88/lvdou_api.php/v1.vod#免费影视
 普通@乐云影视=https://www.leyun.tv/api.php/v1.vod#乐云影视
+普通@流星影院=http://app.216bk.xyz/api.php/v1.vod#流星影院
 普通@冷视TV=https://len.tv/api.php/v1.vod#冷视TV
 普通@蓝风影视=http://www.ruchuplus.cn/api.php/v1.vod#
 普通@看看视频=http://888.ccboke.top/ruifenglb_api.php/v1.vod#看看视频
