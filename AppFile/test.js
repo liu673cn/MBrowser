@@ -365,7 +365,7 @@ function 选集列表(){
                     if(选集地址.indexOf("url=")!=-1){
                         var 切割地址=选集地址.split("url=")[1];
                         var 选集地址="https://www.baidu.com/s?wd="+切割地址;
-                    }else if(选集地址.indexOf("jy1080")!=-1){
+                    }else if(URL.indexOf("xiaoyezy")!=-1){
                         var 选集地址="https://jiexi.xiaoyezy.cn/2233/analysis.php?v="+选集地址;
                     }else{
                         var 选集地址="https://www.baidu.com/s?wd="+选集地址;
