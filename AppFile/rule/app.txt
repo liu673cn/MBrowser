@@ -9,6 +9,7 @@
 优质@雪人影视=https://zy.qd234.cn/mogai_api.php/v1.vod#雪人影视
 优质@我爱电影网=https://www.haokanju.cc/api.php/v1.vod#我爱电影网
 优质@天天影视=https://app.daishusc.com/api.php/v1.vod#天天影视
+优质@藤蔓影视=http://tengwan.yinliub.cn/lvdou_api.php/v1.vod#藤蔓影视
 优质@青柠蓝光=http://v.lovebuy365.com/mogai_api.php/v1.vod#青柠蓝光
 优质@青视频=http://150.158.133.36:9904/qingdoujiekou.php/v1.vod#青视频
 优质@暖光影视=https://app.bl210.com/api.php/v1.vod#暖光影视
@@ -27,6 +28,7 @@
 优质@看看影视=http://kk.ccboke.top/ruifenglb_api.php/v1.vod#看看影视
 优质@飓风影院=http://yidayy.top/lehailb_api.php/v1.vod#飓风影院
 优质@虎猫视频=http://vv.humaoweb.com/mogai_api.php/gctvapi.vod#虎猫视频
+优质@狐狸动漫=http://ak.baicai.buzz/lvdou_api.php/v1.vod#狐狸动漫
 优质@粉象视界=http://42.157.129.15:34444/lvdou_api.php/v1.vod#粉象视界
 优质@飞捷影视=https://www.fj6080.com/api.php/v1.vod#飞捷影视
 优质@饭后电影=http://yinliub.cn/lvdou_api.php/v1.vod#饭后电影
@@ -127,6 +129,7 @@
 神马@米来影视=http://42.51.37.161:2346/api.php/iptv/vod/#米来影视
 神马@蜜果TV=http://vv.miguotv.net/m/api.php/Chengcheng/vod/#蜜果TV
 神马@荔枝影视=http://api.zjys.vip/api.php/iptv/vod/#荔枝影视TV
+神马@金叶影院=http://r.zjj.life:88/mv/api.php/Chengcheng/vod/#金叶影院
 神马@极品影院=http://293x.yhzy.xyz/mv/api.php/Chengcheng/vod/#极品影院TV
 神马@极品影视=http://jpsb.yhzy.xyz/api.php/iptv/vod/#极品影视TV
 神马@聚多影视=http://jdys.weetai.cn/api.php/iptv/vod/#聚多影视
