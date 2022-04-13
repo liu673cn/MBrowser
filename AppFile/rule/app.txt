@@ -69,6 +69,7 @@
 普通@迅播影音=http://xunbo.tv/lvdou_api.php/v1.vod#迅播影音
 普通@小白动漫=http://121.62.60.222:13579/xiaobai_api.php/v1.vod#小白动漫
 普通@雯雯视频=http://139.224.52.247:81/lvdou_api.php/v1.vod#雯雯视频
+普通@万能影院=http://app.wnvod.net/lvdou_api.php/v1.vod#万能影院
 普通@蜗牛动漫=http://woniudm.woniu.cyou:20000/mogai_api.php/v1.vod#蜗牛动漫
 普通@我爱跟剧=https://www.genmov.com/mogai_api.php/v1.vod#我爱跟剧
 普通@兔子窝=http://cj.huimaojia.com:12345/mogai_api.php/v1.vod#兔子窝
