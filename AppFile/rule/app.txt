@@ -50,7 +50,7 @@
 优质@DC影视=http://chaorenbb.com/api.php/v1.vod#DC影视
 优质@CJT影院=https://www.cjt521.com/api.php/v1.vod#CJT影院
 优质@4K影院=http://1api.4kdytv.com/api.php/v1.vod#4K影院
-优质@300看世界=https://300ys.xyz/api.php/v1.vod#300看世界
+优质@300看世界=https://300ys.xyz/mogai_api.php/v1.vod#300看世界
 普通@追剧影院=http://82.157.98.129/lvdou_api.php/v1.vod#追剧影院
 普通@追剧猫=http://tv.kmtvb.com/api.php/v1.vod#追剧猫
 普通@柚子视频=http://yz.26ys.cn/api.php/v1.vod#柚子视频
