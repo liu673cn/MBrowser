@@ -331,7 +331,7 @@ function 选集列表(){
             if(接口.indexOf("jpg.hou.lu/jm/za/index.php")!=-1){
                 var 接口="http://vip.mengx.vip/home/api?type=ys&uid=3249696&key=aefqrtuwxyEFHKNOQY&url=";
             }else if(URL.indexOf("xiaoyezy")!=-1){
-                var 接口="https://jiexi.xiaoyezy.cn/2233/analysis.php?v=";
+                var 接口="http://jifei.xiaoye.site/analysis/json/?uid=161&my=aempABCFMORVX24578&url=";
             }else if(接口==""){
                 var 接口="http://1.117.152.239:39000/?url=";
             }else{
