@@ -757,10 +757,11 @@ if(key.length>10){
 ######订阅21
 eval(getVar("qjs"));
 var url=getVar("url");
+var key=getVar("KEY");
 var filename='远程订阅索引.txt';
 var localjson="本地.json";
 var items=[];
-if(url.indexOf("订阅")!=-1){
+if(url.indexOf("订阅")!=-1||key.indexOf("")!=-1){
     if(_.read(filename)){
         var filecode=_.read(filename);
     }else{
