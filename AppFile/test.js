@@ -134,7 +134,7 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
 }
 ######本地规则批量搜索7
 eval(getVar("qjs"));
-var SubName=getVar("title");
+var SubName=getVar("name");
 var filename=SubName+'.json';
 var 原=_.read(filename);
 var KEY=getVar("KEY");
