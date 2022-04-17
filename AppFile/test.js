@@ -88,7 +88,7 @@ var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
 var appName="APP影视";
 var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
-if(version==NewVersion&&sign==appSign&&name==appName){
+if(version==NewVersion&&name==appName){
     e2Rex(index,".json(data).i(0)");
 }else{
     alert("————更新内容————\n    ·自定义源支持订阅\n\n    请详细阅读本地写入教程，有订阅说明")
