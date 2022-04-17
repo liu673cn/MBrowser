@@ -60,7 +60,7 @@
     {
     "list":[
         {
-        "url":"mapi:qm/https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/InMemory/APP影视本地文件版.mqz",
+        "url":"mapi:qm/https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/InMemory/APP影视.mqz",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/更新.png"
         },
         {
@@ -73,7 +73,7 @@
     "list":[
         {
         "title":"请安装新版APP影视",
-        "url":"mapi:qm/https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/InMemory/APP影视本地文件版.mqz",
+        "url":"mapi:qm/https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/InMemory/APP影视.mqz",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/update.png"
         }
     ]
@@ -91,7 +91,7 @@ var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion){
     e2Rex(index,".json(data).i(0)");
 }else{
-    alert("————更新内容————\n    ·自定义源支持订阅\n\n    请详细阅读本地写入教程，有订阅说明")
+    alert("————更新内容————\n    ·1.支持网络订阅\n    ·2.订阅支持更新、单规则删除、订阅删除\n    ·3.订阅和自定义APP规则全都写入本地\n\n    请详细阅读首页轮播图的教程，有说明")
     e2Rex(index,".json(data).i(1)");
 }
 ######UA4
