@@ -167,7 +167,6 @@ for(var j=0;j<分类.length;j++){
     res.push(list);
 }
 JSON.stringify(res);
-alert(原);
 ######单一搜索搜索地址8
 var 地址=getVar("url");
 var KEY=getVar("KEY");
