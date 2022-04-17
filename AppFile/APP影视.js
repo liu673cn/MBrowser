@@ -91,7 +91,7 @@ var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
 if(version==NewVersion&&sign==appSign&&name==appName){
     e2Rex(index,".json(data).i(0)");
 }else{
-    alert("————更新内容————\n    ·1.支持网络订阅\n    ·2.订阅支持更新、单规则删除、订阅删除\n    ·3.订阅和自定义APP规则全都写入本地\n\n    请详细阅读首页轮播图的教程，有说明")
+    alert("————更新内容————\n    ·1.支持网络订阅\n    ·2.订阅支持更新、单规则删除、订阅删除\n    ·3.订阅和自定义APP规则全都写入本地\n\n    首次使用请进订阅管理更新内置订阅\n    请详细阅读首页轮播图的教程，有说明")
     e2Rex(index,".json(data).i(1)");
 }
 ######UA4
