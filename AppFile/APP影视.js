@@ -3,7 +3,7 @@
     "data":[
         {
         "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/教程.txt",
-        "title":"本地规则教程，按分类写入新文件，点击查看详情",
+        "title":"本地规则教程，请认真看",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/轮播1.jpg"
         },
         {

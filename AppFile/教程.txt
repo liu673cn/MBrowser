@@ -28,10 +28,12 @@
   小龟@麻花影视=https://域名/api.php/iptv/vod/#绿箭影视
   
 
-  
+·所有APP规则都写入本地文件内，以防订阅地址打不开无法使用，所以需要手动更新订阅内容。
+
 ·本地文件路径：/Android/data/cn.nr19.mbrowser/files/qm/d566$$$APP影视/数据/
-  旧APP列表文件：APP影视.txt
-  新APP列表文件：APP影视.json
+  订阅列表：远程订阅索引.txt
+  订阅内APP列表：订阅名称.json
+  
         
 ·注意：
   不一定支持所有的接口，若有小问题请反馈，
