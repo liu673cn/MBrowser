@@ -38,7 +38,7 @@
 优质@独播社=http://35ys.cc/api.php/v1.vod#独播社
 优质@创意影视=https://www.30dian.cn/api.php/v1.vod#创意影视
 优质@次元动漫=http://81.68.211.181/lvdou_api.php/v1.vod#次元动漫
-优质@初心影视=https://www.18mv.club/api.php/v1.vod#初心影视
+优质@初心影视=https://www.5znn.video/api.php/v1.vod#初心影视
 优质@白嫖影视=http://zgjxdtg.cn/api.php/v1.vod#白嫖影视
 优质@嗷呜视频=http://www.cx99999.cn/lvdou_api.php/v1.vod#嗷呜视频
 优质@爱酷影视=https://www.zhanlangbu.com/ruifenglb_api.php/v1.vod#爱酷影视
