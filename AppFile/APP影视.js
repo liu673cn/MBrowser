@@ -363,7 +363,7 @@ function 选集列表(){
             var 选集地址=e2Rex(列表[j],选集地址规则);
             if(URL.indexOf("xgapp")!=-1||URL.indexOf("api.php/app/")!=-1||URL.indexOf(".vod")!=-1){
                 //萝卜/白菜/木白/绿豆/小龟类型选集地址
-                if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15){
+                if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15||选集地址.indexOf("www.tpvod.com")!=-1){
                     if(选集地址.indexOf("url=")!=-1){
                         var 切割地址=选集地址.split("url=")[1];
                         var 选集地址="https://www.baidu.com/s?wd="+切割地址;
