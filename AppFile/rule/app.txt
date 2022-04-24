@@ -92,7 +92,6 @@
 普通@流星影院=http://app.216bk.xyz/api.php/v1.vod#流星影院
 普通@冷视TV=https://len.tv/api.php/v1.vod#冷视TV
 普通@蓝风影视=http://www.ruchuplus.cn/api.php/v1.vod#
-普通@绿豆影音=https://v.lvdoui.cn/mogai_api.php/v1.vod#绿豆影音
 普通@凌晨影视=https://vip.wscyun.com/api.php/v1.vod#
 普通@看看视频=http://888.ccboke.top/ruifenglb_api.php/v1.vod#看看视频
 普通@看看剧=https://www.kankanju.cn/api.php/v1.vod#看看剧
@@ -126,7 +125,6 @@
 普通@MX影视=http://mkk.gotka.top/api.php/v1.vod#
 普通@JDODO=https://appys.jdodo.xyz/mogai_api.php/v1.vod#JDODO影视
 普通@5秒看电影=https://www.5skan.com/mogai_api.php/v1.vod#
-普通@24K影视=http://www.jian888.top/api.php/v1.vod#24K影视
 普通@1080KK=http://123.250idc.com/mogai_api.php/v1.vod#1080KK
 神马@影视阁=http://216.98.10.85/api.php/iptv/vod/#影视阁
 神马@小熊猫TV=http://tv2.hetaoys.vip/api.php/iptv/vod/#小熊猫TV
