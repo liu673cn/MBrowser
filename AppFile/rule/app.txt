@@ -52,6 +52,7 @@
 优质@300看世界=https://300ys.xyz/mogai_api.php/v1.vod#300看世界
 普通@追剧影院=http://82.157.98.129/lvdou_api.php/v1.vod#追剧影院
 普通@追剧猫=http://tv.kmtvb.com/api.php/v1.vod#追剧猫
+普通@优众影视=http://61.183.41.149:8090/lvdou_api.php/v1.vod#优众影视
 普通@柚子视频=http://yz.26ys.cn/api.php/v1.vod#柚子视频
 普通@渔渔影视=http://luobo.yugenye.site/api.php/v1.vod#渔渔影视
 普通@余生影视=http://yu.cuicanys.cn/lvdou_api.php/v1.vod#余生影视
@@ -59,6 +60,8 @@
 普通@影视大全=https://xc.xixi2yy.xyz/mogai_api.php/v1.vod#影视大全HD
 普通@樱恋雨影视=https://yingshi.miaomemg.com/api.php/v1.vod#
 普通@呀哩动漫=https://app.yaliyali.cc/api.php/v1.vod#呀哩动漫
+普通@影库=https://yingkudy.com/api.php/v1.vod#影库
+普通@樱花动漫=https://www.dmwu.cc/api.php/v1.vod#樱花动漫
 普通@月儿影视=https://yue52.xyz/api.php/v1.vod#
 普通@星宿漫=http://3.xingxiuman.com/mogai_api.php/v1.vod#星宿漫
 普通@星球视频=http://119.29.121.48:8088/api.php/v1.vod#星球视频
@@ -72,6 +75,7 @@
 普通@雯雯视频=http://139.224.52.247:81/lvdou_api.php/v1.vod#雯雯视频
 普通@万能影院=http://app.wnvod.net/lvdou_api.php/v1.vod#万能影院
 普通@蜗牛动漫=http://woniudm.woniu.cyou:20000/mogai_api.php/v1.vod#蜗牛动漫
+普通@微晨TV=https://weichentv.com/api.php/v1.vod#
 普通@我爱跟剧=https://www.genmov.com/mogai_api.php/v1.vod#我爱跟剧
 普通@兔子窝=http://cj.huimaojia.com:12345/mogai_api.php/v1.vod#兔子窝
 普通@天天视频=http://app.qianju.cc/api.php/v1.vod#天天视频
@@ -79,6 +83,7 @@
 普通@三日影院=https://www.3ri.net/api.php/v1.vod#三日影院
 普通@随风影视=http://app.ruchu.cloud/api.php/v1.vod#随风影视
 普通@任性看=https://renxingkan.net/api.php/v1.vod#任性看
+普通@日诚影视=http://tv.rcz168.com/api.php/v1.vod#
 普通@青蛙影视=https://www.9ge.org/api.php/v1.vod#青蛙影视
 普通@蒲公英视频=http://www.pgy1.top/ruifenglb_api.php/v1.vod#蒲公英视频
 普通@美剧迷=http://mj.zjtv.cc/ruifenglb_api.php/v1.vod#美剧迷
@@ -87,6 +92,8 @@
 普通@流星影院=http://app.216bk.xyz/api.php/v1.vod#流星影院
 普通@冷视TV=https://len.tv/api.php/v1.vod#冷视TV
 普通@蓝风影视=http://www.ruchuplus.cn/api.php/v1.vod#
+普通@绿豆影音=https://v.lvdoui.cn/mogai_api.php/v1.vod#绿豆影音
+普通@凌晨影视=https://vip.wscyun.com/api.php/v1.vod#
 普通@看看视频=http://888.ccboke.top/ruifenglb_api.php/v1.vod#看看视频
 普通@看看剧=https://www.kankanju.cn/api.php/v1.vod#看看剧
 普通@看剧吧=http://app.ishen520.com/api.php/v1.vod#看剧吧
@@ -97,6 +104,7 @@
 普通@筋斗云影视=https://tv.jindcloud.com/api.php/v1.vod#筋斗云影视
 普通@涵云影视=http://hanyun.ml/api.php/v1.vod#涵云影视
 普通@晗先森=https://hantv.top/api.php/v1.vod#晗先森影视
+普通@海外影视=https://www.200121.com/api.php/v1.vod#海外影视
 普通@黄河影视=http://i.ledu8.cn/api.php/v1.vod#黄河影视
 普通@寒枫视频=https://vip.shenyunwl.cn/mogai_api.php/v1.vod#寒枫视频
 普通@好6哦影视=https://hao6o.com/mogai_api.php/v1.vod#好6哦影视
@@ -108,14 +116,17 @@
 普通@百淘影视=http://ys.58g8.com/lvdou_api.php/v1.vod#百淘影视
 普通@薄荷影视=http://bh.kj1.top/api.php/v1.vod#薄荷影视
 普通@爱影视=https://www.hzlff.cn/api.php/v1.vod#爱影视
+普通@艾思影视=https://www.aitee.cc/api.php/v1.vod#
 普通@艾特影视=https://www.aitee.cc/api.php/v1.vod#艾特影视
 普通@阿里影视=http://aliys.cn:90/api.php/v1.vod#阿里影视
 普通@爱电影=https://www.idianying.com.cn/mogai_api.php/v1.vod#爱电影
 普通@UM影院=https://www.2tu.uk/api.php/v1.vod#
 普通@U5影视=https://appx.uy07.com/api.php/v1.vod#U5影视
-普通@JDODO=https://appys.jdodo.xyz/mogai_api.php/v1.vod#JDODO影视
+普通@OK影视=http://ys.ok00.xyz/api.php/v1.vod#OK影视
 普通@MX影视=http://mkk.gotka.top/api.php/v1.vod#
+普通@JDODO=https://appys.jdodo.xyz/mogai_api.php/v1.vod#JDODO影视
 普通@5秒看电影=https://www.5skan.com/mogai_api.php/v1.vod#
+普通@24K影视=http://www.jian888.top/api.php/v1.vod#24K影视
 普通@1080KK=http://123.250idc.com/mogai_api.php/v1.vod#1080KK
 神马@影视阁=http://216.98.10.85/api.php/iptv/vod/#影视阁
 神马@小熊猫TV=http://tv2.hetaoys.vip/api.php/iptv/vod/#小熊猫TV
@@ -126,6 +137,7 @@
 神马@米奇TV=http://www.s6ep3.top/api.php/iptv/vod/#米奇TV
 神马@猫咪TV=http://106.12.113.90:6565/api.php/iptv/vod/#猫咪TV
 神马@米来影视=http://42.51.37.161:2346/api.php/iptv/vod/#米来影视
+神马@麦看视频=http://tv.shenaitv.com/api.php/iptv/vod/#麦看视频
 神马@蜜果TV=http://vv.miguotv.net/m/api.php/Chengcheng/vod/#蜜果TV
 神马@荔枝影视=http://api.zjys.vip/api.php/iptv/vod/#荔枝影视TV
 神马@金叶影院=http://r.zjj.life:88/mv/api.php/Chengcheng/vod/#金叶影院
@@ -142,4 +154,5 @@
 神马@爱西西TV=http://tv2.aixixi.vip/api.php/iptv/vod/#爱西西TV
 神马@HG影视=http://api.hgyx.vip/api.php/iptv/vod/#HG影视
 神马@CV影视=http://www.cccvvv.top/api.php/iptv/vod/#CV影视
+神马@369TV=http://8.142.23.147:555/api.php/Chengcheng/vod/#369TV
 神马@2号币=http://phoebe.cf/api.php/iptv/vod/#2号币影院
