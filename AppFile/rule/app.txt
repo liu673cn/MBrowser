@@ -60,7 +60,7 @@
 普通@影视大全=https://xc.xixi2yy.xyz/mogai_api.php/v1.vod#影视大全HD
 普通@樱恋雨影视=https://yingshi.miaomemg.com/api.php/v1.vod#
 普通@呀哩动漫=https://app.yaliyali.cc/api.php/v1.vod#呀哩动漫
-普通@影库=https://yingkudy.com/api.php/v1.vod#影库
+普通@影库=https://yingkudy.com/mogai_api.php/v1.vod#影库
 普通@樱花动漫=https://www.dmwu.cc/api.php/v1.vod#樱花动漫
 普通@月儿影视=https://yue52.xyz/api.php/v1.vod#
 普通@星宿漫=http://3.xingxiuman.com/mogai_api.php/v1.vod#星宿漫
