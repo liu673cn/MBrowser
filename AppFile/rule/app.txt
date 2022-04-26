@@ -93,6 +93,7 @@
 普通@冷视TV=https://len.tv/api.php/v1.vod#冷视TV
 普通@蓝风影视=http://www.ruchuplus.cn/api.php/v1.vod#
 普通@凌晨影视=https://vip.wscyun.com/api.php/v1.vod#
+普通@酷秒视界=http://cms.kumiaotv.cn/api.php/v1.vod#酷秒视界
 普通@看看视频=http://888.ccboke.top/ruifenglb_api.php/v1.vod#看看视频
 普通@看看剧=https://www.kankanju.cn/api.php/v1.vod#看看剧
 普通@看剧吧=http://app.ishen520.com/api.php/v1.vod#看剧吧
