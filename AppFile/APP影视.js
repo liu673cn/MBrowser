@@ -183,26 +183,28 @@ if(地址.indexOf(".vod")!=-1){
     "?ac=list&"+word+"="+KEY+"&page=";
 }
 ######批量搜索播放器前缀地址9
-var Ktime=e2Rex(getVar("TIME_"),".time(MMdd)");
+var Ktimes=e2Rex(getVar("TIME_"),".t()");
+var Ktime=e2Rex(Ktimes,".time(MMdd)");
 var URLS=getVar("urls");
 if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp")!=-1){
     var URL=URLS.split("search?")[0];
     URL+"video_detail?id="; 
 }else if(URLS.indexOf(".vod")!=-1){
     var URL=URLS.split("?wd=")[0];
-    URL+"/detail?key="+Ktime+"&vod_id=";
+    URL+"/detail?key="+Ktime+"&keytime="+Ktimes+"&vod_id=";
 }else{
     "";
 }
 ######单一搜索播放器前缀地址10
-var Ktime=e2Rex(getVar("TIME_"),".time(MMdd)");
+var Ktimes=e2Rex(getVar("TIME_"),".t()");
+var Ktime=e2Rex(Ktimes,".time(MMdd)");
 var URLS=getVar("url");
 if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp")!=-1){
     var URL=URLS.split("search?")[0];
     URL+"video_detail?id="; 
 }else if(URLS.indexOf(".vod")!=-1){
     var URL=URLS.split("?wd=")[0];
-    URL+"/detail?key="+Ktime+"&vod_id=";
+    URL+"/detail?key="+Ktime+"&keytime="+Ktimes+"&vod_id=";
 }else{
     "";
 }
@@ -286,7 +288,7 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
 }
 ######播放器前缀地址17
 var Ktimes=e2Rex(getVar("TIME_"),".t()");
-var Ktime=e2Rex(getVar("TIME_"),".time(MMdd)");
+var Ktime=e2Rex(Ktimes,".time(MMdd)");
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
