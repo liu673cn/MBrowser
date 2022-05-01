@@ -285,13 +285,14 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
     "";
 }
 ######播放器前缀地址17
+var Ktimes=e2Rex(getVar("TIME_"),".t()");
 var Ktime=e2Rex(getVar("TIME_"),".time(MMdd)");
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
     URL+"video_detail?id=";
 }else if(URL.indexOf(".vod")!=-1){
-    URL+"/detail?key="+Ktime+"&vod_id=";
+    URL+"/detail?key="+Ktime+"&keytime="+Ktimes+"&vod_id=";
 }else{
     "";
 }
