@@ -145,6 +145,7 @@
 神马@极品影院=http://293x.yhzy.xyz/mv/api.php/Chengcheng/vod/#极品影院TV
 神马@极品影视=http://jpsb.yhzy.xyz/api.php/iptv/vod/#极品影视TV
 神马@聚多影视=http://jdys.weetai.cn/api.php/iptv/vod/#聚多影视
+神马@盒子视界=http://eh.tvzy.cc/api.php/iptv/vod/#盒子视界
 神马@黑龙影视=http://vip.ji-ding-he.site/api.php/iptv/vod/#黑龙影视
 神马@嘿荼锋=http://tv.hfys8.vip/api.php/Sntv/vod/#嘿荼锋
 神马@贵宾影院=https://vipdytv.com/api.php/iptv/vod/#
