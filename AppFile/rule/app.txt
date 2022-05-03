@@ -131,6 +131,7 @@
 神马@影视阁=http://216.98.10.85/api.php/iptv/vod/#影视阁
 神马@小熊猫TV=http://tv2.hetaoys.vip/api.php/iptv/vod/#小熊猫TV
 神马@虾皮视频=http://tv.cmt8.xyz/api.php/iptv/vod/#虾皮视频
+神马@小南TV=http://n293.ngys.xyz/mv/api.php/Chengcheng/vod/#小南TV
 神马@天空TV=http://tv.tkys.tv/api.php/iptv/vod/#天空TV
 神马@山楂影视=http://dy6.dcd1.cn/api.php/iptv/vod/#山楂影视
 神马@柠檬TV=http://106.12.113.90:7575/api.php/iptv/vod/#柠檬TV
