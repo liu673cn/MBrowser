@@ -764,7 +764,7 @@ var key=getVar("KEY");
 var filename='远程订阅索引.txt';
 var localjson="本地.json";
 var items=[];
-if(url.indexOf("订阅")!=-1||key.length>1){
+if(url.indexOf("订阅")!=-1||key.length>0){
     if(_.read(filename)){
         var filecode=_.read(filename);
     }else{
