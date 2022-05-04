@@ -32,7 +32,7 @@
 优质@爱看美剧=https://www.uumjw.com/api.php/v1.vod#爱看美剧
 优质@tvip=http://app.tvip.cc/api.php/v1.vod#tvip
 优质@Hi影视=http://114.132.251.111:999/lvdou_api.php/v1.vod#Hi影视
-优质@HG影视=http://hgyx.vip/api.php/v1.vod#HG影视
+优质@HG影视=http://bbq.1006.tk/api.php/v1.vod#HG影视
 优质@F7高清=http://bc.haokanju1.cc/lvdou_api.php/v1.vod#F7高清
 优质@DC影视=http://chaorenbb.com/api.php/v1.vod#DC影视
 优质@4K影院=http://1api.4kdytv.com/api.php/v1.vod#4K影院
@@ -115,7 +115,6 @@
 神马@大师兄=http://dsxtv.tv.ci/api.php/dsx/vod/#大师兄影视
 神马@叮当TV=http://tv.hyddys.top/api.php/iptv/vod/#叮当TV
 神马@爱西西TV=http://tv2.aixixi.vip/api.php/iptv/vod/#爱西西TV
-神马@HG影视=http://api.hgyx.vip/api.php/iptv/vod/#HG影视
 神马@CV影视=http://www.cccvvv.top/api.php/iptv/vod/#CV影视
 神马@369TV=http://8.142.23.147:555/api.php/Chengcheng/vod/#369TV
 神马@2号币=http://phoebe.cf/api.php/iptv/vod/#2号币影院
