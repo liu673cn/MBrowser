@@ -82,7 +82,7 @@
 }
 ######首页版本判断3
 var index=getVar("首页图标");
-var NewVersion="20220417";
+var NewVersion="20220507";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
