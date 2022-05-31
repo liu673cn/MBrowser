@@ -455,7 +455,7 @@ if(uu.indexOf("baidu.com")!=-1){
         JSON.stringify({url:JSON.parse(resp.code).url,head:{"referer":"appguapi.lihaoyun.top:11543","User-Agent":"Dart/2.14 (dart:io)"}});
     }else if(playurl.indexOf("cat.wkfile.com")!=-1){
         JSON.stringify({url:playurl,head:{"User-Agent":"Lavf/58.12.100","Referer":"wkfile.com"}});
-    }else if(playurl.indexOf("=")==-1&&playurl.indexOf(".m3u8")>15||playurl.indexOf(".mp4")>15||playurl.indexOf("/obj/tos")!=-1){
+    }else if(playurl.indexOf(".m3u8")>15||playurl.indexOf(".mp4")>15||playurl.indexOf("/obj/tos")!=-1){
         if(playurl.indexOf("hsl.ysgc.xyz")!=-1){
             var cccc=JZ(JSON.stringify({url:"https://play.dushe520.com/m3u8.php?url="+playurl}));
             JSON.stringify({url:JSON.parse(cccc.code).url,head:{"Referer":"https://ysgc.cc"}});
