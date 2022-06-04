@@ -523,7 +523,7 @@ if(uu.indexOf("baidu.com")!=-1){
                         JSON.stringify({url:realurl});
                     }else{
                         var playhead=e2Rex(resp.code,".json(header).or().json(data).json(header)");
-                        JSON.stringify({url:realurl,head:playhead});
+                        JSON.stringify({url:realurl,head:{playhead}});
                     }
                 }else{
                     切换解析(playurl);
