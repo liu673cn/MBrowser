@@ -524,7 +524,7 @@ if(uu.indexOf("baidu.com")!=-1){
                     }else{
                         if(e2Rex(resp.code,".json(data).json(header)").length>1){
                             var playhead=JSON.parse(e2Rex(resp.code,".json(data).json(header)"));
-                            JSON.stringify({url:realurl,head:playhead});
+                            JSON.stringify({url:realurl,header:playhead});
                         }else{
                             JSON.stringify({url:realurl});
                         }
