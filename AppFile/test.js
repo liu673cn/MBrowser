@@ -3,7 +3,7 @@
     "data":[
         {
         "url":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/教程.txt",
-        "title":"本地规则教程，按分类写入新文件，点击查看详情",
+        "title":"本地规则教程，请认真看",
         "img":"https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/Icon/轮播1.jpg"
         },
         {
@@ -82,16 +82,16 @@
 }
 ######首页版本判断3
 var index=getVar("首页图标");
-var NewVersion="20220331";
+var NewVersion="20220507";
 var version=e2Rex(getVar("QMINFO"),".xml(version).z(\\d+)");
 var appSign="d566171c6a64659aad784524c76ab569";
 var sign=e2Rex(getVar("QMINFO"),".xml(sign).t()").replace(/\s/g,"");
 var appName="APP影视";
 var name=e2Rex(getVar("QMINFO"),".xml(name).t()").replace(/\s/g,"");
-if(version==NewVersion){
+if(version==NewVersion&&sign==appSign&&name==appName){
     e2Rex(index,".json(data).i(0)");
 }else{
-    alert("————更新内容————\n    ·1.支持网络订阅\n    ·2.订阅支持更新、单规则删除、订阅删除\n    ·3.订阅和自定义APP规则全都写入本地\n\n    请详细阅读首页轮播图的教程，有说明")
+    alert("————更新内容————\n    ·1.支持网络订阅\n    ·2.订阅支持更新、单规则删除、订阅删除\n    ·3.订阅和自定义APP规则全都写入本地\n\n    首次使用请进订阅管理更新内置订阅\n    请详细阅读首页轮播图的教程，有说明")
     e2Rex(index,".json(data).i(1)");
 }
 ######UA4
@@ -183,26 +183,28 @@ if(地址.indexOf(".vod")!=-1){
     "?ac=list&"+word+"="+KEY+"&page=";
 }
 ######批量搜索播放器前缀地址9
-var Ktime=e2Rex(getVar("TIME_"),".time(MMdd)");
+var Ktimes=e2Rex(getVar("TIME_"),".t()");
+var Ktime=e2Rex(Ktimes,".time(MMdd)");
 var URLS=getVar("urls");
 if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp")!=-1){
     var URL=URLS.split("search?")[0];
     URL+"video_detail?id="; 
 }else if(URLS.indexOf(".vod")!=-1){
     var URL=URLS.split("?wd=")[0];
-    URL+"/detail?key="+Ktime+"&vod_id=";
+    URL+"/detail?key="+Ktime+"&keytime="+Ktimes+"&vod_id=";
 }else{
     "";
 }
 ######单一搜索播放器前缀地址10
-var Ktime=e2Rex(getVar("TIME_"),".time(MMdd)");
+var Ktimes=e2Rex(getVar("TIME_"),".t()");
+var Ktime=e2Rex(Ktimes,".time(MMdd)");
 var URLS=getVar("url");
 if(URLS.indexOf("api.php/app")!=-1||URLS.indexOf("xgapp")!=-1){
     var URL=URLS.split("search?")[0];
     URL+"video_detail?id="; 
 }else if(URLS.indexOf(".vod")!=-1){
     var URL=URLS.split("?wd=")[0];
-    URL+"/detail?key="+Ktime+"&vod_id=";
+    URL+"/detail?key="+Ktime+"&keytime="+Ktimes+"&vod_id=";
 }else{
     "";
 }
@@ -239,12 +241,13 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
     URL;
 }
 ######分类筛选后缀地址14
+var Ktimes=e2Rex(getVar("TIME_"),".t()");
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
-    "&class=筛选class&area=筛选area&lang=筛选lang&year=筛选year&limit=18&pg=#PN#";
+    "&class=筛选class&area=筛选area&lang=筛选lang&year=筛选year&limit=9&pg=#PN#";
 }else if(URL.indexOf(".vod")!=-1){
-    "&class=筛选class&area=筛选area&lang=筛选lang&year=筛选year&by=排序&limit=18&page=#PN#";
+    "&class=筛选class&area=筛选area&lang=筛选lang&year=筛选year&by=排序&limit=9&page=#PN#";
 }else if(URL.indexOf("豆瓣片单")!=-1){
     "/items?apikey=0dad551ec0f84ed02907ff5c42e8ec70&start=#PN#&count=20&items_only=0";
 }else{
@@ -285,13 +288,14 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
     "";
 }
 ######播放器前缀地址17
-var Ktime=e2Rex(getVar("TIME_"),".time(MMdd)");
+var Ktimes=e2Rex(getVar("TIME_"),".t()");
+var Ktime=e2Rex(Ktimes,".time(MMdd)");
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
     URL+"video_detail?id=";
 }else if(URL.indexOf(".vod")!=-1){
-    URL+"/detail?key="+Ktime+"&vod_id=";
+    URL+"/detail?key="+Ktime+"&keytime="+Ktimes+"&vod_id=";
 }else{
     "";
 }
@@ -363,7 +367,7 @@ function 选集列表(){
             var 选集地址=e2Rex(列表[j],选集地址规则);
             if(URL.indexOf("xgapp")!=-1||URL.indexOf("api.php/app/")!=-1||URL.indexOf(".vod")!=-1){
                 //萝卜/白菜/木白/绿豆/小龟类型选集地址
-                if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15){
+                if(选集地址.indexOf(".m3u8")>15||选集地址.indexOf(".mp4")>15||选集地址.indexOf("www.tpvod.com")!=-1){
                     if(选集地址.indexOf("url=")!=-1){
                         var 切割地址=选集地址.split("url=")[1];
                         var 选集地址="https://www.baidu.com/s?wd="+切割地址;
@@ -385,7 +389,7 @@ function 选集列表(){
                 }else if(选集地址.indexOf("www.bilibili.com")!=-1){
                     var 切割地址=选集地址.split("url=")[1];
                     var 选集地址="https://www.baidu.com/s?wd=https://jx.parwix.com:4433/player/?url="+切割地址;
-                }else if(URL.indexOf("zjj.life")!=-1||URL.indexOf("yhzy")!=-1||URL.indexOf("zhenfy")!=-1||URL.indexOf("cztv")!=-1||URL.indexOf("1.14.63.101")!=-1||URL.indexOf("fit:8")!=-1||URL.indexOf("diliktv.xyz")!=-1||URL.indexOf("ppzhu.vip")!=-1||URL.indexOf("api.8d8q.com")!=-1||URL.indexOf("haokanju1.cc")!=-1||URL.indexOf("cztv")!=-1){
+                }else if(URL.indexOf("8.142.23.147")!=-1||URL.indexOf("zjj.life")!=-1||URL.indexOf("yhzy")!=-1||URL.indexOf("zhenfy")!=-1||URL.indexOf("cztv")!=-1||URL.indexOf("1.14.63.101")!=-1||URL.indexOf("fit:8")!=-1||URL.indexOf("diliktv.xyz")!=-1||URL.indexOf("ppzhu.vip")!=-1||URL.indexOf("api.8d8q.com")!=-1||URL.indexOf("haokanju1.cc")!=-1||URL.indexOf("cztv")!=-1){
                     var 选集地址="https://www.baidu.com/s?wd="+选集地址+"&app=10000&account=272775028&password=qq272775028";
                 }else if(URL.indexOf("lxyyy")!=-1||URL.indexOf("j.zjj.life")!=-1||URL.indexOf("lktv")!=-1||URL.indexOf("0818tv")!=-1||URL.indexOf("ruoxinew")!=-1){
                     var 切割地址=选集地址.split("url=")[1];
@@ -442,17 +446,17 @@ var uu=getVar("url");
 var resp=JZ(JSON.stringify({url:uu,redirect:false,head:{"User-Agent":"Mozilla/5.0 Android"}}));
 if(uu.indexOf("baidu.com")!=-1){
     var playurl=uu.split("wd=")[1];
-    if(playurl.indexOf("duoduozy.com")!=-1||playurl.indexOf("m3u8.cache.suoyo.cc")!=-1){
-        "web=https://jhpc.manduhu.com/duoduo/?url="+playurl+'@{"Referer":"https://555dy3.com"}';
+    if(playurl.indexOf("duoduozy.com")!=-1||playurl.indexOf("canglan")!=-1||playurl.indexOf("m3u8.cache.suoyo.cc")!=-1){
+        "web=http://114.132.251.111:999/188175/?url="+playurl+'@{"Referer":"https://555dy3.com"}';
     }else if(playurl.indexOf("ruifenglb")!=-1){
-        var resp=JZ(JSON.stringify({url:"http://jx.yjhan.com:8090/home/api?type=ys&uid=268886&key=afghilnyEGKPRTVY56&url="+playurl}));
+        var resp=JZ(JSON.stringify({url:"http://jx.yjhan.com:8090/home/api?type=ys&uid=243669&key=adnqrtwyFJLOW02679&url="+playurl}));
         JSON.stringify({url:JSON.parse(resp.code).url,head:{"referer":"https://1.ruifenglb.com/","User-Agent":""}});
     }else if(playurl.indexOf("xfy")!=-1){
         var resp=JZ(JSON.stringify({url:playurl}));
         JSON.stringify({url:JSON.parse(resp.code).url,head:{"referer":"appguapi.lihaoyun.top:11543","User-Agent":"Dart/2.14 (dart:io)"}});
     }else if(playurl.indexOf("cat.wkfile.com")!=-1){
         JSON.stringify({url:playurl,head:{"User-Agent":"Lavf/58.12.100","Referer":"wkfile.com"}});
-    }else if(playurl.indexOf("=")==-1&&playurl.indexOf(".m3u8")>15||playurl.indexOf(".mp4")>15||playurl.indexOf("/obj/tos")!=-1){
+    }else if(playurl.indexOf(".m3u8")>15||playurl.indexOf(".mp4")>15||playurl.indexOf("/obj/tos")!=-1){
         if(playurl.indexOf("hsl.ysgc.xyz")!=-1){
             var cccc=JZ(JSON.stringify({url:"https://play.dushe520.com/m3u8.php?url="+playurl}));
             JSON.stringify({url:JSON.parse(cccc.code).url,head:{"Referer":"https://ysgc.cc"}});
@@ -512,13 +516,18 @@ if(uu.indexOf("baidu.com")!=-1){
                 }
             }else{
                 if(e2Rex(resp.code,".json(url).or().json(data).json(url)").length>1){
-                    var realurl=JSON.parse(resp.code).url||JSON.parse(resp.code).data.url;
+                    var realurl=e2Rex(resp.code,".json(url).or().json(data).json(url)");
                     if(playurl.indexOf("mgtv.com")!=-1){
                         JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Referer":""}});
                     }else if(playurl.indexOf("bilibili.com")!=-1){
                         JSON.stringify({url:realurl});
                     }else{
-                        JSON.stringify({url:realurl});
+                        if(e2Rex(resp.code,".json(data).json(header)").length>1){
+                            var playhead=JSON.parse(e2Rex(resp.code,".json(data).json(header)"));
+                            JSON.stringify({url:realurl,head:playhead});
+                        }else{
+                            JSON.stringify({url:realurl});
+                        }
                     }
                 }else{
                     切换解析(playurl);
@@ -761,7 +770,7 @@ var key=getVar("KEY");
 var filename='远程订阅索引.txt';
 var localjson="本地.json";
 var items=[];
-if(url.indexOf("订阅")!=-1||key.length>1){
+if(url.indexOf("订阅")!=-1||key.length>0){
     if(_.read(filename)){
         var filecode=_.read(filename);
     }else{
