@@ -1076,7 +1076,7 @@
         "list":[
         {
         "name":"ad3",
-        "url":"https://cdn.jsdelivr.net/gh/o0HalfLife0o/list/ad3.txt"
+        "url":"https://halflife.coding.net/p/list/d/list/git/raw/master/ad3.txt"
         },
         {
         "name":"ad",
