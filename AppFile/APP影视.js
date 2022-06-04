@@ -522,7 +522,7 @@ if(uu.indexOf("baidu.com")!=-1){
                     }else if(playurl.indexOf("bilibili.com")!=-1){
                         JSON.stringify({url:realurl});
                     }else{
-                        var playhead=e2Rex(resp.code,".json(url).or().json(data).json(url)");
+                        var playhead=e2Rex(resp.code,".json(header).or().json(data).json(header)");
                         JSON.stringify({url:realurl,head:playhead});
                     }
                 }else{
