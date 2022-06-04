@@ -446,7 +446,7 @@ var uu=getVar("url");
 var resp=JZ(JSON.stringify({url:uu,redirect:false,head:{"User-Agent":"Mozilla/5.0 Android"}}));
 if(uu.indexOf("baidu.com")!=-1){
     var playurl=uu.split("wd=")[1];
-    if(playurl.indexOf("duoduozy.com")||playurl.indexOf("canglan")!=-1||playurl.indexOf("m3u8.cache.suoyo.cc")!=-1){
+    if(playurl.indexOf("duoduozy.com")!=-1||playurl.indexOf("canglan")!=-1||playurl.indexOf("m3u8.cache.suoyo.cc")!=-1){
         "web=http://114.132.251.111:999/188175/?url="+playurl+'@{"Referer":"https://555dy3.com"}';
     }else if(playurl.indexOf("ruifenglb")!=-1){
         var resp=JZ(JSON.stringify({url:"http://jx.yjhan.com:8090/home/api?type=ys&uid=243669&key=adnqrtwyFJLOW02679&url="+playurl}));
