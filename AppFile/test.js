@@ -524,7 +524,7 @@ if(uu.indexOf("baidu.com")!=-1){
                     }else{
                         if(e2Rex(resp.code,".json(data).json(header)").length>1){
                             var playhead=JSON.parse(e2Rex(resp.code,".json(data).json(header)"));
-                            JSON.stringify({url:realurl,head:playhead});
+                            JSON.stringify({url:realurl,header:playhead});
                         }else{
                             JSON.stringify({url:realurl});
                         }
@@ -569,17 +569,11 @@ if(key.length>10){
                 if(img.indexOf("http")!=-1){
                     var img=img;
                 }else if(img==""){
-                    if(url.indexOf("/provide/")!=-1||url.indexOf("/xml")!=-1||url.indexOf("/inc/")!=-1||url.indexOf("/macs")!=-1||url.indexOf("/json")!=-1||url.indexOf("/videos")!=-1){
-                        var img="http://1.117.152.239:39000/tupian.php?text="+title;
-                    }else{
-                        var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png";
-                    }
+                    var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png"
                 }else{
                     var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/"+img+".png";
                 }
-                if(url.indexOf("/provide/")!=-1||url.indexOf("/xml")!=-1||url.indexOf("/inc/")!=-1||url.indexOf("/macs")!=-1||url.indexOf("/json")!=-1||url.indexOf("/videos")!=-1){
-                    var murl="q:资源采集";
-                }else if(url.search(/api\.php\/.*?\/vod/)!=-1){
+                if(url.search(/api\.php\/.*?\/vod/)!=-1){
                     var murl="q:TV影视";
                 }else{
                     var murl="q:APP影视";
@@ -590,8 +584,6 @@ if(key.length>10){
                     var type="小龟";
                 }else if(url.indexOf(".vod")!=-1){
                     var type="萝卜/白菜/木白/绿豆";
-                }else if(url.indexOf("/provide/")!=-1||url.indexOf("/xml")!=-1||url.indexOf("/inc/")!=-1||url.indexOf("/macs")!=-1||url.indexOf("/json")!=-1||url.indexOf("/videos")!=-1){
-                    var type="资源采集";
                 }else if(url.search(/api\.php\/.+?\/vod\//)!=-1){
                     var type="神马";
                 }
@@ -637,17 +629,11 @@ if(key.length>10){
                 if(img.indexOf("http")!=-1){
                     var img=img;
                 }else if(img==""){
-                    if(url.indexOf("/provide/")!=-1||url.indexOf("/xml")!=-1||url.indexOf("/inc/")!=-1||url.indexOf("/macs")!=-1||url.indexOf("/json")!=-1||url.indexOf("/videos")!=-1){
-                        var img="http://1.117.152.239:39000/tupian.php?text="+title;
-                    }else{
-                        var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png";
-                    }
+                    var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png"
                 }else{
                     var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/"+img+".png";
                 }
-                if(url.indexOf("/provide/")!=-1||url.indexOf("/xml")!=-1||url.indexOf("/inc/")!=-1||url.indexOf("/macs")!=-1||url.indexOf("/json")!=-1||url.indexOf("/videos")!=-1){
-                    var murl="q:资源采集";
-                }else if(url.search(/api\.php\/.*?\/vod/)!=-1){
+                if(url.search(/api\.php\/.*?\/vod/)!=-1){
                     var murl="q:TV影视";
                 }else{
                     var murl="q:APP影视";
@@ -657,9 +643,7 @@ if(key.length>10){
                 }else if(url.indexOf("api.php/app")!=-1||url.indexOf("xgapp")!=-1){
                     var type="小龟";
                 }else if(url.indexOf(".vod")!=-1){
-                    var type="萝卜/白菜/木白/绿豆";
-                }else if(url.indexOf("/provide/")!=-1||url.indexOf("/xml")!=-1||url.indexOf("/inc/")!=-1||url.indexOf("/macs")!=-1||url.indexOf("/json")!=-1||url.indexOf("/videos")!=-1){
-                    var type="资源采集";
+                    var type="萝卜";
                 }else if(url.search(/api\.php\/.+?\/vod\//)!=-1){
                     var type="神马";
                 }
@@ -727,11 +711,7 @@ if(key.length>10){
             if(img.indexOf("http")!=-1){
                 var img=img;
             }else if(img==""){
-                if(url.indexOf("/provide/")!=-1||url.indexOf("/xml")!=-1||url.indexOf("/inc/")!=-1||url.indexOf("/macs")!=-1||url.indexOf("/json")!=-1||url.indexOf("/videos")!=-1){
-                    var img="http://1.117.152.239:39000/tupian.php?text="+title;
-                }else{
-                    var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png";
-                }
+                var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/通用图标.png"
             }else{
                 var img="https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/AppFile/AppIcon/"+img+".png";
             }
