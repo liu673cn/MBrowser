@@ -516,7 +516,7 @@ if(uu.indexOf("baidu.com")!=-1){
                 }
             }else{
                 if(e2Rex(resp.code,".json(url).or().json(data).json(url)").length>1){
-                    var realurl=JSON.parse(resp.code).url||JSON.parse(resp.code).data.url;
+                    var realurl=e2Rex(resp.code,".json(url).or().json(data).json(url)");
                     if(playurl.indexOf("mgtv.com")!=-1){
                         JSON.stringify({url:realurl,head:{"User-Agent":"Mozilla/5.0","Referer":""}});
                     }else if(playurl.indexOf("bilibili.com")!=-1){
