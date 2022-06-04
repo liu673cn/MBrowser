@@ -657,7 +657,9 @@ if(key.length>10){
                 }else if(url.indexOf("api.php/app")!=-1||url.indexOf("xgapp")!=-1){
                     var type="小龟";
                 }else if(url.indexOf(".vod")!=-1){
-                    var type="萝卜";
+                    var type="萝卜/白菜/木白/绿豆";
+                }else if(url.indexOf("/provide/")!=-1||url.indexOf("/xml")!=-1||url.indexOf("/inc/")!=-1||url.indexOf("/macs")!=-1||url.indexOf("/json")!=-1||url.indexOf("/videos")!=-1){
+                    var type="资源采集";
                 }else if(url.search(/api\.php\/.+?\/vod\//)!=-1){
                     var type="神马";
                 }
