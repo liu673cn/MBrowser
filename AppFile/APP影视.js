@@ -241,12 +241,13 @@ if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
     URL;
 }
 ######分类筛选后缀地址14
+var Ktimes=e2Rex(getVar("TIME_"),".t()");
 var code=getVar("CODE");
 var URL=e2Rex(code,".json(url)");
 if(URL.indexOf("api.php/app")!=-1||URL.indexOf("xgapp")!=-1){
     "&class=筛选class&area=筛选area&lang=筛选lang&year=筛选year&limit=18&pg=#PN#";
 }else if(URL.indexOf(".vod")!=-1){
-    "&class=筛选class&area=筛选area&lang=筛选lang&year=筛选year&by=排序&limit=18&apikey=682511af0fc5aebe56cb01dad194aa7e&page=#PN#";
+    "&class=筛选class&area=筛选area&lang=筛选lang&year=筛选year&by=排序&limit=18&apikey=682511af0fc5aebe56cb01dad194aa7e&key="+Ktime+"&page=#PN#";
 }else if(URL.indexOf("豆瓣片单")!=-1){
     "/items?apikey=0dad551ec0f84ed02907ff5c42e8ec70&start=#PN#&count=20&items_only=0";
 }else{
