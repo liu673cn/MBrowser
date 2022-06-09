@@ -356,7 +356,6 @@ function 选集列表(){
             var 选集=e2Rex(列表[j],选集规则);
             var 选集地址=e2Rex(列表[j],选集地址规则);
             if(URL.indexOf("xgapp")!=-1||URL.indexOf("api.php/app")!=-1||URL.indexOf(".vod")!=-1){
-                if(选集地址.indexOf("www.bilibili.com")!=-1){
                 var 选集地址="http://ip111.cn/?wd="+接口+选集地址;
             }else if(URL.search(/api\.php\/.*?\/vod/)!=-1){
                 if(选集地址.indexOf("www.bilibili.com")!=-1){
