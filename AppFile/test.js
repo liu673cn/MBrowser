@@ -355,7 +355,8 @@ function 选集列表(){
         for(var j=0;j<列表.length;j++){
             var 选集=e2Rex(列表[j],选集规则);
             var 选集地址=e2Rex(列表[j],选集地址规则);
-            if(URL.indexOf("xgapp")!=-1||URL.indexOf("api.php/app/")!=-1||URL.indexOf(".vod")!=-1){
+            if(URL.indexOf("xgapp")!=-1||URL.indexOf("api.php/app")!=-1||URL.indexOf(".vod")!=-1){
+                if(选集地址.indexOf("www.bilibili.com")!=-1){
                 var 选集地址="http://ip111.cn/?wd="+接口+选集地址;
             }else if(URL.search(/api\.php\/.*?\/vod/)!=-1){
                 if(选集地址.indexOf("www.bilibili.com")!=-1){
@@ -419,14 +420,34 @@ var resp=JZ(JSON.stringify({url:uu,redirect:false,head:{"User-Agent":"Mozilla/5.
 if(uu.indexOf("baidu.com")!=-1){
     var playurl=uu.split("wd=")[1];
     if(playurl.indexOf("duoduozy.com")!=-1||playurl.indexOf("canglan")!=-1||playurl.indexOf("m3u8.cache.suoyo.cc")!=-1){
+        if(playurl.indexOf("url=")!=-1){
+            playurl=playurl.split("url=")[1];
+        }else{
+            playurl=playurl;
+        }
         "web=http://114.132.251.111:999/188175/?url="+playurl+'@{"Referer":"https://555dy3.com"}';
     }else if(playurl.indexOf("ruifenglb")!=-1){
+        if(playurl.indexOf("url=")!=-1){
+            playurl=playurl.split("url=")[1];
+        }else{
+            playurl=playurl;
+        }
         var resp=JZ(JSON.stringify({url:"http://jx.yjhan.com:8090/home/api?type=ys&uid=243669&key=adnqrtwyFJLOW02679&url="+playurl}));
         JSON.stringify({url:JSON.parse(resp.code).url,head:{"referer":"https://1.ruifenglb.com/","User-Agent":""}});
     }else if(playurl.indexOf("xfy")!=-1){
+        if(playurl.indexOf("url=")!=-1){
+            playurl=playurl.split("url=")[1];
+        }else{
+            playurl=playurl;
+        }
         var resp=JZ(JSON.stringify({url:playurl}));
         JSON.stringify({url:JSON.parse(resp.code).url,head:{"referer":"appguapi.lihaoyun.top:11543","User-Agent":"Dart/2.14 (dart:io)"}});
     }else if(playurl.indexOf("cat.wkfile.com")!=-1){
+        if(playurl.indexOf("url=")!=-1){
+            playurl=playurl.split("url=")[1];
+        }else{
+            playurl=playurl;
+        }
         JSON.stringify({url:playurl,head:{"User-Agent":"Lavf/58.12.100","Referer":"wkfile.com"}});
     }else if(playurl.indexOf(".m3u8")>15||playurl.indexOf(".mp4")>15||playurl.indexOf("/obj/tos")!=-1){
         if(playurl.indexOf("hsl.ysgc.xyz")!=-1){
