@@ -357,6 +357,11 @@ function 选集列表(){
         for(var j=0;j<列表.length;j++){
             var 选集=e2Rex(列表[j],选集规则);
             var 选集地址=e2Rex(列表[j],选集地址规则);
+            if(选集地址.length<1){
+                选集地址=e2Rex(列表[j],选集地址规则2);
+            }else{
+                选集地址=e2Rex(列表[j],选集地址规则);
+            }
             if(URL.indexOf("xgapp")!=-1||URL.indexOf("api.php/app")!=-1||URL.indexOf(".vod")!=-1){
                 var 选集地址="http://ip111.cn/?wd="+接口+选集地址;
             }else if(URL.search(/api\.php\/.*?\/vod/)!=-1){
@@ -406,7 +411,8 @@ if(URL.indexOf("api.php/app/")!=-1){
     var 列表规则=".json(url).ct(#).z(.*?\\$.*?#)";
     var 标题规则=".json(player_info).json(show)";
     var 选集规则=".z2(\\\(.+?\\\)\\$)";
-    var 选集地址规则=".z2(\\$\\\(.+?\\\)[#|\"])";选集列表();
+    var 选集地址规则=".z2(\\$\\\(.+?\\\)[#|\"])";
+    var 选集地址规则2=".json(urls)";选集列表();
 }else if(URL.search(/api\.php\/.*?\/vod/)!=-1){
     var 分类=e2Arr(getVar("源码"),".json(videolist).z(\".*?\\])");
     var 简介=e2Arr(getVar("源码"),".json(intro)");
